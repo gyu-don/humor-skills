@@ -1,0 +1,39 @@
+{
+  "usage": {
+    "requests": 8,
+    "input_tokens": 3481,
+    "output_tokens": 280
+  },
+  "results": [
+    {
+      "id": "idol_1v2",
+      "label": "skill出力どうしのペア（僅差想定）",
+      "footcutA": {
+        "relevance": 0.46,
+        "empathy": 0.51
+      },
+      "footcutB": {
+        "relevance": 0.81,
+        "empathy": 0.62
+      },
+      "probA": 0.305,
+      "winner": "B",
+      "confidence": 0.39
+    },
+    {
+      "id": "idol_skill_vs_flat",
+      "label": "skill出力 vs あるある止まりの対照群（差が出るはず）",
+      "footcutA": {
+        "relevance": 0.82,
+        "empathy": 0.39
+      },
+      "footcutB": {
+        "relevance": 0.86,
+        "empathy": 0.58
+      },
+      "probA": 0.605,
+      "winner": "A",
+      "confidence": 0.20999999999999996
+    }
+  ]
+}

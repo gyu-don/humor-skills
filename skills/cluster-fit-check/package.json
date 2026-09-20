@@ -1,0 +1,8 @@
+{
+  "name": "cluster-fit-check-jev-evaluate",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  }
+}

@@ -6,10 +6,10 @@
   "scripts": {
     "check": "tsc --noEmit",
     "audit:ogiri-ai": "node src/ogiri-ai/rule-audit.ts",
-    "audit:humor-eval": "node skills/humor-eval/evaluate.ts skills/humor-eval/samples.json reports/humor-eval/results.json",
-    "audit:fun-check": "node skills/fun-check/evaluate.ts skills/fun-check/samples.json reports/fun-check/results.json",
-    "audit:humor-rank": "node skills/humor-rank/evaluate.ts skills/humor-rank/samples.json reports/humor-rank/results.json",
-    "audit:cluster-fit-check": "node skills/cluster-fit-check/evaluate.ts skills/cluster-fit-check/samples.json reports/cluster-fit-check/results.json"
+    "audit:humor-eval": "node skills/humor-eval/scripts/evaluate.ts skills/humor-eval/assets/samples.json reports/humor-eval/results.json",
+    "audit:fun-check": "node skills/fun-check/scripts/evaluate.ts skills/fun-check/assets/samples.json reports/fun-check/results.json",
+    "audit:humor-rank": "node skills/humor-rank/scripts/evaluate.ts skills/humor-rank/assets/samples.json reports/humor-rank/results.json",
+    "audit:cluster-fit-check": "node skills/cluster-fit-check/scripts/evaluate.ts skills/cluster-fit-check/assets/samples.json reports/cluster-fit-check/results.json"
   },
   "devDependencies": {
     "@types/json-schema": "^7.0.15",

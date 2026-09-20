@@ -13,14 +13,16 @@ description: 大喜利の回答群に対して「注意すべき点」を伝え�
 
 ## Jev版（数値評価）
 
-このディレクトリの `evaluate.ts` で、下の軸1〜4・7（ベタ度・絵・ひねり・共感・回収可能性）と
+このスキルの `scripts/evaluate.ts` で、下の軸1〜4・7（ベタ度・絵・ひねり・共感・回収可能性）と
 Step2の相対典型性をTypeSafe AI Jevで数値化できる。軸5（認知度）・軸6（長さ）はコードでも判定に含まれる。
 Step3（被りチェック・シュール手癖）は回答間の総当たり比較でJevの1問1答に落ちないため未対応、本文の手順で判定する。
 
-1. 初回のみ: このディレクトリで `npm install`
-2. お題と回答を `{"topic": "...", "answers": ["...", ...]}` 形式のJSONに書き出す
-3. `doppler run -- node evaluate.ts <入力ファイル> [出力ファイル]` を実行する
-4. 出力JSONの `rows[].risks`（各リスクの確率）と `typicality`（典型性の確率分布）を読み、下のレポート形式に埋める
+**必要なもの**: Node.js 22.6以上・`TYPESAFE_API_KEY`・初回のみこのスキルのディレクトリで `npm install`
+（依存は `@typesafe-ai/sdk` 1つだけで、それ自体も依存を持たない）。
+
+1. お題と回答を `{"topic": "...", "answers": ["...", ...]}` 形式のJSONに書き出す（見本は `assets/samples.json`）
+2. `doppler run -- node scripts/evaluate.ts <入力ファイル> [出力ファイル]` を実行する
+3. 出力JSONの `rows[].risks`（各リスクの確率）と `typicality`（典型性の確率分布）を読み、下のレポート形式に埋める
 
 ## 原則
 

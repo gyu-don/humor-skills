@@ -17,13 +17,15 @@ description: 同一お題の回答候補をペアワイズ比較し、どちら�
 
 ## Jev版（数値評価）
 
-このディレクトリの `evaluate.ts` で、footcut（Relevance/Empathy）とA/B比較をTypeSafe AI Jevで数値化できる。
+このスキルの `scripts/evaluate.ts` で、footcut（Relevance/Empathy）とA/B比較をTypeSafe AI Jevで数値化できる。
 `choice` が返す確率分布がそのまま確信度になり、順入替・逆入替の2回呼び出しを平均することで位置バイアスも打ち消す。
 
-1. 初回のみ: このディレクトリで `npm install`
-2. お題と2つの回答を `{"topic": "...", "answerA": "...", "answerB": "..."}` 形式のJSONに書き出す
-3. `doppler run -- node evaluate.ts <入力ファイル> [出力ファイル]` を実行する
-4. 出力JSONの `winner`（A/B/draw）と `confidence`、`footcutA`/`footcutB` を読み、下の出力形式に埋める
+**必要なもの**: Node.js 22.6以上・`TYPESAFE_API_KEY`・初回のみこのスキルのディレクトリで `npm install`
+（依存は `@typesafe-ai/sdk` 1つだけで、それ自体も依存を持たない）。
+
+1. お題と2つの回答を `{"topic": "...", "answerA": "...", "answerB": "..."}` 形式のJSONに書き出す（見本は `assets/samples.json`）
+2. `doppler run -- node scripts/evaluate.ts <入力ファイル> [出力ファイル]` を実行する
+3. 出力JSONの `winner`（A/B/draw）と `confidence`、`footcutA`/`footcutB` を読み、下の出力形式に埋める
 
 ## 原則
 

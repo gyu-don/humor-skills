@@ -1,7 +1,10 @@
 {
-  "name": "cluster-fit-check-jev-evaluate",
+  "name": "cluster-fit-check-skill",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
   "dependencies": {
     "@typesafe-ai/sdk": "^0.6.0"
   }

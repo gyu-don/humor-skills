@@ -3,10 +3,10 @@
  * fixed literature-derived weighted sum per user cluster (C0-C6). Not a
  * funniness judgment — a preference-fit signal.
  *
- * Usage: doppler run -- node evaluate.ts [input.json] [output.json]
+ * Usage: doppler run -- node scripts/evaluate.ts [input.json] [output.json]
  * Input: [{ "id", "label", "topic", "answers": string[] }, ...] — a single
  * { "topic", "answers": [...] } object also works (wrapped as one sample).
- * Defaults to this directory's samples.json / a results.json in the CWD.
+ * Defaults to this skill's assets/samples.json / a results.json in the CWD.
  *
  * Split per this repo's own rule: anything decidable from the text alone
  * (bracket use, sentence-ending punctuation, length) is plain code, not a
@@ -17,9 +17,18 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { noul, TypeSafeClient } from '@typesafe-ai/sdk';
 
-const DEFAULT_SAMPLES_PATH = fileURLToPath(new URL('./samples.json', import.meta.url));
+/**
+ * `@typesafe-ai/sdk` is this skill's only dependency, and a freshly installed
+ * copy of the skill doesn't have it yet — say so with the fix rather than
+ * letting Node throw a bare ERR_MODULE_NOT_FOUND.
+ */
+const { noul, TypeSafeClient } = await import('@typesafe-ai/sdk').catch((): never => {
+  console.error('@typesafe-ai/sdk is not installed. Run `npm install` in this skill directory first.');
+  process.exit(1);
+});
+
+const DEFAULT_SAMPLES_PATH = fileURLToPath(new URL('../assets/samples.json', import.meta.url));
 const IN_PATH = process.argv[2] ?? DEFAULT_SAMPLES_PATH;
 const OUT_PATH = process.argv[3] ?? 'cluster-fit-check-results.json';
 
@@ -31,7 +40,7 @@ interface Sample {
 }
 
 if (!process.env.TYPESAFE_API_KEY) {
-  console.error('TYPESAFE_API_KEY is missing. Run through Doppler: doppler run -- node evaluate.ts');
+  console.error('TYPESAFE_API_KEY is missing. Run through Doppler: doppler run -- node scripts/evaluate.ts');
   process.exit(1);
 }
 

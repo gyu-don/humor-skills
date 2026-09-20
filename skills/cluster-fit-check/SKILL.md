@@ -13,14 +13,16 @@ description: 大喜利の回答群について、文献由来のユーザーク�
 
 ## Jev版（数値評価）
 
-このディレクトリの `evaluate.ts` で、下の特徴抽出をTypeSafe AI Jevで行い、クラスタ適合スコアはコード側で加重和として計算できる。
+このスキルの `scripts/evaluate.ts` で、下の特徴抽出をTypeSafe AI Jevで行い、クラスタ適合スコアはコード側で加重和として計算できる。
 括弧の使用・文末記号・長さ比率など、目で確定できる特徴はJevに聞かずコードで判定する。
 「弱い該当は半分」という近似はやめ、Jevが返す確率をそのまま連続値の重みとして使う。
 
-1. 初回のみ: このディレクトリで `npm install`
-2. お題と回答を `{"topic": "...", "answers": ["...", ...]}` 形式のJSONに書き出す
-3. `doppler run -- node evaluate.ts <入力ファイル> [出力ファイル]` を実行する
-4. 出力JSONの `rows[].clusterFit`（C0〜C6のスコア）を読み、下のレポート形式に埋める
+**必要なもの**: Node.js 22.6以上・`TYPESAFE_API_KEY`・初回のみこのスキルのディレクトリで `npm install`
+（依存は `@typesafe-ai/sdk` 1つだけで、それ自体も依存を持たない）。
+
+1. お題と回答を `{"topic": "...", "answers": ["...", ...]}` 形式のJSONに書き出す（見本は `assets/samples.json`）
+2. `doppler run -- node scripts/evaluate.ts <入力ファイル> [出力ファイル]` を実行する
+3. 出力JSONの `rows[].clusterFit`（C0〜C6のスコア）を読み、下のレポート形式に埋める
 
 ## 原則
 

@@ -1,7 +1,10 @@
 {
-  "name": "humor-rank-jev-evaluate",
+  "name": "humor-rank-skill",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
   "dependencies": {
     "@typesafe-ai/sdk": "^0.6.0"
   }

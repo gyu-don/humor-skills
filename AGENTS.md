@@ -46,6 +46,11 @@ usable for other comedy-answer sources later, not just that one skill.
 - `src/ogiri-ai/` — not a `skills/` entry: this audits ogiri-ai's own
   generation SKILL.md (a separate repo, not one of the judge skills above),
   so it has no installable skill wrapper.
+  - `src/ogiri-ai/evaluations/` — dated human-evaluation logs of ogiri-ai's
+    generated answers, plus `findings.md` distilling recurring patterns.
+    Ported from ogiri-ai's own `evaluations/` + `DEVELOPMENT.md`, from
+    before evaluation skills lived in this repo. Use it to calibrate a judge
+    skill (`fun-check` / `humor-rank`) blind against recorded human rankings.
 - Deterministic checks (char counts, punctuation, regex) go in plain code,
   never as a Jev question.
 

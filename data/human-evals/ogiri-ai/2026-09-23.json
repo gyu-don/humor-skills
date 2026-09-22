@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-23",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-09-23.md",
+  "description": "過去ログ（07-10〜09-15）から選んだ同一お題の回答ペアを、出所・過去の判定・評価器の判定を伏せて再評価。A/Bの提示順はランダム。",
+  "topics": {},
+  "sets": [],
+  "setPreferences": [],
+  "pairPreferences": [
+    {
+      "a": "2026-07-11/suihanki/fable-5-skill-off#5",
+      "b": "2026-07-11/suihanki/fable-5-skill-off#1",
+      "winner": "b",
+      "purpose": "evaluator-disagreement"
+    },
+    {
+      "a": "2026-07-11/firsttake/fable-5-skill-on#1",
+      "b": "2026-07-11/firsttake/fable-5-skill-off#3",
+      "winner": "b",
+      "purpose": "evaluator-disagreement"
+    },
+    {
+      "a": "2026-07-10/idol/fable-5-high#5",
+      "b": "2026-07-10/idol/gpt-5.6-sol-high#1",
+      "winner": "a",
+      "purpose": "evaluator-disagreement",
+      "note": "Aの方が面白いけれど、Q1, Q2に比べるとどちらも面白くない"
+    },
+    {
+      "a": "2026-07-10/ringo/gpt-5.6-sol-high#1",
+      "b": "2026-07-10/ringo/fable-5-high#4",
+      "winner": "tie",
+      "purpose": "control"
+    },
+    {
+      "a": "2026-09-15/setsubun/before#5",
+      "b": "2026-09-15/setsubun/after#1",
+      "winner": "a",
+      "purpose": "evaluator-disagreement"
+    },
+    {
+      "a": "2026-07-11/firsttake/fable-5-skill-off#2",
+      "b": "2026-07-11/firsttake/fable-5-skill-off#1",
+      "winner": "a",
+      "purpose": "control"
+    },
+    {
+      "a": "2026-07-11/firsttake/fable-5-skill-on#2",
+      "b": "2026-07-11/firsttake/fable-5-skill-off#5",
+      "winner": "a",
+      "purpose": "evaluator-disagreement"
+    },
+    {
+      "a": "2026-09-15/setsubun/after#3",
+      "b": "2026-09-15/setsubun/before#4",
+      "winner": "b",
+      "purpose": "evaluator-disagreement"
+    },
+    {
+      "a": "2026-07-10/idol/gpt-5.6-sol-high#2",
+      "b": "2026-07-10/idol/fable-5-high#4",
+      "winner": "b",
+      "purpose": "control"
+    },
+    {
+      "a": "2026-07-10/zense/fable-5-high#1",
+      "b": "2026-07-10/zense/fable-5-high#5",
+      "winner": "a",
+      "purpose": "control"
+    },
+    {
+      "a": "2026-07-10/ringo/gpt-5.6-sol-high#2",
+      "b": "2026-07-10/ringo/fable-5-high#1",
+      "winner": "b",
+      "purpose": "evaluator-disagreement"
+    },
+    {
+      "a": "2026-07-10/ringo/gpt-5.6-sol-high#4",
+      "b": "2026-07-10/ringo/fable-5-high#3",
+      "winner": "b",
+      "purpose": "evaluator-disagreement"
+    }
+  ]
+}

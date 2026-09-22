@@ -1,0 +1,56 @@
+{
+  "evaluator": "fun-check-overlap",
+  "mode": "prompt",
+  "run": 1,
+  "model": "sonnet",
+  "level": "pair",
+  "lowerIsBetter": [],
+  "missingIsZero": true,
+  "scores": {
+    "2026-07-10/ringo/fable-5-high#5 | 2026-07-10/ringo/gpt-5.6-sol-high#1": {
+      "flagged": 1
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/gpt-5.6-sol-high#5": {
+      "flagged": 1
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-on#5": {
+      "flagged": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#3 | 2026-07-11/shinnyu/fable-5-skill-on#4": {
+      "flagged": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-on#2": {
+      "flagged": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#5 | 2026-07-11/suihanki/fable-5-skill-on#1": {
+      "flagged": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#2": {
+      "flagged": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "flagged": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#4 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "flagged": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3 | 2026-07-11/suihanki/fable-5-skill-off#4": {
+      "flagged": 1
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#1 | 2026-07-11/suihanki/gpt-5.6-sol#4": {
+      "flagged": 1
+    },
+    "2026-09-15/setsubun/after#4 | 2026-09-15/setsubun/before#3": {
+      "flagged": 1
+    },
+    "2026-09-15/setsubun/after#5 | 2026-09-15/setsubun/before#1": {
+      "flagged": 1
+    },
+    "2026-09-15/geinou/after#1 | 2026-09-15/geinou/before#2": {
+      "flagged": 1
+    },
+    "2026-09-15/geinou/after#2 | 2026-09-15/geinou/before#1": {
+      "flagged": 1
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "evaluator": "diversity-check",
+  "mode": "prompt",
+  "run": 1,
+  "model": "sonnet",
+  "level": "set",
+  "lowerIsBetter": [
+    "largestAxisCount"
+  ],
+  "scores": {
+    "2026-07-10/idol/gpt-5.6-sol-high": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-07-10/idol/fable-5-high": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high": {
+      "axes": 3,
+      "largestAxisCount": 3
+    },
+    "2026-07-10/zense/fable-5-high": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-07-10/ringo/fable-5-high": {
+      "axes": 4,
+      "largestAxisCount": 2
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high": {
+      "axes": 4,
+      "largestAxisCount": 2
+    },
+    "2026-07-11/firsttake/fable-5-skill-on": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-07-11/firsttake/fable-5-skill-off": {
+      "axes": 2,
+      "largestAxisCount": 3
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off": {
+      "axes": 4,
+      "largestAxisCount": 2
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-on": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off": {
+      "axes": 3,
+      "largestAxisCount": 2
+    },
+    "2026-09-15/setsubun/after": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-09-15/setsubun/before": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-09-15/geinou/after": {
+      "axes": 5,
+      "largestAxisCount": 1
+    },
+    "2026-09-15/geinou/before": {
+      "axes": 4,
+      "largestAxisCount": 2
+    }
+  }
+}

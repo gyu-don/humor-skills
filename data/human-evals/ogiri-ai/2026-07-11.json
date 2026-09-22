@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-11",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": false,
+  "log": "2026-07-11.md",
+  "description": "Fable 5 スキルなし vs スキルあり（第2ラウンドはアトラクター降格後、GPT-5.6-solも追加）",
+  "topics": {
+    "askul": "『ASKUL』の対義語を教えてください。",
+    "firsttake": "THE FIRST TAKEの新作",
+    "shinnyu": "今年のヤバい新入社員",
+    "suihanki": "炊飯器の説明書に書いてあったら嫌な一文"
+  },
+  "sets": [
+    {
+      "id": "askul/fable-5-skill-off",
+      "topic": "askul",
+      "condition": "Fable 5 スキルなし",
+      "answers": [
+        "キノーキタ（頼む前に届く。もはや怖い）",
+        "トリニコイ",
+        "イツカクル（届く頃には転職している）",
+        "アシタイク（こっちが行くんかい）",
+        "モーイラン（納期3年、需要の方が先に消滅）"
+      ],
+      "hits": null,
+      "verdict": "あまり変わらない"
+    },
+    {
+      "id": "askul/fable-5-skill-on",
+      "topic": "askul",
+      "condition": "Fable 5 スキルあり",
+      "answers": [
+        "トリニコイ",
+        "キノウキタ",
+        "タノンデナイノガクル",
+        "セイキュウダケクル",
+        "モウウシロニイル"
+      ],
+      "hits": null,
+      "verdict": "あまり変わらない"
+    },
+    {
+      "id": "firsttake/fable-5-skill-off",
+      "topic": "firsttake",
+      "condition": "Fable 5 スキルなし",
+      "answers": [
+        "ラジオ体操第一",
+        "バイトを辞める電話",
+        "プロポーズ（一発勝負）",
+        "灯油販売車の「雪やこんこ」",
+        "運転免許センターの視力検査"
+      ],
+      "hits": [
+        2,
+        3,
+        5
+      ],
+      "verdict": "それほど面白いものはないが、2, 3, 5 は絵が見えるとまあまあ面白い"
+    },
+    {
+      "id": "firsttake/fable-5-skill-on",
+      "topic": "firsttake",
+      "condition": "Fable 5 スキルあり",
+      "answers": [
+        "概要欄の端に小さくテイク38",
+        "2番を全部ハミングで押し切る",
+        "歌い終わってからずっと採点待ち",
+        "コメント欄が全員同じ苗字",
+        "新作はラジオ体操第二"
+      ],
+      "hits": [],
+      "verdict": "完全にスベった",
+      "converged": "「細部のさりげない証拠＋小さい数字」型に収束"
+    },
+    {
+      "id": "shinnyu/fable-5-skill-off",
+      "topic": "shinnyu",
+      "condition": "Fable 5 スキルなし",
+      "answers": [
+        "初日、本人の代わりに「入社代行」の業者が来た",
+        "入社後もずっと会社を「御社」と呼ぶ",
+        "初任給で自社株を買い、5月から株主として発言してくる",
+        "5月病を4月2日に発症",
+        "敬語が完璧すぎて、社長のほうが敬語になっていく"
+      ],
+      "hits": [
+        1,
+        2
+      ],
+      "verdict": "1, 2 が面白い"
+    },
+    {
+      "id": "shinnyu/fable-5-skill-on",
+      "topic": "shinnyu",
+      "condition": "Fable 5 スキルあり",
+      "answers": [
+        "入社式を有給で休んだ",
+        "遅刻の連絡が退職代行経由",
+        "教育係の先輩を月末に査定してる",
+        "初任給で自社株を空売りしてた",
+        "デスクに飾ってるのが小学校の賞状"
+      ],
+      "hits": [],
+      "verdict": "スベった"
+    },
+    {
+      "id": "suihanki/fable-5-skill-off",
+      "topic": "suihanki",
+      "condition": "Fable 5 スキルなし（第2ラウンド）",
+      "answers": [
+        "故障かな?と思ったら、それは故障です",
+        "蒸気口から出る白い煙は、たいてい蒸気です",
+        "早炊きモードは、通常より焦って炊いているだけです",
+        "炊きあがりを知らせるメロディーは、本体のその日の気分で変わります",
+        "※お米を炊く以外の用途には使用しないでください(なお、お米を炊く用途にもあまり向いていません)"
+      ],
+      "hits": [
+        1
+      ],
+      "verdict": "1が一番面白い"
+    },
+    {
+      "id": "suihanki/fable-5-skill-on",
+      "topic": "suihanki",
+      "condition": "Fable 5 スキルあり（第2ラウンド）",
+      "answers": [
+        "本製品は炊飯にも使えます",
+        "保温ランプが3回点滅したら逃げてください",
+        "炊きムラは、ご家庭の雰囲気が原因です",
+        "まれに米粒の数が増えます",
+        "叩けば直ります。ただし覚えています"
+      ],
+      "hits": [
+        4,
+        2
+      ],
+      "verdict": "4, 2が面白い"
+    },
+    {
+      "id": "suihanki/gpt-5.6-sol",
+      "topic": "suihanki",
+      "condition": "GPT-5.6-sol スキルあり（第2ラウンド）",
+      "answers": [
+        "米の持ち込みはご遠慮ください",
+        "「炊けた」は本人の感想です",
+        "三合目からは自己責任です",
+        "予約時刻には正装で集合",
+        "初回のみ田植えから始まります"
+      ],
+      "hits": [],
+      "verdict": "どれもつまらない",
+      "converged": "5本全部が物も現象もない概念ジョーク"
+    }
+  ],
+  "setPreferences": [
+    {
+      "better": "firsttake/fable-5-skill-off",
+      "worse": "firsttake/fable-5-skill-on"
+    },
+    {
+      "better": "shinnyu/fable-5-skill-off",
+      "worse": "shinnyu/fable-5-skill-on"
+    },
+    {
+      "better": "suihanki/fable-5-skill-on",
+      "worse": "suihanki/gpt-5.6-sol"
+    },
+    {
+      "better": "suihanki/fable-5-skill-off",
+      "worse": "suihanki/gpt-5.6-sol"
+    }
+  ],
+  "pairPreferences": []
+}

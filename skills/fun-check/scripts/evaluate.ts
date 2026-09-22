@@ -8,10 +8,14 @@
  * { "topic", "answers": [...] } object also works (wrapped as one sample).
  * Defaults to this skill's assets/samples.json / a results.json in the CWD.
  *
- * Not ported: Step 3 (被りチェック / cross-answer duplicate & "シュール手癖"
- * detection). That's a pairwise comparison across the whole set, not an
- * atomic per-answer question — leave it to the original prompt-based skill
- * for now rather than force it into `choice`/`score`/`noul`.
+ * Step 3 (被りチェック) is ported as one atomic question per answer pair
+ * ("same material at the core of the joke?"), plus an exact-match check in
+ * code. Each pair is judged on its own, so the judge is never asked to "find
+ * the duplicates" in a set — the prompt version, asked that way, invents
+ * similarity when there is none (validated against blind human similarity
+ * labels in humor-skills data/human-evals, 2026-09-23). Not ported: the
+ * set-wide "same direction of reinterpretation" / シュール手癖 convergence —
+ * no per-pair question separated it from unrelated pairs.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -100,6 +104,29 @@ const risks = {
 } as const;
 
 type RiskKey = keyof typeof risks;
+
+/** Step 3: one pair at a time. */
+const overlapQuestion = {
+  sameMaterial: noul(
+    '2つの回答は、笑いの中心に同じ素材（同じ物・人・場所・出来事）を使っているか？',
+    {
+      true: '笑いの中心の素材が同じか、ほぼ同じ。',
+      false: '笑いの中心の素材が別物。お題の言葉が共通しているだけの場合もこちら。',
+    },
+  ),
+} as const;
+
+/**
+ * Calibrated on blind human similarity judgments (2026-09-23): at 0.7 it
+ * caught 3-4 of 5 pairs the human called 被り (one sits right at the
+ * threshold) and flagged none of the 10 they called different. Topic-imposed forms (e.g. every answer being a katakana word) sit just
+ * below it, so compare against a baseline set rather than reading one set's
+ * count as absolute.
+ */
+const NEAR_DUPLICATE = 0.7;
+
+/** Exact duplicates are a string question, not a Jev one. */
+const normalize = (s: string): string => s.normalize('NFKC').replace(/[\s\p{P}\p{S}]/gu, '');
 const riskKeys = Object.keys(risks) as RiskKey[];
 
 const usage = { requests: 0, input_tokens: 0, output_tokens: 0 };
@@ -159,8 +186,35 @@ async function relativeTypicality(sample: Sample): Promise<{ probabilities: Reco
   return { probabilities, top3 };
 }
 
+interface Overlap {
+  sampleId: string;
+  a: number;
+  b: number;
+  sameMaterial: number;
+  exact: boolean;
+  nearDuplicate: boolean;
+}
+
+async function overlaps(sample: Sample): Promise<Overlap[]> {
+  const pairs = sample.answers.flatMap((_, i) => sample.answers.slice(i + 1).map((__, k) => [i, i + 1 + k] as const));
+  return Promise.all(pairs.map(async ([i, j]) => {
+    const result = await client.systemOne({
+      model: 'jev-latest',
+      state: { お題: sample.topic, 回答1: sample.answers[i], 回答2: sample.answers[j] },
+      questions: overlapQuestion,
+    });
+    usage.requests++;
+    usage.input_tokens += result.usage.input_tokens;
+    usage.output_tokens += result.usage.output_tokens;
+    const sameMaterial = result.answers.sameMaterial.noul;
+    const exact = normalize(sample.answers[i]) === normalize(sample.answers[j]);
+    return { sampleId: sample.id, a: i + 1, b: j + 1, sameMaterial, exact, nearDuplicate: exact || sameMaterial >= NEAR_DUPLICATE };
+  }));
+}
+
 async function main(): Promise<void> {
   const rows: Row[] = [];
+  const overlapRows: Overlap[] = [];
   const typicality: Record<string, { probabilities: Record<string, number>; top3: string[] }> = {};
 
   for (const sample of samples) {
@@ -169,6 +223,7 @@ async function main(): Promise<void> {
     );
     rows.push(...batch);
     typicality[sample.id] = await relativeTypicality(sample);
+    overlapRows.push(...await overlaps(sample));
   }
 
   const pct = (x: number): string => `${(x * 100).toFixed(0)}%`;
@@ -178,12 +233,13 @@ async function main(): Promise<void> {
     const riskShare = Object.fromEntries(
       riskKeys.map((key) => [key, own.filter((r) => r.risks[key] > 0.5).length]),
     ) as Record<RiskKey, number>;
-    return { id: sample.id, label: sample.label, riskShare, relativeTypicalTop3: typicality[sample.id].top3 };
+    const nearDuplicates = overlapRows.filter((o) => o.sampleId === sample.id && o.nearDuplicate).map((o) => [o.a, o.b]);
+    return { id: sample.id, label: sample.label, riskShare, relativeTypicalTop3: typicality[sample.id].top3, nearDuplicates };
   });
 
   writeFileSync(
     OUT_PATH,
-    `${JSON.stringify({ usage, summaries, typicality, rows }, null, 2)}\n`,
+    `${JSON.stringify({ usage, summaries, typicality, rows, overlaps: overlapRows }, null, 2)}\n`,
   );
 
   for (const s of summaries) {
@@ -192,6 +248,7 @@ async function main(): Promise<void> {
       console.log(`  ${key.padEnd(16)} ${s.riskShare[key]} / ${samples.find((x) => x.id === s.id)!.answers.length} flagged`);
     }
     console.log(`  relative typicality top3: ${s.relativeTypicalTop3.join(', ')}`);
+    console.log(`  near duplicates (${NEAR_DUPLICATE}+ or exact): ${s.nearDuplicates.map(([a, b]) => `${a}-${b}`).join(', ') || 'none'}`);
   }
 
   const usd = (usage.input_tokens * 42) / 1e9 + (usage.output_tokens * 42) / 1e9;

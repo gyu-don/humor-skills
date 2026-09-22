@@ -1,0 +1,147 @@
+{
+  "date": "2026-07-10",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": false,
+  "log": "2026-07-10.md",
+  "description": "各社最新フロンティアモデル（Fable 5 high / GPT-5.6-sol high）でスキルを実行した出力の比較",
+  "topics": {
+    "idol": "君は完璧で究極のアイドル←どういうところが?",
+    "zense": "前前前世にやっていたこと",
+    "ringo": "椎名林檎の新曲タイトル",
+    "fable-returns": "Fable 5が帰ってきました！←まだ誰も気づいていない以前との違い"
+  },
+  "sets": [
+    {
+      "id": "idol/gpt-5.6-sol-high",
+      "topic": "idol",
+      "condition": "GPT-5.6-sol high（スキルあり）",
+      "answers": [
+        "非常口の人にもファンサ",
+        "握手会で手相まで改善する",
+        "全ファンの実家へ挨拶済み",
+        "口パク用に肺活量を鍛えた",
+        "推し変にも花束で送り出す"
+      ],
+      "hits": [],
+      "verdict": "どれも面白くない"
+    },
+    {
+      "id": "idol/fable-5-high",
+      "topic": "idol",
+      "condition": "Fable 5 high（スキルあり）",
+      "answers": [
+        "文春の張り込み三日目で記者が沼落ち",
+        "MCで噛むところまで台本通り",
+        "笑顔の濃度が積んだCDの枚数と連動",
+        "デビューから12年トイレの目撃情報なし",
+        "震度5の中ひとりだけ振付を続行"
+      ],
+      "hits": [
+        5,
+        1,
+        4
+      ],
+      "verdict": "どれも比較的レベルが高い。良い順に 5, 1, 4"
+    },
+    {
+      "id": "zense/gpt-5.6-sol-high",
+      "topic": "zense",
+      "condition": "GPT-5.6-sol high（スキルあり）",
+      "answers": [
+        "マンモスの鼻に車検シール",
+        "洞窟の奥に「月極」を彫る",
+        "縄文土器の取っ手だけ担当",
+        "火の発見より先に特許庁へ",
+        "壁画の端に次回予告を描く"
+      ],
+      "hits": [
+        5,
+        2
+      ],
+      "verdict": "方向性が似ているのは気になるがヒット。良い順に 5, 2",
+      "converged": "5つとも「現代の役所仕事を原始時代に持ち込む」同じ方向"
+    },
+    {
+      "id": "zense/fable-5-high",
+      "topic": "zense",
+      "condition": "Fable 5 high（スキルあり）",
+      "answers": [
+        "君を探し始めた初日、雨で中止",
+        "本能寺の火の元点検係",
+        "隣から借りた醤油を返さず転生",
+        "運命の赤い糸でマフラー編んでた",
+        "来世と来来世の有給申請"
+      ],
+      "hits": [
+        4,
+        1
+      ],
+      "verdict": "面白いかは微妙だがレベルは低くない。4はきれい、1は分かりにくいが良い"
+    },
+    {
+      "id": "ringo/gpt-5.6-sol-high",
+      "topic": "ringo",
+      "condition": "GPT-5.6-sol high（スキルあり）",
+      "answers": [
+        "歌舞伎町の町内会長",
+        "法人名義の初恋",
+        "本能寺、空いてます",
+        "余命より長いイントロ",
+        "丸ノ内サイゼリヤ"
+      ],
+      "hits": [],
+      "verdict": "面白くない"
+    },
+    {
+      "id": "ringo/fable-5-high",
+      "topic": "ringo",
+      "condition": "Fable 5 high（スキルあり）",
+      "answers": [
+        "NENKIN",
+        "ここで解約させて。",
+        "丸ノ内ぎっくり腰",
+        "接吻と歯石",
+        "歌舞伎町の税理士"
+      ],
+      "hits": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "verdict": "割といい。1と3はセットで活きる、2, 4もなかなかいい"
+    },
+    {
+      "id": "fable-returns/fable-5",
+      "topic": "fable-returns",
+      "condition": "Fable 5（スキルあり）",
+      "answers": [
+        "回答がうっすら帰国子女",
+        "余ったトークンを持ち帰ってる",
+        "悪口言ったユーザーだけ返事が0.8秒遅い",
+        "空白期間の話になると急に早口",
+        "知らない質問、検索してから思い出してる"
+      ],
+      "hits": null,
+      "ranking": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "verdict": "良い順に 4, 1, 2, 3（ほぼ同率）"
+    }
+  ],
+  "setPreferences": [
+    {
+      "better": "idol/fable-5-high",
+      "worse": "idol/gpt-5.6-sol-high"
+    },
+    {
+      "better": "ringo/fable-5-high",
+      "worse": "ringo/gpt-5.6-sol-high"
+    }
+  ],
+  "pairPreferences": []
+}

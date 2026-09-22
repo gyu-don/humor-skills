@@ -1,0 +1,350 @@
+{
+  "evaluator": "naive",
+  "mode": "prompt",
+  "run": 1,
+  "model": "sonnet",
+  "level": "answer",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-07-10/idol/fable-5-high#4": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-07-10/idol/fable-5-high#2": {
+      "rank": 0.8888888888888888,
+      "hit": 1
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "rank": 0.7777777777777778,
+      "hit": 1
+    },
+    "2026-07-10/idol/fable-5-high#1": {
+      "rank": 0.6666666666666667,
+      "hit": 1
+    },
+    "2026-07-10/idol/fable-5-high#5": {
+      "rank": 0.5555555555555556,
+      "hit": 1
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "rank": 0.4444444444444444,
+      "hit": 0
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#3": {
+      "rank": 0.33333333333333337,
+      "hit": 0
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#4": {
+      "rank": 0.2222222222222222,
+      "hit": 0
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#5": {
+      "rank": 0.11111111111111116,
+      "hit": 0
+    },
+    "2026-07-10/idol/fable-5-high#3": {
+      "rank": 0,
+      "hit": 0
+    },
+    "2026-07-10/zense/fable-5-high#2": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "rank": 0.8888888888888888,
+      "hit": 1
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "rank": 0.7777777777777778,
+      "hit": 1
+    },
+    "2026-07-10/zense/fable-5-high#1": {
+      "rank": 0.6666666666666667,
+      "hit": 1
+    },
+    "2026-07-10/zense/fable-5-high#4": {
+      "rank": 0.5555555555555556,
+      "hit": 1
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1": {
+      "rank": 0.4444444444444444,
+      "hit": 0
+    },
+    "2026-07-10/zense/fable-5-high#3": {
+      "rank": 0.33333333333333337,
+      "hit": 0
+    },
+    "2026-07-10/zense/fable-5-high#5": {
+      "rank": 0.2222222222222222,
+      "hit": 0
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "rank": 0.11111111111111116,
+      "hit": 0
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "rank": 0,
+      "hit": 0
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "rank": 0.8888888888888888,
+      "hit": 1
+    },
+    "2026-07-10/ringo/fable-5-high#4": {
+      "rank": 0.7777777777777778,
+      "hit": 1
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#5": {
+      "rank": 0.6666666666666667,
+      "hit": 1
+    },
+    "2026-07-10/ringo/fable-5-high#1": {
+      "rank": 0.5555555555555556,
+      "hit": 1
+    },
+    "2026-07-10/ringo/fable-5-high#2": {
+      "rank": 0.4444444444444444,
+      "hit": 0
+    },
+    "2026-07-10/ringo/fable-5-high#3": {
+      "rank": 0.33333333333333337,
+      "hit": 0
+    },
+    "2026-07-10/ringo/fable-5-high#5": {
+      "rank": 0.2222222222222222,
+      "hit": 0
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#1": {
+      "rank": 0.11111111111111116,
+      "hit": 0
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#3": {
+      "rank": 0,
+      "hit": 0
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#1": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#2": {
+      "rank": 0.8888888888888888,
+      "hit": 1
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2": {
+      "rank": 0.7777777777777778,
+      "hit": 1
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3": {
+      "rank": 0.6666666666666667,
+      "hit": 1
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#3": {
+      "rank": 0.5555555555555556,
+      "hit": 1
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4": {
+      "rank": 0.4444444444444444,
+      "hit": 0
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5": {
+      "rank": 0.33333333333333337,
+      "hit": 0
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#4": {
+      "rank": 0.2222222222222222,
+      "hit": 0
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#5": {
+      "rank": 0.11111111111111116,
+      "hit": 0
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1": {
+      "rank": 0,
+      "hit": 0
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#2": {
+      "rank": 0.8888888888888888,
+      "hit": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#4": {
+      "rank": 0.7777777777777778,
+      "hit": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "rank": 0.6666666666666667,
+      "hit": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#3": {
+      "rank": 0.5555555555555556,
+      "hit": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "rank": 0.4444444444444444,
+      "hit": 1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "rank": 0.33333333333333337,
+      "hit": 0
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#1": {
+      "rank": 0.2222222222222222,
+      "hit": 0
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2": {
+      "rank": 0.11111111111111116,
+      "hit": 0
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#5": {
+      "rank": 0,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#5": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1": {
+      "rank": 0.9285714285714286,
+      "hit": 1
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#2": {
+      "rank": 0.8571428571428572,
+      "hit": 1
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#3": {
+      "rank": 0.7857142857142857,
+      "hit": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2": {
+      "rank": 0.7142857142857143,
+      "hit": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#2": {
+      "rank": 0.6428571428571428,
+      "hit": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3": {
+      "rank": 0.5714285714285714,
+      "hit": 1
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#5": {
+      "rank": 0.5,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#5": {
+      "rank": 0.4285714285714286,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#4": {
+      "rank": 0.3571428571428571,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3": {
+      "rank": 0.2857142857142857,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1": {
+      "rank": 0.2142857142857143,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#4": {
+      "rank": 0.1428571428571429,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#1": {
+      "rank": 0.0714285714285714,
+      "hit": 0
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4": {
+      "rank": 0,
+      "hit": 0
+    },
+    "2026-09-15/setsubun/after#1": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-09-15/setsubun/after#4": {
+      "rank": 0.8888888888888888,
+      "hit": 1
+    },
+    "2026-09-15/setsubun/after#5": {
+      "rank": 0.7777777777777778,
+      "hit": 1
+    },
+    "2026-09-15/setsubun/after#2": {
+      "rank": 0.6666666666666667,
+      "hit": 1
+    },
+    "2026-09-15/setsubun/after#3": {
+      "rank": 0.5555555555555556,
+      "hit": 1
+    },
+    "2026-09-15/setsubun/before#2": {
+      "rank": 0.4444444444444444,
+      "hit": 1
+    },
+    "2026-09-15/setsubun/before#3": {
+      "rank": 0.33333333333333337,
+      "hit": 0
+    },
+    "2026-09-15/setsubun/before#4": {
+      "rank": 0.2222222222222222,
+      "hit": 0
+    },
+    "2026-09-15/setsubun/before#1": {
+      "rank": 0.11111111111111116,
+      "hit": 0
+    },
+    "2026-09-15/setsubun/before#5": {
+      "rank": 0,
+      "hit": 0
+    },
+    "2026-09-15/geinou/before#5": {
+      "rank": 1,
+      "hit": 1
+    },
+    "2026-09-15/geinou/after#5": {
+      "rank": 0.8888888888888888,
+      "hit": 1
+    },
+    "2026-09-15/geinou/before#3": {
+      "rank": 0.7777777777777778,
+      "hit": 1
+    },
+    "2026-09-15/geinou/after#4": {
+      "rank": 0.6666666666666667,
+      "hit": 1
+    },
+    "2026-09-15/geinou/after#3": {
+      "rank": 0.5555555555555556,
+      "hit": 1
+    },
+    "2026-09-15/geinou/before#1": {
+      "rank": 0.4444444444444444,
+      "hit": 1
+    },
+    "2026-09-15/geinou/before#4": {
+      "rank": 0.33333333333333337,
+      "hit": 0
+    },
+    "2026-09-15/geinou/after#1": {
+      "rank": 0.2222222222222222,
+      "hit": 0
+    },
+    "2026-09-15/geinou/before#2": {
+      "rank": 0.11111111111111116,
+      "hit": 0
+    },
+    "2026-09-15/geinou/after#2": {
+      "rank": 0,
+      "hit": 0
+    }
+  }
+}

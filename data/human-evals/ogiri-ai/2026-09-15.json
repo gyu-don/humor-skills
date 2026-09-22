@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-15",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": false,
+  "log": "2026-09-15.md",
+  "description": "「GPT-6 Astra による調整」コミットの前後比較（gpt-6-astra medium）",
+  "topics": {
+    "setsubun": "この時代「節分」で鬼に豆を当てるのがコンプライアンス的にまずいです。どう対処する？",
+    "geinou": "アホなフリして芸能界のことを聞いちゃって下さい"
+  },
+  "sets": [
+    {
+      "id": "setsubun/before",
+      "topic": "setsubun",
+      "condition": "gpt-6-astra medium、調整コミット前",
+      "answers": [
+        "鬼に鳩の着ぐるみを着せる",
+        "豆一粒ごとに菓子折りを添える",
+        "鬼に家を譲り、福と引っ越す",
+        "鬼が帰るまで全員で恵方巻き",
+        "鬼に豆を持たせ、家族全員倒れる"
+      ],
+      "hits": [
+        1,
+        4,
+        5
+      ],
+      "verdict": "変更前の方が良い。1は鳩の連想、4, 5はコンプライアンスぎりぎりの嫌がらせでレベルが高い"
+    },
+    {
+      "id": "setsubun/after",
+      "topic": "setsubun",
+      "condition": "gpt-6-astra medium、調整コミット後",
+      "answers": [
+        "豆を置き配して、鬼が出たら鍵を閉める",
+        "鬼役を社長にして、投げる勇気を奪う",
+        "年の数だけ有給を与えて帰らせる",
+        "福を外に出し、鬼にも空気を読ませる",
+        "鬼に豆を持たせ、鳩の多い公園へ"
+      ],
+      "hits": [],
+      "verdict": "何も評価できるところがない"
+    },
+    {
+      "id": "geinou/before",
+      "topic": "geinou",
+      "condition": "gpt-6-astra medium、調整コミット前",
+      "answers": [
+        "二世のオーディションって授業参観？",
+        "レコ大って領収書もらえる？",
+        "謝罪会見の涙って何テイク目？",
+        "一般男性になるには会社何個いる？",
+        "清純派って何時まで？"
+      ],
+      "hits": null,
+      "verdict": "あまり変わらない。前後ともあんまり面白くない"
+    },
+    {
+      "id": "geinou/after",
+      "topic": "geinou",
+      "condition": "gpt-6-astra medium、調整コミット後",
+      "answers": [
+        "レコード大賞って領収書もらえるの？",
+        "オーディションって親も審査するの？",
+        "共演ＮＧって視聴者からも出せるの？",
+        "熱愛報道って番宣の一種ですか？",
+        "大御所って叱ってくれる人が死んだ人？"
+      ],
+      "hits": null,
+      "verdict": "あまり変わらない。前後ともあんまり面白くない"
+    }
+  ],
+  "setPreferences": [
+    {
+      "better": "setsubun/before",
+      "worse": "setsubun/after"
+    }
+  ],
+  "pairPreferences": [
+    {
+      "a": "geinou/before#1",
+      "b": "geinou/after#2",
+      "winner": "a",
+      "note": "同じ着眼点で、直球で短い方が良い"
+    },
+    {
+      "a": "geinou/before#2",
+      "b": "geinou/after#1",
+      "winner": "a",
+      "note": "同じ着眼点で、直球で短い方が良い"
+    }
+  ]
+}

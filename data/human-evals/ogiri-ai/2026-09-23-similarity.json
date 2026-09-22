@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-23",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-09-23-similarity.md",
+  "description": "同じお題の回答ペアについて「同じ5本のセットに並んでいたら被っていると感じるか」をブラインドで判定。被り判定器（fun-check Step 3 のプロンプト版と Jev 版）の検証用。",
+  "topics": {},
+  "sets": [],
+  "setPreferences": [],
+  "pairPreferences": [],
+  "similarityJudgments": [
+    {
+      "a": "2026-07-11/firsttake/fable-5-skill-off#5",
+      "b": "2026-07-11/firsttake/fable-5-skill-off#3",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-10/ringo/gpt-5.6-sol-high#1",
+      "b": "2026-07-10/ringo/fable-5-high#5",
+      "similarity": "similar"
+    },
+    {
+      "a": "2026-07-10/zense/gpt-5.6-sol-high#2",
+      "b": "2026-07-10/zense/gpt-5.6-sol-high#5",
+      "similarity": "similar"
+    },
+    {
+      "a": "2026-07-10/idol/gpt-5.6-sol-high#3",
+      "b": "2026-07-10/idol/gpt-5.6-sol-high#5",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-11/firsttake/fable-5-skill-off#1",
+      "b": "2026-07-11/firsttake/fable-5-skill-on#5",
+      "similarity": "similar"
+    },
+    {
+      "a": "2026-09-15/geinou/after#2",
+      "b": "2026-09-15/geinou/after#3",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-11/suihanki/fable-5-skill-on#3",
+      "b": "2026-07-11/suihanki/fable-5-skill-on#5",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-10/zense/gpt-5.6-sol-high#1",
+      "b": "2026-07-10/zense/gpt-5.6-sol-high#4",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-10/ringo/gpt-5.6-sol-high#5",
+      "b": "2026-07-10/ringo/fable-5-high#3",
+      "similarity": "partial"
+    },
+    {
+      "a": "2026-07-11/firsttake/fable-5-skill-off#3",
+      "b": "2026-07-11/firsttake/fable-5-skill-off#2",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-10/idol/fable-5-high#1",
+      "b": "2026-07-10/idol/fable-5-high#4",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-11/shinnyu/fable-5-skill-off#3",
+      "b": "2026-07-11/shinnyu/fable-5-skill-on#4",
+      "similarity": "similar"
+    },
+    {
+      "a": "2026-09-15/geinou/before#1",
+      "b": "2026-09-15/geinou/after#2",
+      "similarity": "similar"
+    },
+    {
+      "a": "2026-09-15/setsubun/before#5",
+      "b": "2026-09-15/setsubun/after#5",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-10/idol/gpt-5.6-sol-high#1",
+      "b": "2026-07-10/idol/gpt-5.6-sol-high#3",
+      "similarity": "different"
+    },
+    {
+      "a": "2026-07-11/askul/fable-5-skill-off#3",
+      "b": "2026-07-11/askul/fable-5-skill-off#5",
+      "similarity": "different"
+    }
+  ]
+}

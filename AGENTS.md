@@ -46,11 +46,16 @@ usable for other comedy-answer sources later, not just that one skill.
 - `src/ogiri-ai/` — not a `skills/` entry: this audits ogiri-ai's own
   generation SKILL.md (a separate repo, not one of the judge skills above),
   so it has no installable skill wrapper.
-  - `src/ogiri-ai/evaluations/` — dated human-evaluation logs of ogiri-ai's
-    generated answers, plus `findings.md` distilling recurring patterns.
-    Ported from ogiri-ai's own `evaluations/` + `DEVELOPMENT.md`, from
-    before evaluation skills lived in this repo. Use it to calibrate a judge
-    skill (`fun-check` / `humor-rank`) blind against recorded human rankings.
+- `data/human-evals/<source>/` — human judgments, the ground truth every
+  judge skill is validated against. One session = `<date>.md` (narrative)
+  + `<date>.json` (structured labels), plus `findings.md` distilling
+  recurring patterns. Storage rules and the JSON schema are in
+  `data/human-evals/README.md`; follow them when adding a session.
+- `src/validation/` — measures how well each judge agrees with those human
+  labels (see Validation below).
+- `reports/` — generated evaluator output only, never hand-edited except
+  `notes.md` interpretations. `reports/<skill>/results.json` are the
+  `audit:*` sample runs; `reports/validation/<date>/` are validation runs.
 - Deterministic checks (char counts, punctuation, regex) go in plain code,
   never as a Jev question.
 
@@ -77,6 +82,8 @@ walking up to the root `node_modules`.
 
 - `npm install`, `npm run check` (type-check)
 - `doppler run -- npm run audit:ogiri-ai [-- <output path>]`
+- `doppler run -- npm run validate:jev -- reports/validation/<date> [runs]`
+- `npm run validate:blind -- make|unblind ...`, `npm run validate:agreement -- reports/validation/<date>`
 - `npx skills add . -s <name>` to (re)install a skill locally; `--list` to see what's found
   (after installing, run `npm install` in the installed skill directory once)
 
@@ -105,3 +112,42 @@ Reference docs (check before changing SDK/API usage):
 
 After code changes: `npm run check`, and if request shape changed, one real
 `doppler run --` call to confirm the response still parses as expected.
+
+After any change to a judge skill's `SKILL.md` or `scripts/evaluate.ts`, run
+Validation and compare its `summary.md` with the previous run's. A judge
+change is an improvement only if human agreement goes up — not because its
+scores look more plausible.
+
+## Validation
+
+Judges are validated against `data/human-evals/`, never against another
+judge. Output goes to a new `reports/validation/<date>/`.
+
+1. Jev mode — one command, runs each skill's real `scripts/evaluate.ts` plus a
+   no-rubric baseline, twice (for test-retest):
+   `doppler run -- npm run validate:jev -- reports/validation/<date>`
+2. Prompt mode — the judge is a subagent following `SKILL.md`:
+   - `npm run validate:blind -- make reports/validation/<date>/blind`
+     writes shuffled, source-hidden `pool-<n>.md` (answer-level) and
+     `sets-<n>.md` (set-level), plus `key.json`.
+   - One subagent per skill per input file (one skill per subagent). Tell it
+     to read only the skill's `SKILL.md` and that one input file — **not**
+     `key.json`, `data/human-evals/`, or other reports — to apply the skill
+     to each お題 independently, and to write JSON in the shape listed at the
+     top of `src/validation/blind.ts`. Use `sets-<n>.md` for
+     `diversity-check`, `pool-<n>.md` for the rest. Run `humor-eval` twice.
+   - `npm run validate:blind -- unblind <blind dir> <format> <out-1.json> <out-2.json> <run> <model>`
+     per judge output. Keep the subagents' prose reports under
+     `prompt-reports/`; they show *why* a judge failed.
+3. `npm run validate:agreement -- reports/validation/<date>` writes
+   `summary.md`. Put the interpretation in `notes.md` next to it.
+
+Reading the summary: AUC 0.5 is chance, and a judge that does not beat the
+`length` baseline is not measuring funniness. The `gate` column marks
+metrics good enough to replace a human verdict in ogiri-ai's gate check.
+As of 2026-09-23 nothing qualifies (`reports/validation/2026-09-23/notes.md`).
+Pair-level judges (fun-check's 被りチェック, `fun-check-overlap`) are scored
+in a second table against `similarityJudgments`; the number to watch there is
+`false flags` — judges asked to find overlaps tend to invent them
+(`reports/validation/2026-09-23-overlap/notes.md`). For prompt mode, ask the
+fun-check subagent to also list the pairs it flags as `"overlaps"`.

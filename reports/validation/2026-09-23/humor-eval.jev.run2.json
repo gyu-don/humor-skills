@@ -1,0 +1,910 @@
+{
+  "evaluator": "humor-eval",
+  "mode": "jev",
+  "run": 2,
+  "model": "jev-latest",
+  "level": "answer",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "novelty": 2.8,
+      "clarity": 2.78,
+      "relevance": 2.88,
+      "intelligence": 2.64,
+      "empathy": 2.84,
+      "overall": 2.77,
+      "overallFloored": 2.77
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "novelty": 2.86,
+      "clarity": 2.51,
+      "relevance": 2.48,
+      "intelligence": 2.49,
+      "empathy": 2.35,
+      "overall": 2.4,
+      "overallFloored": 2.4
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#3": {
+      "novelty": 2.94,
+      "clarity": 2.74,
+      "relevance": 2.67,
+      "intelligence": 2.6,
+      "empathy": 2.43,
+      "overall": 2.55,
+      "overallFloored": 2.55
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#4": {
+      "novelty": 2.58,
+      "clarity": 2.54,
+      "relevance": 2.43,
+      "intelligence": 2.51,
+      "empathy": 2.61,
+      "overall": 2.28,
+      "overallFloored": 2.28
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#5": {
+      "novelty": 2.8,
+      "clarity": 2.46,
+      "relevance": 2.27,
+      "intelligence": 2.53,
+      "empathy": 2.72,
+      "overall": 2.61,
+      "overallFloored": 2.61
+    },
+    "2026-07-10/idol/fable-5-high#1": {
+      "novelty": 2.94,
+      "clarity": 2.21,
+      "relevance": 2.1,
+      "intelligence": 2.47,
+      "empathy": 2.47,
+      "overall": 2.44,
+      "overallFloored": 2.44
+    },
+    "2026-07-10/idol/fable-5-high#2": {
+      "novelty": 2.7,
+      "clarity": 2.89,
+      "relevance": 3.07,
+      "intelligence": 2.84,
+      "empathy": 2.94,
+      "overall": 2.73,
+      "overallFloored": 2.73
+    },
+    "2026-07-10/idol/fable-5-high#3": {
+      "novelty": 2.79,
+      "clarity": 2.35,
+      "relevance": 2.63,
+      "intelligence": 2.5,
+      "empathy": 2.45,
+      "overall": 2.45,
+      "overallFloored": 2.45
+    },
+    "2026-07-10/idol/fable-5-high#4": {
+      "novelty": 3.02,
+      "clarity": 2.92,
+      "relevance": 2.93,
+      "intelligence": 2.95,
+      "empathy": 2.89,
+      "overall": 2.89,
+      "overallFloored": 2.89
+    },
+    "2026-07-10/idol/fable-5-high#5": {
+      "novelty": 3.06,
+      "clarity": 3.25,
+      "relevance": 3.37,
+      "intelligence": 2.9,
+      "empathy": 2.91,
+      "overall": 3.11,
+      "overallFloored": 3.11
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1": {
+      "novelty": 3.43,
+      "clarity": 2.94,
+      "relevance": 2.31,
+      "intelligence": 2.75,
+      "empathy": 2.31,
+      "overall": 2.72,
+      "overallFloored": 2.72
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "novelty": 3.4,
+      "clarity": 2.4,
+      "relevance": 2.38,
+      "intelligence": 2.63,
+      "empathy": 2.08,
+      "overall": 2.65,
+      "overallFloored": 2.65
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "novelty": 3.3,
+      "clarity": 2.88,
+      "relevance": 2.98,
+      "intelligence": 2.77,
+      "empathy": 2.66,
+      "overall": 2.83,
+      "overallFloored": 2.83
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "novelty": 3.09,
+      "clarity": 2.19,
+      "relevance": 2.17,
+      "intelligence": 2.54,
+      "empathy": 2.07,
+      "overall": 2.33,
+      "overallFloored": 2.33
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "novelty": 3.57,
+      "clarity": 2.97,
+      "relevance": 2.67,
+      "intelligence": 2.95,
+      "empathy": 2.63,
+      "overall": 3,
+      "overallFloored": 3
+    },
+    "2026-07-10/zense/fable-5-high#1": {
+      "novelty": 2.52,
+      "clarity": 2.16,
+      "relevance": 1.78,
+      "intelligence": 2.03,
+      "empathy": 2.16,
+      "overall": 2.34,
+      "overallFloored": 2.34
+    },
+    "2026-07-10/zense/fable-5-high#2": {
+      "novelty": 3.2,
+      "clarity": 3.02,
+      "relevance": 3.18,
+      "intelligence": 2.85,
+      "empathy": 2.82,
+      "overall": 2.91,
+      "overallFloored": 2.91
+    },
+    "2026-07-10/zense/fable-5-high#3": {
+      "novelty": 2.96,
+      "clarity": 3.05,
+      "relevance": 3.5,
+      "intelligence": 2.68,
+      "empathy": 3.03,
+      "overall": 2.85,
+      "overallFloored": 2.85
+    },
+    "2026-07-10/zense/fable-5-high#4": {
+      "novelty": 3.15,
+      "clarity": 3.14,
+      "relevance": 2.99,
+      "intelligence": 2.75,
+      "empathy": 2.92,
+      "overall": 3.02,
+      "overallFloored": 3.02
+    },
+    "2026-07-10/zense/fable-5-high#5": {
+      "novelty": 3.12,
+      "clarity": 2.29,
+      "relevance": 2.03,
+      "intelligence": 2.7,
+      "empathy": 2.51,
+      "overall": 2.43,
+      "overallFloored": 2.43
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#1": {
+      "novelty": 2.85,
+      "clarity": 2.82,
+      "relevance": 2.27,
+      "intelligence": 2.14,
+      "empathy": 2.37,
+      "overall": 2.58,
+      "overallFloored": 2.58
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "novelty": 3.19,
+      "clarity": 2.9,
+      "relevance": 2.84,
+      "intelligence": 2.65,
+      "empathy": 2.67,
+      "overall": 2.93,
+      "overallFloored": 2.93
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#3": {
+      "novelty": 3.01,
+      "clarity": 2.85,
+      "relevance": 2.7,
+      "intelligence": 2.53,
+      "empathy": 2.61,
+      "overall": 2.79,
+      "overallFloored": 2.79
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "novelty": 3.09,
+      "clarity": 3.29,
+      "relevance": 3,
+      "intelligence": 2.65,
+      "empathy": 2.88,
+      "overall": 2.96,
+      "overallFloored": 2.96
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#5": {
+      "novelty": 2.38,
+      "clarity": 2.42,
+      "relevance": 1.69,
+      "intelligence": 1.95,
+      "empathy": 2.07,
+      "overall": 2.05,
+      "overallFloored": 2.05
+    },
+    "2026-07-10/ringo/fable-5-high#1": {
+      "novelty": 2.18,
+      "clarity": 1.64,
+      "relevance": 2.14,
+      "intelligence": 1.41,
+      "empathy": 1.87,
+      "overall": 2.08,
+      "overallFloored": 2.08
+    },
+    "2026-07-10/ringo/fable-5-high#2": {
+      "novelty": 2.43,
+      "clarity": 2.44,
+      "relevance": 1.98,
+      "intelligence": 1.65,
+      "empathy": 2.1,
+      "overall": 2.14,
+      "overallFloored": 2.14
+    },
+    "2026-07-10/ringo/fable-5-high#3": {
+      "novelty": 2.79,
+      "clarity": 2.99,
+      "relevance": 2.25,
+      "intelligence": 2.15,
+      "empathy": 2.57,
+      "overall": 2.48,
+      "overallFloored": 2.48
+    },
+    "2026-07-10/ringo/fable-5-high#4": {
+      "novelty": 3.1,
+      "clarity": 3.02,
+      "relevance": 2.79,
+      "intelligence": 2.37,
+      "empathy": 2.71,
+      "overall": 2.82,
+      "overallFloored": 2.82
+    },
+    "2026-07-10/ringo/fable-5-high#5": {
+      "novelty": 2.81,
+      "clarity": 2.89,
+      "relevance": 2,
+      "intelligence": 2.11,
+      "empathy": 2.18,
+      "overall": 2.22,
+      "overallFloored": 2.22
+    },
+    "2026-07-10/fable-returns/fable-5#1": {
+      "novelty": 1.43,
+      "clarity": 1.08,
+      "relevance": 1.3,
+      "intelligence": 1.44,
+      "empathy": 1.11,
+      "overall": 1.31,
+      "overallFloored": 1.31
+    },
+    "2026-07-10/fable-returns/fable-5#2": {
+      "novelty": 1.81,
+      "clarity": 1.24,
+      "relevance": 1.43,
+      "intelligence": 1.59,
+      "empathy": 1.4,
+      "overall": 1.54,
+      "overallFloored": 1.54
+    },
+    "2026-07-10/fable-returns/fable-5#3": {
+      "novelty": 2.48,
+      "clarity": 2.07,
+      "relevance": 1.59,
+      "intelligence": 2.27,
+      "empathy": 1.87,
+      "overall": 2.08,
+      "overallFloored": 2.08
+    },
+    "2026-07-10/fable-returns/fable-5#4": {
+      "novelty": 1.52,
+      "clarity": 1.67,
+      "relevance": 1.57,
+      "intelligence": 1.52,
+      "empathy": 1.98,
+      "overall": 1.71,
+      "overallFloored": 1.71
+    },
+    "2026-07-10/fable-returns/fable-5#5": {
+      "novelty": 0.7,
+      "clarity": 1.15,
+      "relevance": 0.94,
+      "intelligence": 0.95,
+      "empathy": 0.9,
+      "overall": 1.05,
+      "overallFloored": 1.05
+    },
+    "2026-07-11/askul/fable-5-skill-off#1": {
+      "novelty": 3.06,
+      "clarity": 2.27,
+      "relevance": 2.55,
+      "intelligence": 2.67,
+      "empathy": 2.24,
+      "overall": 2.68,
+      "overallFloored": 2.68
+    },
+    "2026-07-11/askul/fable-5-skill-off#2": {
+      "novelty": 1.21,
+      "clarity": 0.15,
+      "relevance": 0.33,
+      "intelligence": 0.62,
+      "empathy": 0.27,
+      "overall": 0.43,
+      "overallFloored": 0.43
+    },
+    "2026-07-11/askul/fable-5-skill-off#3": {
+      "novelty": 3.09,
+      "clarity": 2.56,
+      "relevance": 2.19,
+      "intelligence": 2.69,
+      "empathy": 2.56,
+      "overall": 2.56,
+      "overallFloored": 2.56
+    },
+    "2026-07-11/askul/fable-5-skill-off#4": {
+      "novelty": 2.6,
+      "clarity": 1.89,
+      "relevance": 1.92,
+      "intelligence": 2.36,
+      "empathy": 2.15,
+      "overall": 2.27,
+      "overallFloored": 2.27
+    },
+    "2026-07-11/askul/fable-5-skill-off#5": {
+      "novelty": 2.97,
+      "clarity": 1.46,
+      "relevance": 1.44,
+      "intelligence": 2.28,
+      "empathy": 1.38,
+      "overall": 1.85,
+      "overallFloored": 1.85
+    },
+    "2026-07-11/askul/fable-5-skill-on#1": {
+      "novelty": 1.18,
+      "clarity": 0.17,
+      "relevance": 0.32,
+      "intelligence": 0.59,
+      "empathy": 0.28,
+      "overall": 0.49,
+      "overallFloored": 0.49
+    },
+    "2026-07-11/askul/fable-5-skill-on#2": {
+      "novelty": 1.83,
+      "clarity": 0.99,
+      "relevance": 1.41,
+      "intelligence": 1.79,
+      "empathy": 1.15,
+      "overall": 1.75,
+      "overallFloored": 1.75
+    },
+    "2026-07-11/askul/fable-5-skill-on#3": {
+      "novelty": 2.3,
+      "clarity": 1.49,
+      "relevance": 1.73,
+      "intelligence": 2.08,
+      "empathy": 1.45,
+      "overall": 1.93,
+      "overallFloored": 1.93
+    },
+    "2026-07-11/askul/fable-5-skill-on#4": {
+      "novelty": 1.66,
+      "clarity": 0.83,
+      "relevance": 1.09,
+      "intelligence": 1.65,
+      "empathy": 0.97,
+      "overall": 1.42,
+      "overallFloored": 1.42
+    },
+    "2026-07-11/askul/fable-5-skill-on#5": {
+      "novelty": 1.59,
+      "clarity": 0.99,
+      "relevance": 1.21,
+      "intelligence": 1.63,
+      "empathy": 1.13,
+      "overall": 1.41,
+      "overallFloored": 1.41
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1": {
+      "novelty": 2.03,
+      "clarity": 2.04,
+      "relevance": 1.28,
+      "intelligence": 2.11,
+      "empathy": 2.12,
+      "overall": 1.97,
+      "overallFloored": 1.97
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2": {
+      "novelty": 2.31,
+      "clarity": 1.79,
+      "relevance": 0.86,
+      "intelligence": 1.87,
+      "empathy": 1.97,
+      "overall": 1.58,
+      "overallFloored": 1.58
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3": {
+      "novelty": 2.13,
+      "clarity": 2.05,
+      "relevance": 2.26,
+      "intelligence": 2.23,
+      "empathy": 2.14,
+      "overall": 2.17,
+      "overallFloored": 2.17
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4": {
+      "novelty": 3.03,
+      "clarity": 2.72,
+      "relevance": 1.79,
+      "intelligence": 2.67,
+      "empathy": 2.41,
+      "overall": 2.46,
+      "overallFloored": 2.46
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5": {
+      "novelty": 2.19,
+      "clarity": 1.1,
+      "relevance": 0.55,
+      "intelligence": 1.76,
+      "empathy": 1.06,
+      "overall": 0.92,
+      "overallFloored": 0.92
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#1": {
+      "novelty": 1.99,
+      "clarity": 2.08,
+      "relevance": 2.44,
+      "intelligence": 2.14,
+      "empathy": 2.35,
+      "overall": 1.89,
+      "overallFloored": 1.89
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#2": {
+      "novelty": 2.59,
+      "clarity": 2.34,
+      "relevance": 2.14,
+      "intelligence": 2.11,
+      "empathy": 2.39,
+      "overall": 2.18,
+      "overallFloored": 2.18
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#3": {
+      "novelty": 1.91,
+      "clarity": 2.19,
+      "relevance": 1.98,
+      "intelligence": 1.83,
+      "empathy": 2.4,
+      "overall": 1.95,
+      "overallFloored": 1.95
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#4": {
+      "novelty": 2.09,
+      "clarity": 1.74,
+      "relevance": 1.21,
+      "intelligence": 1.7,
+      "empathy": 1.74,
+      "overall": 1.76,
+      "overallFloored": 1.76
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#5": {
+      "novelty": 2.4,
+      "clarity": 2.08,
+      "relevance": 1.39,
+      "intelligence": 2,
+      "empathy": 2.04,
+      "overall": 1.88,
+      "overallFloored": 1.88
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1": {
+      "novelty": 3.29,
+      "clarity": 3.27,
+      "relevance": 3.54,
+      "intelligence": 2.98,
+      "empathy": 2.94,
+      "overall": 3.12,
+      "overallFloored": 3.12
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2": {
+      "novelty": 2.13,
+      "clarity": 3.09,
+      "relevance": 3.35,
+      "intelligence": 2.35,
+      "empathy": 3.02,
+      "overall": 2.75,
+      "overallFloored": 2.75
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "novelty": 3.15,
+      "clarity": 3.36,
+      "relevance": 3.61,
+      "intelligence": 3.06,
+      "empathy": 2.96,
+      "overall": 3.2,
+      "overallFloored": 3.2
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "novelty": 2.67,
+      "clarity": 2.86,
+      "relevance": 3.11,
+      "intelligence": 2.71,
+      "empathy": 2.86,
+      "overall": 2.86,
+      "overallFloored": 2.86
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "novelty": 2.82,
+      "clarity": 3.4,
+      "relevance": 3.64,
+      "intelligence": 3.04,
+      "empathy": 3.21,
+      "overall": 3.14,
+      "overallFloored": 3.14
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#1": {
+      "novelty": 2.56,
+      "clarity": 3.26,
+      "relevance": 3.59,
+      "intelligence": 2.54,
+      "empathy": 3.11,
+      "overall": 3.09,
+      "overallFloored": 3.09
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#2": {
+      "novelty": 3.02,
+      "clarity": 3.18,
+      "relevance": 3.61,
+      "intelligence": 2.99,
+      "empathy": 3.2,
+      "overall": 3.28,
+      "overallFloored": 3.28
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#3": {
+      "novelty": 3.08,
+      "clarity": 2.87,
+      "relevance": 3.18,
+      "intelligence": 2.92,
+      "empathy": 2.78,
+      "overall": 3.06,
+      "overallFloored": 3.06
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#4": {
+      "novelty": 3.36,
+      "clarity": 2.97,
+      "relevance": 3.55,
+      "intelligence": 2.88,
+      "empathy": 2.63,
+      "overall": 3.15,
+      "overallFloored": 3.15
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#5": {
+      "novelty": 2.1,
+      "clarity": 2.44,
+      "relevance": 2.5,
+      "intelligence": 2.05,
+      "empathy": 2.49,
+      "overall": 2.24,
+      "overallFloored": 2.24
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1": {
+      "novelty": 1.84,
+      "clarity": 2.81,
+      "relevance": 3.12,
+      "intelligence": 2.23,
+      "empathy": 2.68,
+      "overall": 2.62,
+      "overallFloored": 2.62
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#2": {
+      "novelty": 1.55,
+      "clarity": 2.6,
+      "relevance": 3.1,
+      "intelligence": 2.06,
+      "empathy": 2.61,
+      "overall": 2.21,
+      "overallFloored": 2.21
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3": {
+      "novelty": 2.75,
+      "clarity": 3.12,
+      "relevance": 3.48,
+      "intelligence": 2.71,
+      "empathy": 3.03,
+      "overall": 3,
+      "overallFloored": 3
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#4": {
+      "novelty": 3.11,
+      "clarity": 3.32,
+      "relevance": 3.61,
+      "intelligence": 2.81,
+      "empathy": 2.91,
+      "overall": 3,
+      "overallFloored": 3
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#5": {
+      "novelty": 3.04,
+      "clarity": 3.42,
+      "relevance": 3.86,
+      "intelligence": 3.27,
+      "empathy": 3.34,
+      "overall": 3.39,
+      "overallFloored": 3.39
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1": {
+      "novelty": 2.19,
+      "clarity": 2.98,
+      "relevance": 3.38,
+      "intelligence": 2.62,
+      "empathy": 2.98,
+      "overall": 2.98,
+      "overallFloored": 2.98
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2": {
+      "novelty": 3.02,
+      "clarity": 3.46,
+      "relevance": 3.67,
+      "intelligence": 3.03,
+      "empathy": 3.18,
+      "overall": 3.24,
+      "overallFloored": 3.24
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3": {
+      "novelty": 3.17,
+      "clarity": 3.18,
+      "relevance": 3.54,
+      "intelligence": 3.01,
+      "empathy": 3.04,
+      "overall": 3.19,
+      "overallFloored": 3.19
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4": {
+      "novelty": 2.78,
+      "clarity": 2.66,
+      "relevance": 3.16,
+      "intelligence": 2.71,
+      "empathy": 2.51,
+      "overall": 2.67,
+      "overallFloored": 2.67
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#5": {
+      "novelty": 2.64,
+      "clarity": 2.7,
+      "relevance": 3.11,
+      "intelligence": 2.75,
+      "empathy": 2.86,
+      "overall": 2.97,
+      "overallFloored": 2.97
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#1": {
+      "novelty": 2.57,
+      "clarity": 3,
+      "relevance": 3.43,
+      "intelligence": 2.7,
+      "empathy": 2.86,
+      "overall": 2.76,
+      "overallFloored": 2.76
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#2": {
+      "novelty": 2.82,
+      "clarity": 2.94,
+      "relevance": 3.25,
+      "intelligence": 2.7,
+      "empathy": 2.84,
+      "overall": 2.85,
+      "overallFloored": 2.85
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#3": {
+      "novelty": 2.64,
+      "clarity": 2.93,
+      "relevance": 3.56,
+      "intelligence": 2.78,
+      "empathy": 2.98,
+      "overall": 2.98,
+      "overallFloored": 2.98
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#4": {
+      "novelty": 2.98,
+      "clarity": 3.24,
+      "relevance": 3.14,
+      "intelligence": 2.86,
+      "empathy": 2.98,
+      "overall": 2.93,
+      "overallFloored": 2.93
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#5": {
+      "novelty": 3.08,
+      "clarity": 3.26,
+      "relevance": 3.4,
+      "intelligence": 2.96,
+      "empathy": 3.13,
+      "overall": 3.09,
+      "overallFloored": 3.09
+    },
+    "2026-09-15/setsubun/before#1": {
+      "novelty": 2.5,
+      "clarity": 2.09,
+      "relevance": 1.79,
+      "intelligence": 1.76,
+      "empathy": 1.75,
+      "overall": 1.82,
+      "overallFloored": 1.82
+    },
+    "2026-09-15/setsubun/before#2": {
+      "novelty": 2.61,
+      "clarity": 2.19,
+      "relevance": 2.21,
+      "intelligence": 2.24,
+      "empathy": 2.12,
+      "overall": 2.19,
+      "overallFloored": 2.19
+    },
+    "2026-09-15/setsubun/before#3": {
+      "novelty": 3.01,
+      "clarity": 2.28,
+      "relevance": 2.42,
+      "intelligence": 2.62,
+      "empathy": 2.25,
+      "overall": 2.43,
+      "overallFloored": 2.43
+    },
+    "2026-09-15/setsubun/before#4": {
+      "novelty": 2.33,
+      "clarity": 2.16,
+      "relevance": 2.24,
+      "intelligence": 2.18,
+      "empathy": 2.25,
+      "overall": 2.13,
+      "overallFloored": 2.13
+    },
+    "2026-09-15/setsubun/before#5": {
+      "novelty": 2.52,
+      "clarity": 2,
+      "relevance": 1.89,
+      "intelligence": 2.07,
+      "empathy": 1.64,
+      "overall": 1.91,
+      "overallFloored": 1.91
+    },
+    "2026-09-15/setsubun/after#1": {
+      "novelty": 2.65,
+      "clarity": 2.58,
+      "relevance": 2.71,
+      "intelligence": 2.36,
+      "empathy": 2.57,
+      "overall": 2.36,
+      "overallFloored": 2.36
+    },
+    "2026-09-15/setsubun/after#2": {
+      "novelty": 2.73,
+      "clarity": 2.67,
+      "relevance": 2.85,
+      "intelligence": 2.6,
+      "empathy": 2.62,
+      "overall": 2.56,
+      "overallFloored": 2.56
+    },
+    "2026-09-15/setsubun/after#3": {
+      "novelty": 2.72,
+      "clarity": 2.29,
+      "relevance": 1.58,
+      "intelligence": 2.33,
+      "empathy": 2.22,
+      "overall": 2.19,
+      "overallFloored": 2.19
+    },
+    "2026-09-15/setsubun/after#4": {
+      "novelty": 2.71,
+      "clarity": 2.41,
+      "relevance": 2.79,
+      "intelligence": 2.59,
+      "empathy": 2.64,
+      "overall": 2.51,
+      "overallFloored": 2.51
+    },
+    "2026-09-15/setsubun/after#5": {
+      "novelty": 2.39,
+      "clarity": 1.54,
+      "relevance": 1.62,
+      "intelligence": 1.81,
+      "empathy": 1.51,
+      "overall": 1.78,
+      "overallFloored": 1.78
+    },
+    "2026-09-15/geinou/before#1": {
+      "novelty": 2.6,
+      "clarity": 2.29,
+      "relevance": 2.89,
+      "intelligence": 2.12,
+      "empathy": 2.42,
+      "overall": 2.4,
+      "overallFloored": 2.4
+    },
+    "2026-09-15/geinou/before#2": {
+      "novelty": 2.19,
+      "clarity": 2.29,
+      "relevance": 2.43,
+      "intelligence": 1.75,
+      "empathy": 2.23,
+      "overall": 2.06,
+      "overallFloored": 2.06
+    },
+    "2026-09-15/geinou/before#3": {
+      "novelty": 2.25,
+      "clarity": 3.01,
+      "relevance": 2.96,
+      "intelligence": 1.99,
+      "empathy": 2.98,
+      "overall": 2.89,
+      "overallFloored": 2.89
+    },
+    "2026-09-15/geinou/before#4": {
+      "novelty": 1.52,
+      "clarity": 1.14,
+      "relevance": 1.37,
+      "intelligence": 1,
+      "empathy": 1.12,
+      "overall": 1.2,
+      "overallFloored": 1.2
+    },
+    "2026-09-15/geinou/before#5": {
+      "novelty": 1.38,
+      "clarity": 1.9,
+      "relevance": 2.15,
+      "intelligence": 1.05,
+      "empathy": 1.91,
+      "overall": 1.83,
+      "overallFloored": 1.83
+    },
+    "2026-09-15/geinou/after#1": {
+      "novelty": 2.32,
+      "clarity": 2.78,
+      "relevance": 2.98,
+      "intelligence": 1.91,
+      "empathy": 2.59,
+      "overall": 2.39,
+      "overallFloored": 2.39
+    },
+    "2026-09-15/geinou/after#2": {
+      "novelty": 1.71,
+      "clarity": 2.47,
+      "relevance": 2.82,
+      "intelligence": 1.4,
+      "empathy": 2.48,
+      "overall": 2.27,
+      "overallFloored": 2.27
+    },
+    "2026-09-15/geinou/after#3": {
+      "novelty": 2.03,
+      "clarity": 2.57,
+      "relevance": 2.54,
+      "intelligence": 1.52,
+      "empathy": 2.61,
+      "overall": 2.48,
+      "overallFloored": 2.48
+    },
+    "2026-09-15/geinou/after#4": {
+      "novelty": 2.21,
+      "clarity": 2.97,
+      "relevance": 3.1,
+      "intelligence": 1.92,
+      "empathy": 2.84,
+      "overall": 2.76,
+      "overallFloored": 2.76
+    },
+    "2026-09-15/geinou/after#5": {
+      "novelty": 2.25,
+      "clarity": 2.59,
+      "relevance": 3.05,
+      "intelligence": 1.94,
+      "empathy": 2.51,
+      "overall": 2.48,
+      "overallFloored": 2.48
+    }
+  }
+}

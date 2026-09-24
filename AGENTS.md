@@ -130,12 +130,15 @@ judge. Output goes to a new `reports/validation/<date>/`.
    - `npm run validate:blind -- make reports/validation/<date>/blind`
      writes shuffled, source-hidden `pool-<n>.md` (answer-level) and
      `sets-<n>.md` (set-level), plus `key.json`.
+     It also writes `pairs.md`: same-topic A/B pairs with a known human
+     preference, for pairwise judges (`humor-rank`, and a no-rubric
+     "which is funnier" baseline as `naive-pairwise`).
    - One subagent per skill per input file (one skill per subagent). Tell it
      to read only the skill's `SKILL.md` and that one input file — **not**
      `key.json`, `data/human-evals/`, or other reports — to apply the skill
      to each お題 independently, and to write JSON in the shape listed at the
      top of `src/validation/blind.ts`. Use `sets-<n>.md` for
-     `diversity-check`, `pool-<n>.md` for the rest. Run `humor-eval` twice.
+     `diversity-check`, `pairs.md` for `humor-rank`, `pool-<n>.md` for the rest. Run `humor-eval` and `humor-rank` twice.
    - `npm run validate:blind -- unblind <blind dir> <format> <out-1.json> <out-2.json> <run> <model>`
      per judge output. Keep the subagents' prose reports under
      `prompt-reports/`; they show *why* a judge failed.
@@ -145,7 +148,15 @@ judge. Output goes to a new `reports/validation/<date>/`.
 Reading the summary: AUC 0.5 is chance, and a judge that does not beat the
 `length` baseline is not measuring funniness. The `gate` column marks
 metrics good enough to replace a human verdict in ogiri-ai's gate check.
-As of 2026-09-23 nothing qualifies (`reports/validation/2026-09-23/notes.md`).
+As of 2026-09-24 nothing qualifies; which judge is usable for what is
+classified in `reports/validation/2026-09-24/notes.md` (short version: only
+descriptive Jev questions — 被り, fun-check's `noPictureRisk`/`lengthRisk`,
+humor-rank's criterion comparisons — agree with humans, and only as a
+"did the new version get worse" check; nothing that asks "is it funny"
+does, in Jev or in prompt mode).
+Pairwise judges (`humor-rank`) get a third table; watch `confident` there —
+a judge whose confident calls are worse than its average is anti-aligned
+with the human, not just noisy.
 Pair-level judges (fun-check's 被りチェック, `fun-check-overlap`) are scored
 in a second table against `similarityJudgments`; the number to watch there is
 `false flags` — judges asked to find overlaps tend to invent them

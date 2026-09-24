@@ -13,7 +13,7 @@ import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { score, TypeSafeClient } from '@typesafe-ai/sdk';
-import { loadLabels, pairKey, setsByTopic } from './labels.ts';
+import { loadLabels, pairKey, preferencePairs, setsByTopic } from './labels.ts';
 import type { ScoreFile } from './score-file.ts';
 
 const outDir = process.argv[2];
@@ -36,11 +36,18 @@ const pools = [...setsByTopic(labels)].map(([topic, sets], i) => ({
   answers: sets.flatMap((s) => s.answers.map((a) => a.text)),
 }));
 const poolIds = new Map(pools.map((p) => [p.id, p.ids]));
+// humor-rank judges pairs: every same-topic pair with a known human preference, in pairKey order.
+const comparisons = preferencePairs(labels).map(({ winner, loser }) => pairKey(winner, loser).split(' | '));
+const text = (id: string): string => labels.answers.get(id)!.text;
 const work = mkdtempSync(join(tmpdir(), 'validate-jev-'));
 const inPath = join(work, 'input.json');
 const poolPath = join(work, 'pools.json');
+const pairPath = join(work, 'pairs.json');
 writeFileSync(inPath, JSON.stringify(samples));
 writeFileSync(poolPath, JSON.stringify(pools.map(({ ids, ...p }) => p)));
+writeFileSync(pairPath, JSON.stringify(comparisons.map(([a, b], i) => ({
+  id: String(i), label: pairKey(a, b), topic: labels.answers.get(a)!.topic, answerA: text(a), answerB: text(b),
+}))));
 mkdirSync(outDir, { recursive: true });
 
 interface SkillRow { sampleId: string; index: number }
@@ -99,6 +106,12 @@ for (let run = 1; run <= runs; run++) {
       answerId(r.sampleId, r.index),
       { ...r.risks, sumRisk: Object.values(r.risks).reduce((a, b) => a + b, 0) },
     ])),
+  });
+
+  const hr = runSkill<{ results: { id: string; probA: number; criteria: Record<string, number> }[] }>('humor-rank', run, pairPath).results;
+  save({
+    evaluator: 'humor-rank', mode: 'jev', run, model: 'jev-latest', level: 'preference', lowerIsBetter: [],
+    scores: Object.fromEntries(hr.map((r) => [pairKey(...(comparisons[Number(r.id)] as [string, string])), { probA: r.probA, ...r.criteria }])),
   });
 
   save({ evaluator: 'naive', mode: 'jev', run, model: 'jev-latest', level: 'answer', lowerIsBetter: [], scores: await naive() });

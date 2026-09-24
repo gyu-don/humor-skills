@@ -20,12 +20,22 @@ description: 同一お題の回答候補をペアワイズ比較し、どちら�
 このスキルの `scripts/evaluate.ts` で、footcut（Relevance/Empathy）とA/B比較をTypeSafe AI Jevで数値化できる。
 `choice` が返す確率分布がそのまま確信度になり、順入替・逆入替の2回呼び出しを平均することで位置バイアスも打ち消す。
 
+Jev版の勝敗は、下の Step 2 の総合判断ではなく、人間の判定と一致した2つの比較の平均で決める。
+
+- `concrete`: 質感のある具体的な物、または実際に起きている現象・出来事がはっきり置かれているのはどちらか
+- `straight`: 説明や前置きがなく、直球で短く言い切っているのはどちらか
+
+人間の一対比較60組での検証（humor-skills の `reports/validation/2026-09-24/notes.md`）では、この平均は同じセット内の当たりと外れの50組の66%、人間が直接比べた13組中10組で一致した。
+「採用に近づけるべきなのはどちらか」という総合の1問（`holisticProbA`、比較用に出力だけ残す）は54%でチャンスレベル、
+Step 2 の最優先の「回収可能性」を単独で聞くと36%で、人間と逆だった。プロンプト版（Sonnet）もこの本文の手順で56%だった。
+同じ検証データから作った質問なので、別のお題での再検証が済むまでは、変更前の版との比較の補助に使い、単独の採否には使わない。
+
 **必要なもの**: Node.js 22.6以上・`TYPESAFE_API_KEY`・初回のみこのスキルのディレクトリで `npm install`
 （依存は `@typesafe-ai/sdk` 1つだけで、それ自体も依存を持たない）。
 
 1. お題と2つの回答を `{"topic": "...", "answerA": "...", "answerB": "..."}` 形式のJSONに書き出す（見本は `assets/samples.json`）
 2. `doppler run -- node scripts/evaluate.ts <入力ファイル> [出力ファイル]` を実行する
-3. 出力JSONの `winner`（A/B/draw）と `confidence`、`footcutA`/`footcutB` を読み、下の出力形式に埋める
+3. 出力JSONの `winner`（A/B/draw）と `confidence`、`criteria`（比較ごとのAの勝率）、`footcutA`/`footcutB` を読み、下の出力形式に埋める
 
 ## 原則
 

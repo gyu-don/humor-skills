@@ -6,6 +6,7 @@
  *   node src/validation/blind.ts make <dir>
  *     -> <dir>/pool-<n>.md   answers pooled per topic, shuffled, sources hidden (answer-level judges)
  *        <dir>/sets-<n>.md   the same topics as separate 5-answer sets (set-level judges)
+ *        <dir>/pairs.md      same-topic A/B pairs with a human preference, shuffled (pairwise judges)
  *        <dir>/key.json      blind ID -> labeled ID. Never give this to a judge.
  *
  *   node src/validation/blind.ts unblind <dir> <format> <judge output.json> <run> <model>
@@ -17,10 +18,12 @@
  *                    (overlaps = the pairs its 被りチェック flags; optional, writes a separate pair-level file)
  *   ranking          {"<topic id>": {"ranking": [ids best->worst], "hits": [ids]}}   (no-rubric baseline)
  *   diversity-check  {"<set id>": {"axes": n, "largestAxisCount": n}}
+ *   humor-rank       {"judgments": [{"id": "P1", "winner": "A" | "B" | "draw", "confidence": n}, ...]}
+ *   naive-pairwise   same as humor-rank (no-rubric "which is funnier" baseline)
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import { loadLabels, pairKey, setsByTopic } from './labels.ts';
+import { loadLabels, pairKey, preferencePairs, setsByTopic } from './labels.ts';
 import type { ScoreFile } from './score-file.ts';
 
 const TOPICS_PER_FILE = 4;
@@ -67,6 +70,14 @@ function make(dir: string): void {
     writeFileSync(join(dir, `pool-${f + 1}.md`), pool.join('\n'));
     writeFileSync(join(dir, `sets-${f + 1}.md`), sets.join('\n'));
   }
+  const pairs = ['# 一対比較', '', '各ペアは同じお題の回答2つ。出所は伏せてある。', ''];
+  shuffle(preferencePairs(labels)).forEach(({ winner, loser }, n) => {
+    const [a, b] = Math.random() < 0.5 ? [winner, loser] : [loser, winner];
+    key[`P${n + 1}-A`] = a;
+    key[`P${n + 1}-B`] = b;
+    pairs.push(`## P${n + 1}`, `お題: ${labels.answers.get(a)!.topic}`, `- A: ${labels.answers.get(a)!.text}`, `- B: ${labels.answers.get(b)!.text}`, '');
+  });
+  writeFileSync(join(dir, 'pairs.md'), pairs.join('\n'));
   writeFileSync(join(dir, 'key.json'), `${JSON.stringify(key, null, 2)}\n`);
   console.log(`blind inputs -> ${dir} (${topics.length} topics)`);
 }
@@ -116,6 +127,15 @@ function unblind(dir: string, format: string, inputs: string[], run: number, mod
     case 'diversity-check':
       for (const [id, s] of parsed.flatMap((p) => Object.entries(p as Record<string, Record<string, number>>))) scores[real(id)] = s;
       file = { evaluator: 'diversity-check', mode: 'prompt', run, model, level: 'set', lowerIsBetter: ['largestAxisCount'] };
+      break;
+    case 'humor-rank':
+    case 'naive-pairwise':
+      for (const j of parsed.flatMap((p) => (p as { judgments: { id: string; winner: 'A' | 'B' | 'draw' }[] }).judgments)) {
+        const [a, b] = [real(`${j.id}-A`), real(`${j.id}-B`)];
+        const pA = j.winner === 'A' ? 1 : j.winner === 'B' ? 0 : 0.5;
+        scores[pairKey(a, b)] = { win: pairKey(a, b).split(' | ')[0] === a ? pA : 1 - pA };
+      }
+      file = { evaluator: format, mode: 'prompt', run, model, level: 'preference', lowerIsBetter: [] };
       break;
     default:
       throw new Error(`unknown format ${format}`);

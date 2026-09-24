@@ -13,6 +13,20 @@
  * bias (the same log-odds-averaging trick used for the MBTI polarity
  * experiment in jev-practice). So here that swap-and-average is the whole
  * comparison step, not a manual sanity check on top of it.
+ *
+ * The winner comes from two criterion-level comparisons, not one holistic
+ * "which should be adopted" question. Validated against human preferences
+ * (humor-skills reports/validation/2026-09-24), the holistic question was at
+ * chance (it preferred the hit in 54% of in-set pairs, and only 38–47% of
+ * its confident calls), and the skill's own first criterion, 回収可能性,
+ * was worse than chance (36%). Asked separately, "which one puts a concrete
+ * thing or happening on the table" and "which one says it straight and
+ * short" each agreed with the human ~65% of the time; their average agreed
+ * on 66% of in-set pairs and 10 of the 13 pairs the human compared
+ * directly. These questions came from the same labels they were checked
+ * on, so treat the numbers as optimistic until a fresh human session
+ * confirms them. The holistic probability is still reported as
+ * `holisticProbA`, for comparison only.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -73,22 +87,35 @@ async function checkFootcut(topic: string, answer: string): Promise<{ relevance:
   return { relevance: result.answers.relevance.noul, empathy: result.answers.empathy.noul };
 }
 
-/** One `choice` call between two labeled answers. */
-async function pick(topic: string, first: string, second: string): Promise<{ first: number; second: number }> {
+/** Step 2 criteria that agree with human preferences, one `choice` each. */
+const criteria = {
+  concrete: '質感のある具体的な物、または実際に起きている現象・出来事がはっきり置かれているのはどちらか？',
+  straight: '説明や前置きがなく、直球で短く言い切っているのはどちらか？',
+  holistic: 'この2つの回答のうち、採用に近づけるべきなのはどちらか？',
+} as const;
+
+type CriterionKey = keyof typeof criteria;
+
+/** One call asking every criterion about two labeled answers. */
+async function pick(topic: string, first: string, second: string): Promise<Record<CriterionKey, number>> {
+  const opts = { first: `回答: ${first}`, second: `回答: ${second}` };
   const result = await client.systemOne({
     model: 'jev-latest',
     state: { お題: topic },
     questions: {
-      winner: choice('この2つの回答のうち、採用に近づけるべきなのはどちらか？', {
-        first: `回答: ${first}`,
-        second: `回答: ${second}`,
-      }),
+      concrete: choice(criteria.concrete, opts),
+      straight: choice(criteria.straight, opts),
+      holistic: choice(criteria.holistic, opts),
     },
   });
   usage.requests++;
   usage.input_tokens += result.usage.input_tokens;
   usage.output_tokens += result.usage.output_tokens;
-  return { first: result.answers.winner.probabilities.first, second: result.answers.winner.probabilities.second };
+  return {
+    concrete: result.answers.concrete.probabilities.first,
+    straight: result.answers.straight.probabilities.first,
+    holistic: result.answers.holistic.probabilities.first,
+  };
 }
 
 interface Result {
@@ -96,8 +123,12 @@ interface Result {
   label: string;
   footcutA: { relevance: number; empathy: number };
   footcutB: { relevance: number; empathy: number };
-  /** Probability that A is the better candidate, averaged over both presentation orders. */
+  /** Per-criterion probability that A wins, averaged over both presentation orders. */
+  criteria: Record<CriterionKey, number>;
+  /** Mean of the validated criteria (concrete, straight): the probability that A is the better candidate. */
   probA: number;
+  /** The single "which should be adopted" question — at chance against human labels; for comparison only. */
+  holisticProbA: number;
   winner: 'A' | 'B' | 'draw';
   confidence: number;
 }
@@ -113,12 +144,18 @@ async function compare(sample: Sample): Promise<Result> {
     pick(sample.topic, sample.answerA, sample.answerB),
     pick(sample.topic, sample.answerB, sample.answerA),
   ]);
-  const probA = (normal.first + swapped.second) / 2;
+  const byCriterion = Object.fromEntries(
+    (Object.keys(criteria) as CriterionKey[]).map((k) => [k, (normal[k] + (1 - swapped[k])) / 2]),
+  ) as Record<CriterionKey, number>;
+  const probA = (byCriterion.concrete + byCriterion.straight) / 2;
 
   const confidence = Math.abs(probA - 0.5) * 2;
   const winner: Result['winner'] = confidence <= 0.1 ? 'draw' : probA > 0.5 ? 'A' : 'B';
 
-  return { id: sample.id, label: sample.label, footcutA, footcutB, probA, winner, confidence };
+  return {
+    id: sample.id, label: sample.label, footcutA, footcutB,
+    criteria: byCriterion, probA, holisticProbA: byCriterion.holistic, winner, confidence,
+  };
 }
 
 async function main(): Promise<void> {
@@ -133,6 +170,7 @@ async function main(): Promise<void> {
     console.log(`\n== ${r.id}: ${r.label}`);
     console.log(`  footcut A: relevance ${r.footcutA.relevance.toFixed(2)} empathy ${r.footcutA.empathy.toFixed(2)}`);
     console.log(`  footcut B: relevance ${r.footcutB.relevance.toFixed(2)} empathy ${r.footcutB.empathy.toFixed(2)}`);
+    console.log(`  concrete ${r.criteria.concrete.toFixed(2)}  straight ${r.criteria.straight.toFixed(2)}  (holistic ${r.holisticProbA.toFixed(2)})`);
     console.log(`  winner: ${r.winner}  (P(A wins)=${r.probA.toFixed(2)}, confidence ${r.confidence.toFixed(2)})`);
   }
 

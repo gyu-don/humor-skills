@@ -59,11 +59,18 @@ const risks = {
       false: '最初に出る典型的な発想からは外れている。',
     },
   ),
+  /**
+   * Asked the positive way — "is there a concrete thing or happening?" — and
+   * inverted in code (see POSITIVE). "Does a scene come to mind" let
+   * concept-only jokes through: a rule restated in other words reads as a
+   * scene to the judge. Against human hits (2026-09-24) this wording gave
+   * AUC 0.66-0.67 vs 0.60-0.61 and set preferences 6/7 vs 3/7.
+   */
   noPictureRisk: noul(
-    '読んだ瞬間、具体的な場面が頭に浮かばないか？（絵なしリスク）',
+    '回答に、質感のある具体的な物、実際に起きている現象、または制度・設備・役割の具体的な異常が出てくるか？',
     {
-      true: '状態や概念の説明にとどまり、場面が見えない。',
-      false: '誰が何をしている場面かが一読で見える。',
+      true: '具体的な物・出来事・現象が一つ置かれている。',
+      false: 'ルール・概念・評価の言い換えだけで、物も出来事も出てこない。',
     },
   ),
   noTwistRisk: noul(
@@ -87,11 +94,12 @@ const risks = {
       false: '知らない人がいても文脈で意味が伝わる、または一般に広く知られている。',
     },
   ),
+  /** "Could it be cut by 30%" missed the human finding it stands for: the same idea said straight and short beats it explained. */
   lengthRisk: noul(
-    '核心だけ残して3割以上削れる言葉があるか？（長さリスク）',
+    '同じ着眼点を、説明的・遠回しに言っているか？（長さリスク）',
     {
-      true: '冗長な言い回しがあり、大きく削れる。',
-      false: 'すでに簡潔で、大きくは削れない。',
+      true: '説明や前置きが多く、直球で言い切っていない。',
+      false: '直球で短く言い切っている。',
     },
   ),
   slipRisk: noul(
@@ -104,6 +112,8 @@ const risks = {
 } as const;
 
 type RiskKey = keyof typeof risks;
+/** Risks whose question asks for the good property; the risk is 1 - noul. */
+const POSITIVE: ReadonlySet<RiskKey> = new Set(['noPictureRisk']);
 
 /** Step 3: one pair at a time. */
 const overlapQuestion = {
@@ -153,7 +163,10 @@ async function checkAnswer(sample: Sample, answer: string, index: number): Promi
     sampleId: sample.id,
     index,
     answer,
-    risks: Object.fromEntries(riskKeys.map((key) => [key, result.answers[key].noul])) as Record<RiskKey, number>,
+    risks: Object.fromEntries(riskKeys.map((key) => {
+      const p = result.answers[key].noul;
+      return [key, POSITIVE.has(key) ? 1 - p : p];
+    })) as Record<RiskKey, number>,
   };
 }
 

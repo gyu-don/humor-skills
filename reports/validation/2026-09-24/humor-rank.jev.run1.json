@@ -1,0 +1,370 @@
+{
+  "evaluator": "humor-rank",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "preference",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#2": {
+      "probA": 0.52,
+      "concrete": 0.6499999999999999,
+      "straight": 0.39,
+      "holistic": 0.335
+    },
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#3": {
+      "probA": 0.6975,
+      "concrete": 0.7250000000000001,
+      "straight": 0.6699999999999999,
+      "holistic": 0.195
+    },
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#4": {
+      "probA": 0.355,
+      "concrete": 0.39499999999999996,
+      "straight": 0.315,
+      "holistic": 0.485
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#4": {
+      "probA": 0.26249999999999996,
+      "concrete": 0.35,
+      "straight": 0.175,
+      "holistic": 0.595
+    },
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#5": {
+      "probA": 0.3025,
+      "concrete": 0.25,
+      "straight": 0.355,
+      "holistic": 0.265
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#5": {
+      "probA": 0.1825,
+      "concrete": 0.2,
+      "straight": 0.16499999999999998,
+      "holistic": 0.25
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "probA": 0.5800000000000001,
+      "concrete": 0.5700000000000001,
+      "straight": 0.5900000000000001,
+      "holistic": 0.41500000000000004
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "probA": 0.3825,
+      "concrete": 0.445,
+      "straight": 0.32,
+      "holistic": 0.39
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "probA": 0.5875,
+      "concrete": 0.68,
+      "straight": 0.495,
+      "holistic": 0.6000000000000001
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "probA": 0.655,
+      "concrete": 0.615,
+      "straight": 0.6950000000000001,
+      "holistic": 0.255
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "probA": 0.7275,
+      "concrete": 0.7,
+      "straight": 0.755,
+      "holistic": 0.455
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "probA": 0.47500000000000003,
+      "concrete": 0.4,
+      "straight": 0.55,
+      "holistic": 0.275
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#2": {
+      "probA": 0.29250000000000004,
+      "concrete": 0.515,
+      "straight": 0.07000000000000002,
+      "holistic": 0.20999999999999996
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#3": {
+      "probA": 0.475,
+      "concrete": 0.7,
+      "straight": 0.24999999999999997,
+      "holistic": 0.45499999999999996
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#5": {
+      "probA": 0.64,
+      "concrete": 0.905,
+      "straight": 0.375,
+      "holistic": 0.515
+    },
+    "2026-07-10/zense/fable-5-high#2 | 2026-07-10/zense/fable-5-high#4": {
+      "probA": 0.8250000000000001,
+      "concrete": 0.8300000000000001,
+      "straight": 0.8200000000000001,
+      "holistic": 0.675
+    },
+    "2026-07-10/zense/fable-5-high#3 | 2026-07-10/zense/fable-5-high#4": {
+      "probA": 0.5974999999999999,
+      "concrete": 0.6,
+      "straight": 0.595,
+      "holistic": 0.385
+    },
+    "2026-07-10/zense/fable-5-high#4 | 2026-07-10/zense/fable-5-high#5": {
+      "probA": 0.6625000000000001,
+      "concrete": 0.79,
+      "straight": 0.535,
+      "holistic": 0.6699999999999999
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.5925,
+      "concrete": 0.26,
+      "straight": 0.925,
+      "holistic": 0.54
+    },
+    "2026-07-10/ringo/fable-5-high#2 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.4175,
+      "concrete": 0.14,
+      "straight": 0.695,
+      "holistic": 0.28
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.6499999999999999,
+      "concrete": 0.715,
+      "straight": 0.585,
+      "holistic": 0.665
+    },
+    "2026-07-10/ringo/fable-5-high#4 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.6175,
+      "concrete": 0.5900000000000001,
+      "straight": 0.645,
+      "holistic": 0.645
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#2": {
+      "probA": 0.43,
+      "concrete": 0.43,
+      "straight": 0.43,
+      "holistic": 0.6799999999999999
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "probA": 0.49750000000000005,
+      "concrete": 0.37000000000000005,
+      "straight": 0.625,
+      "holistic": 0.125
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#3": {
+      "probA": 0.37,
+      "concrete": 0.45499999999999996,
+      "straight": 0.285,
+      "holistic": 0.14
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "probA": 0.57,
+      "concrete": 0.355,
+      "straight": 0.7849999999999999,
+      "holistic": 0.485
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "probA": 0.5375,
+      "concrete": 0.455,
+      "straight": 0.62,
+      "holistic": 0.825
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "probA": 0.55,
+      "concrete": 0.61,
+      "straight": 0.49,
+      "holistic": 0.9299999999999999
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "probA": 0.5675,
+      "concrete": 0.51,
+      "straight": 0.625,
+      "holistic": 0.03500000000000002
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "probA": 0.395,
+      "concrete": 0.565,
+      "straight": 0.22500000000000003,
+      "holistic": 0.06500000000000003
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "probA": 0.7675,
+      "concrete": 0.8049999999999999,
+      "straight": 0.73,
+      "holistic": 0.05500000000000003
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "probA": 0.42000000000000004,
+      "concrete": 0.2,
+      "straight": 0.64,
+      "holistic": 0.575
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "probA": 0.2725,
+      "concrete": 0.28,
+      "straight": 0.265,
+      "holistic": 0.61
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "probA": 0.6425,
+      "concrete": 0.605,
+      "straight": 0.6799999999999999,
+      "holistic": 0.525
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#2": {
+      "probA": 0.49,
+      "concrete": 0.07500000000000001,
+      "straight": 0.905,
+      "holistic": 0.8
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#3": {
+      "probA": 0.6825000000000001,
+      "concrete": 0.5800000000000001,
+      "straight": 0.785,
+      "holistic": 0.42
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#4": {
+      "probA": 0.8325,
+      "concrete": 0.6950000000000001,
+      "straight": 0.97,
+      "holistic": 0.585
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#5": {
+      "probA": 0.605,
+      "concrete": 0.26,
+      "straight": 0.95,
+      "holistic": 0.41000000000000003
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#2": {
+      "probA": 0.09000000000000001,
+      "concrete": 0.09500000000000003,
+      "straight": 0.08499999999999999,
+      "holistic": 0.24499999999999997
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#3": {
+      "probA": 0.9225,
+      "concrete": 0.905,
+      "straight": 0.94,
+      "holistic": 0.5549999999999999
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "probA": 0.925,
+      "concrete": 0.91,
+      "straight": 0.94,
+      "holistic": 0.7
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "probA": 0.365,
+      "concrete": 0.345,
+      "straight": 0.385,
+      "holistic": 0.45999999999999996
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "probA": 0.31,
+      "concrete": 0.315,
+      "straight": 0.305,
+      "holistic": 0.64
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "probA": 0.7424999999999999,
+      "concrete": 0.625,
+      "straight": 0.86,
+      "holistic": 0.565
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#2": {
+      "probA": 0.5975,
+      "concrete": 0.49000000000000005,
+      "straight": 0.7050000000000001,
+      "holistic": 0.5
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#3": {
+      "probA": 0.5475000000000001,
+      "concrete": 0.675,
+      "straight": 0.42000000000000004,
+      "holistic": 0.435
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#4": {
+      "probA": 0.39,
+      "concrete": 0.47000000000000003,
+      "straight": 0.31,
+      "holistic": 0.29
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#4": {
+      "probA": 0.47000000000000003,
+      "concrete": 0.29500000000000004,
+      "straight": 0.645,
+      "holistic": 0.395
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#5": {
+      "probA": 0.5125,
+      "concrete": 0.665,
+      "straight": 0.36,
+      "holistic": 0.815
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#5": {
+      "probA": 0.5025,
+      "concrete": 0.385,
+      "straight": 0.62,
+      "holistic": 0.8500000000000001
+    },
+    "2026-09-15/geinou/after#2 | 2026-09-15/geinou/before#1": {
+      "probA": 0.5375000000000001,
+      "concrete": 0.375,
+      "straight": 0.7000000000000001,
+      "holistic": 0.44
+    },
+    "2026-09-15/geinou/after#1 | 2026-09-15/geinou/before#2": {
+      "probA": 0.4425,
+      "concrete": 0.78,
+      "straight": 0.10499999999999998,
+      "holistic": 0.77
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-on#1": {
+      "probA": 0.6,
+      "concrete": 0.47,
+      "straight": 0.73,
+      "holistic": 0.825
+    },
+    "2026-07-10/idol/fable-5-high#5 | 2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "probA": 0.6950000000000001,
+      "concrete": 0.8500000000000001,
+      "straight": 0.54,
+      "holistic": 0.52
+    },
+    "2026-09-15/setsubun/after#1 | 2026-09-15/setsubun/before#5": {
+      "probA": 0.6525000000000001,
+      "concrete": 0.8200000000000001,
+      "straight": 0.485,
+      "holistic": 0.905
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5 | 2026-07-11/firsttake/fable-5-skill-on#2": {
+      "probA": 0.6599999999999999,
+      "concrete": 0.7,
+      "straight": 0.62,
+      "holistic": 0.05000000000000002
+    },
+    "2026-09-15/setsubun/after#3 | 2026-09-15/setsubun/before#4": {
+      "probA": 0.4625,
+      "concrete": 0.245,
+      "straight": 0.68,
+      "holistic": 0.265
+    },
+    "2026-07-10/idol/fable-5-high#4 | 2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "probA": 0.6625000000000001,
+      "concrete": 0.635,
+      "straight": 0.6900000000000001,
+      "holistic": 0.515
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "probA": 0.675,
+      "concrete": 0.445,
+      "straight": 0.905,
+      "holistic": 0.41000000000000003
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "probA": 0.755,
+      "concrete": 0.785,
+      "straight": 0.725,
+      "holistic": 0.49
+    }
+  }
+}

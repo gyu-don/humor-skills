@@ -1,8 +1,8 @@
 {
   "usage": {
     "requests": 8,
-    "input_tokens": 3481,
-    "output_tokens": 280
+    "input_tokens": 4413,
+    "output_tokens": 512
   },
   "results": [
     {
@@ -10,30 +10,42 @@
       "label": "skill出力どうしのペア（僅差想定）",
       "footcutA": {
         "relevance": 0.46,
-        "empathy": 0.51
+        "empathy": 0.5
       },
       "footcutB": {
-        "relevance": 0.81,
+        "relevance": 0.8,
         "empathy": 0.62
       },
-      "probA": 0.305,
-      "winner": "B",
-      "confidence": 0.39
+      "criteria": {
+        "concrete": 0.645,
+        "straight": 0.375,
+        "holistic": 0.305
+      },
+      "probA": 0.51,
+      "holisticProbA": 0.305,
+      "winner": "draw",
+      "confidence": 0.020000000000000018
     },
     {
       "id": "idol_skill_vs_flat",
       "label": "skill出力 vs あるある止まりの対照群（差が出るはず）",
       "footcutA": {
-        "relevance": 0.82,
-        "empathy": 0.39
+        "relevance": 0.81,
+        "empathy": 0.35
       },
       "footcutB": {
-        "relevance": 0.86,
-        "empathy": 0.58
+        "relevance": 0.85,
+        "empathy": 0.56
       },
-      "probA": 0.605,
+      "criteria": {
+        "concrete": 0.935,
+        "straight": 0.87,
+        "holistic": 0.62
+      },
+      "probA": 0.9025000000000001,
+      "holisticProbA": 0.62,
       "winner": "A",
-      "confidence": 0.20999999999999996
+      "confidence": 0.8050000000000002
     }
   ]
 }

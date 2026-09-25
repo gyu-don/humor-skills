@@ -4,21 +4,18 @@
     "name": "gyu-don"
   },
   "metadata": {
-    "description": "大喜利など、お笑い解答を評価するための開発用スキル集",
+    "description": "大喜利など、お笑い回答の生成スキルを自動改善するためのチェック集（人間の判定で検証済みのものだけ）",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "humor-skills",
-      "description": "大喜利など、お笑い解答を評価するための開発用スキル集",
+      "description": "大喜利など、お笑い回答の生成スキルを自動改善するためのチェック集（人間の判定で検証済みのものだけ）",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/fun-check",
-        "./skills/humor-eval",
-        "./skills/humor-rank",
-        "./skills/diversity-check",
-        "./skills/cluster-fit-check"
+        "./skills/overlap-check",
+        "./skills/trait-check"
       ]
     }
   ]

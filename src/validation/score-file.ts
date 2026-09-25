@@ -15,7 +15,7 @@ export interface ScoreFile {
    * "answer": keys are answer IDs. "set": keys are set IDs (e.g. diversity-check).
    * "pair": keys are pairKey(a, b) of two answer IDs on the same topic (被りチェック).
    * "preference": keys are pairKey(a, b); each metric is the probability that the
-   * first ID of the key is the better answer (pairwise judges: humor-rank).
+   * first ID of the key is the better answer (pairwise judges: trait-check compare.ts).
    */
   level: 'answer' | 'set' | 'pair' | 'preference';
   /** Pair-level judges that only list the pairs they flag: an unlisted pair scores 0. */

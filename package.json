@@ -6,10 +6,8 @@
   "scripts": {
     "check": "tsc --noEmit",
     "audit:ogiri-ai": "node src/ogiri-ai/rule-audit.ts",
-    "audit:humor-eval": "node skills/humor-eval/scripts/evaluate.ts skills/humor-eval/assets/samples.json reports/humor-eval/results.json",
-    "audit:fun-check": "node skills/fun-check/scripts/evaluate.ts skills/fun-check/assets/samples.json reports/fun-check/results.json",
-    "audit:humor-rank": "node skills/humor-rank/scripts/evaluate.ts skills/humor-rank/assets/samples.json reports/humor-rank/results.json",
-    "audit:cluster-fit-check": "node skills/cluster-fit-check/scripts/evaluate.ts skills/cluster-fit-check/assets/samples.json reports/cluster-fit-check/results.json",
+    "audit:overlap-check": "node skills/overlap-check/scripts/evaluate.ts skills/overlap-check/assets/samples.json reports/overlap-check/results.json",
+    "audit:trait-check": "node skills/trait-check/scripts/evaluate.ts skills/trait-check/assets/samples.json reports/trait-check/results.json && node skills/trait-check/scripts/compare.ts skills/trait-check/assets/pairs.json reports/trait-check/compare-results.json",
     "validate:jev": "node src/validation/run-jev.ts",
     "validate:blind": "node src/validation/blind.ts",
     "validate:agreement": "node src/validation/agreement.ts"

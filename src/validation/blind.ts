@@ -1,5 +1,5 @@
 /**
- * Prompt-mode validation: the judge is a subagent following a skill's SKILL.md,
+ * Prompt-mode validation: the judge is a subagent following a research judge's SKILL.md,
  * so there is no script to call. This makes blinded, shuffled inputs for the
  * subagents and maps their JSON answers back to labeled IDs.
  *
@@ -13,13 +13,14 @@
  *     -> <dir>/../<evaluator>.prompt.run<run>.json (a ScoreFile)
  *
  * Formats (what the subagent is asked to write — see prompts in AGENTS.md):
- *   humor-eval       {"<answer id>": {"novelty":n, ..., "overall":n, "overallFloored":n}}
- *   fun-check        {"answers": {"<answer id>": ["ベタ", "絵なし", ...]}, "overlaps": [["<id>", "<id>"], ...]}
- *                    (overlaps = the pairs its 被りチェック flags; optional, writes a separate pair-level file)
+ *   funniness-score  {"<answer id>": {"novelty":n, ..., "overall":n, "overallFloored":n}}
+ *   risk-flags       {"answers": {"<answer id>": ["ベタ", "ひねりなし", ...]}}
  *   ranking          {"<topic id>": {"ranking": [ids best->worst], "hits": [ids]}}   (no-rubric baseline)
  *   diversity-check  {"<set id>": {"axes": n, "largestAxisCount": n}}
- *   humor-rank       {"judgments": [{"id": "P1", "winner": "A" | "B" | "draw", "confidence": n}, ...]}
- *   naive-pairwise   same as humor-rank (no-rubric "which is funnier" baseline)
+ *   naive-pairwise   {"judgments": [{"id": "P1", "winner": "A" | "B" | "draw", "confidence": n}, ...]}
+ *                    (no-rubric "which is funnier" baseline)
+ *
+ * Judges in skills/ are Jev-only and validated by run-jev.ts; they have no prompt mode.
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -27,7 +28,7 @@ import { loadLabels, pairKey, preferencePairs, setsByTopic } from './labels.ts';
 import type { ScoreFile } from './score-file.ts';
 
 const TOPICS_PER_FILE = 4;
-const FUN_CHECK_FLAGS = ['ベタ', '絵なし', 'ひねりなし', '共感', '認知度', '長さ', '滑り', '相対ベタ', '被り', 'シュール手癖'];
+const RISK_FLAGS = ['ベタ', 'ひねりなし', '共感', '認知度', '滑り', '相対ベタ', 'シュール手癖'];
 
 function shuffle<T>(xs: T[]): T[] {
   const a = [...xs];
@@ -94,27 +95,18 @@ function unblind(dir: string, format: string, inputs: string[], run: number, mod
   let file: Omit<ScoreFile, 'scores'>;
 
   switch (format) {
-    case 'humor-eval':
-      for (const [id, s] of parsed.flatMap((p) => Object.entries(p as Record<string, Record<string, number>>))) scores[real(id)] = s;
-      file = { evaluator: 'humor-eval', mode: 'prompt', run, model, level: 'answer', lowerIsBetter: [] };
+    case 'funniness-score':
+      for (const [id, sc] of parsed.flatMap((p) => Object.entries(p as Record<string, Record<string, number>>))) scores[real(id)] = sc;
+      file = { evaluator: 'funniness-score', mode: 'prompt', run, model, level: 'answer', lowerIsBetter: [] };
       break;
-    case 'fun-check':
+    case 'risk-flags':
       for (const [id, flags] of parsed.flatMap((p) => Object.entries((p as { answers: Record<string, string[]> }).answers))) {
         scores[real(id)] = {
-          ...Object.fromEntries(FUN_CHECK_FLAGS.map((f) => [f, flags.includes(f) ? 1 : 0])),
+          ...Object.fromEntries(RISK_FLAGS.map((f) => [f, flags.includes(f) ? 1 : 0])),
           nflags: flags.length,
         };
       }
-      file = { evaluator: 'fun-check', mode: 'prompt', run, model, level: 'answer', lowerIsBetter: [...FUN_CHECK_FLAGS, 'nflags'] };
-      {
-        const pairs = parsed.flatMap((p) => (p as { overlaps?: [string, string][] }).overlaps ?? []);
-        if (parsed.some((p) => (p as { overlaps?: unknown }).overlaps)) {
-          writeScoreFile(dir, {
-            evaluator: 'fun-check-overlap', mode: 'prompt', run, model, level: 'pair', lowerIsBetter: [], missingIsZero: true,
-            scores: Object.fromEntries(pairs.map(([a, b]) => [pairKey(real(a), real(b)), { flagged: 1 }])),
-          });
-        }
-      }
+      file = { evaluator: 'risk-flags', mode: 'prompt', run, model, level: 'answer', lowerIsBetter: [...RISK_FLAGS, 'nflags'] };
       break;
     case 'ranking':
       for (const v of parsed.flatMap((p) => Object.values(p as Record<string, { ranking: string[]; hits: string[] }>))) {
@@ -128,7 +120,6 @@ function unblind(dir: string, format: string, inputs: string[], run: number, mod
       for (const [id, s] of parsed.flatMap((p) => Object.entries(p as Record<string, Record<string, number>>))) scores[real(id)] = s;
       file = { evaluator: 'diversity-check', mode: 'prompt', run, model, level: 'set', lowerIsBetter: ['largestAxisCount'] };
       break;
-    case 'humor-rank':
     case 'naive-pairwise':
       for (const j of parsed.flatMap((p) => (p as { judgments: { id: string; winner: 'A' | 'B' | 'draw' }[] }).judgments)) {
         const [a, b] = [real(`${j.id}-A`), real(`${j.id}-B`)];

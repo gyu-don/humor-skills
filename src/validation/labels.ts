@@ -95,7 +95,7 @@ export function setsByTopic(labels: Labels): Map<string, LabeledSet[]> {
 }
 
 /**
- * Answer pairs with a known human preference, for pairwise judges (humor-rank):
+ * Answer pairs with a known human preference, for pairwise judges (trait-check compare.ts):
  * every hit vs every non-hit inside one set, plus every non-tie pairPreference.
  */
 export function preferencePairs(labels: Labels): { winner: string; loser: string }[] {

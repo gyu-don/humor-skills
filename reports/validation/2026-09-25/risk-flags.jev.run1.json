@@ -1,0 +1,817 @@
+{
+  "evaluator": "risk-flags",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "answer",
+  "lowerIsBetter": [
+    "betaRisk",
+    "noTwistRisk",
+    "empathyRisk",
+    "recognitionRisk",
+    "slipRisk",
+    "sumRisk"
+  ],
+  "scores": {
+    "2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.7,
+      "slipRisk": 0.52,
+      "sumRisk": 2.5
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.34,
+      "slipRisk": 0.61,
+      "sumRisk": 2.12
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#3": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.67,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.6,
+      "sumRisk": 1.9700000000000002
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#4": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.35,
+      "slipRisk": 0.62,
+      "sumRisk": 2.19
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#5": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.72,
+      "slipRisk": 0.64,
+      "sumRisk": 2.5
+    },
+    "2026-07-10/idol/fable-5-high#1": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.83,
+      "slipRisk": 0.64,
+      "sumRisk": 2.48
+    },
+    "2026-07-10/idol/fable-5-high#2": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.44,
+      "slipRisk": 0.56,
+      "sumRisk": 2.23
+    },
+    "2026-07-10/idol/fable-5-high#3": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.67,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.64,
+      "sumRisk": 2.0900000000000003
+    },
+    "2026-07-10/idol/fable-5-high#4": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.35,
+      "slipRisk": 0.59,
+      "sumRisk": 2.15
+    },
+    "2026-07-10/idol/fable-5-high#5": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.5,
+      "sumRisk": 2.13
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1": {
+      "betaRisk": 0.15,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.57,
+      "sumRisk": 1.9700000000000002
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "betaRisk": 0.17,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.39,
+      "slipRisk": 0.59,
+      "sumRisk": 2.15
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.51,
+      "sumRisk": 2.02
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "betaRisk": 0.16,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.69,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.62,
+      "sumRisk": 2.04
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "betaRisk": 0.19,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.58,
+      "sumRisk": 1.9700000000000002
+    },
+    "2026-07-10/zense/fable-5-high#1": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.62,
+      "sumRisk": 2.04
+    },
+    "2026-07-10/zense/fable-5-high#2": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.55,
+      "sumRisk": 2.04
+    },
+    "2026-07-10/zense/fable-5-high#3": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.52,
+      "sumRisk": 2.01
+    },
+    "2026-07-10/zense/fable-5-high#4": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.53,
+      "sumRisk": 2
+    },
+    "2026-07-10/zense/fable-5-high#5": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.63,
+      "sumRisk": 1.92
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#1": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.45,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.59,
+      "sumRisk": 2.13
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.55,
+      "sumRisk": 1.8900000000000001
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#3": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.56,
+      "sumRisk": 1.9000000000000001
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.43,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.5,
+      "sumRisk": 1.76
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#5": {
+      "betaRisk": 0.13,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.6,
+      "sumRisk": 1.9699999999999998
+    },
+    "2026-07-10/ringo/fable-5-high#1": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.52,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.45,
+      "slipRisk": 0.6,
+      "sumRisk": 2.36
+    },
+    "2026-07-10/ringo/fable-5-high#2": {
+      "betaRisk": 0.18,
+      "noTwistRisk": 0.45,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.6,
+      "sumRisk": 1.9300000000000002
+    },
+    "2026-07-10/ringo/fable-5-high#3": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.42,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.57,
+      "sumRisk": 2
+    },
+    "2026-07-10/ringo/fable-5-high#4": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.49,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.57,
+      "sumRisk": 2.06
+    },
+    "2026-07-10/ringo/fable-5-high#5": {
+      "betaRisk": 0.16,
+      "noTwistRisk": 0.42,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.6,
+      "sumRisk": 2.05
+    },
+    "2026-07-10/fable-returns/fable-5#1": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.63,
+      "sumRisk": 2.45
+    },
+    "2026-07-10/fable-returns/fable-5#2": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.72,
+      "slipRisk": 0.61,
+      "sumRisk": 2.44
+    },
+    "2026-07-10/fable-returns/fable-5#3": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.43,
+      "slipRisk": 0.63,
+      "sumRisk": 2.14
+    },
+    "2026-07-10/fable-returns/fable-5#4": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.6,
+      "sumRisk": 2.03
+    },
+    "2026-07-10/fable-returns/fable-5#5": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.59,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.63,
+      "sumRisk": 2.31
+    },
+    "2026-07-11/askul/fable-5-skill-off#1": {
+      "betaRisk": 0.17,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.56,
+      "slipRisk": 0.59,
+      "sumRisk": 2.13
+    },
+    "2026-07-11/askul/fable-5-skill-off#2": {
+      "betaRisk": 0.07,
+      "noTwistRisk": 0.58,
+      "empathyRisk": 0.7,
+      "recognitionRisk": 0.86,
+      "slipRisk": 0.7,
+      "sumRisk": 2.91
+    },
+    "2026-07-11/askul/fable-5-skill-off#3": {
+      "betaRisk": 0.16,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.5,
+      "slipRisk": 0.64,
+      "sumRisk": 2.0300000000000002
+    },
+    "2026-07-11/askul/fable-5-skill-off#4": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.56,
+      "slipRisk": 0.63,
+      "sumRisk": 2.2800000000000002
+    },
+    "2026-07-11/askul/fable-5-skill-off#5": {
+      "betaRisk": 0.09,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.68,
+      "recognitionRisk": 0.72,
+      "slipRisk": 0.7,
+      "sumRisk": 2.49
+    },
+    "2026-07-11/askul/fable-5-skill-on#1": {
+      "betaRisk": 0.07,
+      "noTwistRisk": 0.6,
+      "empathyRisk": 0.72,
+      "recognitionRisk": 0.87,
+      "slipRisk": 0.68,
+      "sumRisk": 2.94
+    },
+    "2026-07-11/askul/fable-5-skill-on#2": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.46,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.66,
+      "sumRisk": 2.64
+    },
+    "2026-07-11/askul/fable-5-skill-on#3": {
+      "betaRisk": 0.18,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.69,
+      "slipRisk": 0.66,
+      "sumRisk": 2.59
+    },
+    "2026-07-11/askul/fable-5-skill-on#4": {
+      "betaRisk": 0.14,
+      "noTwistRisk": 0.48,
+      "empathyRisk": 0.68,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.69,
+      "sumRisk": 2.65
+    },
+    "2026-07-11/askul/fable-5-skill-on#5": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.46,
+      "empathyRisk": 0.67,
+      "recognitionRisk": 0.62,
+      "slipRisk": 0.68,
+      "sumRisk": 2.64
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1": {
+      "betaRisk": 0.14,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.59,
+      "sumRisk": 1.9900000000000002
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2": {
+      "betaRisk": 0.15,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.59,
+      "sumRisk": 1.83
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.62,
+      "sumRisk": 2.04
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4": {
+      "betaRisk": 0.13,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.59,
+      "sumRisk": 2.03
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5": {
+      "betaRisk": 0.07,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.63,
+      "sumRisk": 2.02
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#1": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.47,
+      "recognitionRisk": 0.54,
+      "slipRisk": 0.57,
+      "sumRisk": 2.1799999999999997
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#2": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.52,
+      "slipRisk": 0.58,
+      "sumRisk": 2.2600000000000002
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#3": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.56,
+      "sumRisk": 2.0700000000000003
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#4": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.48,
+      "slipRisk": 0.61,
+      "sumRisk": 2.27
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#5": {
+      "betaRisk": 0.13,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.73,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.61,
+      "sumRisk": 2.15
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.48,
+      "sumRisk": 1.79
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2": {
+      "betaRisk": 0.59,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.46,
+      "sumRisk": 2.13
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.47,
+      "sumRisk": 1.8299999999999998
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.51,
+      "sumRisk": 2.3
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "betaRisk": 0.48,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.4,
+      "sumRisk": 1.87
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#1": {
+      "betaRisk": 0.53,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.47,
+      "sumRisk": 2.1799999999999997
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#2": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.6,
+      "slipRisk": 0.45,
+      "sumRisk": 2.18
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#3": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.55,
+      "sumRisk": 2.0999999999999996
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#4": {
+      "betaRisk": 0.16,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.8,
+      "slipRisk": 0.51,
+      "sumRisk": 2.43
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#5": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.2,
+      "slipRisk": 0.55,
+      "sumRisk": 2.0300000000000002
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1": {
+      "betaRisk": 0.52,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.46,
+      "sumRisk": 1.95
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#2": {
+      "betaRisk": 0.62,
+      "noTwistRisk": 0.52,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.08,
+      "slipRisk": 0.43,
+      "sumRisk": 2.1500000000000004
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3": {
+      "betaRisk": 0.48,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.17,
+      "slipRisk": 0.38,
+      "sumRisk": 1.7599999999999998
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#4": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.09,
+      "slipRisk": 0.42,
+      "sumRisk": 1.72
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#5": {
+      "betaRisk": 0.55,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.1,
+      "slipRisk": 0.35,
+      "sumRisk": 1.83
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1": {
+      "betaRisk": 0.63,
+      "noTwistRisk": 0.41,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.09,
+      "slipRisk": 0.42,
+      "sumRisk": 2.0900000000000003
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.45,
+      "sumRisk": 1.8299999999999998
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.42,
+      "sumRisk": 1.71
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.52,
+      "sumRisk": 1.88
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#5": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.49,
+      "slipRisk": 0.55,
+      "sumRisk": 2.22
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#1": {
+      "betaRisk": 0.38,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.14,
+      "slipRisk": 0.47,
+      "sumRisk": 1.91
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#2": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.49,
+      "sumRisk": 1.7899999999999998
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#3": {
+      "betaRisk": 0.51,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.42,
+      "sumRisk": 2.0300000000000002
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#4": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.63,
+      "sumRisk": 1.8199999999999998
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#5": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.13,
+      "slipRisk": 0.56,
+      "sumRisk": 1.8199999999999998
+    },
+    "2026-09-15/setsubun/before#1": {
+      "betaRisk": 0.15,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.67,
+      "sumRisk": 2
+    },
+    "2026-09-15/setsubun/before#2": {
+      "betaRisk": 0.14,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.7,
+      "recognitionRisk": 0.43,
+      "slipRisk": 0.67,
+      "sumRisk": 2.27
+    },
+    "2026-09-15/setsubun/before#3": {
+      "betaRisk": 0.16,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.4,
+      "slipRisk": 0.64,
+      "sumRisk": 2.0300000000000002
+    },
+    "2026-09-15/setsubun/before#4": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.65,
+      "sumRisk": 2.3
+    },
+    "2026-09-15/setsubun/before#5": {
+      "betaRisk": 0.17,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.34,
+      "slipRisk": 0.67,
+      "sumRisk": 2.1300000000000003
+    },
+    "2026-09-15/setsubun/after#1": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.49,
+      "slipRisk": 0.6,
+      "sumRisk": 2.23
+    },
+    "2026-09-15/setsubun/after#2": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.6,
+      "slipRisk": 0.61,
+      "sumRisk": 2.27
+    },
+    "2026-09-15/setsubun/after#3": {
+      "betaRisk": 0.15,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.56,
+      "slipRisk": 0.69,
+      "sumRisk": 2.3200000000000003
+    },
+    "2026-09-15/setsubun/after#4": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.65,
+      "slipRisk": 0.65,
+      "sumRisk": 2.32
+    },
+    "2026-09-15/setsubun/after#5": {
+      "betaRisk": 0.14,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.42,
+      "slipRisk": 0.7,
+      "sumRisk": 2.21
+    },
+    "2026-09-15/geinou/before#1": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.5,
+      "slipRisk": 0.57,
+      "sumRisk": 2.26
+    },
+    "2026-09-15/geinou/before#2": {
+      "betaRisk": 0.38,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.72,
+      "slipRisk": 0.56,
+      "sumRisk": 2.57
+    },
+    "2026-09-15/geinou/before#3": {
+      "betaRisk": 0.7,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.4,
+      "slipRisk": 0.56,
+      "sumRisk": 2.47
+    },
+    "2026-09-15/geinou/before#4": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.41,
+      "empathyRisk": 0.69,
+      "recognitionRisk": 0.62,
+      "slipRisk": 0.61,
+      "sumRisk": 2.53
+    },
+    "2026-09-15/geinou/before#5": {
+      "betaRisk": 0.58,
+      "noTwistRisk": 0.53,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.57,
+      "sumRisk": 2.5399999999999996
+    },
+    "2026-09-15/geinou/after#1": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.52,
+      "sumRisk": 2.22
+    },
+    "2026-09-15/geinou/after#2": {
+      "betaRisk": 0.62,
+      "noTwistRisk": 0.54,
+      "empathyRisk": 0.44,
+      "recognitionRisk": 0.13,
+      "slipRisk": 0.53,
+      "sumRisk": 2.26
+    },
+    "2026-09-15/geinou/after#3": {
+      "betaRisk": 0.57,
+      "noTwistRisk": 0.49,
+      "empathyRisk": 0.46,
+      "recognitionRisk": 0.48,
+      "slipRisk": 0.52,
+      "sumRisk": 2.52
+    },
+    "2026-09-15/geinou/after#4": {
+      "betaRisk": 0.71,
+      "noTwistRisk": 0.42,
+      "empathyRisk": 0.41,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.48,
+      "sumRisk": 2.3899999999999997
+    },
+    "2026-09-15/geinou/after#5": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.47,
+      "slipRisk": 0.52,
+      "sumRisk": 2.3600000000000003
+    }
+  }
+}

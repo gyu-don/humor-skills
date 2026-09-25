@@ -1,0 +1,31 @@
+{
+  "usage": {
+    "requests": 4,
+    "input_tokens": 2088,
+    "output_tokens": 240
+  },
+  "results": [
+    {
+      "id": "idol_1v2",
+      "label": "skill出力どうしのペア（僅差想定）",
+      "criteria": {
+        "concrete": 0.665,
+        "straight": 0.39499999999999996
+      },
+      "probA": 0.53,
+      "winner": "draw",
+      "confidence": 0.06000000000000005
+    },
+    {
+      "id": "idol_skill_vs_flat",
+      "label": "skill出力 vs あるある止まりの対照群（差が出るはず）",
+      "criteria": {
+        "concrete": 0.94,
+        "straight": 0.885
+      },
+      "probA": 0.9125,
+      "winner": "A",
+      "confidence": 0.825
+    }
+  ]
+}

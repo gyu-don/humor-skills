@@ -1,0 +1,170 @@
+{
+  "usage": {
+    "requests": 15,
+    "input_tokens": 7779,
+    "output_tokens": 585
+  },
+  "summaries": [
+    {
+      "id": "idol_skill",
+      "label": "skill出力の例",
+      "means": {
+        "concrete": 0.8620000000000001,
+        "indirect": 0.172
+      }
+    },
+    {
+      "id": "idol_flat",
+      "label": "対照群（あるある止まり・説明的に書き直したもの）",
+      "means": {
+        "concrete": 0.26599999999999996,
+        "indirect": 0.11600000000000002
+      }
+    },
+    {
+      "id": "school_lastday",
+      "label": "skill形式で書いた別お題",
+      "means": {
+        "concrete": 0.9180000000000001,
+        "indirect": 0.122
+      }
+    }
+  ],
+  "rows": [
+    {
+      "sampleId": "idol_skill",
+      "index": 1,
+      "answer": "文春の張り込み三日目で記者が沼落ち",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.21
+      }
+    },
+    {
+      "sampleId": "idol_skill",
+      "index": 2,
+      "answer": "MCで噛むところまで台本通り",
+      "traits": {
+        "concrete": 0.89,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "idol_skill",
+      "index": 3,
+      "answer": "笑顔の濃度が積んだCDの枚数と連動",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.27
+      }
+    },
+    {
+      "sampleId": "idol_skill",
+      "index": 4,
+      "answer": "デビューから12年トイレの目撃情報なし",
+      "traits": {
+        "concrete": 0.79,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "idol_skill",
+      "index": 5,
+      "answer": "震度5の中ひとりだけ振付を続行",
+      "traits": {
+        "concrete": 0.94,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "idol_flat",
+      "index": 1,
+      "answer": "いつも笑顔でファンに優しく接してくれるところ",
+      "traits": {
+        "concrete": 0.23,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "idol_flat",
+      "index": 2,
+      "answer": "歌もダンスもトークも全部うまい",
+      "traits": {
+        "concrete": 0.08,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "idol_flat",
+      "index": 3,
+      "answer": "ファンサービスを絶対に欠かさないところです",
+      "traits": {
+        "concrete": 0.11,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "idol_flat",
+      "index": 4,
+      "answer": "どんなに忙しくてもSNSの更新を毎日している",
+      "traits": {
+        "concrete": 0.75,
+        "indirect": 0.14
+      }
+    },
+    {
+      "sampleId": "idol_flat",
+      "index": 5,
+      "answer": "スキャンダルが一度もない清廉潔白なところ",
+      "traits": {
+        "concrete": 0.16,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "school_lastday",
+      "index": 1,
+      "answer": "校長が証書を二枚重ねで渡して枚数が合わない",
+      "traits": {
+        "concrete": 0.96,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "school_lastday",
+      "index": 2,
+      "answer": "答辞の途中で在校生代表が転職の挨拶",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "school_lastday",
+      "index": 3,
+      "answer": "蛍の光のキーが誰にも届かず全員口パク",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "school_lastday",
+      "index": 4,
+      "answer": "卒業アルバムの集合写真が体育館の非常口",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "school_lastday",
+      "index": 5,
+      "answer": "担任が三年分の遅刻を今から精算し始める",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.13
+      }
+    }
+  ]
+}

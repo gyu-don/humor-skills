@@ -19,12 +19,12 @@
  * Pair-level files (被りチェック) go in a second table, against the blind human
  * similarity judgments ("would these two feel like 被り in one set?"):
  *   AUC          similar vs different pairs ("partial" left out).
- *   recall       share of similar pairs flagged (score >= FLAG, the fun-check threshold).
+ *   recall       share of similar pairs flagged (score >= FLAG, overlap-check's threshold).
  *   false flags  share of different pairs flagged — the "invents similarity" failure.
  *   converged    AUC for separating human-called converged sets by their most similar
  *                within-set pair.
  *
- * Preference files (pairwise judges: humor-rank) go in a third table:
+ * Preference files (pairwise judges: trait-check compare.ts) go in a third table:
  *   in-set       share of hit-vs-non-hit pairs inside one set where the judge prefers the hit.
  *   pairs        share of non-tie human answer-pair preferences it agrees with.
  *   confident    the in-set share restricted to pairs it judged with |p - 0.5| >= 0.2 —
@@ -173,7 +173,7 @@ for (const [name, runs] of groups) {
   }
 }
 
-/** Same threshold as fun-check's nearDuplicates. Binary judges (0/1) are unaffected by it. */
+/** Same threshold as overlap-check's nearDuplicates. Binary judges (0/1) are unaffected by it. */
 const FLAG = 0.7;
 const judged = labels.similarityJudgments.filter((j) => j.similarity !== 'partial');
 

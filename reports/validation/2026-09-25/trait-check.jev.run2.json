@@ -1,0 +1,412 @@
+{
+  "evaluator": "trait-check",
+  "mode": "jev",
+  "run": 2,
+  "model": "jev-latest",
+  "level": "answer",
+  "lowerIsBetter": [
+    "indirect"
+  ],
+  "scores": {
+    "2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "concrete": 0.84,
+      "indirect": 0.12
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "concrete": 0.8,
+      "indirect": 0.13
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#3": {
+      "concrete": 0.7,
+      "indirect": 0.11
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#4": {
+      "concrete": 0.75,
+      "indirect": 0.14
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#5": {
+      "concrete": 0.87,
+      "indirect": 0.17
+    },
+    "2026-07-10/idol/fable-5-high#1": {
+      "concrete": 0.88,
+      "indirect": 0.23
+    },
+    "2026-07-10/idol/fable-5-high#2": {
+      "concrete": 0.88,
+      "indirect": 0.13
+    },
+    "2026-07-10/idol/fable-5-high#3": {
+      "concrete": 0.81,
+      "indirect": 0.3
+    },
+    "2026-07-10/idol/fable-5-high#4": {
+      "concrete": 0.79,
+      "indirect": 0.12
+    },
+    "2026-07-10/idol/fable-5-high#5": {
+      "concrete": 0.94,
+      "indirect": 0.12
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1": {
+      "concrete": 0.94,
+      "indirect": 0.07
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "concrete": 0.87,
+      "indirect": 0.14
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "concrete": 0.92,
+      "indirect": 0.09
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "concrete": 0.86,
+      "indirect": 0.14
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "concrete": 0.87,
+      "indirect": 0.11
+    },
+    "2026-07-10/zense/fable-5-high#1": {
+      "concrete": 0.9,
+      "indirect": 0.22
+    },
+    "2026-07-10/zense/fable-5-high#2": {
+      "concrete": 0.93,
+      "indirect": 0.11
+    },
+    "2026-07-10/zense/fable-5-high#3": {
+      "concrete": 0.9,
+      "indirect": 0.1
+    },
+    "2026-07-10/zense/fable-5-high#4": {
+      "concrete": 0.88,
+      "indirect": 0.12
+    },
+    "2026-07-10/zense/fable-5-high#5": {
+      "concrete": 0.66,
+      "indirect": 0.2
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#1": {
+      "concrete": 0.72,
+      "indirect": 0.09
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "concrete": 0.46,
+      "indirect": 0.09
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#3": {
+      "concrete": 0.85,
+      "indirect": 0.16
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "concrete": 0.71,
+      "indirect": 0.27
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#5": {
+      "concrete": 0.69,
+      "indirect": 0.07
+    },
+    "2026-07-10/ringo/fable-5-high#1": {
+      "concrete": 0.43,
+      "indirect": 0.06
+    },
+    "2026-07-10/ringo/fable-5-high#2": {
+      "concrete": 0.5,
+      "indirect": 0.1
+    },
+    "2026-07-10/ringo/fable-5-high#3": {
+      "concrete": 0.93,
+      "indirect": 0.08
+    },
+    "2026-07-10/ringo/fable-5-high#4": {
+      "concrete": 0.94,
+      "indirect": 0.07
+    },
+    "2026-07-10/ringo/fable-5-high#5": {
+      "concrete": 0.72,
+      "indirect": 0.08
+    },
+    "2026-07-10/fable-returns/fable-5#1": {
+      "concrete": 0.16,
+      "indirect": 0.2
+    },
+    "2026-07-10/fable-returns/fable-5#2": {
+      "concrete": 0.6,
+      "indirect": 0.1
+    },
+    "2026-07-10/fable-returns/fable-5#3": {
+      "concrete": 0.86,
+      "indirect": 0.12
+    },
+    "2026-07-10/fable-returns/fable-5#4": {
+      "concrete": 0.39,
+      "indirect": 0.26
+    },
+    "2026-07-10/fable-returns/fable-5#5": {
+      "concrete": 0.11,
+      "indirect": 0.15
+    },
+    "2026-07-11/askul/fable-5-skill-off#1": {
+      "concrete": 0.53,
+      "indirect": 0.39
+    },
+    "2026-07-11/askul/fable-5-skill-off#2": {
+      "concrete": 0.09,
+      "indirect": 0.05
+    },
+    "2026-07-11/askul/fable-5-skill-off#3": {
+      "concrete": 0.7,
+      "indirect": 0.24
+    },
+    "2026-07-11/askul/fable-5-skill-off#4": {
+      "concrete": 0.18,
+      "indirect": 0.13
+    },
+    "2026-07-11/askul/fable-5-skill-off#5": {
+      "concrete": 0.62,
+      "indirect": 0.4
+    },
+    "2026-07-11/askul/fable-5-skill-on#1": {
+      "concrete": 0.09,
+      "indirect": 0.06
+    },
+    "2026-07-11/askul/fable-5-skill-on#2": {
+      "concrete": 0.23,
+      "indirect": 0.06
+    },
+    "2026-07-11/askul/fable-5-skill-on#3": {
+      "concrete": 0.12,
+      "indirect": 0.11
+    },
+    "2026-07-11/askul/fable-5-skill-on#4": {
+      "concrete": 0.14,
+      "indirect": 0.08
+    },
+    "2026-07-11/askul/fable-5-skill-on#5": {
+      "concrete": 0.12,
+      "indirect": 0.09
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1": {
+      "concrete": 0.61,
+      "indirect": 0.1
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2": {
+      "concrete": 0.85,
+      "indirect": 0.09
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3": {
+      "concrete": 0.53,
+      "indirect": 0.11
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4": {
+      "concrete": 0.91,
+      "indirect": 0.11
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5": {
+      "concrete": 0.83,
+      "indirect": 0.1
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#1": {
+      "concrete": 0.75,
+      "indirect": 0.15
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#2": {
+      "concrete": 0.65,
+      "indirect": 0.08
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#3": {
+      "concrete": 0.58,
+      "indirect": 0.14
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#4": {
+      "concrete": 0.76,
+      "indirect": 0.09
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#5": {
+      "concrete": 0.67,
+      "indirect": 0.08
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1": {
+      "concrete": 0.92,
+      "indirect": 0.11
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2": {
+      "concrete": 0.74,
+      "indirect": 0.1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "concrete": 0.92,
+      "indirect": 0.11
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "concrete": 0.83,
+      "indirect": 0.17
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "concrete": 0.55,
+      "indirect": 0.13
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#1": {
+      "concrete": 0.86,
+      "indirect": 0.06
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#2": {
+      "concrete": 0.92,
+      "indirect": 0.1
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#3": {
+      "concrete": 0.86,
+      "indirect": 0.12
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#4": {
+      "concrete": 0.89,
+      "indirect": 0.07
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#5": {
+      "concrete": 0.92,
+      "indirect": 0.13
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1": {
+      "concrete": 0.42,
+      "indirect": 0.1
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#2": {
+      "concrete": 0.9,
+      "indirect": 0.29
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3": {
+      "concrete": 0.42,
+      "indirect": 0.13
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#4": {
+      "concrete": 0.79,
+      "indirect": 0.26
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#5": {
+      "concrete": 0.45,
+      "indirect": 0.31
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1": {
+      "concrete": 0.27,
+      "indirect": 0.14
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2": {
+      "concrete": 0.95,
+      "indirect": 0.09
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3": {
+      "concrete": 0.7,
+      "indirect": 0.14
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4": {
+      "concrete": 0.88,
+      "indirect": 0.3
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#5": {
+      "concrete": 0.44,
+      "indirect": 0.14
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#1": {
+      "concrete": 0.53,
+      "indirect": 0.27
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#2": {
+      "concrete": 0.24,
+      "indirect": 0.17
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#3": {
+      "concrete": 0.34,
+      "indirect": 0.11
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#4": {
+      "concrete": 0.51,
+      "indirect": 0.1
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#5": {
+      "concrete": 0.85,
+      "indirect": 0.18
+    },
+    "2026-09-15/setsubun/before#1": {
+      "concrete": 0.86,
+      "indirect": 0.09
+    },
+    "2026-09-15/setsubun/before#2": {
+      "concrete": 0.86,
+      "indirect": 0.09
+    },
+    "2026-09-15/setsubun/before#3": {
+      "concrete": 0.5,
+      "indirect": 0.14
+    },
+    "2026-09-15/setsubun/before#4": {
+      "concrete": 0.86,
+      "indirect": 0.12
+    },
+    "2026-09-15/setsubun/before#5": {
+      "concrete": 0.86,
+      "indirect": 0.08
+    },
+    "2026-09-15/setsubun/after#1": {
+      "concrete": 0.83,
+      "indirect": 0.1
+    },
+    "2026-09-15/setsubun/after#2": {
+      "concrete": 0.79,
+      "indirect": 0.12
+    },
+    "2026-09-15/setsubun/after#3": {
+      "concrete": 0.71,
+      "indirect": 0.08
+    },
+    "2026-09-15/setsubun/after#4": {
+      "concrete": 0.33,
+      "indirect": 0.26
+    },
+    "2026-09-15/setsubun/after#5": {
+      "concrete": 0.88,
+      "indirect": 0.12
+    },
+    "2026-09-15/geinou/before#1": {
+      "concrete": 0.41,
+      "indirect": 0.16
+    },
+    "2026-09-15/geinou/before#2": {
+      "concrete": 0.78,
+      "indirect": 0.09
+    },
+    "2026-09-15/geinou/before#3": {
+      "concrete": 0.83,
+      "indirect": 0.07
+    },
+    "2026-09-15/geinou/before#4": {
+      "concrete": 0.23,
+      "indirect": 0.11
+    },
+    "2026-09-15/geinou/before#5": {
+      "concrete": 0.11,
+      "indirect": 0.09
+    },
+    "2026-09-15/geinou/after#1": {
+      "concrete": 0.81,
+      "indirect": 0.08
+    },
+    "2026-09-15/geinou/after#2": {
+      "concrete": 0.44,
+      "indirect": 0.09
+    },
+    "2026-09-15/geinou/after#3": {
+      "concrete": 0.53,
+      "indirect": 0.1
+    },
+    "2026-09-15/geinou/after#4": {
+      "concrete": 0.54,
+      "indirect": 0.1
+    },
+    "2026-09-15/geinou/after#5": {
+      "concrete": 0.23,
+      "indirect": 0.12
+    }
+  }
+}

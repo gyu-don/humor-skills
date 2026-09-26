@@ -19,10 +19,16 @@
  * Pair-level files (被りチェック) go in a second table, against the blind human
  * similarity judgments ("would these two feel like 被り in one set?"):
  *   AUC          similar vs different pairs ("partial" left out).
- *   recall       share of similar pairs flagged (score >= FLAG, the fun-check threshold).
+ *   recall       share of similar pairs flagged (score >= FLAG, overlap-check's threshold).
  *   false flags  share of different pairs flagged — the "invents similarity" failure.
  *   converged    AUC for separating human-called converged sets by their most similar
  *                within-set pair.
+ *
+ * Preference files (pairwise judges: trait-check compare.ts) go in a third table:
+ *   in-set       share of hit-vs-non-hit pairs inside one set where the judge prefers the hit.
+ *   pairs        share of non-tie human answer-pair preferences it agrees with.
+ *   confident    the in-set share restricted to pairs it judged with |p - 0.5| >= 0.2 —
+ *                a judge whose confident calls are worse than its average is anti-aligned.
  *
  * `gate` marks a metric that is good enough to stand in for a human verdict in
  * ogiri-ai's gate check: AUC interval above 0.5, sets >= 0.8, pairs >= 0.75.
@@ -31,7 +37,7 @@
  */
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { loadLabels, pairKey } from './labels.ts';
+import { loadLabels, pairKey, preferencePairs } from './labels.ts';
 import type { ScoreFile } from './score-file.ts';
 
 const dir = process.argv[2];
@@ -113,11 +119,16 @@ out('| evaluator | metric | AUC [95%] | in-set | sets | pairs | retest r | gate 
 out('|---|---|---|---|---|---|---|---|');
 
 const pairGroups: [string, ScoreFile[]][] = [];
+const preferenceGroups: [string, ScoreFile[]][] = [];
 
 for (const [name, runs] of groups) {
   const level = runs[0].level;
   if (level === 'pair') {
     pairGroups.push([name, runs]);
+    continue;
+  }
+  if (level === 'preference') {
+    preferenceGroups.push([name, runs]);
     continue;
   }
   const metrics = Object.keys(Object.values(runs[0].scores)[0]);
@@ -162,7 +173,7 @@ for (const [name, runs] of groups) {
   }
 }
 
-/** Same threshold as fun-check's nearDuplicates. Binary judges (0/1) are unaffected by it. */
+/** Same threshold as overlap-check's nearDuplicates. Binary judges (0/1) are unaffected by it. */
 const FLAG = 0.7;
 const judged = labels.similarityJudgments.filter((j) => j.similarity !== 'partial');
 
@@ -205,6 +216,40 @@ for (const [name, runs] of pairGroups) {
       : '-';
     out(`| ${name} | ${metric} | ${auc(xs).toFixed(2)} | ${share(true)} | ${share(false)} | ` +
       `${conv.length ? auc(conv).toFixed(2) : '-'} | ${retest} |`);
+  }
+}
+
+const inSetPairs = labels.sets.flatMap((s) => s.answers.filter((a) => a.hit).flatMap((h) =>
+  s.answers.filter((a) => a.hit === false).map((n) => ({ winner: h.id, loser: n.id }))));
+const humanPairs = pairs.map((p) => (p.winner === 'a' ? { winner: p.a, loser: p.b } : { winner: p.b, loser: p.a }));
+
+if (preferenceGroups.length) {
+  out('');
+  out(`## 一対比較 — ${preferencePairs(labels).length} pairs with a human preference`);
+  out('');
+  out('| evaluator | metric | in-set | pairs | confident | retest r |');
+  out('|---|---|---|---|---|---|');
+}
+
+for (const [name, runs] of preferenceGroups) {
+  for (const metric of Object.keys(Object.values(runs[0].scores)[0])) {
+    /** P(winner is judged better), averaged over runs. */
+    const pWin = (p: { winner: string; loser: string }): number | undefined => {
+      const key = pairKey(p.winner, p.loser);
+      const vs = runs.map((r) => r.scores[key]?.[metric]).filter((v): v is number => v !== undefined);
+      return vs.length ? mean(key.split(' | ')[0] === p.winner ? vs : vs.map((v) => 1 - v)) : undefined;
+    };
+    const agree = (ps: { winner: string; loser: string }[], confident = false): string => {
+      const vs = ps.map(pWin).filter((v): v is number => v !== undefined && (!confident || Math.abs(v - 0.5) >= 0.2));
+      return vs.length ? `${mean(vs.map((v) => cmp(v, 0.5))).toFixed(2)} (${vs.length})` : '-';
+    };
+    const retest = runs.length >= 2
+      ? (() => {
+          const keys = Object.keys(runs[0].scores).filter((k) => runs[1].scores[k]);
+          return pearson(keys.map((k) => runs[0].scores[k][metric]), keys.map((k) => runs[1].scores[k][metric])).toFixed(2);
+        })()
+      : '-';
+    out(`| ${name} | ${metric} | ${agree(inSetPairs)} | ${agree(humanPairs)} | ${agree(inSetPairs, true)} | ${retest} |`);
   }
 }
 

@@ -93,3 +93,27 @@ export function setsByTopic(labels: Labels): Map<string, LabeledSet[]> {
   for (const set of labels.sets) byTopic.set(set.topic, [...(byTopic.get(set.topic) ?? []), set]);
   return byTopic;
 }
+
+/**
+ * Answer pairs with a known human preference, for pairwise judges (trait-check compare.ts):
+ * every hit vs every non-hit inside one set, plus every non-tie pairPreference.
+ */
+export function preferencePairs(labels: Labels): { winner: string; loser: string }[] {
+  const seen = new Set<string>();
+  const out: { winner: string; loser: string }[] = [];
+  const add = (winner: string, loser: string): void => {
+    const k = pairKey(winner, loser);
+    if (seen.has(k)) return;
+    seen.add(k);
+    out.push({ winner, loser });
+  };
+  for (const set of labels.sets) {
+    for (const h of set.answers.filter((a) => a.hit)) {
+      for (const n of set.answers.filter((a) => a.hit === false)) add(h.id, n.id);
+    }
+  }
+  for (const p of labels.pairPreferences) {
+    if (p.winner !== 'tie') add(p.winner === 'a' ? p.a : p.b, p.winner === 'a' ? p.b : p.a);
+  }
+  return out;
+}

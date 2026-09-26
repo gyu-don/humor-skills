@@ -1,0 +1,72 @@
+{
+  "evaluator": "same-direction",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "set",
+  "lowerIsBetter": [
+    "sameDirection"
+  ],
+  "scores": {
+    "2026-07-10/idol/gpt-5.6-sol-high": {
+      "sameDirection": 0.56
+    },
+    "2026-07-10/idol/fable-5-high": {
+      "sameDirection": 0.65
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high": {
+      "sameDirection": 0.78
+    },
+    "2026-07-10/zense/fable-5-high": {
+      "sameDirection": 0.4
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high": {
+      "sameDirection": 0.48
+    },
+    "2026-07-10/ringo/fable-5-high": {
+      "sameDirection": 0.44
+    },
+    "2026-07-10/fable-returns/fable-5": {
+      "sameDirection": 0.51
+    },
+    "2026-07-11/askul/fable-5-skill-off": {
+      "sameDirection": 0.63
+    },
+    "2026-07-11/askul/fable-5-skill-on": {
+      "sameDirection": 0.54
+    },
+    "2026-07-11/firsttake/fable-5-skill-off": {
+      "sameDirection": 0.5
+    },
+    "2026-07-11/firsttake/fable-5-skill-on": {
+      "sameDirection": 0.37
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off": {
+      "sameDirection": 0.36
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on": {
+      "sameDirection": 0.45
+    },
+    "2026-07-11/suihanki/fable-5-skill-off": {
+      "sameDirection": 0.42
+    },
+    "2026-07-11/suihanki/fable-5-skill-on": {
+      "sameDirection": 0.33
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol": {
+      "sameDirection": 0.42
+    },
+    "2026-09-15/setsubun/before": {
+      "sameDirection": 0.34
+    },
+    "2026-09-15/setsubun/after": {
+      "sameDirection": 0.38
+    },
+    "2026-09-15/geinou/before": {
+      "sameDirection": 0.56
+    },
+    "2026-09-15/geinou/after": {
+      "sameDirection": 0.65
+    }
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "evaluator": "pair-criteria",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "preference",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#4": {
+      "recover": 0.575,
+      "picture": 0.65,
+      "concrete": 0.39,
+      "straight": 0.3350000000000001,
+      "novel": 0.25
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "recover": 0.485,
+      "picture": 0.795,
+      "concrete": 0.69,
+      "straight": 0.5399999999999999,
+      "novel": 0.41999999999999993
+    },
+    "2026-07-10/zense/fable-5-high#3 | 2026-07-10/zense/fable-5-high#4": {
+      "recover": 0.5399999999999999,
+      "picture": 0.355,
+      "concrete": 0.5700000000000001,
+      "straight": 0.58,
+      "novel": 0.36
+    },
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#5": {
+      "recover": 0.625,
+      "picture": 0.365,
+      "concrete": 0.21499999999999997,
+      "straight": 0.37000000000000005,
+      "novel": 0.305
+    },
+    "2026-07-10/zense/fable-5-high#2 | 2026-07-10/zense/fable-5-high#4": {
+      "recover": 0.505,
+      "picture": 0.47,
+      "concrete": 0.8150000000000001,
+      "straight": 0.825,
+      "novel": 0.325
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#5": {
+      "recover": 0.48000000000000004,
+      "picture": 0.32500000000000007,
+      "concrete": 0.19,
+      "straight": 0.13999999999999996,
+      "novel": 0.5549999999999999
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#4": {
+      "recover": 0.52,
+      "picture": 0.6699999999999999,
+      "concrete": 0.355,
+      "straight": 0.16999999999999998,
+      "novel": 0.435
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#2": {
+      "recover": 0.13000000000000006,
+      "picture": 0.10500000000000004,
+      "concrete": 0.535,
+      "straight": 0.07500000000000007,
+      "novel": 0.11000000000000004
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#5": {
+      "recover": 0.15500000000000008,
+      "picture": 0.46499999999999997,
+      "concrete": 0.915,
+      "straight": 0.355,
+      "novel": 0.09500000000000003
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/fable-5-high#5": {
+      "recover": 0.6549999999999999,
+      "picture": 0.13999999999999996,
+      "concrete": 0.25499999999999995,
+      "straight": 0.9199999999999999,
+      "novel": 0.19999999999999996
+    },
+    "2026-07-10/zense/fable-5-high#4 | 2026-07-10/zense/fable-5-high#5": {
+      "recover": 0.6299999999999999,
+      "picture": 0.875,
+      "concrete": 0.765,
+      "straight": 0.46,
+      "novel": 0.275
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "recover": 0.375,
+      "picture": 0.595,
+      "concrete": 0.44,
+      "straight": 0.30000000000000004,
+      "novel": 0.805
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "recover": 0.59,
+      "picture": 0.41000000000000003,
+      "concrete": 0.6799999999999999,
+      "straight": 0.73,
+      "novel": 0.18500000000000005
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "recover": 0.475,
+      "picture": 0.21999999999999997,
+      "concrete": 0.41,
+      "straight": 0.6250000000000001,
+      "novel": 0.5449999999999999
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "recover": 0.5349999999999999,
+      "picture": 0.395,
+      "concrete": 0.6399999999999999,
+      "straight": 0.7,
+      "novel": 0.5900000000000001
+    },
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#2": {
+      "recover": 0.11500000000000005,
+      "picture": 0.16000000000000003,
+      "concrete": 0.67,
+      "straight": 0.37,
+      "novel": 0.77
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "recover": 0.525,
+      "picture": 0.48,
+      "concrete": 0.575,
+      "straight": 0.58,
+      "novel": 0.635
+    },
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#3": {
+      "recover": 0.12500000000000006,
+      "picture": 0.18999999999999995,
+      "concrete": 0.7150000000000001,
+      "straight": 0.6799999999999999,
+      "novel": 0.635
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#3": {
+      "recover": 0.08500000000000002,
+      "picture": 0.14999999999999997,
+      "concrete": 0.695,
+      "straight": 0.22499999999999998,
+      "novel": 0.13000000000000006
+    },
+    "2026-07-10/ringo/fable-5-high#2 | 2026-07-10/ringo/fable-5-high#5": {
+      "recover": 0.565,
+      "picture": 0.14000000000000007,
+      "concrete": 0.15000000000000008,
+      "straight": 0.6799999999999999,
+      "novel": 0.20499999999999996
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "recover": 0.77,
+      "picture": 0.685,
+      "concrete": 0.44,
+      "straight": 0.615,
+      "novel": 0.41
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#2": {
+      "recover": 0.44000000000000006,
+      "picture": 0.36,
+      "concrete": 0.07500000000000007,
+      "straight": 0.9,
+      "novel": 0.75
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#2": {
+      "recover": 0.25,
+      "picture": 0.040000000000000036,
+      "concrete": 0.08000000000000007,
+      "straight": 0.06,
+      "novel": 0.040000000000000036
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "recover": 0.715,
+      "picture": 0.6599999999999999,
+      "concrete": 0.33999999999999997,
+      "straight": 0.255,
+      "novel": 0.36500000000000005
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#4": {
+      "recover": 0.54,
+      "picture": 0.355,
+      "concrete": 0.67,
+      "straight": 0.97,
+      "novel": 0.030000000000000027
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#3": {
+      "recover": 0.305,
+      "picture": 0.25999999999999995,
+      "concrete": 0.43,
+      "straight": 0.25999999999999995,
+      "novel": 0.29000000000000004
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "recover": 0.72,
+      "picture": 0.8949999999999999,
+      "concrete": 0.62,
+      "straight": 0.235,
+      "novel": 0.9500000000000001
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "recover": 0.48500000000000004,
+      "picture": 0.585,
+      "concrete": 0.385,
+      "straight": 0.7949999999999999,
+      "novel": 0.35000000000000003
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#5": {
+      "recover": 0.25,
+      "picture": 0.19500000000000006,
+      "concrete": 0.275,
+      "straight": 0.96,
+      "novel": 0.06
+    },
+    "2026-07-10/ringo/fable-5-high#4 | 2026-07-10/ringo/fable-5-high#5": {
+      "recover": 0.76,
+      "picture": 0.745,
+      "concrete": 0.565,
+      "straight": 0.665,
+      "novel": 0.475
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "recover": 0.35500000000000004,
+      "picture": 0.245,
+      "concrete": 0.20999999999999996,
+      "straight": 0.615,
+      "novel": 0.040000000000000036
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "recover": 0.495,
+      "picture": 0.6699999999999999,
+      "concrete": 0.815,
+      "straight": 0.685,
+      "novel": 0.9099999999999999
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/fable-5-high#5": {
+      "recover": 0.7849999999999999,
+      "picture": 0.595,
+      "concrete": 0.705,
+      "straight": 0.59,
+      "novel": 0.42
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#2": {
+      "recover": 0.7699999999999999,
+      "picture": 0.69,
+      "concrete": 0.45499999999999996,
+      "straight": 0.46499999999999997,
+      "novel": 0.285
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#3": {
+      "recover": 0.35000000000000003,
+      "picture": 0.32999999999999996,
+      "concrete": 0.5650000000000001,
+      "straight": 0.8049999999999999,
+      "novel": 0.12000000000000005
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#3": {
+      "recover": 0.48,
+      "picture": 0.7999999999999999,
+      "concrete": 0.9199999999999999,
+      "straight": 0.9299999999999999,
+      "novel": 0.7400000000000001
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "recover": 0.11000000000000004,
+      "picture": 0.24000000000000005,
+      "concrete": 0.345,
+      "straight": 0.635,
+      "novel": 0.285
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "recover": 0.455,
+      "picture": 0.275,
+      "concrete": 0.615,
+      "straight": 0.655,
+      "novel": 0.14999999999999997
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "recover": 0.52,
+      "picture": 0.76,
+      "concrete": 0.54,
+      "straight": 0.64,
+      "novel": 0.68
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "recover": 0.8550000000000001,
+      "picture": 0.735,
+      "concrete": 0.595,
+      "straight": 0.45999999999999996,
+      "novel": 0.7849999999999999
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "recover": 0.7400000000000001,
+      "picture": 0.865,
+      "concrete": 0.9,
+      "straight": 0.95,
+      "novel": 0.8099999999999999
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#3": {
+      "recover": 0.325,
+      "picture": 0.515,
+      "concrete": 0.675,
+      "straight": 0.395,
+      "novel": 0.17999999999999994
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#4": {
+      "recover": 0.525,
+      "picture": 0.455,
+      "concrete": 0.29500000000000004,
+      "straight": 0.6799999999999999,
+      "novel": 0.8899999999999999
+    },
+    "2026-09-15/geinou/after#2 | 2026-09-15/geinou/before#1": {
+      "recover": 0.36500000000000005,
+      "picture": 0.44500000000000006,
+      "concrete": 0.415,
+      "straight": 0.64,
+      "novel": 0.10000000000000003
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5 | 2026-07-11/firsttake/fable-5-skill-on#2": {
+      "recover": 0.10500000000000004,
+      "picture": 0.13999999999999996,
+      "concrete": 0.695,
+      "straight": 0.585,
+      "novel": 0.19500000000000006
+    },
+    "2026-09-15/setsubun/after#1 | 2026-09-15/setsubun/before#5": {
+      "recover": 0.9,
+      "picture": 0.81,
+      "concrete": 0.785,
+      "straight": 0.49999999999999994,
+      "novel": 0.39499999999999996
+    },
+    "2026-07-10/idol/fable-5-high#5 | 2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "recover": 0.47,
+      "picture": 0.5899999999999999,
+      "concrete": 0.85,
+      "straight": 0.5549999999999999,
+      "novel": 0.74
+    },
+    "2026-09-15/geinou/after#1 | 2026-09-15/geinou/before#2": {
+      "recover": 0.7300000000000001,
+      "picture": 0.7,
+      "concrete": 0.8,
+      "straight": 0.09000000000000002,
+      "novel": 0.6299999999999999
+    },
+    "2026-09-15/setsubun/after#3 | 2026-09-15/setsubun/before#4": {
+      "recover": 0.45999999999999996,
+      "picture": 0.44,
+      "concrete": 0.21499999999999997,
+      "straight": 0.7,
+      "novel": 0.7549999999999999
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#2": {
+      "recover": 0.51,
+      "picture": 0.565,
+      "concrete": 0.49000000000000005,
+      "straight": 0.7,
+      "novel": 0.645
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#4": {
+      "recover": 0.32000000000000006,
+      "picture": 0.46499999999999997,
+      "concrete": 0.4750000000000001,
+      "straight": 0.33,
+      "novel": 0.61
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "recover": 0.645,
+      "picture": 0.36000000000000004,
+      "concrete": 0.635,
+      "straight": 0.8400000000000001,
+      "novel": 0.615
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "recover": 0.47,
+      "picture": 0.41500000000000004,
+      "concrete": 0.35,
+      "straight": 0.455,
+      "novel": 0.15500000000000003
+    },
+    "2026-07-10/idol/fable-5-high#4 | 2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "recover": 0.575,
+      "picture": 0.39,
+      "concrete": 0.63,
+      "straight": 0.6950000000000001,
+      "novel": 0.645
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-on#1": {
+      "recover": 0.3950000000000001,
+      "picture": 0.5800000000000001,
+      "concrete": 0.475,
+      "straight": 0.745,
+      "novel": 0.57
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "recover": 0.465,
+      "picture": 0.16999999999999998,
+      "concrete": 0.45500000000000007,
+      "straight": 0.905,
+      "novel": 0.18999999999999995
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#5": {
+      "recover": 0.8550000000000001,
+      "picture": 0.555,
+      "concrete": 0.38000000000000006,
+      "straight": 0.62,
+      "novel": 0.73
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "recover": 0.6100000000000001,
+      "picture": 0.77,
+      "concrete": 0.28,
+      "straight": 0.35000000000000003,
+      "novel": 0.73
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "recover": 0.6249999999999999,
+      "picture": 0.6799999999999999,
+      "concrete": 0.78,
+      "straight": 0.7250000000000001,
+      "novel": 0.405
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#5": {
+      "recover": 0.755,
+      "picture": 0.6399999999999999,
+      "concrete": 0.6799999999999999,
+      "straight": 0.30499999999999994,
+      "novel": 0.235
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "usage": {
+    "requests": 30,
+    "input_tokens": 13626,
+    "output_tokens": 660
+  },
+  "summaries": [
+    {
+      "id": "idol_skill",
+      "label": "skill出力の例",
+      "nearDuplicates": []
+    },
+    {
+      "id": "idol_flat",
+      "label": "対照群（あるある止まり・説明的に書き直したもの）",
+      "nearDuplicates": []
+    },
+    {
+      "id": "school_lastday",
+      "label": "skill形式で書いた別お題",
+      "nearDuplicates": []
+    }
+  ],
+  "overlaps": [
+    {
+      "sampleId": "idol_skill",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.16,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.08,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.19,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.08,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.18,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.12,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.16,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.09,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.08,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_skill",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.09,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.44,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.57,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.16,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.17,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.36,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.23,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.2,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.31,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.18,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "idol_flat",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.15,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.13,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.13,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.07,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.16,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.18,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.06,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.12,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.07,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.09,
+      "exact": false,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "school_lastday",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.06,
+      "exact": false,
+      "nearDuplicate": false
+    }
+  ]
+}

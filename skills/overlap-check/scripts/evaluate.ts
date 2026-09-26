@@ -7,8 +7,7 @@
  * { "topic", "answers": [...] } object also works (wrapped as one sample).
  * Defaults to this skill's assets/samples.json / a results.json in the CWD.
  *
- * One atomic question per answer pair, plus an exact-match check in code.
- * Each pair is judged on its own, so the judge is never asked to "find the
+ * One atomic question per answer pair. Each pair is judged on its own, so the judge is never asked to "find the
  * duplicates" in a set — asked that way, a prompt judge invents similarity
  * when there is none (validated against blind human similarity labels in
  * humor-skills data/human-evals, 2026-09-23). Not covered: set-wide
@@ -68,9 +67,6 @@ const question = {
  */
 const NEAR_DUPLICATE = 0.7;
 
-/** Exact duplicates are a string question, not a Jev one. */
-const normalize = (s: string): string => s.normalize('NFKC').replace(/[\s\p{P}\p{S}]/gu, '');
-
 const usage = { requests: 0, input_tokens: 0, output_tokens: 0 };
 
 interface Overlap {
@@ -78,7 +74,6 @@ interface Overlap {
   a: number;
   b: number;
   sameMaterial: number;
-  exact: boolean;
   nearDuplicate: boolean;
 }
 
@@ -94,8 +89,7 @@ async function overlaps(sample: Sample): Promise<Overlap[]> {
     usage.input_tokens += result.usage.input_tokens;
     usage.output_tokens += result.usage.output_tokens;
     const sameMaterial = result.answers.sameMaterial.noul;
-    const exact = normalize(sample.answers[i]) === normalize(sample.answers[j]);
-    return { sampleId: sample.id, a: i + 1, b: j + 1, sameMaterial, exact, nearDuplicate: exact || sameMaterial >= NEAR_DUPLICATE };
+    return { sampleId: sample.id, a: i + 1, b: j + 1, sameMaterial, nearDuplicate: sameMaterial >= NEAR_DUPLICATE };
   }));
 }
 
@@ -113,7 +107,7 @@ async function main(): Promise<void> {
 
   for (const s of summaries) {
     console.log(`\n== ${s.id}: ${s.label}`);
-    console.log(`  near duplicates (${NEAR_DUPLICATE}+ or exact): ${s.nearDuplicates.map(([a, b]) => `${a}-${b}`).join(', ') || 'none'}`);
+    console.log(`  near duplicates (${NEAR_DUPLICATE}+): ${s.nearDuplicates.map(([a, b]) => `${a}-${b}`).join(', ') || 'none'}`);
   }
 
   const usd = (usage.input_tokens * 42) / 1e9 + (usage.output_tokens * 42) / 1e9;

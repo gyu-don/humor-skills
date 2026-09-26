@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "check": "tsc --noEmit",
-    "audit:ogiri-ai": "node src/ogiri-ai/rule-audit.ts",
     "audit:overlap-check": "node skills/overlap-check/scripts/evaluate.ts skills/overlap-check/assets/samples.json reports/overlap-check/results.json",
     "audit:trait-check": "node skills/trait-check/scripts/evaluate.ts skills/trait-check/assets/samples.json reports/trait-check/results.json && node skills/trait-check/scripts/compare.ts skills/trait-check/assets/pairs.json reports/trait-check/compare-results.json",
     "validate:jev": "node src/validation/run-jev.ts",

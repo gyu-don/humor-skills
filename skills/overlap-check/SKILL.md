@@ -1,6 +1,6 @@
 ---
 name: overlap-check
-description: 大喜利の回答群から、笑いの中心に同じ素材を使っている回答のペア（被り）を検出する。TypeSafe AI Jev で回答ペアを1組ずつ判定し、完全一致はコードで調べる。面白さは判定しない。
+description: 大喜利の回答群から、笑いの中心に同じ素材を使っている回答のペア（被り）を検出する。回答ペアを1組ずつ判定する。面白さは判定しない。
 ---
 
 # 被りチェック
@@ -19,7 +19,7 @@ description: 大喜利の回答群から、笑いの中心に同じ素材を使�
 1. お題と回答を `{"topic": "...", "answers": ["...", ...]}` 形式のJSONに書き出す。複数セットは `[{"id", "label", "topic", "answers"}, ...]`（見本は `assets/samples.json`）
 2. `node scripts/evaluate.ts <入力ファイル> [出力ファイル]` を実行する
 3. 出力JSONを読む
-   - `summaries[].nearDuplicates`: 被りと判定したペア（回答番号の組）。Jev の確率0.7以上か、句読点・空白を除いた完全一致
+   - `summaries[].nearDuplicates`: 被りと判定したペア（回答番号の組）。Jev の確率0.7以上
    - `overlaps[]`: 全ペアの `sameMaterial`（同じ素材を使っている確率）
 
 ## 判定の基準

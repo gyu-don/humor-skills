@@ -4,7 +4,7 @@
 このディレクトリには、まだ人間の判定と一致していないが、検証を続けるものを置く。
 インストール対象ではない（`npx skills add` や `/plugin install` では入らない）。スクリプトはリポジトリ直下の `node_modules` を使う。
 
-どれも `npm run validate:jev` で毎回検証される。プロンプト版のあるもの（SKILL.md の手順を Claude が実行するもの）は、`npm run validate:blind` の入力をサブエージェントに渡して検証する（リポジトリ直下の `AGENTS.md` の Validation を参照）。
+どれも `npm run validate:jev` で毎回検証される。プロンプト版のあるもの（SKILL.md の手順を Claude が実行するもの）は、`npm run validate:blind` の入力をサブエージェントに渡して検証する（`src/validation/README.md` を参照）。
 
 | 判定器 | 旧名 | 測るもの | 2026-09-24 の状態 |
 |---|---|---|---|

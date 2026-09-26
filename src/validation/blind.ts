@@ -12,7 +12,7 @@
  *   node src/validation/blind.ts unblind <dir> <format> <judge output.json> <run> <model>
  *     -> <dir>/../<evaluator>.prompt.run<run>.json (a ScoreFile)
  *
- * Formats (what the subagent is asked to write — see prompts in AGENTS.md):
+ * Formats (what the subagent is asked to write — see src/validation/README.md):
  *   funniness-score  {"<answer id>": {"novelty":n, ..., "overall":n, "overallFloored":n}}
  *   risk-flags       {"answers": {"<answer id>": ["ベタ", "ひねりなし", ...]}}
  *   ranking          {"<topic id>": {"ranking": [ids best->worst], "hits": [ids]}}   (no-rubric baseline)

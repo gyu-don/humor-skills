@@ -61,5 +61,5 @@ data/human-evals/
 
 ## 使い道
 
-`src/validation/` のスクリプトがこのディレクトリの `.json` をすべて読み、評価器の判定と人間の判定の一致率を測る（リポジトリ直下の `AGENTS.md` の Validation を参照）。
+`src/validation/` のスクリプトがこのディレクトリの `.json` をすべて読み、評価器の判定と人間の判定の一致率を測る（`src/validation/README.md` を参照）。
 新しいセッションを追加するたびに正解データが増え、評価器を改善したときの比較に使える。

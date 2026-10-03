@@ -1,0 +1,177 @@
+[
+  {
+    "id": "codex/baseline-run-gap/1-1",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "社長の椅子にノートPCを座らせる",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/baseline-run-gap/1-2",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "社長の椅子にノートPCを座らせる",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/baseline-run-gap/1-3",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "社長の椅子にノートPCを座らせる",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/baseline-run-gap/1-4",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "社長の椅子にノートPCを座らせる",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/baseline-run-gap/1-5",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "社長の椅子にノートPCを座らせる",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/baseline-run-gap/2-1",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "テスト合格のたびに校歌を流す",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/baseline-run-gap/2-2",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "テスト合格のたびに校歌を流す",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/baseline-run-gap/2-3",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "テスト合格のたびに校歌を流す",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/baseline-run-gap/2-4",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "テスト合格のたびに校歌を流す",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/baseline-run-gap/2-5",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "テスト合格のたびに校歌を流す",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/baseline-run-gap/3-1",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接中、膝で承認ボタンを押す",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/baseline-run-gap/3-2",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接中、膝で承認ボタンを押す",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/baseline-run-gap/3-3",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接中、膝で承認ボタンを押す",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/baseline-run-gap/3-4",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接中、膝で承認ボタンを押す",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/baseline-run-gap/3-5",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接中、膝で承認ボタンを押す",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/baseline-run-gap/4-1",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "完了音に合わせて袖をまくる",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/baseline-run-gap/4-2",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "完了音に合わせて袖をまくる",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/baseline-run-gap/4-3",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "完了音に合わせて袖をまくる",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/baseline-run-gap/4-4",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "完了音に合わせて袖をまくる",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/baseline-run-gap/4-5",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "完了音に合わせて袖をまくる",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/baseline-run-gap/5-1",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグの責任者欄にコンセント",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/baseline-run-gap/5-2",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグの責任者欄にコンセント",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/baseline-run-gap/5-3",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグの責任者欄にコンセント",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/baseline-run-gap/5-4",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグの責任者欄にコンセント",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/baseline-run-gap/5-5",
+    "label": "codex/baseline-run-gap",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグの責任者欄にコンセント",
+    "answerB": "親の期待をコメントアウト"
+  }
+]

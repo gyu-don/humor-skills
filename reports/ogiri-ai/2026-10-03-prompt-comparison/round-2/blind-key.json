@@ -1,0 +1,17 @@
+{
+  "codex": {
+    "A": "baseline",
+    "B": "variation-2",
+    "C": "variation-1"
+  },
+  "sylvanian": {
+    "A": "variation-2",
+    "B": "variation-1",
+    "C": "baseline"
+  },
+  "weather": {
+    "A": "variation-2",
+    "B": "variation-1",
+    "C": "baseline"
+  }
+}

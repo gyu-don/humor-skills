@@ -1,0 +1,86 @@
+[
+  {
+    "id": "codex/baseline/r1",
+    "label": "baseline",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "辞表をプルリクで出す",
+      "上司の説教を子守唄にビルド",
+      "彼女の既読に再試行ボタン",
+      "初デート前に謝罪文を生成",
+      "親の期待をコメントアウト"
+    ],
+    "rawPath": "raw/baseline-codex-r1.txt",
+    "sha256": "434bca605fb6d15e4376d5a54b0920ee8247b38ebcd449087f6b3a3873508c11"
+  },
+  {
+    "id": "codex/variation-1/r1",
+    "label": "variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "面接にノートPCだけ送り込む",
+      "コードを書かせて手書きで清書",
+      "エラー文を額装して個展",
+      "生成コードに自分の指紋を押す",
+      "バグを直すまで結婚式を止める"
+    ],
+    "rawPath": "raw/variation-1-codex-r1.txt",
+    "sha256": "b673f0bad51cf2a6fc0dab90545f2cfdafddf652b7a382157f3651e98da3dd46"
+  },
+  {
+    "id": "codex/variation-2/r1",
+    "label": "variation-2",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "Enter係に部下を３人つける",
+      "謝罪文にもテストを通す",
+      "徹夜のフリ用にログを小分け",
+      "初コミットを実家に飾る",
+      "キーボードを売って課金する"
+    ],
+    "rawPath": "raw/variation-2-codex-r1.txt",
+    "sha256": "479f6a7c3e7d817992237efd9f146d5e11f974e11b2a7eeb7b08156473c3a251"
+  },
+  {
+    "id": "sylvanian/baseline/r1",
+    "label": "baseline",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "うさぎ一家の家族写真だけ巻物",
+      "お父さんの寝床だけ梱包のまま",
+      "森の運動会、亀だけ翌日発売",
+      "全員の耳が倒れる満員電車",
+      "森のパン屋、試食だけ両手持ち"
+    ],
+    "rawPath": "raw/baseline-sylvanian-r1.txt",
+    "sha256": "ba91e2a6a95a702b7c66573f8a33fdccd14c45c2810b5624f612b3f1f66c1bc8"
+  },
+  {
+    "id": "sylvanian/variation-1/r1",
+    "label": "variation-1",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "お母さんの一声で畳める家",
+      "お父さんだけ実寸大",
+      "赤ちゃんが父の耳を握る乗馬セット",
+      "孫が来ると倍に膨らむおじいちゃん",
+      "玄関にお父さん専用の猫ドア"
+    ],
+    "rawPath": "raw/variation-1-sylvanian-r1.txt",
+    "sha256": "2658955fbca1ac13130b827e86460584b64eba7c3a12de3ba50c644713baa9db"
+  },
+  {
+    "id": "sylvanian/variation-2/r1",
+    "label": "variation-2",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "隣より１ミリ高い赤い屋根のお家",
+      "来客時だけ出せるピアノ",
+      "ベッドから届く家庭菜園",
+      "二世帯住宅、玄関だけ別売り",
+      "赤ちゃんが泣くと飛び出すパパ"
+    ],
+    "rawPath": "raw/variation-2-sylvanian-r1.txt",
+    "sha256": "2ebadc6acc517d9211f911fa0d60f3917ce2bf63d9fb52303741a21e543a4c5c"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "codex/baseline/r1",
+    "label": "baseline",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "辞表をプルリクで出す",
+      "上司の説教を子守唄にビルド",
+      "彼女の既読に再試行ボタン",
+      "初デート前に謝罪文を生成",
+      "親の期待をコメントアウト"
+    ],
+    "rawPath": "raw/baseline-codex-r1.txt",
+    "sha256": "434bca605fb6d15e4376d5a54b0920ee8247b38ebcd449087f6b3a3873508c11"
+  },
+  {
+    "id": "codex/baseline/r2",
+    "label": "baseline",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "社長の椅子にノートPCを座らせる",
+      "テスト合格のたびに校歌を流す",
+      "面接中、膝で承認ボタンを押す",
+      "完了音に合わせて袖をまくる",
+      "バグの責任者欄にコンセント"
+    ],
+    "rawPath": "raw/baseline-codex-r2.txt",
+    "sha256": "3bb6b9109703af5698204a68c69c519765c2d0dd6ec6f397379f34c80cd3d49e"
+  },
+  {
+    "id": "codex/variation-1/r1",
+    "label": "variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "面接にノートPCだけ送り込む",
+      "コードを書かせて手書きで清書",
+      "エラー文を額装して個展",
+      "生成コードに自分の指紋を押す",
+      "バグを直すまで結婚式を止める"
+    ],
+    "rawPath": "raw/variation-1-codex-r1.txt",
+    "sha256": "b673f0bad51cf2a6fc0dab90545f2cfdafddf652b7a382157f3651e98da3dd46"
+  },
+  {
+    "id": "codex/variation-1/r2",
+    "label": "variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "面接にノートPCだけ送り込む",
+      "母の小言に単体テストを書く",
+      "プロポーズをプルリクで出す",
+      "五分で作って三徹の顔で納品",
+      "承認ボタンだけ革手袋で押す"
+    ],
+    "rawPath": "raw/variation-1-codex-r2.txt",
+    "sha256": "062775da83480a3b393a90c93d9483b4da2a1db13046dc4f8063f130b3c2dfd7"
+  },
+  {
+    "id": "codex/variation-2/r1",
+    "label": "variation-2",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "Enter係に部下を３人つける",
+      "謝罪文にもテストを通す",
+      "徹夜のフリ用にログを小分け",
+      "初コミットを実家に飾る",
+      "キーボードを売って課金する"
+    ],
+    "rawPath": "raw/variation-2-codex-r1.txt",
+    "sha256": "479f6a7c3e7d817992237efd9f146d5e11f974e11b2a7eeb7b08156473c3a251"
+  },
+  {
+    "id": "codex/variation-2/r2",
+    "label": "variation-2",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "上司の前だけ一文字ずつ貼る",
+      "プロンプトを毛筆で下書き",
+      "バグの謝罪文まで一括納品",
+      "自分を褒めるテストを追加",
+      "父の説教を三行に圧縮"
+    ],
+    "rawPath": "raw/variation-2-codex-r2.txt",
+    "sha256": "a796d9264d1859faf43bf9d4e63db1e9e42e7c03cf7e832e26a7ca901ae9e118"
+  },
+  {
+    "id": "sylvanian/baseline/r1",
+    "label": "baseline",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "うさぎ一家の家族写真だけ巻物",
+      "お父さんの寝床だけ梱包のまま",
+      "森の運動会、亀だけ翌日発売",
+      "全員の耳が倒れる満員電車",
+      "森のパン屋、試食だけ両手持ち"
+    ],
+    "rawPath": "raw/baseline-sylvanian-r1.txt",
+    "sha256": "ba91e2a6a95a702b7c66573f8a33fdccd14c45c2810b5624f612b3f1f66c1bc8"
+  },
+  {
+    "id": "sylvanian/baseline/r2",
+    "label": "baseline",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "お父さんが毎朝箱へ出勤",
+      "くまのお父さんだけ冬季欠品",
+      "母の実家だけ城",
+      "森のパン屋、裏口に業務スーパー",
+      "反抗期の娘、箱の写真も後ろ姿"
+    ],
+    "rawPath": "raw/baseline-sylvanian-r2.txt",
+    "sha256": "af52fc40cf425e9471daf940f75fa4de8c71c1e81fa2a37ec2e2032b8ec1c092"
+  },
+  {
+    "id": "sylvanian/variation-1/r1",
+    "label": "variation-1",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "お母さんの一声で畳める家",
+      "お父さんだけ実寸大",
+      "赤ちゃんが父の耳を握る乗馬セット",
+      "孫が来ると倍に膨らむおじいちゃん",
+      "玄関にお父さん専用の猫ドア"
+    ],
+    "rawPath": "raw/variation-1-sylvanian-r1.txt",
+    "sha256": "2658955fbca1ac13130b827e86460584b64eba7c3a12de3ba50c644713baa9db"
+  },
+  {
+    "id": "sylvanian/variation-1/r2",
+    "label": "variation-1",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "耳を折って入る見栄っ張りの豪邸",
+      "赤ちゃんが父の電池を替える家",
+      "お父さんの耳を使う物干し台",
+      "屋根を外すと父が隠れる家",
+      "パパの説教を遮る跳ね橋"
+    ],
+    "rawPath": "raw/variation-1-sylvanian-r2.txt",
+    "sha256": "63b497fcbe926bb751671d6f46a485abb34e3690ae71945e59af96c497d3390a"
+  },
+  {
+    "id": "sylvanian/variation-2/r1",
+    "label": "variation-2",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "隣より１ミリ高い赤い屋根のお家",
+      "来客時だけ出せるピアノ",
+      "ベッドから届く家庭菜園",
+      "二世帯住宅、玄関だけ別売り",
+      "赤ちゃんが泣くと飛び出すパパ"
+    ],
+    "rawPath": "raw/variation-2-sylvanian-r1.txt",
+    "sha256": "2ebadc6acc517d9211f911fa0d60f3917ce2bf63d9fb52303741a21e543a4c5c"
+  },
+  {
+    "id": "sylvanian/variation-2/r2",
+    "label": "variation-2",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "玄関だけ実物大のお家",
+      "家より大きいお父さんの鉄道模型",
+      "一家ごと食洗機に入るお家",
+      "来客時に裏返せる散らかった部屋",
+      "耳を畳んで乗る軽自動車"
+    ],
+    "rawPath": "raw/variation-2-sylvanian-r2.txt",
+    "sha256": "a54ae92848d990b1751ded55ab1a0d4a8a0205188c2455cbbff4d9b80bcf82d4"
+  },
+  {
+    "id": "weather/baseline/r1",
+    "label": "baseline",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "台風の進路は実家を避けました",
+      "こちらは晴れの完成予想図です",
+      "雨はＣＭのあとに降らせます",
+      "気温は税込みでお伝えします",
+      "昨日の予報は燃えるゴミへ"
+    ],
+    "rawPath": "raw/baseline-weather-r1.txt",
+    "sha256": "203b812f6f4482012078df856e792e0f049a589ce235fec53b29293fe17cfc21"
+  },
+  {
+    "id": "weather/baseline/r2",
+    "label": "baseline",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "明日の予報は明後日発表します",
+      "「雨雲は修正テープで消しました」",
+      "晴れの地域は拍手で決めます",
+      "降水確率は視聴率込みです",
+      "雨予報だけ母に読ませます"
+    ],
+    "rawPath": "raw/baseline-weather-r2.txt",
+    "sha256": "b32d9274ec7bb329c124252e51164fa779eb867688f8c61abf2c3c9dcecfd628"
+  },
+  {
+    "id": "weather/variation-1/r1",
+    "label": "variation-1",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "この傘が売れるまで雨です",
+      "降水確率は消費税込みです",
+      "地図の青い所は全部雨です",
+      "最高気温は私の自己ベストです",
+      "雨の日は休みなので晴れです"
+    ],
+    "rawPath": "raw/variation-1-weather-r1.txt",
+    "sha256": "163094e6d3953dd040a8739eb34904e2e88b30a7a9db6d5d6a0b1af98e242435"
+  },
+  {
+    "id": "weather/variation-1/r2",
+    "label": "variation-1",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "雨雲は消しゴムで消しました",
+      "この雨はリハーサルです",
+      "気温は手数料込みです",
+      "日曜の雨は月曜に振り替えます",
+      "降水確率は私の支持率です"
+    ],
+    "rawPath": "raw/variation-1-weather-r2.txt",
+    "sha256": "66734be38c56185e926970ebd91f90f1ac9d85b7dd25aaaff753db729988f17d"
+  },
+  {
+    "id": "weather/variation-2/r1",
+    "label": "variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "降水確率は傘屋と決めました",
+      "雨雲は消しゴムで消しました",
+      "外れた日は弟が出ます",
+      "昨日当たったので今日は再放送です",
+      "明日は晴れ、私の結婚式なので"
+    ],
+    "rawPath": "raw/variation-2-weather-r1.txt",
+    "sha256": "55511dd9950bdbaec93605dc750aee012f899b5da4e4d41a8aa14fcaaaa2336c"
+  },
+  {
+    "id": "weather/variation-2/r2",
+    "label": "variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "傘屋から入金されたので雨です",
+      "この台風、去年も使いました",
+      "濡れた方、証拠はありますか",
+      "降水確率は拍手の大きさで決めます",
+      "雨雲はＣＭ中に消します"
+    ],
+    "rawPath": "raw/variation-2-weather-r2.txt",
+    "sha256": "b748ad0a02f599b221f5eee202891c162ace1d572827ec671ce1cfad13ae09fe"
+  }
+]

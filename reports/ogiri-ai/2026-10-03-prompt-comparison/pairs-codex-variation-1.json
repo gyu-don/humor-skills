@@ -1,0 +1,702 @@
+[
+  {
+    "id": "codex/variation-1/1-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/1-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/1-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/1-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/1-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/1-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/1-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/1-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/1-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/1-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/2-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/2-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/2-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/2-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/2-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/2-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/2-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/2-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/2-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/2-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "コードを書かせて手書きで清書",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/3-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/3-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/3-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/3-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/3-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/3-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/3-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/3-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/3-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/3-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "エラー文を額装して個展",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/4-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/4-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/4-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/4-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/4-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/4-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/4-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/4-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/4-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/4-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "生成コードに自分の指紋を押す",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/5-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/5-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/5-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/5-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/5-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/5-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/5-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/5-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/5-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/5-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "バグを直すまで結婚式を止める",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/6-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/6-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/6-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/6-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/6-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/6-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/6-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/6-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/6-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/6-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "面接にノートPCだけ送り込む",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/7-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/7-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/7-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/7-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/7-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/7-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/7-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/7-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/7-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/7-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "母の小言に単体テストを書く",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/8-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/8-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/8-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/8-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/8-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/8-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/8-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/8-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/8-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/8-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "プロポーズをプルリクで出す",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/9-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/9-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/9-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/9-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/9-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/9-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/9-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/9-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/9-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/9-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "五分で作って三徹の顔で納品",
+    "answerB": "バグの責任者欄にコンセント"
+  },
+  {
+    "id": "codex/variation-1/10-1",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "辞表をプルリクで出す"
+  },
+  {
+    "id": "codex/variation-1/10-2",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "上司の説教を子守唄にビルド"
+  },
+  {
+    "id": "codex/variation-1/10-3",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "彼女の既読に再試行ボタン"
+  },
+  {
+    "id": "codex/variation-1/10-4",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "初デート前に謝罪文を生成"
+  },
+  {
+    "id": "codex/variation-1/10-5",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "親の期待をコメントアウト"
+  },
+  {
+    "id": "codex/variation-1/10-6",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "社長の椅子にノートPCを座らせる"
+  },
+  {
+    "id": "codex/variation-1/10-7",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "テスト合格のたびに校歌を流す"
+  },
+  {
+    "id": "codex/variation-1/10-8",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "面接中、膝で承認ボタンを押す"
+  },
+  {
+    "id": "codex/variation-1/10-9",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "完了音に合わせて袖をまくる"
+  },
+  {
+    "id": "codex/variation-1/10-10",
+    "label": "codex/variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answerA": "承認ボタンだけ革手袋で押す",
+    "answerB": "バグの責任者欄にコンセント"
+  }
+]

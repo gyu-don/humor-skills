@@ -1,0 +1,1109 @@
+{
+  "usage": {
+    "requests": 200,
+    "input_tokens": 99200,
+    "output_tokens": 12000
+  },
+  "results": [
+    {
+      "id": "codex/variation-1/1-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.395,
+        "straight": 0.38
+      },
+      "probA": 0.3875,
+      "winner": "B",
+      "confidence": 0.22499999999999998
+    },
+    {
+      "id": "codex/variation-1/1-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5700000000000001,
+        "straight": 0.75
+      },
+      "probA": 0.66,
+      "winner": "A",
+      "confidence": 0.32000000000000006
+    },
+    {
+      "id": "codex/variation-1/1-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5449999999999999,
+        "straight": 0.585
+      },
+      "probA": 0.565,
+      "winner": "A",
+      "confidence": 0.1299999999999999
+    },
+    {
+      "id": "codex/variation-1/1-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.44,
+        "straight": 0.72
+      },
+      "probA": 0.58,
+      "winner": "A",
+      "confidence": 0.15999999999999992
+    },
+    {
+      "id": "codex/variation-1/1-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.77,
+        "straight": 0.47
+      },
+      "probA": 0.62,
+      "winner": "A",
+      "confidence": 0.24
+    },
+    {
+      "id": "codex/variation-1/1-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.49,
+        "straight": 0.575
+      },
+      "probA": 0.5325,
+      "winner": "draw",
+      "confidence": 0.06499999999999995
+    },
+    {
+      "id": "codex/variation-1/1-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.39,
+        "straight": 0.67
+      },
+      "probA": 0.53,
+      "winner": "draw",
+      "confidence": 0.06000000000000005
+    },
+    {
+      "id": "codex/variation-1/1-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.32,
+        "straight": 0.54
+      },
+      "probA": 0.43000000000000005,
+      "winner": "B",
+      "confidence": 0.1399999999999999
+    },
+    {
+      "id": "codex/variation-1/1-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.43000000000000005,
+        "straight": 0.61
+      },
+      "probA": 0.52,
+      "winner": "draw",
+      "confidence": 0.040000000000000036
+    },
+    {
+      "id": "codex/variation-1/1-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.535,
+        "straight": 0.565
+      },
+      "probA": 0.55,
+      "winner": "A",
+      "confidence": 0.10000000000000009
+    },
+    {
+      "id": "codex/variation-1/2-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.295,
+        "straight": 0.18
+      },
+      "probA": 0.2375,
+      "winner": "B",
+      "confidence": 0.525
+    },
+    {
+      "id": "codex/variation-1/2-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5,
+        "straight": 0.5700000000000001
+      },
+      "probA": 0.535,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "codex/variation-1/2-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.48000000000000004,
+        "straight": 0.355
+      },
+      "probA": 0.4175,
+      "winner": "B",
+      "confidence": 0.16500000000000004
+    },
+    {
+      "id": "codex/variation-1/2-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.385,
+        "straight": 0.5900000000000001
+      },
+      "probA": 0.48750000000000004,
+      "winner": "draw",
+      "confidence": 0.02499999999999991
+    },
+    {
+      "id": "codex/variation-1/2-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.58,
+        "straight": 0.23999999999999996
+      },
+      "probA": 0.41,
+      "winner": "B",
+      "confidence": 0.18000000000000005
+    },
+    {
+      "id": "codex/variation-1/2-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.44499999999999995,
+        "straight": 0.445
+      },
+      "probA": 0.44499999999999995,
+      "winner": "B",
+      "confidence": 0.1100000000000001
+    },
+    {
+      "id": "codex/variation-1/2-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.26,
+        "straight": 0.435
+      },
+      "probA": 0.34750000000000003,
+      "winner": "B",
+      "confidence": 0.30499999999999994
+    },
+    {
+      "id": "codex/variation-1/2-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.33,
+        "straight": 0.30000000000000004
+      },
+      "probA": 0.31500000000000006,
+      "winner": "B",
+      "confidence": 0.3699999999999999
+    },
+    {
+      "id": "codex/variation-1/2-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.41000000000000003,
+        "straight": 0.4
+      },
+      "probA": 0.405,
+      "winner": "B",
+      "confidence": 0.18999999999999995
+    },
+    {
+      "id": "codex/variation-1/2-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.435,
+        "straight": 0.275
+      },
+      "probA": 0.355,
+      "winner": "B",
+      "confidence": 0.29000000000000004
+    },
+    {
+      "id": "codex/variation-1/3-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.49,
+        "straight": 0.255
+      },
+      "probA": 0.3725,
+      "winner": "B",
+      "confidence": 0.255
+    },
+    {
+      "id": "codex/variation-1/3-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.62,
+        "straight": 0.595
+      },
+      "probA": 0.6074999999999999,
+      "winner": "A",
+      "confidence": 0.21499999999999986
+    },
+    {
+      "id": "codex/variation-1/3-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.605,
+        "straight": 0.445
+      },
+      "probA": 0.525,
+      "winner": "draw",
+      "confidence": 0.050000000000000044
+    },
+    {
+      "id": "codex/variation-1/3-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.51,
+        "straight": 0.61
+      },
+      "probA": 0.56,
+      "winner": "A",
+      "confidence": 0.1200000000000001
+    },
+    {
+      "id": "codex/variation-1/3-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.77,
+        "straight": 0.33999999999999997
+      },
+      "probA": 0.5549999999999999,
+      "winner": "A",
+      "confidence": 0.10999999999999988
+    },
+    {
+      "id": "codex/variation-1/3-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.535,
+        "straight": 0.385
+      },
+      "probA": 0.46,
+      "winner": "draw",
+      "confidence": 0.07999999999999996
+    },
+    {
+      "id": "codex/variation-1/3-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.535
+      },
+      "probA": 0.5375000000000001,
+      "winner": "draw",
+      "confidence": 0.07500000000000018
+    },
+    {
+      "id": "codex/variation-1/3-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.475,
+        "straight": 0.395
+      },
+      "probA": 0.435,
+      "winner": "B",
+      "confidence": 0.13
+    },
+    {
+      "id": "codex/variation-1/3-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5,
+        "straight": 0.375
+      },
+      "probA": 0.4375,
+      "winner": "B",
+      "confidence": 0.125
+    },
+    {
+      "id": "codex/variation-1/3-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.64,
+        "straight": 0.455
+      },
+      "probA": 0.5475,
+      "winner": "draw",
+      "confidence": 0.09499999999999997
+    },
+    {
+      "id": "codex/variation-1/4-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.415,
+        "straight": 0.27499999999999997
+      },
+      "probA": 0.345,
+      "winner": "B",
+      "confidence": 0.31000000000000005
+    },
+    {
+      "id": "codex/variation-1/4-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.62,
+        "straight": 0.73
+      },
+      "probA": 0.675,
+      "winner": "A",
+      "confidence": 0.3500000000000001
+    },
+    {
+      "id": "codex/variation-1/4-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.42000000000000004
+      },
+      "probA": 0.48000000000000004,
+      "winner": "draw",
+      "confidence": 0.039999999999999925
+    },
+    {
+      "id": "codex/variation-1/4-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.43500000000000005,
+        "straight": 0.7
+      },
+      "probA": 0.5675,
+      "winner": "A",
+      "confidence": 0.135
+    },
+    {
+      "id": "codex/variation-1/4-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.7,
+        "straight": 0.37
+      },
+      "probA": 0.5349999999999999,
+      "winner": "draw",
+      "confidence": 0.06999999999999984
+    },
+    {
+      "id": "codex/variation-1/4-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5,
+        "straight": 0.565
+      },
+      "probA": 0.5325,
+      "winner": "draw",
+      "confidence": 0.06499999999999995
+    },
+    {
+      "id": "codex/variation-1/4-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.355,
+        "straight": 0.59
+      },
+      "probA": 0.4725,
+      "winner": "draw",
+      "confidence": 0.05500000000000005
+    },
+    {
+      "id": "codex/variation-1/4-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.325,
+        "straight": 0.4
+      },
+      "probA": 0.36250000000000004,
+      "winner": "B",
+      "confidence": 0.2749999999999999
+    },
+    {
+      "id": "codex/variation-1/4-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.44499999999999995,
+        "straight": 0.45
+      },
+      "probA": 0.4475,
+      "winner": "B",
+      "confidence": 0.10499999999999998
+    },
+    {
+      "id": "codex/variation-1/4-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5650000000000001,
+        "straight": 0.285
+      },
+      "probA": 0.42500000000000004,
+      "winner": "B",
+      "confidence": 0.1499999999999999
+    },
+    {
+      "id": "codex/variation-1/5-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.43999999999999995,
+        "straight": 0.32
+      },
+      "probA": 0.38,
+      "winner": "B",
+      "confidence": 0.24
+    },
+    {
+      "id": "codex/variation-1/5-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5650000000000001,
+        "straight": 0.665
+      },
+      "probA": 0.615,
+      "winner": "A",
+      "confidence": 0.22999999999999998
+    },
+    {
+      "id": "codex/variation-1/5-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.545,
+        "straight": 0.525
+      },
+      "probA": 0.535,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "codex/variation-1/5-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.445,
+        "straight": 0.6950000000000001
+      },
+      "probA": 0.5700000000000001,
+      "winner": "A",
+      "confidence": 0.14000000000000012
+    },
+    {
+      "id": "codex/variation-1/5-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.715,
+        "straight": 0.41500000000000004
+      },
+      "probA": 0.565,
+      "winner": "A",
+      "confidence": 0.1299999999999999
+    },
+    {
+      "id": "codex/variation-1/5-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5049999999999999,
+        "straight": 0.565
+      },
+      "probA": 0.5349999999999999,
+      "winner": "draw",
+      "confidence": 0.06999999999999984
+    },
+    {
+      "id": "codex/variation-1/5-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.43000000000000005,
+        "straight": 0.59
+      },
+      "probA": 0.51,
+      "winner": "draw",
+      "confidence": 0.020000000000000018
+    },
+    {
+      "id": "codex/variation-1/5-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.33999999999999997,
+        "straight": 0.47500000000000003
+      },
+      "probA": 0.4075,
+      "winner": "B",
+      "confidence": 0.18500000000000005
+    },
+    {
+      "id": "codex/variation-1/5-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.42499999999999993,
+        "straight": 0.52
+      },
+      "probA": 0.4725,
+      "winner": "draw",
+      "confidence": 0.05500000000000005
+    },
+    {
+      "id": "codex/variation-1/5-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5700000000000001,
+        "straight": 0.5
+      },
+      "probA": 0.535,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "codex/variation-1/6-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.38,
+        "straight": 0.355
+      },
+      "probA": 0.3675,
+      "winner": "B",
+      "confidence": 0.265
+    },
+    {
+      "id": "codex/variation-1/6-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.585,
+        "straight": 0.76
+      },
+      "probA": 0.6725,
+      "winner": "A",
+      "confidence": 0.345
+    },
+    {
+      "id": "codex/variation-1/6-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.5800000000000001
+      },
+      "probA": 0.56,
+      "winner": "A",
+      "confidence": 0.1200000000000001
+    },
+    {
+      "id": "codex/variation-1/6-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.44999999999999996,
+        "straight": 0.7449999999999999
+      },
+      "probA": 0.5974999999999999,
+      "winner": "A",
+      "confidence": 0.19499999999999984
+    },
+    {
+      "id": "codex/variation-1/6-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.77,
+        "straight": 0.47
+      },
+      "probA": 0.62,
+      "winner": "A",
+      "confidence": 0.24
+    },
+    {
+      "id": "codex/variation-1/6-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.5149999999999999,
+        "straight": 0.595
+      },
+      "probA": 0.5549999999999999,
+      "winner": "A",
+      "confidence": 0.10999999999999988
+    },
+    {
+      "id": "codex/variation-1/6-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.39,
+        "straight": 0.6950000000000001
+      },
+      "probA": 0.5425,
+      "winner": "draw",
+      "confidence": 0.08499999999999996
+    },
+    {
+      "id": "codex/variation-1/6-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.33,
+        "straight": 0.595
+      },
+      "probA": 0.4625,
+      "winner": "draw",
+      "confidence": 0.07499999999999996
+    },
+    {
+      "id": "codex/variation-1/6-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.45,
+        "straight": 0.635
+      },
+      "probA": 0.5425,
+      "winner": "draw",
+      "confidence": 0.08499999999999996
+    },
+    {
+      "id": "codex/variation-1/6-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.53
+      },
+      "probA": 0.535,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "codex/variation-1/7-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.485,
+        "straight": 0.31999999999999995
+      },
+      "probA": 0.40249999999999997,
+      "winner": "B",
+      "confidence": 0.19500000000000006
+    },
+    {
+      "id": "codex/variation-1/7-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.7,
+        "straight": 0.655
+      },
+      "probA": 0.6775,
+      "winner": "A",
+      "confidence": 0.355
+    },
+    {
+      "id": "codex/variation-1/7-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.645,
+        "straight": 0.45999999999999996
+      },
+      "probA": 0.5525,
+      "winner": "A",
+      "confidence": 0.10499999999999998
+    },
+    {
+      "id": "codex/variation-1/7-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.535,
+        "straight": 0.675
+      },
+      "probA": 0.605,
+      "winner": "A",
+      "confidence": 0.20999999999999996
+    },
+    {
+      "id": "codex/variation-1/7-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.77,
+        "straight": 0.33
+      },
+      "probA": 0.55,
+      "winner": "A",
+      "confidence": 0.10000000000000009
+    },
+    {
+      "id": "codex/variation-1/7-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.615,
+        "straight": 0.56
+      },
+      "probA": 0.5875,
+      "winner": "A",
+      "confidence": 0.17500000000000004
+    },
+    {
+      "id": "codex/variation-1/7-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.475,
+        "straight": 0.58
+      },
+      "probA": 0.5275,
+      "winner": "draw",
+      "confidence": 0.05499999999999994
+    },
+    {
+      "id": "codex/variation-1/7-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.445,
+        "straight": 0.45
+      },
+      "probA": 0.4475,
+      "winner": "B",
+      "confidence": 0.10499999999999998
+    },
+    {
+      "id": "codex/variation-1/7-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.53,
+        "straight": 0.485
+      },
+      "probA": 0.5075000000000001,
+      "winner": "draw",
+      "confidence": 0.015000000000000124
+    },
+    {
+      "id": "codex/variation-1/7-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.56,
+        "straight": 0.435
+      },
+      "probA": 0.49750000000000005,
+      "winner": "draw",
+      "confidence": 0.004999999999999893
+    },
+    {
+      "id": "codex/variation-1/8-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.505,
+        "straight": 0.44
+      },
+      "probA": 0.47250000000000003,
+      "winner": "draw",
+      "confidence": 0.05499999999999994
+    },
+    {
+      "id": "codex/variation-1/8-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.6499999999999999,
+        "straight": 0.75
+      },
+      "probA": 0.7,
+      "winner": "A",
+      "confidence": 0.3999999999999999
+    },
+    {
+      "id": "codex/variation-1/8-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.6499999999999999,
+        "straight": 0.62
+      },
+      "probA": 0.635,
+      "winner": "A",
+      "confidence": 0.27
+    },
+    {
+      "id": "codex/variation-1/8-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.595,
+        "straight": 0.8
+      },
+      "probA": 0.6975,
+      "winner": "A",
+      "confidence": 0.395
+    },
+    {
+      "id": "codex/variation-1/8-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.775,
+        "straight": 0.55
+      },
+      "probA": 0.6625000000000001,
+      "winner": "A",
+      "confidence": 0.3250000000000002
+    },
+    {
+      "id": "codex/variation-1/8-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.555,
+        "straight": 0.67
+      },
+      "probA": 0.6125,
+      "winner": "A",
+      "confidence": 0.2250000000000001
+    },
+    {
+      "id": "codex/variation-1/8-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.525,
+        "straight": 0.7050000000000001
+      },
+      "probA": 0.615,
+      "winner": "A",
+      "confidence": 0.22999999999999998
+    },
+    {
+      "id": "codex/variation-1/8-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.46,
+        "straight": 0.56
+      },
+      "probA": 0.51,
+      "winner": "draw",
+      "confidence": 0.020000000000000018
+    },
+    {
+      "id": "codex/variation-1/8-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.535,
+        "straight": 0.63
+      },
+      "probA": 0.5825,
+      "winner": "A",
+      "confidence": 0.16500000000000004
+    },
+    {
+      "id": "codex/variation-1/8-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.615,
+        "straight": 0.585
+      },
+      "probA": 0.6,
+      "winner": "A",
+      "confidence": 0.19999999999999996
+    },
+    {
+      "id": "codex/variation-1/9-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.515,
+        "straight": 0.365
+      },
+      "probA": 0.44,
+      "winner": "B",
+      "confidence": 0.12
+    },
+    {
+      "id": "codex/variation-1/9-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.62,
+        "straight": 0.76
+      },
+      "probA": 0.69,
+      "winner": "A",
+      "confidence": 0.3799999999999999
+    },
+    {
+      "id": "codex/variation-1/9-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.64,
+        "straight": 0.5700000000000001
+      },
+      "probA": 0.605,
+      "winner": "A",
+      "confidence": 0.20999999999999996
+    },
+    {
+      "id": "codex/variation-1/9-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.585,
+        "straight": 0.795
+      },
+      "probA": 0.69,
+      "winner": "A",
+      "confidence": 0.3799999999999999
+    },
+    {
+      "id": "codex/variation-1/9-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.765,
+        "straight": 0.47
+      },
+      "probA": 0.6174999999999999,
+      "winner": "A",
+      "confidence": 0.23499999999999988
+    },
+    {
+      "id": "codex/variation-1/9-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.52,
+        "straight": 0.64
+      },
+      "probA": 0.5800000000000001,
+      "winner": "A",
+      "confidence": 0.16000000000000014
+    },
+    {
+      "id": "codex/variation-1/9-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.44999999999999996,
+        "straight": 0.7
+      },
+      "probA": 0.575,
+      "winner": "A",
+      "confidence": 0.1499999999999999
+    },
+    {
+      "id": "codex/variation-1/9-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.435,
+        "straight": 0.6000000000000001
+      },
+      "probA": 0.5175000000000001,
+      "winner": "draw",
+      "confidence": 0.03500000000000014
+    },
+    {
+      "id": "codex/variation-1/9-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.545,
+        "straight": 0.605
+      },
+      "probA": 0.575,
+      "winner": "A",
+      "confidence": 0.1499999999999999
+    },
+    {
+      "id": "codex/variation-1/9-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.565,
+        "straight": 0.525
+      },
+      "probA": 0.5449999999999999,
+      "winner": "draw",
+      "confidence": 0.08999999999999986
+    },
+    {
+      "id": "codex/variation-1/10-1",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.595,
+        "straight": 0.37
+      },
+      "probA": 0.4825,
+      "winner": "draw",
+      "confidence": 0.03500000000000003
+    },
+    {
+      "id": "codex/variation-1/10-2",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.645,
+        "straight": 0.7749999999999999
+      },
+      "probA": 0.71,
+      "winner": "A",
+      "confidence": 0.41999999999999993
+    },
+    {
+      "id": "codex/variation-1/10-3",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.69,
+        "straight": 0.55
+      },
+      "probA": 0.62,
+      "winner": "A",
+      "confidence": 0.24
+    },
+    {
+      "id": "codex/variation-1/10-4",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.6699999999999999,
+        "straight": 0.8700000000000001
+      },
+      "probA": 0.77,
+      "winner": "A",
+      "confidence": 0.54
+    },
+    {
+      "id": "codex/variation-1/10-5",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.8,
+        "straight": 0.47000000000000003
+      },
+      "probA": 0.635,
+      "winner": "A",
+      "confidence": 0.27
+    },
+    {
+      "id": "codex/variation-1/10-6",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.61
+      },
+      "probA": 0.575,
+      "winner": "A",
+      "confidence": 0.1499999999999999
+    },
+    {
+      "id": "codex/variation-1/10-7",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.565,
+        "straight": 0.635
+      },
+      "probA": 0.6,
+      "winner": "A",
+      "confidence": 0.19999999999999996
+    },
+    {
+      "id": "codex/variation-1/10-8",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.535,
+        "straight": 0.6950000000000001
+      },
+      "probA": 0.615,
+      "winner": "A",
+      "confidence": 0.22999999999999998
+    },
+    {
+      "id": "codex/variation-1/10-9",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.625,
+        "straight": 0.645
+      },
+      "probA": 0.635,
+      "winner": "A",
+      "confidence": 0.27
+    },
+    {
+      "id": "codex/variation-1/10-10",
+      "label": "codex/variation-1",
+      "criteria": {
+        "concrete": 0.665,
+        "straight": 0.565
+      },
+      "probA": 0.615,
+      "winner": "A",
+      "confidence": 0.22999999999999998
+    }
+  ]
+}

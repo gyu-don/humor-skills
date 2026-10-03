@@ -1,0 +1,284 @@
+{
+  "usage": {
+    "requests": 50,
+    "input_tokens": 24880,
+    "output_tokens": 3000
+  },
+  "results": [
+    {
+      "id": "sylvanian/baseline-run-gap/1-1",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.595,
+        "straight": 0.5549999999999999
+      },
+      "probA": 0.575,
+      "winner": "A",
+      "confidence": 0.1499999999999999
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/1-2",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.23500000000000001,
+        "straight": 0.35
+      },
+      "probA": 0.2925,
+      "winner": "B",
+      "confidence": 0.41500000000000004
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/1-3",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.355,
+        "straight": 0.5
+      },
+      "probA": 0.4275,
+      "winner": "B",
+      "confidence": 0.14500000000000002
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/1-4",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.33499999999999996,
+        "straight": 0.595
+      },
+      "probA": 0.46499999999999997,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/1-5",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.32999999999999996,
+        "straight": 0.605
+      },
+      "probA": 0.46749999999999997,
+      "winner": "draw",
+      "confidence": 0.06500000000000006
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/2-1",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.6199999999999999,
+        "straight": 0.625
+      },
+      "probA": 0.6224999999999999,
+      "winner": "A",
+      "confidence": 0.24499999999999988
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/2-2",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.45,
+        "straight": 0.615
+      },
+      "probA": 0.5325,
+      "winner": "draw",
+      "confidence": 0.06499999999999995
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/2-3",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.485,
+        "straight": 0.575
+      },
+      "probA": 0.53,
+      "winner": "draw",
+      "confidence": 0.06000000000000005
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/2-4",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.47500000000000003,
+        "straight": 0.775
+      },
+      "probA": 0.625,
+      "winner": "A",
+      "confidence": 0.25
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/2-5",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.43,
+        "straight": 0.685
+      },
+      "probA": 0.5575,
+      "winner": "A",
+      "confidence": 0.11499999999999999
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/3-1",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.475,
+        "straight": 0.6699999999999999
+      },
+      "probA": 0.5725,
+      "winner": "A",
+      "confidence": 0.14500000000000002
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/3-2",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.24999999999999997,
+        "straight": 0.63
+      },
+      "probA": 0.44,
+      "winner": "B",
+      "confidence": 0.12
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/3-3",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.28,
+        "straight": 0.8200000000000001
+      },
+      "probA": 0.55,
+      "winner": "A",
+      "confidence": 0.10000000000000009
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/3-4",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.23500000000000001,
+        "straight": 0.79
+      },
+      "probA": 0.5125000000000001,
+      "winner": "draw",
+      "confidence": 0.025000000000000133
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/3-5",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.21999999999999997,
+        "straight": 0.7949999999999999
+      },
+      "probA": 0.5075,
+      "winner": "draw",
+      "confidence": 0.014999999999999902
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/4-1",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.74,
+        "straight": 0.455
+      },
+      "probA": 0.5975,
+      "winner": "A",
+      "confidence": 0.19500000000000006
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/4-2",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.52,
+        "straight": 0.335
+      },
+      "probA": 0.4275,
+      "winner": "B",
+      "confidence": 0.14500000000000002
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/4-3",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.62,
+        "straight": 0.495
+      },
+      "probA": 0.5575,
+      "winner": "A",
+      "confidence": 0.11499999999999999
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/4-4",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.525,
+        "straight": 0.355
+      },
+      "probA": 0.44,
+      "winner": "B",
+      "confidence": 0.12
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/4-5",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.5700000000000001,
+        "straight": 0.5
+      },
+      "probA": 0.535,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/5-1",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.51,
+        "straight": 0.27
+      },
+      "probA": 0.39,
+      "winner": "B",
+      "confidence": 0.21999999999999997
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/5-2",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.28500000000000003,
+        "straight": 0.285
+      },
+      "probA": 0.28500000000000003,
+      "winner": "B",
+      "confidence": 0.42999999999999994
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/5-3",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.375,
+        "straight": 0.33999999999999997
+      },
+      "probA": 0.3575,
+      "winner": "B",
+      "confidence": 0.28500000000000003
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/5-4",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.35000000000000003,
+        "straight": 0.4
+      },
+      "probA": 0.375,
+      "winner": "B",
+      "confidence": 0.25
+    },
+    {
+      "id": "sylvanian/baseline-run-gap/5-5",
+      "label": "sylvanian/baseline-run-gap",
+      "criteria": {
+        "concrete": 0.28500000000000003,
+        "straight": 0.36
+      },
+      "probA": 0.3225,
+      "winner": "B",
+      "confidence": 0.355
+    }
+  ]
+}

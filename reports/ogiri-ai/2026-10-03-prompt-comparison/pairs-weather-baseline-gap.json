@@ -1,0 +1,177 @@
+[
+  {
+    "id": "weather/baseline-run-gap/1-1",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日の予報は明後日発表します",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/baseline-run-gap/1-2",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日の予報は明後日発表します",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/baseline-run-gap/1-3",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日の予報は明後日発表します",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/baseline-run-gap/1-4",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日の予報は明後日発表します",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/baseline-run-gap/1-5",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日の予報は明後日発表します",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/baseline-run-gap/2-1",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "「雨雲は修正テープで消しました」",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/baseline-run-gap/2-2",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "「雨雲は修正テープで消しました」",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/baseline-run-gap/2-3",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "「雨雲は修正テープで消しました」",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/baseline-run-gap/2-4",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "「雨雲は修正テープで消しました」",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/baseline-run-gap/2-5",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "「雨雲は修正テープで消しました」",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/baseline-run-gap/3-1",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "晴れの地域は拍手で決めます",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/baseline-run-gap/3-2",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "晴れの地域は拍手で決めます",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/baseline-run-gap/3-3",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "晴れの地域は拍手で決めます",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/baseline-run-gap/3-4",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "晴れの地域は拍手で決めます",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/baseline-run-gap/3-5",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "晴れの地域は拍手で決めます",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/baseline-run-gap/4-1",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は視聴率込みです",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/baseline-run-gap/4-2",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は視聴率込みです",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/baseline-run-gap/4-3",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は視聴率込みです",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/baseline-run-gap/4-4",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は視聴率込みです",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/baseline-run-gap/4-5",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は視聴率込みです",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/baseline-run-gap/5-1",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨予報だけ母に読ませます",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/baseline-run-gap/5-2",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨予報だけ母に読ませます",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/baseline-run-gap/5-3",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨予報だけ母に読ませます",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/baseline-run-gap/5-4",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨予報だけ母に読ませます",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/baseline-run-gap/5-5",
+    "label": "weather/baseline-run-gap",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨予報だけ母に読ませます",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  }
+]

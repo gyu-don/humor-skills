@@ -1,0 +1,1109 @@
+{
+  "usage": {
+    "requests": 200,
+    "input_tokens": 101040,
+    "output_tokens": 12000
+  },
+  "results": [
+    {
+      "id": "weather/variation-2/1-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.255,
+        "straight": 0.56
+      },
+      "probA": 0.40750000000000003,
+      "winner": "B",
+      "confidence": 0.18499999999999994
+    },
+    {
+      "id": "weather/variation-2/1-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.72,
+        "straight": 0.795
+      },
+      "probA": 0.7575000000000001,
+      "winner": "A",
+      "confidence": 0.5150000000000001
+    },
+    {
+      "id": "weather/variation-2/1-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.32,
+        "straight": 0.375
+      },
+      "probA": 0.34750000000000003,
+      "winner": "B",
+      "confidence": 0.30499999999999994
+    },
+    {
+      "id": "weather/variation-2/1-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.7,
+        "straight": 0.635
+      },
+      "probA": 0.6675,
+      "winner": "A",
+      "confidence": 0.33499999999999996
+    },
+    {
+      "id": "weather/variation-2/1-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.45,
+        "straight": 0.335
+      },
+      "probA": 0.3925,
+      "winner": "B",
+      "confidence": 0.21499999999999997
+    },
+    {
+      "id": "weather/variation-2/1-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.5700000000000001,
+        "straight": 0.53
+      },
+      "probA": 0.55,
+      "winner": "A",
+      "confidence": 0.10000000000000009
+    },
+    {
+      "id": "weather/variation-2/1-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.265,
+        "straight": 0.36
+      },
+      "probA": 0.3125,
+      "winner": "B",
+      "confidence": 0.375
+    },
+    {
+      "id": "weather/variation-2/1-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.71,
+        "straight": 0.495
+      },
+      "probA": 0.6025,
+      "winner": "A",
+      "confidence": 0.20500000000000007
+    },
+    {
+      "id": "weather/variation-2/1-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.575,
+        "straight": 0.475
+      },
+      "probA": 0.5249999999999999,
+      "winner": "draw",
+      "confidence": 0.04999999999999982
+    },
+    {
+      "id": "weather/variation-2/1-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.5,
+        "straight": 0.5449999999999999
+      },
+      "probA": 0.5225,
+      "winner": "draw",
+      "confidence": 0.04499999999999993
+    },
+    {
+      "id": "weather/variation-2/2-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.255,
+        "straight": 0.6799999999999999
+      },
+      "probA": 0.46749999999999997,
+      "winner": "draw",
+      "confidence": 0.06500000000000006
+    },
+    {
+      "id": "weather/variation-2/2-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.78,
+        "straight": 0.88
+      },
+      "probA": 0.8300000000000001,
+      "winner": "A",
+      "confidence": 0.6600000000000001
+    },
+    {
+      "id": "weather/variation-2/2-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.33999999999999997,
+        "straight": 0.505
+      },
+      "probA": 0.4225,
+      "winner": "B",
+      "confidence": 0.15500000000000003
+    },
+    {
+      "id": "weather/variation-2/2-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.675,
+        "straight": 0.77
+      },
+      "probA": 0.7225,
+      "winner": "A",
+      "confidence": 0.44500000000000006
+    },
+    {
+      "id": "weather/variation-2/2-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.46499999999999997,
+        "straight": 0.54
+      },
+      "probA": 0.5025,
+      "winner": "draw",
+      "confidence": 0.004999999999999893
+    },
+    {
+      "id": "weather/variation-2/2-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.57,
+        "straight": 0.65
+      },
+      "probA": 0.61,
+      "winner": "A",
+      "confidence": 0.21999999999999997
+    },
+    {
+      "id": "weather/variation-2/2-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.36,
+        "straight": 0.81
+      },
+      "probA": 0.585,
+      "winner": "A",
+      "confidence": 0.16999999999999993
+    },
+    {
+      "id": "weather/variation-2/2-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.6799999999999999,
+        "straight": 0.63
+      },
+      "probA": 0.655,
+      "winner": "A",
+      "confidence": 0.31000000000000005
+    },
+    {
+      "id": "weather/variation-2/2-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.6799999999999999,
+        "straight": 0.645
+      },
+      "probA": 0.6625,
+      "winner": "A",
+      "confidence": 0.32499999999999996
+    },
+    {
+      "id": "weather/variation-2/2-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.585,
+        "straight": 0.7849999999999999
+      },
+      "probA": 0.6849999999999999,
+      "winner": "A",
+      "confidence": 0.3699999999999999
+    },
+    {
+      "id": "weather/variation-2/3-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.15000000000000002,
+        "straight": 0.5700000000000001
+      },
+      "probA": 0.36000000000000004,
+      "winner": "B",
+      "confidence": 0.2799999999999999
+    },
+    {
+      "id": "weather/variation-2/3-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.565,
+        "straight": 0.865
+      },
+      "probA": 0.715,
+      "winner": "A",
+      "confidence": 0.42999999999999994
+    },
+    {
+      "id": "weather/variation-2/3-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.21500000000000002,
+        "straight": 0.42
+      },
+      "probA": 0.3175,
+      "winner": "B",
+      "confidence": 0.365
+    },
+    {
+      "id": "weather/variation-2/3-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.45999999999999996,
+        "straight": 0.655
+      },
+      "probA": 0.5575,
+      "winner": "A",
+      "confidence": 0.11499999999999999
+    },
+    {
+      "id": "weather/variation-2/3-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.275,
+        "straight": 0.445
+      },
+      "probA": 0.36,
+      "winner": "B",
+      "confidence": 0.28
+    },
+    {
+      "id": "weather/variation-2/3-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.34,
+        "straight": 0.59
+      },
+      "probA": 0.46499999999999997,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "weather/variation-2/3-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.16499999999999998,
+        "straight": 0.425
+      },
+      "probA": 0.295,
+      "winner": "B",
+      "confidence": 0.41000000000000003
+    },
+    {
+      "id": "weather/variation-2/3-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.575,
+        "straight": 0.54
+      },
+      "probA": 0.5575,
+      "winner": "A",
+      "confidence": 0.11499999999999999
+    },
+    {
+      "id": "weather/variation-2/3-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.385,
+        "straight": 0.575
+      },
+      "probA": 0.48,
+      "winner": "draw",
+      "confidence": 0.040000000000000036
+    },
+    {
+      "id": "weather/variation-2/3-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.37,
+        "straight": 0.58
+      },
+      "probA": 0.475,
+      "winner": "draw",
+      "confidence": 0.050000000000000044
+    },
+    {
+      "id": "weather/variation-2/4-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.17500000000000002,
+        "straight": 0.385
+      },
+      "probA": 0.28,
+      "winner": "B",
+      "confidence": 0.43999999999999995
+    },
+    {
+      "id": "weather/variation-2/4-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.685,
+        "straight": 0.585
+      },
+      "probA": 0.635,
+      "winner": "A",
+      "confidence": 0.27
+    },
+    {
+      "id": "weather/variation-2/4-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.275,
+        "straight": 0.295
+      },
+      "probA": 0.28500000000000003,
+      "winner": "B",
+      "confidence": 0.42999999999999994
+    },
+    {
+      "id": "weather/variation-2/4-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.6299999999999999,
+        "straight": 0.47500000000000003
+      },
+      "probA": 0.5525,
+      "winner": "A",
+      "confidence": 0.10499999999999998
+    },
+    {
+      "id": "weather/variation-2/4-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.35,
+        "straight": 0.16499999999999998
+      },
+      "probA": 0.25749999999999995,
+      "winner": "B",
+      "confidence": 0.4850000000000001
+    },
+    {
+      "id": "weather/variation-2/4-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.5,
+        "straight": 0.33
+      },
+      "probA": 0.41500000000000004,
+      "winner": "B",
+      "confidence": 0.16999999999999993
+    },
+    {
+      "id": "weather/variation-2/4-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.18,
+        "straight": 0.21
+      },
+      "probA": 0.195,
+      "winner": "B",
+      "confidence": 0.61
+    },
+    {
+      "id": "weather/variation-2/4-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.7,
+        "straight": 0.37
+      },
+      "probA": 0.5349999999999999,
+      "winner": "draw",
+      "confidence": 0.06999999999999984
+    },
+    {
+      "id": "weather/variation-2/4-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.525,
+        "straight": 0.30999999999999994
+      },
+      "probA": 0.4175,
+      "winner": "B",
+      "confidence": 0.16500000000000004
+    },
+    {
+      "id": "weather/variation-2/4-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.44499999999999995,
+        "straight": 0.4
+      },
+      "probA": 0.4225,
+      "winner": "B",
+      "confidence": 0.15500000000000003
+    },
+    {
+      "id": "weather/variation-2/5-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.21000000000000002,
+        "straight": 0.295
+      },
+      "probA": 0.2525,
+      "winner": "B",
+      "confidence": 0.495
+    },
+    {
+      "id": "weather/variation-2/5-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.79,
+        "straight": 0.615
+      },
+      "probA": 0.7025,
+      "winner": "A",
+      "confidence": 0.405
+    },
+    {
+      "id": "weather/variation-2/5-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.43,
+        "straight": 0.23500000000000001
+      },
+      "probA": 0.3325,
+      "winner": "B",
+      "confidence": 0.33499999999999996
+    },
+    {
+      "id": "weather/variation-2/5-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.74,
+        "straight": 0.365
+      },
+      "probA": 0.5525,
+      "winner": "A",
+      "confidence": 0.10499999999999998
+    },
+    {
+      "id": "weather/variation-2/5-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.505,
+        "straight": 0.175
+      },
+      "probA": 0.33999999999999997,
+      "winner": "B",
+      "confidence": 0.32000000000000006
+    },
+    {
+      "id": "weather/variation-2/5-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.6749999999999999,
+        "straight": 0.22
+      },
+      "probA": 0.44749999999999995,
+      "winner": "B",
+      "confidence": 0.1050000000000001
+    },
+    {
+      "id": "weather/variation-2/5-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.28500000000000003,
+        "straight": 0.21000000000000002
+      },
+      "probA": 0.24750000000000003,
+      "winner": "B",
+      "confidence": 0.5049999999999999
+    },
+    {
+      "id": "weather/variation-2/5-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.7849999999999999,
+        "straight": 0.26
+      },
+      "probA": 0.5225,
+      "winner": "draw",
+      "confidence": 0.04499999999999993
+    },
+    {
+      "id": "weather/variation-2/5-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.685,
+        "straight": 0.28
+      },
+      "probA": 0.48250000000000004,
+      "winner": "draw",
+      "confidence": 0.03499999999999992
+    },
+    {
+      "id": "weather/variation-2/5-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.5700000000000001,
+        "straight": 0.36
+      },
+      "probA": 0.465,
+      "winner": "draw",
+      "confidence": 0.06999999999999995
+    },
+    {
+      "id": "weather/variation-2/6-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.325,
+        "straight": 0.59
+      },
+      "probA": 0.4575,
+      "winner": "draw",
+      "confidence": 0.08499999999999996
+    },
+    {
+      "id": "weather/variation-2/6-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.8400000000000001,
+        "straight": 0.8200000000000001
+      },
+      "probA": 0.8300000000000001,
+      "winner": "A",
+      "confidence": 0.6600000000000001
+    },
+    {
+      "id": "weather/variation-2/6-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.535,
+        "straight": 0.42000000000000004
+      },
+      "probA": 0.47750000000000004,
+      "winner": "draw",
+      "confidence": 0.04499999999999993
+    },
+    {
+      "id": "weather/variation-2/6-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.795,
+        "straight": 0.64
+      },
+      "probA": 0.7175,
+      "winner": "A",
+      "confidence": 0.43500000000000005
+    },
+    {
+      "id": "weather/variation-2/6-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.5800000000000001,
+        "straight": 0.36
+      },
+      "probA": 0.47000000000000003,
+      "winner": "draw",
+      "confidence": 0.05999999999999994
+    },
+    {
+      "id": "weather/variation-2/6-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.765,
+        "straight": 0.605
+      },
+      "probA": 0.685,
+      "winner": "A",
+      "confidence": 0.3700000000000001
+    },
+    {
+      "id": "weather/variation-2/6-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.4,
+        "straight": 0.375
+      },
+      "probA": 0.3875,
+      "winner": "B",
+      "confidence": 0.22499999999999998
+    },
+    {
+      "id": "weather/variation-2/6-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.815,
+        "straight": 0.56
+      },
+      "probA": 0.6875,
+      "winner": "A",
+      "confidence": 0.375
+    },
+    {
+      "id": "weather/variation-2/6-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.795,
+        "straight": 0.53
+      },
+      "probA": 0.6625000000000001,
+      "winner": "A",
+      "confidence": 0.3250000000000002
+    },
+    {
+      "id": "weather/variation-2/6-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.6950000000000001,
+        "straight": 0.605
+      },
+      "probA": 0.65,
+      "winner": "A",
+      "confidence": 0.30000000000000004
+    },
+    {
+      "id": "weather/variation-2/7-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.265,
+        "straight": 0.5650000000000001
+      },
+      "probA": 0.41500000000000004,
+      "winner": "B",
+      "confidence": 0.16999999999999993
+    },
+    {
+      "id": "weather/variation-2/7-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.81,
+        "straight": 0.825
+      },
+      "probA": 0.8175,
+      "winner": "A",
+      "confidence": 0.635
+    },
+    {
+      "id": "weather/variation-2/7-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.405,
+        "straight": 0.46499999999999997
+      },
+      "probA": 0.435,
+      "winner": "B",
+      "confidence": 0.13
+    },
+    {
+      "id": "weather/variation-2/7-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.745,
+        "straight": 0.7150000000000001
+      },
+      "probA": 0.73,
+      "winner": "A",
+      "confidence": 0.45999999999999996
+    },
+    {
+      "id": "weather/variation-2/7-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.505,
+        "straight": 0.425
+      },
+      "probA": 0.46499999999999997,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "weather/variation-2/7-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.69,
+        "straight": 0.595
+      },
+      "probA": 0.6425,
+      "winner": "A",
+      "confidence": 0.2849999999999999
+    },
+    {
+      "id": "weather/variation-2/7-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.38,
+        "straight": 0.405
+      },
+      "probA": 0.3925,
+      "winner": "B",
+      "confidence": 0.21499999999999997
+    },
+    {
+      "id": "weather/variation-2/7-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.805,
+        "straight": 0.585
+      },
+      "probA": 0.6950000000000001,
+      "winner": "A",
+      "confidence": 0.3900000000000001
+    },
+    {
+      "id": "weather/variation-2/7-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.72,
+        "straight": 0.56
+      },
+      "probA": 0.64,
+      "winner": "A",
+      "confidence": 0.28
+    },
+    {
+      "id": "weather/variation-2/7-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.675,
+        "straight": 0.655
+      },
+      "probA": 0.665,
+      "winner": "A",
+      "confidence": 0.33000000000000007
+    },
+    {
+      "id": "weather/variation-2/8-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.18000000000000002,
+        "straight": 0.405
+      },
+      "probA": 0.29250000000000004,
+      "winner": "B",
+      "confidence": 0.4149999999999999
+    },
+    {
+      "id": "weather/variation-2/8-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.7,
+        "straight": 0.71
+      },
+      "probA": 0.705,
+      "winner": "A",
+      "confidence": 0.4099999999999999
+    },
+    {
+      "id": "weather/variation-2/8-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.22499999999999998,
+        "straight": 0.32999999999999996
+      },
+      "probA": 0.27749999999999997,
+      "winner": "B",
+      "confidence": 0.44500000000000006
+    },
+    {
+      "id": "weather/variation-2/8-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.61,
+        "straight": 0.53
+      },
+      "probA": 0.5700000000000001,
+      "winner": "A",
+      "confidence": 0.14000000000000012
+    },
+    {
+      "id": "weather/variation-2/8-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.36,
+        "straight": 0.29500000000000004
+      },
+      "probA": 0.3275,
+      "winner": "B",
+      "confidence": 0.345
+    },
+    {
+      "id": "weather/variation-2/8-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.46499999999999997,
+        "straight": 0.365
+      },
+      "probA": 0.415,
+      "winner": "B",
+      "confidence": 0.17000000000000004
+    },
+    {
+      "id": "weather/variation-2/8-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.18000000000000002,
+        "straight": 0.275
+      },
+      "probA": 0.22750000000000004,
+      "winner": "B",
+      "confidence": 0.5449999999999999
+    },
+    {
+      "id": "weather/variation-2/8-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.69,
+        "straight": 0.475
+      },
+      "probA": 0.5825,
+      "winner": "A",
+      "confidence": 0.16500000000000004
+    },
+    {
+      "id": "weather/variation-2/8-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.52,
+        "straight": 0.43999999999999995
+      },
+      "probA": 0.48,
+      "winner": "draw",
+      "confidence": 0.040000000000000036
+    },
+    {
+      "id": "weather/variation-2/8-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.45499999999999996,
+        "straight": 0.495
+      },
+      "probA": 0.475,
+      "winner": "draw",
+      "confidence": 0.050000000000000044
+    },
+    {
+      "id": "weather/variation-2/9-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.18,
+        "straight": 0.595
+      },
+      "probA": 0.38749999999999996,
+      "winner": "B",
+      "confidence": 0.2250000000000001
+    },
+    {
+      "id": "weather/variation-2/9-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.625,
+        "straight": 0.8150000000000001
+      },
+      "probA": 0.72,
+      "winner": "A",
+      "confidence": 0.43999999999999995
+    },
+    {
+      "id": "weather/variation-2/9-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.28500000000000003,
+        "straight": 0.42000000000000004
+      },
+      "probA": 0.35250000000000004,
+      "winner": "B",
+      "confidence": 0.29499999999999993
+    },
+    {
+      "id": "weather/variation-2/9-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.5800000000000001,
+        "straight": 0.635
+      },
+      "probA": 0.6075,
+      "winner": "A",
+      "confidence": 0.21500000000000008
+    },
+    {
+      "id": "weather/variation-2/9-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.355,
+        "straight": 0.39
+      },
+      "probA": 0.3725,
+      "winner": "B",
+      "confidence": 0.255
+    },
+    {
+      "id": "weather/variation-2/9-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.48,
+        "straight": 0.54
+      },
+      "probA": 0.51,
+      "winner": "draw",
+      "confidence": 0.020000000000000018
+    },
+    {
+      "id": "weather/variation-2/9-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.27,
+        "straight": 0.28
+      },
+      "probA": 0.275,
+      "winner": "B",
+      "confidence": 0.44999999999999996
+    },
+    {
+      "id": "weather/variation-2/9-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.6399999999999999,
+        "straight": 0.44
+      },
+      "probA": 0.5399999999999999,
+      "winner": "draw",
+      "confidence": 0.07999999999999985
+    },
+    {
+      "id": "weather/variation-2/9-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.55,
+        "straight": 0.48
+      },
+      "probA": 0.515,
+      "winner": "draw",
+      "confidence": 0.030000000000000027
+    },
+    {
+      "id": "weather/variation-2/9-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.4,
+        "straight": 0.635
+      },
+      "probA": 0.5175000000000001,
+      "winner": "draw",
+      "confidence": 0.03500000000000014
+    },
+    {
+      "id": "weather/variation-2/10-1",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.36,
+        "straight": 0.655
+      },
+      "probA": 0.5075000000000001,
+      "winner": "draw",
+      "confidence": 0.015000000000000124
+    },
+    {
+      "id": "weather/variation-2/10-2",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.7649999999999999,
+        "straight": 0.86
+      },
+      "probA": 0.8125,
+      "winner": "A",
+      "confidence": 0.625
+    },
+    {
+      "id": "weather/variation-2/10-3",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.465,
+        "straight": 0.5049999999999999
+      },
+      "probA": 0.485,
+      "winner": "draw",
+      "confidence": 0.030000000000000027
+    },
+    {
+      "id": "weather/variation-2/10-4",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.815,
+        "straight": 0.705
+      },
+      "probA": 0.76,
+      "winner": "A",
+      "confidence": 0.52
+    },
+    {
+      "id": "weather/variation-2/10-5",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.62,
+        "straight": 0.52
+      },
+      "probA": 0.5700000000000001,
+      "winner": "A",
+      "confidence": 0.14000000000000012
+    },
+    {
+      "id": "weather/variation-2/10-6",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.6849999999999999,
+        "straight": 0.66
+      },
+      "probA": 0.6725,
+      "winner": "A",
+      "confidence": 0.345
+    },
+    {
+      "id": "weather/variation-2/10-7",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.39,
+        "straight": 0.6599999999999999
+      },
+      "probA": 0.5249999999999999,
+      "winner": "draw",
+      "confidence": 0.04999999999999982
+    },
+    {
+      "id": "weather/variation-2/10-8",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.81,
+        "straight": 0.6599999999999999
+      },
+      "probA": 0.735,
+      "winner": "A",
+      "confidence": 0.47
+    },
+    {
+      "id": "weather/variation-2/10-9",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.715,
+        "straight": 0.635
+      },
+      "probA": 0.675,
+      "winner": "A",
+      "confidence": 0.3500000000000001
+    },
+    {
+      "id": "weather/variation-2/10-10",
+      "label": "weather/variation-2",
+      "criteria": {
+        "concrete": 0.66,
+        "straight": 0.7849999999999999
+      },
+      "probA": 0.7224999999999999,
+      "winner": "A",
+      "confidence": 0.44499999999999984
+    }
+  ]
+}

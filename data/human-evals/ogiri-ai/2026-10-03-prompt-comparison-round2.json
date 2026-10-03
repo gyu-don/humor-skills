@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-03",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-10-03-prompt-comparison-round2.md",
+  "description": "第1回の評価保存後に改訂した2案と開始時の現行版を、お題ごとに無作為化したA/B/Cで比較。第2ラウンドの45本に対する回答選択・順位。セット単位の勝敗は明示されていない。",
+  "topics": {
+    "codex": "Codexのイケてる使い方",
+    "sylvanian": "シルバニアファミリーの新作",
+    "weather": "絶対に信用できない天気予報士の一言"
+  },
+  "sets": [
+    {
+      "id": "codex/round2-baseline-r1",
+      "topic": "codex",
+      "condition": "gpt-6.1-sol medium / round 2 / baseline / run 1 / shown as A",
+      "answers": [
+        "デモ前日にキーボードを質入れ",
+        "承認用の木槌を机に置く",
+        "開発合宿に枕だけ持参",
+        "完成したコードに自分の落款",
+        "Codexに名刺を両手で渡す"
+      ],
+      "hits": [],
+      "verdict": "選択された回答なし。セット単位の勝敗は明示なし。"
+    },
+    {
+      "id": "codex/round2-variation-1-r1",
+      "topic": "codex",
+      "condition": "gpt-6.1-sol medium / round 2 / variation-1 / run 1 / shown as C",
+      "answers": [
+        "一行書いてテープカット",
+        "上司の説教を差分だけ読む",
+        "タブキーだけに指紋を残す",
+        "寝言を要件定義に採用",
+        "承認ボタンを母に押してもらう"
+      ],
+      "hits": [],
+      "verdict": "選択された回答なし。セット単位の勝敗は明示なし。"
+    },
+    {
+      "id": "codex/round2-variation-2-r1",
+      "topic": "codex",
+      "condition": "gpt-6.1-sol medium / round 2 / variation-2 / run 1 / shown as B",
+      "answers": [
+        "上司を.gitignoreに入れる",
+        "祖母の手編みを自動補完させる",
+        "土下座をバックグラウンド実行",
+        "初デートをドライランで済ます",
+        "退職届をエンターキーに割り当てる"
+      ],
+      "hits": [
+        1,
+        3,
+        5
+      ],
+      "ranking": [
+        5,
+        1,
+        3
+      ],
+      "verdict": "B5、B1、B3の順かな。選択回答の相対順位。面白さの絶対水準は明示なし。"
+    },
+    {
+      "id": "sylvanian/round2-baseline-r1",
+      "topic": "sylvanian",
+      "condition": "gpt-6.1-sol medium / round 2 / baseline / run 1 / shown as C",
+      "answers": [
+        "お父さんの部屋は別売り",
+        "お母さんの実家だけ城",
+        "娘の彼氏だけ植毛なし",
+        "耳を畳んで乗る満員電車",
+        "日曜の夜だけ止まる時計"
+      ],
+      "hits": [],
+      "verdict": "選択された回答なし。"
+    },
+    {
+      "id": "sylvanian/round2-variation-1-r1",
+      "topic": "sylvanian",
+      "condition": "gpt-6.1-sol medium / round 2 / variation-1 / run 1 / shown as B",
+      "answers": [
+        "お父さんを箱に戻す帰省セット",
+        "赤ちゃんの一歩目記者会見セット",
+        "日なたを売るネコの不動産屋",
+        "自分の毛で編んだペアルック",
+        "お父さんの背中に母用の操縦席"
+      ],
+      "hits": [
+        1
+      ],
+      "ranking": [
+        1
+      ],
+      "verdict": "B1が2位。A3が1位。"
+    },
+    {
+      "id": "sylvanian/round2-variation-2-r1",
+      "topic": "sylvanian",
+      "condition": "gpt-6.1-sol medium / round 2 / variation-2 / run 1 / shown as A",
+      "answers": [
+        "赤い屋根の家を背負ったヤドカリ家族",
+        "お母さんだけ着ぐるみ",
+        "家族写真だけ全員四つんばい",
+        "抜け毛で作る二軒目のおうち",
+        "お父さんの書斎が回し車"
+      ],
+      "hits": [
+        3
+      ],
+      "ranking": [
+        3
+      ],
+      "verdict": "A3が1位。B1が2位。"
+    },
+    {
+      "id": "weather/round2-baseline-r1",
+      "topic": "weather",
+      "condition": "gpt-6.1-sol medium / round 2 / baseline / run 1 / shown as C",
+      "answers": [
+        "明日の雨は今日で使い切りました",
+        "外れた県は地図から消しました",
+        "本日の気圧、母は上が１４０です",
+        "晴れるまで明日と呼びます",
+        "明日の天気は再放送でどうぞ"
+      ],
+      "hits": [],
+      "verdict": "どれもよくない。"
+    },
+    {
+      "id": "weather/round2-variation-1-r1",
+      "topic": "weather",
+      "condition": "gpt-6.1-sol medium / round 2 / variation-1 / run 1 / shown as B",
+      "answers": [
+        "雨雲は消しゴムで消しました",
+        "台風とは話がついてます",
+        "降水確率は視聴者投票です",
+        "晴れに全財産賭けました",
+        "晴れるまで明日を延期します"
+      ],
+      "hits": [],
+      "verdict": "どれもよくないがB4。全体不評の中の弱い相対選好として記録し、当たりには数えない。",
+      "ranking": [
+        4
+      ]
+    },
+    {
+      "id": "weather/round2-variation-2-r1",
+      "topic": "weather",
+      "condition": "gpt-6.1-sol medium / round 2 / variation-2 / run 1 / shown as A",
+      "answers": [
+        "明日の空、まだ発注してません",
+        "昨日の雨は再放送でした",
+        "雨天中止なので予報も休みます",
+        "雨の地域は地図から外しました",
+        "晴れに一票、挙手お願いします"
+      ],
+      "hits": [],
+      "verdict": "どれもよくない。"
+    }
+  ],
+  "setPreferences": [],
+  "pairPreferences": [
+    {
+      "a": "codex/round2-variation-2-r1#5",
+      "b": "codex/round2-variation-2-r1#1",
+      "winner": "a",
+      "note": "B5、B1、B3の順という明示順位。"
+    },
+    {
+      "a": "codex/round2-variation-2-r1#1",
+      "b": "codex/round2-variation-2-r1#3",
+      "winner": "a",
+      "note": "B5、B1、B3の順という明示順位。"
+    },
+    {
+      "a": "codex/round2-variation-2-r1#5",
+      "b": "codex/round2-variation-2-r1#3",
+      "winner": "a",
+      "note": "明示された3回答の順位からの推移的比較。"
+    },
+    {
+      "a": "sylvanian/round2-variation-2-r1#3",
+      "b": "sylvanian/round2-variation-1-r1#1",
+      "winner": "a",
+      "note": "A3、B1の順という明示順位。"
+    }
+  ],
+  "similarityJudgments": []
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-03",
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "independentGenerationRuns": 18,
+  "answersPerRun": 5,
+  "baselineIsOriginal": true,
+  "promptHashes": {
+    "baseline": "dafb491c298fe1b5d16819cb0b3032c5d819e75d8d3af6f9000b7fde6ffbae47",
+    "variation-1": "4af4dc859051ea8b24b3629d1c2be23af2ff70184bcdaa2cc21b185bb5a0c295",
+    "variation-2": "519e74286f395ec1562d3b6b98c2b517487a22819cb972bc058a2a744082ed50"
+  },
+  "checks": {
+    "overlap-check": "54d41526edbe4ea86500178d0e4f83f954eda93b03a806559c0edcd2aceb2b38",
+    "trait-check": "aced92d73789db7abcafb608370918b302c124709e6f93f0cdffd589d56d1b07"
+  },
+  "funninessGate": "no evaluator marked gate: yes in latest local validation (2026-09-25)",
+  "humanComparison": "recorded at ../humor-skills/data/human-evals/ogiri-ai/2026-10-03-prompt-comparison.md and .json before round-2 edits"
+}

@@ -1,0 +1,220 @@
+{
+  "method": "仕組み・文型・比喩体系の群数を記録する。お題に由来する動物・開発語彙や、一言の発話形式の共通だけでは被りに数えない。全部、面白さを判定しない手計数・診断。",
+  "runs": [
+    {
+      "id": "codex/baseline/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "codex/variation-1/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "codex/variation-2/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "お題外の人間関係へ開発操作を移す",
+          [
+            1,
+            3,
+            4,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/baseline/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "家族の一員への冷遇を商品の仕様にする",
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "repeatedTemplates": [
+        [
+          "対象＋だけ＋異常",
+          [
+            2,
+            3,
+            5
+          ]
+        ]
+      ],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/variation-1/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "父親を持ち運ぶ物・乗り物にする",
+          [
+            1,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/variation-2/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "動物の性質から住まいを作る",
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          "服を着た家族を普通の動物扱いする",
+          [
+            3,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/baseline/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/variation-1/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "天候を人の操作・取り決めで変える",
+          [
+            1,
+            2,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/variation-2/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "天候を制作物扱いする",
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    }
+  ],
+  "previousGateMaterial": {
+    "codex/baseline": [
+      "キーボードを手放す（前gate variant2 r1#5）",
+      "生成コードへの自分の印（前gate variant1 r1#4）"
+    ],
+    "codex/variation-1": [
+      "説教を開発手法で処理する（前gate baseline r1#2等）",
+      "指紋で手作業の証拠を残す（前gate variant1 r1#4）"
+    ],
+    "codex/variation-2": [
+      "退職の手続き（前gate baseline r1#1）",
+      "初デートへ開発を持ち込む（前gate baseline r1#4）"
+    ],
+    "sylvanian/baseline": [
+      "母の実家が城（前gate baseline r2#3）",
+      "満員電車で耳が畳まれる（前gate baseline r1#4）"
+    ],
+    "sylvanian/variation-1": [
+      "父親と梱包箱（前gate baseline r1#2・r2#1）",
+      "父親に家族を乗せる（前gate variant1 r1#3）"
+    ],
+    "sylvanian/variation-2": [
+      "家族写真の異常（前gate baseline r1#1）"
+    ],
+    "weather/baseline": [
+      "天気予報の再放送（前gate variant2 r1#4）"
+    ],
+    "weather/variation-1": [
+      "雨雲を消しゴムで消す（前gate variant1 r2#1・variant2 r1#2）",
+      "視聴者投票（前gate baseline r2#3・variant2 r2#4）"
+    ],
+    "weather/variation-2": [
+      "雨の再放送（前gate variant2 r1#4）",
+      "雨で予報を休む（前gate variant1 r1#5）",
+      "晴れを投票で決める（前gate baseline r2#3）"
+    ]
+  },
+  "crossRunMaterial": "第2ラウンドの2回目は未実施。",
+  "codexOutsidePersonalRelationships": {
+    "definition": "お題が要求しない人物関係・人生の手続きを明示している回答だけを数える。コード・開発・道具そのものは会社ネタとして数えない。",
+    "baseline": {
+      "count": 0,
+      "indices": []
+    },
+    "variation-1": {
+      "count": 2,
+      "indices": [
+        2,
+        5
+      ]
+    },
+    "variation-2": {
+      "count": 4,
+      "indices": [
+        1,
+        2,
+        4,
+        5
+      ]
+    }
+  },
+  "diagnostics": [
+    "Codex variant2の人間関係への偏りは、動機の必須条件を外すだけでは消えなかった。",
+    "シルバニア variant1は父親を使う1・5が自動被り検査でも検出された。",
+    "天気は既知の消しゴム・再放送・投票へ戻っている。前回の人間評価で全組不評だったため、これを改善の証拠として扱わない。",
+    "variant2のシルバニアは動物・人形の特性に寄る。これも優劣でなく構造の観察。"
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "method": "群の数を計数。共有が単にお題の語彙・一言の丁寧語・求められた回答形式なら除外。仕組み・文型は診断専用。表現が似ているだけで面白さの優劣は付けない。",
+  "runs": [
+    {
+      "id": "codex/baseline/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "生活の問題へ開発操作を移す",
+          [
+            1,
+            2,
+            3,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "codex/baseline/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "codex/variation-1/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "生成物に手作業を加えて自分の仕事にする",
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "codex/variation-1/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "生活の手続きへ開発手続きを移す",
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "codex/variation-2/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "codex/variation-2/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/baseline/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [],
+      "repeatedTemplates": [
+        [
+          "名詞＋だけ＋異常の記述",
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      ],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/baseline/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "家族の性質が商品の包装・在庫に出る",
+          [
+            2,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/variation-1/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "人物の大きさを変える",
+          [
+            2,
+            4
+          ]
+        ],
+        [
+          "父親を動物扱いする",
+          [
+            3,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/variation-1/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "父親の身体を道具として使う",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "家の設備で父親を拒む",
+          [
+            4,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/variation-2/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "見栄を家具・家の機能にする",
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "sylvanian/variation-2/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "家の要素の大きさを変える",
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/baseline/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "天候を制作者のように操作する",
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/baseline/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 1,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "天候を人の操作・決定で変える",
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/variation-1/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "自分の仕事の都合で天気を決める",
+          [
+            1,
+            5
+          ]
+        ],
+        [
+          "気象指標を別の数値と混同する",
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "repeatedTemplates": [
+        [
+          "気象指標は別分野の数値です",
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "repeatedMetaphorSystems": [
+        [
+          "商売・支払い",
+          [
+            1,
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "weather/variation-1/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "天候を操作・段取りで変える",
+          [
+            1,
+            2,
+            4
+          ]
+        ],
+        [
+          "気象指標を別の数値と混同する",
+          [
+            3,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [
+        [
+          "気象指標は別分野の数値です",
+          [
+            3,
+            5
+          ]
+        ]
+      ],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/variation-2/r1",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "私的な都合で天候を決める",
+          [
+            1,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    },
+    {
+      "id": "weather/variation-2/r2",
+      "reviewer": "Codex primary agent; not the human rater",
+      "quoteAnswers": 0,
+      "formViolations": [],
+      "repeatedMechanisms": [
+        [
+          "番組制作のように天候を操作する",
+          [
+            2,
+            5
+          ]
+        ]
+      ],
+      "repeatedTemplates": [],
+      "repeatedMetaphorSystems": []
+    }
+  ],
+  "crossRunMaterial": {
+    "codex/baseline": [],
+    "codex/variation-1": [
+      {
+        "material": "面接にノートPCだけを送る",
+        "r1": [
+          1
+        ],
+        "r2": [
+          1
+        ]
+      }
+    ],
+    "codex/variation-2": [
+      {
+        "material": "謝罪文",
+        "r1": [
+          2
+        ],
+        "r2": [
+          3
+        ]
+      }
+    ],
+    "sylvanian/baseline": [
+      {
+        "material": "父親と梱包箱",
+        "r1": [
+          2
+        ],
+        "r2": [
+          1
+        ]
+      },
+      {
+        "material": "森のパン屋",
+        "r1": [
+          5
+        ],
+        "r2": [
+          4
+        ]
+      }
+    ],
+    "sylvanian/variation-1": [
+      {
+        "material": "父親の耳を設備にする",
+        "r1": [
+          3
+        ],
+        "r2": [
+          3
+        ]
+      }
+    ],
+    "sylvanian/variation-2": [
+      {
+        "material": "玄関の特殊仕様",
+        "r1": [
+          4
+        ],
+        "r2": [
+          1
+        ]
+      }
+    ],
+    "weather/baseline": [],
+    "weather/variation-1": [
+      {
+        "material": "税・手数料という加算",
+        "r1": [
+          2
+        ],
+        "r2": [
+          3
+        ]
+      }
+    ],
+    "weather/variation-2": [
+      {
+        "material": "傘屋からの金で天気を決める",
+        "r1": [
+          1
+        ],
+        "r2": [
+          1
+        ]
+      },
+      {
+        "material": "雨雲を消す",
+        "r1": [
+          2
+        ],
+        "r2": [
+          5
+        ]
+      }
+    ]
+  },
+  "crossRunMechanisms": {
+    "codex/variation-2": [
+      {
+        "mechanism": "作業量を多く見せる",
+        "r1": [
+          3
+        ],
+        "r2": [
+          1
+        ]
+      }
+    ],
+    "weather/variation-1": [
+      {
+        "mechanism": "天気指標を別の数値と混同する",
+        "r1": [
+          2,
+          4
+        ],
+        "r2": [
+          3,
+          5
+        ]
+      }
+    ],
+    "weather/variation-2": [
+      {
+        "mechanism": "放送用の再利用",
+        "r1": [
+          4
+        ],
+        "r2": [
+          2
+        ]
+      }
+    ]
+  },
+  "convergenceDiagnostics": [
+    "Codexの現行第1回は生活圏への開発用語移植に4/5が寄る。これは人間も家族・会社ネタのベタさを指摘した。",
+    "シルバニアのバリエーション1は父親中心の題材が第1回3/5、第2回4/5。",
+    "天気は全条件で予報士が天候を作る方向や指標の読み替えが反復する。",
+    "同じ素材の出現数だけでは良し悪しを決めない。シルバニアの現行も2回間で素材2組が再登場する。"
+  ],
+  "previousGateMaterial": "前のゲートはない。軽量ループの出力は同じ第1回を使用したので、再利用による重複は警告として数えない。"
+}

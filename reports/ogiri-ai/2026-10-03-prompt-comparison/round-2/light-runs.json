@@ -1,0 +1,128 @@
+[
+  {
+    "id": "codex/baseline/r1",
+    "label": "baseline",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "デモ前日にキーボードを質入れ",
+      "承認用の木槌を机に置く",
+      "開発合宿に枕だけ持参",
+      "完成したコードに自分の落款",
+      "Codexに名刺を両手で渡す"
+    ],
+    "rawPath": "raw/baseline-codex-r1.txt",
+    "sha256": "76d4e98cdc09fb221433b8a4cc3f0d717a8a3096b8a1c543cb4186eb95d93d4d"
+  },
+  {
+    "id": "codex/variation-1/r1",
+    "label": "variation-1",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "一行書いてテープカット",
+      "上司の説教を差分だけ読む",
+      "タブキーだけに指紋を残す",
+      "寝言を要件定義に採用",
+      "承認ボタンを母に押してもらう"
+    ],
+    "rawPath": "raw/variation-1-codex-r1.txt",
+    "sha256": "b967b14755a69adcf49fb0596cbf65062820d870abcb38c40db6224e594fe7fd"
+  },
+  {
+    "id": "codex/variation-2/r1",
+    "label": "variation-2",
+    "topic": "Codexのイケてる使い方",
+    "answers": [
+      "上司を.gitignoreに入れる",
+      "祖母の手編みを自動補完させる",
+      "土下座をバックグラウンド実行",
+      "初デートをドライランで済ます",
+      "退職届をエンターキーに割り当てる"
+    ],
+    "rawPath": "raw/variation-2-codex-r1.txt",
+    "sha256": "1afb14025c8fd0acddbdb101fe9605635b58a3c553dbfdad00d52b0725bfe729"
+  },
+  {
+    "id": "sylvanian/baseline/r1",
+    "label": "baseline",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "お父さんの部屋は別売り",
+      "お母さんの実家だけ城",
+      "娘の彼氏だけ植毛なし",
+      "耳を畳んで乗る満員電車",
+      "日曜の夜だけ止まる時計"
+    ],
+    "rawPath": "raw/baseline-sylvanian-r1.txt",
+    "sha256": "1ab885766f93e4985f371e4404b7819c8dd3b8a3f1c08db9230b9795f72b0821"
+  },
+  {
+    "id": "sylvanian/variation-1/r1",
+    "label": "variation-1",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "お父さんを箱に戻す帰省セット",
+      "赤ちゃんの一歩目記者会見セット",
+      "日なたを売るネコの不動産屋",
+      "自分の毛で編んだペアルック",
+      "お父さんの背中に母用の操縦席"
+    ],
+    "rawPath": "raw/variation-1-sylvanian-r1.txt",
+    "sha256": "09ba877c18cf10ee9fe929df519538bde8257e5278f5bda776de2cb239d838b4"
+  },
+  {
+    "id": "sylvanian/variation-2/r1",
+    "label": "variation-2",
+    "topic": "シルバニアファミリーの新作",
+    "answers": [
+      "赤い屋根の家を背負ったヤドカリ家族",
+      "お母さんだけ着ぐるみ",
+      "家族写真だけ全員四つんばい",
+      "抜け毛で作る二軒目のおうち",
+      "お父さんの書斎が回し車"
+    ],
+    "rawPath": "raw/variation-2-sylvanian-r1.txt",
+    "sha256": "65df9ad8c5351659fdae4497fccac304f30def87e1d9f3adeaecbe047068d2a6"
+  },
+  {
+    "id": "weather/baseline/r1",
+    "label": "baseline",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "明日の雨は今日で使い切りました",
+      "外れた県は地図から消しました",
+      "本日の気圧、母は上が１４０です",
+      "晴れるまで明日と呼びます",
+      "明日の天気は再放送でどうぞ"
+    ],
+    "rawPath": "raw/baseline-weather-r1.txt",
+    "sha256": "5d27f9230e3fa45ef91a6bbc82581cb8bc909e32490b0b05d3601c64f3250ef5"
+  },
+  {
+    "id": "weather/variation-1/r1",
+    "label": "variation-1",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "雨雲は消しゴムで消しました",
+      "台風とは話がついてます",
+      "降水確率は視聴者投票です",
+      "晴れに全財産賭けました",
+      "晴れるまで明日を延期します"
+    ],
+    "rawPath": "raw/variation-1-weather-r1.txt",
+    "sha256": "d6b65394191c83cbf3402aefd3a0c3603bb9de1ac85b31179848596ed06a49d4"
+  },
+  {
+    "id": "weather/variation-2/r1",
+    "label": "variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answers": [
+      "明日の空、まだ発注してません",
+      "昨日の雨は再放送でした",
+      "雨天中止なので予報も休みます",
+      "雨の地域は地図から外しました",
+      "晴れに一票、挙手お願いします"
+    ],
+    "rawPath": "raw/variation-2-weather-r1.txt",
+    "sha256": "ed2733f70ebba099b456148b07fb3245f2ded396e22185ed1ec3ece315c827b5"
+  }
+]

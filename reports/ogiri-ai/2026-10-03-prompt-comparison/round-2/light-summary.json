@@ -1,0 +1,237 @@
+{
+  "loopDepth": "light iterations 1-4 + one gate on round 1",
+  "latestRevisionVerification": "light only; 3 known topics / one independent run each",
+  "outcome": "not passed",
+  "humanComparison": "answer rankings received; Codex top three and Sylvanian first choice from variation-2; no explicit set-level preferences; all weather answers disliked",
+  "rows": [
+    {
+      "id": "codex/baseline",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.64,
+      "sameMaterialMean": 0.232,
+      "means": {
+        "concrete": 0.7939999999999999,
+        "indirect": 0.07999999999999999
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.738,
+        "indirect": 0.08099999999999999
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 14,
+      "repeatedMechanismGroups": 0,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "キーボードを手放す（前gate variant2 r1#5）",
+        "生成コードへの自分の印（前gate variant1 r1#4）"
+      ]
+    },
+    {
+      "id": "codex/variation-1",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.42,
+      "sameMaterialMean": 0.19,
+      "means": {
+        "concrete": 0.626,
+        "indirect": 0.082
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.682,
+        "indirect": 0.087
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 14,
+      "repeatedMechanismGroups": 0,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "説教を開発手法で処理する（前gate baseline r1#2等）",
+        "指紋で手作業の証拠を残す（前gate variant1 r1#4）"
+      ]
+    },
+    {
+      "id": "codex/variation-2",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.2,
+      "sameMaterialMean": 0.092,
+      "means": {
+        "concrete": 0.688,
+        "indirect": 0.07999999999999999
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.682,
+        "indirect": 0.087
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 17,
+      "repeatedMechanismGroups": 1,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "退職の手続き（前gate baseline r1#1）",
+        "初デートへ開発を持ち込む（前gate baseline r1#4）"
+      ]
+    },
+    {
+      "id": "sylvanian/baseline",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.21,
+      "sameMaterialMean": 0.101,
+      "means": {
+        "concrete": 0.8300000000000001,
+        "indirect": 0.1
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.849,
+        "indirect": 0.11499999999999999
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 11,
+      "repeatedMechanismGroups": 1,
+      "repeatedTemplateGroups": 1,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "母の実家が城（前gate baseline r2#3）",
+        "満員電車で耳が畳まれる（前gate baseline r1#4）"
+      ]
+    },
+    {
+      "id": "sylvanian/variation-1",
+      "nearDuplicates": [
+        [
+          1,
+          5
+        ]
+      ],
+      "sameMaterialMax": 0.71,
+      "sameMaterialMean": 0.179,
+      "means": {
+        "concrete": 0.8480000000000001,
+        "indirect": 0.11399999999999999
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.867,
+        "indirect": 0.125
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 15,
+      "repeatedMechanismGroups": 1,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "父親と梱包箱（前gate baseline r1#2・r2#1）",
+        "父親に家族を乗せる（前gate variant1 r1#3）"
+      ]
+    },
+    {
+      "id": "sylvanian/variation-2",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.33,
+      "sameMaterialMean": 0.151,
+      "means": {
+        "concrete": 0.8539999999999999,
+        "indirect": 0.09
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.867,
+        "indirect": 0.125
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 17,
+      "repeatedMechanismGroups": 2,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "家族写真の異常（前gate baseline r1#1）"
+      ]
+    },
+    {
+      "id": "weather/baseline",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.63,
+      "sameMaterialMean": 0.356,
+      "means": {
+        "concrete": 0.526,
+        "indirect": 0.152
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.5760000000000001,
+        "indirect": 0.14499999999999996
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 15,
+      "repeatedMechanismGroups": 0,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "天気予報の再放送（前gate variant2 r1#4）"
+      ]
+    },
+    {
+      "id": "weather/variation-1",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.64,
+      "sameMaterialMean": 0.382,
+      "means": {
+        "concrete": 0.5900000000000001,
+        "indirect": 0.13999999999999999
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.541,
+        "indirect": 0.11400000000000002
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 13,
+      "repeatedMechanismGroups": 1,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "雨雲を消しゴムで消す（前gate variant1 r2#1・variant2 r1#2）",
+        "視聴者投票（前gate baseline r2#3・variant2 r2#4）"
+      ]
+    },
+    {
+      "id": "weather/variation-2",
+      "nearDuplicates": [],
+      "sameMaterialMax": 0.55,
+      "sameMaterialMean": 0.45,
+      "means": {
+        "concrete": 0.5900000000000001,
+        "indirect": 0.15
+      },
+      "parentGatePooledMeans": {
+        "concrete": 0.541,
+        "indirect": 0.11400000000000002
+      },
+      "quoteAnswers": 0,
+      "formViolations": 0,
+      "maxLength": 14,
+      "repeatedMechanismGroups": 1,
+      "repeatedTemplateGroups": 0,
+      "repeatedMetaphorGroups": 0,
+      "previousGateMaterial": [
+        "雨の再放送（前gate variant2 r1#4）",
+        "雨で予報を休む（前gate variant1 r1#5）",
+        "晴れを投票で決める（前gate baseline r2#3）"
+      ]
+    }
+  ],
+  "remainingCriteria": [
+    "adopted revised prompt has no pooled independent 2-run gate",
+    "no fresh unseen category after using weather feedback",
+    "no pooled baseline noise allowance or all-candidate × baseline compare.ts for the adopted prompt",
+    "Codex concrete mean lower than simultaneous baseline in one light run; pooled regression status unresolved",
+    "weather disliked in both human sessions; reused material remains"
+  ],
+  "nextIntervention": "On resumption, gate the provisionally adopted profile unchanged with independent second runs and a fresh unseen-category topic; if weather remains weak, test punchline-first generation before scene anchoring as one separate intervention.",
+  "provisionalAdoption": "round-2/variation-2 copied unchanged to skills/ogiri-ai/SKILL.md after saving and verifying the new human evaluation"
+}

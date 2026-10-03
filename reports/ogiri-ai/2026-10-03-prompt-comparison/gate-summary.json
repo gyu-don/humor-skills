@@ -1,0 +1,447 @@
+{
+  "loopDepth": "light iterations 1 and 2 + one full gate, 18 independent generations / 90 answers",
+  "comparisonMethod": "candidate × baseline全100組。勝率は(A勝ち+引分/2)/100。concrete/indirectは同じゲート実行内のbaselineの2回平均差以内をノイズ扱い。勝率はbaseline自身のr2対r1全25組の0.5からの偏り以内をノイズ扱い。生の勝率とノイズ幅を両方残す。",
+  "traitsAreNotFunniness": true,
+  "unseenTopicAtThisGate": "weather（生成・検査時は未見。人間フィードバック後は既知）",
+  "rows": [
+    {
+      "id": "codex/baseline",
+      "means": {
+        "concrete": 0.738,
+        "indirect": 0.08099999999999999
+      },
+      "baselineMeans": {
+        "concrete": 0.738,
+        "indirect": 0.08099999999999999
+      },
+      "baselineRunGap": {
+        "concrete": 0.22399999999999998,
+        "indirect": 0.010000000000000009
+      },
+      "nearDuplicates": [],
+      "sameMaterialMean": 0.14355555555555555,
+      "sameMaterialP90": 0.22,
+      "sameMaterialMax": 0.26,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 16,
+      "formViolations": 0,
+      "candidateWinRate": null,
+      "meanProbA": null,
+      "pairCounts": null,
+      "baselineRunWinRate": 0.68,
+      "winRateNoiseAllowance": 0.18000000000000005,
+      "hardFailures": [],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": false,
+        "crossRunMaterial": false
+      },
+      "topicOutcome": "reference"
+    },
+    {
+      "id": "codex/variation-1",
+      "means": {
+        "concrete": 0.682,
+        "indirect": 0.087
+      },
+      "baselineMeans": {
+        "concrete": 0.738,
+        "indirect": 0.08099999999999999
+      },
+      "baselineRunGap": {
+        "concrete": 0.22399999999999998,
+        "indirect": 0.010000000000000009
+      },
+      "nearDuplicates": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "sameMaterialMean": 0.26022222222222224,
+      "sameMaterialP90": 0.42,
+      "sameMaterialMax": 0.98,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 14,
+      "formViolations": 0,
+      "candidateWinRate": 0.62,
+      "meanProbA": 0.53325,
+      "pairCounts": {
+        "A": 47,
+        "B": 23,
+        "draw": 30
+      },
+      "baselineRunWinRate": 0.68,
+      "winRateNoiseAllowance": 0.18000000000000005,
+      "hardFailures": [
+        "nearDuplicates 2組 > baseline 0組"
+      ],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": true,
+        "crossRunMaterial": true
+      },
+      "topicOutcome": "not passed"
+    },
+    {
+      "id": "codex/variation-2",
+      "means": {
+        "concrete": 0.6439999999999999,
+        "indirect": 0.07699999999999999
+      },
+      "baselineMeans": {
+        "concrete": 0.738,
+        "indirect": 0.08099999999999999
+      },
+      "baselineRunGap": {
+        "concrete": 0.22399999999999998,
+        "indirect": 0.010000000000000009
+      },
+      "nearDuplicates": [
+        [
+          2,
+          8
+        ]
+      ],
+      "sameMaterialMean": 0.22244444444444444,
+      "sameMaterialP90": 0.39,
+      "sameMaterialMax": 0.82,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 15,
+      "formViolations": 0,
+      "candidateWinRate": 0.4,
+      "meanProbA": 0.4726,
+      "pairCounts": {
+        "A": 19,
+        "B": 39,
+        "draw": 42
+      },
+      "baselineRunWinRate": 0.68,
+      "winRateNoiseAllowance": 0.18000000000000005,
+      "hardFailures": [
+        "nearDuplicates 1組 > baseline 0組"
+      ],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": true,
+        "crossRunMaterial": true
+      },
+      "topicOutcome": "not passed"
+    },
+    {
+      "id": "sylvanian/baseline",
+      "means": {
+        "concrete": 0.849,
+        "indirect": 0.11499999999999999
+      },
+      "baselineMeans": {
+        "concrete": 0.849,
+        "indirect": 0.11499999999999999
+      },
+      "baselineRunGap": {
+        "concrete": 0.06599999999999995,
+        "indirect": 0.0020000000000000018
+      },
+      "nearDuplicates": [
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "sameMaterialMean": 0.21266666666666667,
+      "sameMaterialP90": 0.5,
+      "sameMaterialMax": 0.82,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 15,
+      "formViolations": 0,
+      "candidateWinRate": null,
+      "meanProbA": null,
+      "pairCounts": null,
+      "baselineRunWinRate": 0.46,
+      "winRateNoiseAllowance": 0.03999999999999998,
+      "hardFailures": [],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": false,
+        "crossRunMaterial": false
+      },
+      "topicOutcome": "reference"
+    },
+    {
+      "id": "sylvanian/variation-1",
+      "means": {
+        "concrete": 0.867,
+        "indirect": 0.125
+      },
+      "baselineMeans": {
+        "concrete": 0.849,
+        "indirect": 0.11499999999999999
+      },
+      "baselineRunGap": {
+        "concrete": 0.06599999999999995,
+        "indirect": 0.0020000000000000018
+      },
+      "nearDuplicates": [
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "sameMaterialMean": 0.28755555555555556,
+      "sameMaterialP90": 0.6,
+      "sameMaterialMax": 0.78,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 16,
+      "formViolations": 0,
+      "candidateWinRate": 0.42,
+      "meanProbA": 0.46865,
+      "pairCounts": {
+        "A": 21,
+        "B": 37,
+        "draw": 42
+      },
+      "baselineRunWinRate": 0.46,
+      "winRateNoiseAllowance": 0.03999999999999998,
+      "hardFailures": [
+        "nearDuplicates 4組 > baseline 2組"
+      ],
+      "regressions": [
+        "indirect平均の上昇がbaselineの2回差を超える",
+        "総当たり勝率の0.5からの低下がbaseline同士の片寄りを超える"
+      ],
+      "warnings": {
+        "sameMaterialDistributionHigher": true,
+        "crossRunMaterial": true
+      },
+      "topicOutcome": "not passed"
+    },
+    {
+      "id": "sylvanian/variation-2",
+      "means": {
+        "concrete": 0.8779999999999999,
+        "indirect": 0.10700000000000001
+      },
+      "baselineMeans": {
+        "concrete": 0.849,
+        "indirect": 0.11499999999999999
+      },
+      "baselineRunGap": {
+        "concrete": 0.06599999999999995,
+        "indirect": 0.0020000000000000018
+      },
+      "nearDuplicates": [
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "sameMaterialMean": 0.19,
+      "sameMaterialP90": 0.35,
+      "sameMaterialMax": 0.77,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 15,
+      "formViolations": 0,
+      "candidateWinRate": 0.56,
+      "meanProbA": 0.5205,
+      "pairCounts": {
+        "A": 35,
+        "B": 23,
+        "draw": 42
+      },
+      "baselineRunWinRate": 0.46,
+      "winRateNoiseAllowance": 0.03999999999999998,
+      "hardFailures": [],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": false,
+        "crossRunMaterial": true
+      },
+      "topicOutcome": "mechanically passed"
+    },
+    {
+      "id": "weather/baseline",
+      "means": {
+        "concrete": 0.5760000000000001,
+        "indirect": 0.14499999999999996
+      },
+      "baselineMeans": {
+        "concrete": 0.5760000000000001,
+        "indirect": 0.14499999999999996
+      },
+      "baselineRunGap": {
+        "concrete": 0.05999999999999994,
+        "indirect": 0.017999999999999988
+      },
+      "nearDuplicates": [],
+      "sameMaterialMean": 0.31755555555555554,
+      "sameMaterialP90": 0.45,
+      "sameMaterialMax": 0.66,
+      "quoteAnswersPerRun": [
+        0,
+        1
+      ],
+      "maxLength": 16,
+      "formViolations": 0,
+      "candidateWinRate": null,
+      "meanProbA": null,
+      "pairCounts": null,
+      "baselineRunWinRate": 0.44,
+      "winRateNoiseAllowance": 0.06,
+      "hardFailures": [],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": false,
+        "crossRunMaterial": false
+      },
+      "topicOutcome": "reference"
+    },
+    {
+      "id": "weather/variation-1",
+      "means": {
+        "concrete": 0.541,
+        "indirect": 0.11400000000000002
+      },
+      "baselineMeans": {
+        "concrete": 0.5760000000000001,
+        "indirect": 0.14499999999999996
+      },
+      "baselineRunGap": {
+        "concrete": 0.05999999999999994,
+        "indirect": 0.017999999999999988
+      },
+      "nearDuplicates": [
+        [
+          5,
+          7
+        ]
+      ],
+      "sameMaterialMean": 0.364,
+      "sameMaterialP90": 0.61,
+      "sameMaterialMax": 0.71,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 14,
+      "formViolations": 0,
+      "candidateWinRate": 0.58,
+      "meanProbA": 0.547475,
+      "pairCounts": {
+        "A": 46,
+        "B": 30,
+        "draw": 24
+      },
+      "baselineRunWinRate": 0.44,
+      "winRateNoiseAllowance": 0.06,
+      "hardFailures": [
+        "nearDuplicates 1組 > baseline 0組"
+      ],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": true,
+        "crossRunMaterial": true
+      },
+      "topicOutcome": "not passed"
+    },
+    {
+      "id": "weather/variation-2",
+      "means": {
+        "concrete": 0.6990000000000001,
+        "indirect": 0.14100000000000001
+      },
+      "baselineMeans": {
+        "concrete": 0.5760000000000001,
+        "indirect": 0.14499999999999996
+      },
+      "baselineRunGap": {
+        "concrete": 0.05999999999999994,
+        "indirect": 0.017999999999999988
+      },
+      "nearDuplicates": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          10
+        ]
+      ],
+      "sameMaterialMean": 0.2793333333333333,
+      "sameMaterialP90": 0.43,
+      "sameMaterialMax": 0.87,
+      "quoteAnswersPerRun": [
+        0,
+        0
+      ],
+      "maxLength": 16,
+      "formViolations": 0,
+      "candidateWinRate": 0.54,
+      "meanProbA": 0.516875,
+      "pairCounts": {
+        "A": 42,
+        "B": 34,
+        "draw": 24
+      },
+      "baselineRunWinRate": 0.44,
+      "winRateNoiseAllowance": 0.06,
+      "hardFailures": [
+        "nearDuplicates 2組 > baseline 0組"
+      ],
+      "regressions": [],
+      "warnings": {
+        "sameMaterialDistributionHigher": false,
+        "crossRunMaterial": true
+      },
+      "topicOutcome": "not passed"
+    }
+  ],
+  "outcomes": {
+    "variation-1": "not passed",
+    "variation-2": "not passed"
+  },
+  "human": "明示的な組の優劣はない。Codexはbaselineの5が最も肯定的、variant2の5が次点。シルバニアはvariant2の1とvariant1の4/5が肯定的。天気は全条件不評。validatedとはしない。",
+  "nextIntervention": "1場面への固定を解除する案と、人間の情けなさの必須条件を解除する案を独立に試す。好評な具体ネタは生成指示へ移さない。"
+}

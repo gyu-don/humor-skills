@@ -1,0 +1,702 @@
+[
+  {
+    "id": "weather/variation-2/1-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/1-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/1-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/1-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/1-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/1-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/1-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/1-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/1-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/1-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は傘屋と決めました",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/2-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/2-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/2-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/2-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/2-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/2-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/2-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/2-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/2-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/2-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲は消しゴムで消しました",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/3-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/3-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/3-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/3-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/3-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/3-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/3-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/3-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/3-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/3-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "外れた日は弟が出ます",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/4-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/4-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/4-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/4-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/4-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/4-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/4-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/4-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/4-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/4-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "昨日当たったので今日は再放送です",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/5-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/5-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/5-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/5-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/5-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/5-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/5-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/5-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/5-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/5-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "明日は晴れ、私の結婚式なので",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/6-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/6-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/6-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/6-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/6-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/6-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/6-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/6-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/6-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/6-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "傘屋から入金されたので雨です",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/7-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/7-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/7-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/7-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/7-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/7-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/7-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/7-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/7-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/7-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "この台風、去年も使いました",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/8-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/8-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/8-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/8-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/8-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/8-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/8-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/8-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/8-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/8-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "濡れた方、証拠はありますか",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/9-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/9-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/9-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/9-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/9-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/9-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/9-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/9-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/9-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/9-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "降水確率は拍手の大きさで決めます",
+    "answerB": "雨予報だけ母に読ませます"
+  },
+  {
+    "id": "weather/variation-2/10-1",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "台風の進路は実家を避けました"
+  },
+  {
+    "id": "weather/variation-2/10-2",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "こちらは晴れの完成予想図です"
+  },
+  {
+    "id": "weather/variation-2/10-3",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "雨はＣＭのあとに降らせます"
+  },
+  {
+    "id": "weather/variation-2/10-4",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "気温は税込みでお伝えします"
+  },
+  {
+    "id": "weather/variation-2/10-5",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "昨日の予報は燃えるゴミへ"
+  },
+  {
+    "id": "weather/variation-2/10-6",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "明日の予報は明後日発表します"
+  },
+  {
+    "id": "weather/variation-2/10-7",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "「雨雲は修正テープで消しました」"
+  },
+  {
+    "id": "weather/variation-2/10-8",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "晴れの地域は拍手で決めます"
+  },
+  {
+    "id": "weather/variation-2/10-9",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "降水確率は視聴率込みです"
+  },
+  {
+    "id": "weather/variation-2/10-10",
+    "label": "weather/variation-2",
+    "topic": "絶対に信用できない天気予報士の一言",
+    "answerA": "雨雲はＣＭ中に消します",
+    "answerB": "雨予報だけ母に読ませます"
+  }
+]

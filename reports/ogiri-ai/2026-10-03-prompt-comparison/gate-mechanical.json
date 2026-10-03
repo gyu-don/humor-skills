@@ -1,0 +1,218 @@
+[
+  {
+    "id": "codex/baseline",
+    "answerCount": 10,
+    "lengths": [
+      10,
+      13,
+      12,
+      12,
+      12,
+      16,
+      14,
+      14,
+      13,
+      13
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "codex/variation-1",
+    "answerCount": 10,
+    "lengths": [
+      14,
+      14,
+      11,
+      14,
+      14,
+      14,
+      13,
+      13,
+      13,
+      13
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "codex/variation-2",
+    "answerCount": 10,
+    "lengths": [
+      15,
+      11,
+      13,
+      11,
+      13,
+      13,
+      12,
+      12,
+      12,
+      10
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "sylvanian/baseline",
+    "answerCount": 10,
+    "lengths": [
+      14,
+      14,
+      13,
+      12,
+      14,
+      11,
+      13,
+      7,
+      15,
+      14
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "sylvanian/variation-1",
+    "answerCount": 10,
+    "lengths": [
+      12,
+      9,
+      16,
+      16,
+      13,
+      15,
+      14,
+      13,
+      12,
+      11
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "sylvanian/variation-2",
+    "answerCount": 10,
+    "lengths": [
+      15,
+      11,
+      11,
+      13,
+      14,
+      10,
+      15,
+      12,
+      15,
+      11
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "weather/baseline",
+    "answerCount": 10,
+    "lengths": [
+      14,
+      14,
+      13,
+      13,
+      12,
+      14,
+      16,
+      13,
+      12,
+      12
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      1
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "weather/variation-1",
+    "answerCount": 10,
+    "lengths": [
+      12,
+      12,
+      12,
+      14,
+      13,
+      13,
+      11,
+      10,
+      14,
+      12
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "weather/variation-2",
+    "answerCount": 10,
+    "lengths": [
+      13,
+      13,
+      10,
+      16,
+      14,
+      14,
+      13,
+      13,
+      16,
+      11
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0,
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  }
+]

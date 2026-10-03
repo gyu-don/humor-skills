@@ -1,0 +1,691 @@
+{
+  "usage": {
+    "requests": 90,
+    "input_tokens": 39164,
+    "output_tokens": 1980
+  },
+  "summaries": [
+    {
+      "id": "codex/baseline",
+      "label": "baseline",
+      "nearDuplicates": []
+    },
+    {
+      "id": "codex/variation-1",
+      "label": "variation-1",
+      "nearDuplicates": []
+    },
+    {
+      "id": "codex/variation-2",
+      "label": "variation-2",
+      "nearDuplicates": []
+    },
+    {
+      "id": "sylvanian/baseline",
+      "label": "baseline",
+      "nearDuplicates": []
+    },
+    {
+      "id": "sylvanian/variation-1",
+      "label": "variation-1",
+      "nearDuplicates": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "sylvanian/variation-2",
+      "label": "variation-2",
+      "nearDuplicates": []
+    },
+    {
+      "id": "weather/baseline",
+      "label": "baseline",
+      "nearDuplicates": []
+    },
+    {
+      "id": "weather/variation-1",
+      "label": "variation-1",
+      "nearDuplicates": []
+    },
+    {
+      "id": "weather/variation-2",
+      "label": "variation-2",
+      "nearDuplicates": []
+    }
+  ],
+  "overlaps": [
+    {
+      "sampleId": "codex/baseline",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.1,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.14,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.23,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.3,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.23,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.22,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.14,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.24,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/baseline",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.64,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.2,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.42,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.24,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.19,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.19,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.15,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.17,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.12,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.15,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.07,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.07,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.05,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.2,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.07,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.05,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.06,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.07,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.18,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.09,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.21,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.21,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.11,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.09,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.05,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.07,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.06,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.05,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.21,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.11,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.11,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.71,
+      "nearDuplicate": true
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.15,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.16,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.1,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.12,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.23,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.09,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.1,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.33,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.08,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.09,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.22,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.16,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.09,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.26,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.19,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.63,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.47,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.2,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.4,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.37,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.3,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.18,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/baseline",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.56,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.21,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.41,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.28,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.38,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.28,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.27,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.3,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.48,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.57,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.64,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 1,
+      "b": 2,
+      "sameMaterial": 0.41,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 1,
+      "b": 3,
+      "sameMaterial": 0.43,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 1,
+      "b": 4,
+      "sameMaterial": 0.36,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 1,
+      "b": 5,
+      "sameMaterial": 0.53,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 2,
+      "b": 3,
+      "sameMaterial": 0.48,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 2,
+      "b": 4,
+      "sameMaterial": 0.47,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 2,
+      "b": 5,
+      "sameMaterial": 0.33,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 3,
+      "b": 4,
+      "sameMaterial": 0.55,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 3,
+      "b": 5,
+      "sameMaterial": 0.43,
+      "nearDuplicate": false
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "a": 4,
+      "b": 5,
+      "sameMaterial": 0.51,
+      "nearDuplicate": false
+    }
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "usage": {
+    "requests": 200,
+    "input_tokens": 99520,
+    "output_tokens": 12000
+  },
+  "results": [
+    {
+      "id": "sylvanian/variation-2/1-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.795,
+        "straight": 0.53
+      },
+      "probA": 0.6625000000000001,
+      "winner": "A",
+      "confidence": 0.3250000000000002
+    },
+    {
+      "id": "sylvanian/variation-2/1-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.6200000000000001,
+        "straight": 0.39
+      },
+      "probA": 0.5050000000000001,
+      "winner": "draw",
+      "confidence": 0.010000000000000231
+    },
+    {
+      "id": "sylvanian/variation-2/1-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.705,
+        "straight": 0.52
+      },
+      "probA": 0.6125,
+      "winner": "A",
+      "confidence": 0.2250000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/1-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.67,
+        "straight": 0.52
+      },
+      "probA": 0.595,
+      "winner": "A",
+      "confidence": 0.18999999999999995
+    },
+    {
+      "id": "sylvanian/variation-2/1-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.625,
+        "straight": 0.62
+      },
+      "probA": 0.6225,
+      "winner": "A",
+      "confidence": 0.2450000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/1-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.8200000000000001,
+        "straight": 0.37
+      },
+      "probA": 0.595,
+      "winner": "A",
+      "confidence": 0.18999999999999995
+    },
+    {
+      "id": "sylvanian/variation-2/1-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.72,
+        "straight": 0.25
+      },
+      "probA": 0.485,
+      "winner": "draw",
+      "confidence": 0.030000000000000027
+    },
+    {
+      "id": "sylvanian/variation-2/1-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.8500000000000001,
+        "straight": 0.11999999999999998
+      },
+      "probA": 0.48500000000000004,
+      "winner": "draw",
+      "confidence": 0.029999999999999916
+    },
+    {
+      "id": "sylvanian/variation-2/1-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.64,
+        "straight": 0.595
+      },
+      "probA": 0.6174999999999999,
+      "winner": "A",
+      "confidence": 0.23499999999999988
+    },
+    {
+      "id": "sylvanian/variation-2/1-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.78,
+        "straight": 0.615
+      },
+      "probA": 0.6975,
+      "winner": "A",
+      "confidence": 0.395
+    },
+    {
+      "id": "sylvanian/variation-2/2-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.6699999999999999,
+        "straight": 0.6000000000000001
+      },
+      "probA": 0.635,
+      "winner": "A",
+      "confidence": 0.27
+    },
+    {
+      "id": "sylvanian/variation-2/2-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.44,
+        "straight": 0.49
+      },
+      "probA": 0.46499999999999997,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "sylvanian/variation-2/2-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.6799999999999999
+      },
+      "probA": 0.61,
+      "winner": "A",
+      "confidence": 0.21999999999999997
+    },
+    {
+      "id": "sylvanian/variation-2/2-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.43,
+        "straight": 0.63
+      },
+      "probA": 0.53,
+      "winner": "draw",
+      "confidence": 0.06000000000000005
+    },
+    {
+      "id": "sylvanian/variation-2/2-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.41000000000000003,
+        "straight": 0.5900000000000001
+      },
+      "probA": 0.5,
+      "winner": "draw",
+      "confidence": 0
+    },
+    {
+      "id": "sylvanian/variation-2/2-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.595,
+        "straight": 0.5449999999999999
+      },
+      "probA": 0.57,
+      "winner": "A",
+      "confidence": 0.1399999999999999
+    },
+    {
+      "id": "sylvanian/variation-2/2-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.48500000000000004,
+        "straight": 0.4
+      },
+      "probA": 0.4425,
+      "winner": "B",
+      "confidence": 0.11499999999999999
+    },
+    {
+      "id": "sylvanian/variation-2/2-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.705,
+        "straight": 0.28
+      },
+      "probA": 0.4925,
+      "winner": "draw",
+      "confidence": 0.015000000000000013
+    },
+    {
+      "id": "sylvanian/variation-2/2-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.395,
+        "straight": 0.6950000000000001
+      },
+      "probA": 0.545,
+      "winner": "draw",
+      "confidence": 0.09000000000000008
+    },
+    {
+      "id": "sylvanian/variation-2/2-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.69,
+        "straight": 0.8049999999999999
+      },
+      "probA": 0.7474999999999999,
+      "winner": "A",
+      "confidence": 0.4949999999999999
+    },
+    {
+      "id": "sylvanian/variation-2/3-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5700000000000001,
+        "straight": 0.5549999999999999
+      },
+      "probA": 0.5625,
+      "winner": "A",
+      "confidence": 0.125
+    },
+    {
+      "id": "sylvanian/variation-2/3-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.27999999999999997,
+        "straight": 0.36
+      },
+      "probA": 0.31999999999999995,
+      "winner": "B",
+      "confidence": 0.3600000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/3-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.445,
+        "straight": 0.645
+      },
+      "probA": 0.545,
+      "winner": "draw",
+      "confidence": 0.09000000000000008
+    },
+    {
+      "id": "sylvanian/variation-2/3-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.355,
+        "straight": 0.5549999999999999
+      },
+      "probA": 0.45499999999999996,
+      "winner": "draw",
+      "confidence": 0.09000000000000008
+    },
+    {
+      "id": "sylvanian/variation-2/3-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.31500000000000006,
+        "straight": 0.655
+      },
+      "probA": 0.48500000000000004,
+      "winner": "draw",
+      "confidence": 0.029999999999999916
+    },
+    {
+      "id": "sylvanian/variation-2/3-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5,
+        "straight": 0.455
+      },
+      "probA": 0.47750000000000004,
+      "winner": "draw",
+      "confidence": 0.04499999999999993
+    },
+    {
+      "id": "sylvanian/variation-2/3-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.38,
+        "straight": 0.255
+      },
+      "probA": 0.3175,
+      "winner": "B",
+      "confidence": 0.365
+    },
+    {
+      "id": "sylvanian/variation-2/3-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.625,
+        "straight": 0.22
+      },
+      "probA": 0.4225,
+      "winner": "B",
+      "confidence": 0.15500000000000003
+    },
+    {
+      "id": "sylvanian/variation-2/3-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.29500000000000004,
+        "straight": 0.6799999999999999
+      },
+      "probA": 0.4875,
+      "winner": "draw",
+      "confidence": 0.025000000000000022
+    },
+    {
+      "id": "sylvanian/variation-2/3-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5449999999999999,
+        "straight": 0.745
+      },
+      "probA": 0.645,
+      "winner": "A",
+      "confidence": 0.29000000000000004
+    },
+    {
+      "id": "sylvanian/variation-2/4-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.775,
+        "straight": 0.635
+      },
+      "probA": 0.7050000000000001,
+      "winner": "A",
+      "confidence": 0.41000000000000014
+    },
+    {
+      "id": "sylvanian/variation-2/4-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.465,
+        "straight": 0.5800000000000001
+      },
+      "probA": 0.5225000000000001,
+      "winner": "draw",
+      "confidence": 0.04500000000000015
+    },
+    {
+      "id": "sylvanian/variation-2/4-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.6499999999999999,
+        "straight": 0.595
+      },
+      "probA": 0.6224999999999999,
+      "winner": "A",
+      "confidence": 0.24499999999999988
+    },
+    {
+      "id": "sylvanian/variation-2/4-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.47500000000000003,
+        "straight": 0.6849999999999999
+      },
+      "probA": 0.58,
+      "winner": "A",
+      "confidence": 0.15999999999999992
+    },
+    {
+      "id": "sylvanian/variation-2/4-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.53,
+        "straight": 0.625
+      },
+      "probA": 0.5775,
+      "winner": "A",
+      "confidence": 0.15500000000000003
+    },
+    {
+      "id": "sylvanian/variation-2/4-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.63,
+        "straight": 0.74
+      },
+      "probA": 0.685,
+      "winner": "A",
+      "confidence": 0.3700000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/4-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5349999999999999,
+        "straight": 0.475
+      },
+      "probA": 0.5049999999999999,
+      "winner": "draw",
+      "confidence": 0.009999999999999787
+    },
+    {
+      "id": "sylvanian/variation-2/4-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.78,
+        "straight": 0.26
+      },
+      "probA": 0.52,
+      "winner": "draw",
+      "confidence": 0.040000000000000036
+    },
+    {
+      "id": "sylvanian/variation-2/4-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.40499999999999997,
+        "straight": 0.6100000000000001
+      },
+      "probA": 0.5075000000000001,
+      "winner": "draw",
+      "confidence": 0.015000000000000124
+    },
+    {
+      "id": "sylvanian/variation-2/4-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.6799999999999999,
+        "straight": 0.75
+      },
+      "probA": 0.715,
+      "winner": "A",
+      "confidence": 0.42999999999999994
+    },
+    {
+      "id": "sylvanian/variation-2/5-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.6799999999999999,
+        "straight": 0.45
+      },
+      "probA": 0.565,
+      "winner": "A",
+      "confidence": 0.1299999999999999
+    },
+    {
+      "id": "sylvanian/variation-2/5-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.375,
+        "straight": 0.35000000000000003
+      },
+      "probA": 0.36250000000000004,
+      "winner": "B",
+      "confidence": 0.2749999999999999
+    },
+    {
+      "id": "sylvanian/variation-2/5-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.525,
+        "straight": 0.51
+      },
+      "probA": 0.5175000000000001,
+      "winner": "draw",
+      "confidence": 0.03500000000000014
+    },
+    {
+      "id": "sylvanian/variation-2/5-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.48,
+        "straight": 0.47000000000000003
+      },
+      "probA": 0.475,
+      "winner": "draw",
+      "confidence": 0.050000000000000044
+    },
+    {
+      "id": "sylvanian/variation-2/5-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.44,
+        "straight": 0.53
+      },
+      "probA": 0.485,
+      "winner": "draw",
+      "confidence": 0.030000000000000027
+    },
+    {
+      "id": "sylvanian/variation-2/5-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.6100000000000001,
+        "straight": 0.35
+      },
+      "probA": 0.48000000000000004,
+      "winner": "draw",
+      "confidence": 0.039999999999999925
+    },
+    {
+      "id": "sylvanian/variation-2/5-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5,
+        "straight": 0.205
+      },
+      "probA": 0.3525,
+      "winner": "B",
+      "confidence": 0.29500000000000004
+    },
+    {
+      "id": "sylvanian/variation-2/5-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.7,
+        "straight": 0.12500000000000003
+      },
+      "probA": 0.4125,
+      "winner": "B",
+      "confidence": 0.17500000000000004
+    },
+    {
+      "id": "sylvanian/variation-2/5-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.445,
+        "straight": 0.55
+      },
+      "probA": 0.49750000000000005,
+      "winner": "draw",
+      "confidence": 0.004999999999999893
+    },
+    {
+      "id": "sylvanian/variation-2/5-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.61,
+        "straight": 0.6200000000000001
+      },
+      "probA": 0.615,
+      "winner": "A",
+      "confidence": 0.22999999999999998
+    },
+    {
+      "id": "sylvanian/variation-2/6-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.76,
+        "straight": 0.6100000000000001
+      },
+      "probA": 0.685,
+      "winner": "A",
+      "confidence": 0.3700000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/6-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5249999999999999,
+        "straight": 0.51
+      },
+      "probA": 0.5175,
+      "winner": "draw",
+      "confidence": 0.03499999999999992
+    },
+    {
+      "id": "sylvanian/variation-2/6-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5900000000000001,
+        "straight": 0.675
+      },
+      "probA": 0.6325000000000001,
+      "winner": "A",
+      "confidence": 0.2650000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/6-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.455,
+        "straight": 0.615
+      },
+      "probA": 0.535,
+      "winner": "draw",
+      "confidence": 0.07000000000000006
+    },
+    {
+      "id": "sylvanian/variation-2/6-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.52,
+        "straight": 0.685
+      },
+      "probA": 0.6025,
+      "winner": "A",
+      "confidence": 0.20500000000000007
+    },
+    {
+      "id": "sylvanian/variation-2/6-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.66,
+        "straight": 0.6000000000000001
+      },
+      "probA": 0.6300000000000001,
+      "winner": "A",
+      "confidence": 0.26000000000000023
+    },
+    {
+      "id": "sylvanian/variation-2/6-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5700000000000001,
+        "straight": 0.44999999999999996
+      },
+      "probA": 0.51,
+      "winner": "draw",
+      "confidence": 0.020000000000000018
+    },
+    {
+      "id": "sylvanian/variation-2/6-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.76,
+        "straight": 0.395
+      },
+      "probA": 0.5775,
+      "winner": "A",
+      "confidence": 0.15500000000000003
+    },
+    {
+      "id": "sylvanian/variation-2/6-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.45,
+        "straight": 0.71
+      },
+      "probA": 0.58,
+      "winner": "A",
+      "confidence": 0.15999999999999992
+    },
+    {
+      "id": "sylvanian/variation-2/6-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.675,
+        "straight": 0.8200000000000001
+      },
+      "probA": 0.7475,
+      "winner": "A",
+      "confidence": 0.4950000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/7-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.685,
+        "straight": 0.34
+      },
+      "probA": 0.5125000000000001,
+      "winner": "draw",
+      "confidence": 0.025000000000000133
+    },
+    {
+      "id": "sylvanian/variation-2/7-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.455,
+        "straight": 0.21500000000000002
+      },
+      "probA": 0.335,
+      "winner": "B",
+      "confidence": 0.32999999999999996
+    },
+    {
+      "id": "sylvanian/variation-2/7-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.38
+      },
+      "probA": 0.46,
+      "winner": "draw",
+      "confidence": 0.07999999999999996
+    },
+    {
+      "id": "sylvanian/variation-2/7-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.495,
+        "straight": 0.385
+      },
+      "probA": 0.44,
+      "winner": "B",
+      "confidence": 0.12
+    },
+    {
+      "id": "sylvanian/variation-2/7-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.465,
+        "straight": 0.415
+      },
+      "probA": 0.44,
+      "winner": "B",
+      "confidence": 0.12
+    },
+    {
+      "id": "sylvanian/variation-2/7-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.67,
+        "straight": 0.24499999999999997
+      },
+      "probA": 0.4575,
+      "winner": "draw",
+      "confidence": 0.08499999999999996
+    },
+    {
+      "id": "sylvanian/variation-2/7-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.515,
+        "straight": 0.12000000000000001
+      },
+      "probA": 0.3175,
+      "winner": "B",
+      "confidence": 0.365
+    },
+    {
+      "id": "sylvanian/variation-2/7-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.7949999999999999,
+        "straight": 0.08500000000000002
+      },
+      "probA": 0.43999999999999995,
+      "winner": "B",
+      "confidence": 0.1200000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/7-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.46,
+        "straight": 0.395
+      },
+      "probA": 0.4275,
+      "winner": "B",
+      "confidence": 0.14500000000000002
+    },
+    {
+      "id": "sylvanian/variation-2/7-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.71,
+        "straight": 0.42500000000000004
+      },
+      "probA": 0.5675,
+      "winner": "A",
+      "confidence": 0.135
+    },
+    {
+      "id": "sylvanian/variation-2/8-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.665,
+        "straight": 0.45999999999999996
+      },
+      "probA": 0.5625,
+      "winner": "A",
+      "confidence": 0.125
+    },
+    {
+      "id": "sylvanian/variation-2/8-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.38,
+        "straight": 0.365
+      },
+      "probA": 0.3725,
+      "winner": "B",
+      "confidence": 0.255
+    },
+    {
+      "id": "sylvanian/variation-2/8-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.53,
+        "straight": 0.565
+      },
+      "probA": 0.5475,
+      "winner": "draw",
+      "confidence": 0.09499999999999997
+    },
+    {
+      "id": "sylvanian/variation-2/8-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.49,
+        "straight": 0.5549999999999999
+      },
+      "probA": 0.5225,
+      "winner": "draw",
+      "confidence": 0.04499999999999993
+    },
+    {
+      "id": "sylvanian/variation-2/8-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.41500000000000004,
+        "straight": 0.5800000000000001
+      },
+      "probA": 0.49750000000000005,
+      "winner": "draw",
+      "confidence": 0.004999999999999893
+    },
+    {
+      "id": "sylvanian/variation-2/8-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.505,
+        "straight": 0.365
+      },
+      "probA": 0.435,
+      "winner": "B",
+      "confidence": 0.13
+    },
+    {
+      "id": "sylvanian/variation-2/8-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.49,
+        "straight": 0.22499999999999998
+      },
+      "probA": 0.3575,
+      "winner": "B",
+      "confidence": 0.28500000000000003
+    },
+    {
+      "id": "sylvanian/variation-2/8-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.67,
+        "straight": 0.15499999999999997
+      },
+      "probA": 0.4125,
+      "winner": "B",
+      "confidence": 0.17500000000000004
+    },
+    {
+      "id": "sylvanian/variation-2/8-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.385,
+        "straight": 0.565
+      },
+      "probA": 0.475,
+      "winner": "draw",
+      "confidence": 0.050000000000000044
+    },
+    {
+      "id": "sylvanian/variation-2/8-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.595,
+        "straight": 0.6499999999999999
+      },
+      "probA": 0.6224999999999999,
+      "winner": "A",
+      "confidence": 0.24499999999999988
+    },
+    {
+      "id": "sylvanian/variation-2/9-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.635,
+        "straight": 0.39499999999999996
+      },
+      "probA": 0.515,
+      "winner": "draw",
+      "confidence": 0.030000000000000027
+    },
+    {
+      "id": "sylvanian/variation-2/9-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.345,
+        "straight": 0.36
+      },
+      "probA": 0.3525,
+      "winner": "B",
+      "confidence": 0.29500000000000004
+    },
+    {
+      "id": "sylvanian/variation-2/9-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.53,
+        "straight": 0.47500000000000003
+      },
+      "probA": 0.5025000000000001,
+      "winner": "draw",
+      "confidence": 0.0050000000000001155
+    },
+    {
+      "id": "sylvanian/variation-2/9-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.505,
+        "straight": 0.435
+      },
+      "probA": 0.47,
+      "winner": "draw",
+      "confidence": 0.06000000000000005
+    },
+    {
+      "id": "sylvanian/variation-2/9-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.345,
+        "straight": 0.495
+      },
+      "probA": 0.42,
+      "winner": "B",
+      "confidence": 0.16000000000000003
+    },
+    {
+      "id": "sylvanian/variation-2/9-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.66,
+        "straight": 0.42
+      },
+      "probA": 0.54,
+      "winner": "draw",
+      "confidence": 0.08000000000000007
+    },
+    {
+      "id": "sylvanian/variation-2/9-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.525,
+        "straight": 0.22
+      },
+      "probA": 0.3725,
+      "winner": "B",
+      "confidence": 0.255
+    },
+    {
+      "id": "sylvanian/variation-2/9-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.7150000000000001,
+        "straight": 0.13999999999999996
+      },
+      "probA": 0.4275,
+      "winner": "B",
+      "confidence": 0.14500000000000002
+    },
+    {
+      "id": "sylvanian/variation-2/9-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.375,
+        "straight": 0.495
+      },
+      "probA": 0.435,
+      "winner": "B",
+      "confidence": 0.13
+    },
+    {
+      "id": "sylvanian/variation-2/9-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.6100000000000001,
+        "straight": 0.56
+      },
+      "probA": 0.5850000000000001,
+      "winner": "A",
+      "confidence": 0.17000000000000015
+    },
+    {
+      "id": "sylvanian/variation-2/10-1",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.655,
+        "straight": 0.5549999999999999
+      },
+      "probA": 0.605,
+      "winner": "A",
+      "confidence": 0.20999999999999996
+    },
+    {
+      "id": "sylvanian/variation-2/10-2",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.42,
+        "straight": 0.48500000000000004
+      },
+      "probA": 0.4525,
+      "winner": "draw",
+      "confidence": 0.09499999999999997
+    },
+    {
+      "id": "sylvanian/variation-2/10-3",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.54,
+        "straight": 0.645
+      },
+      "probA": 0.5925,
+      "winner": "A",
+      "confidence": 0.18500000000000005
+    },
+    {
+      "id": "sylvanian/variation-2/10-4",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.44,
+        "straight": 0.585
+      },
+      "probA": 0.5125,
+      "winner": "draw",
+      "confidence": 0.02499999999999991
+    },
+    {
+      "id": "sylvanian/variation-2/10-5",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.38,
+        "straight": 0.65
+      },
+      "probA": 0.515,
+      "winner": "draw",
+      "confidence": 0.030000000000000027
+    },
+    {
+      "id": "sylvanian/variation-2/10-6",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.565,
+        "straight": 0.52
+      },
+      "probA": 0.5425,
+      "winner": "draw",
+      "confidence": 0.08499999999999996
+    },
+    {
+      "id": "sylvanian/variation-2/10-7",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.5249999999999999,
+        "straight": 0.355
+      },
+      "probA": 0.43999999999999995,
+      "winner": "B",
+      "confidence": 0.1200000000000001
+    },
+    {
+      "id": "sylvanian/variation-2/10-8",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.685,
+        "straight": 0.27499999999999997
+      },
+      "probA": 0.48,
+      "winner": "draw",
+      "confidence": 0.040000000000000036
+    },
+    {
+      "id": "sylvanian/variation-2/10-9",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.415,
+        "straight": 0.6699999999999999
+      },
+      "probA": 0.5425,
+      "winner": "draw",
+      "confidence": 0.08499999999999996
+    },
+    {
+      "id": "sylvanian/variation-2/10-10",
+      "label": "sylvanian/variation-2",
+      "criteria": {
+        "concrete": 0.615,
+        "straight": 0.77
+      },
+      "probA": 0.6925,
+      "winner": "A",
+      "confidence": 0.385
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoningEffort": "medium",
+  "humanFeedbackRecordedBeforeEdit": true,
+  "humanEvaluationRecord": "/home/penguin/workspaces/humor-skills/data/human-evals/ogiri-ai/2026-10-03-prompt-comparison.json",
+  "baselineSha256": "dafb491c298fe1b5d16819cb0b3032c5d819e75d8d3af6f9000b7fde6ffbae47",
+  "sharedCandidateParent": "round 1 variation-1; directness repair retained as a trial, not validated",
+  "changes": {
+    "variation-1": "remove single-scene anchoring in generation steps 1-2",
+    "variation-2": "make human motivation and emotional reactions conditional instead of mandatory"
+  }
+}

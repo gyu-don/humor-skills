@@ -1,0 +1,329 @@
+{
+  "usage": {
+    "requests": 30,
+    "input_tokens": 15109,
+    "output_tokens": 1170
+  },
+  "summaries": [
+    {
+      "id": "codex/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.6239999999999999,
+        "indirect": 0.084
+      }
+    },
+    {
+      "id": "codex/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.7160000000000001,
+        "indirect": 0.094
+      }
+    },
+    {
+      "id": "codex/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.6839999999999999,
+        "indirect": 0.072
+      }
+    },
+    {
+      "id": "sylvanian/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.8860000000000001,
+        "indirect": 0.122
+      }
+    },
+    {
+      "id": "sylvanian/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.842,
+        "indirect": 0.11199999999999999
+      }
+    },
+    {
+      "id": "sylvanian/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.876,
+        "indirect": 0.1
+      }
+    }
+  ],
+  "rows": [
+    {
+      "sampleId": "codex/baseline",
+      "index": 1,
+      "answer": "辞表をプルリクで出す",
+      "traits": {
+        "concrete": 0.72,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 2,
+      "answer": "上司の説教を子守唄にビルド",
+      "traits": {
+        "concrete": 0.6,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 3,
+      "answer": "彼女の既読に再試行ボタン",
+      "traits": {
+        "concrete": 0.74,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 4,
+      "answer": "初デート前に謝罪文を生成",
+      "traits": {
+        "concrete": 0.75,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 5,
+      "answer": "親の期待をコメントアウト",
+      "traits": {
+        "concrete": 0.31,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 1,
+      "answer": "面接にノートPCだけ送り込む",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 2,
+      "answer": "コードを書かせて手書きで清書",
+      "traits": {
+        "concrete": 0.72,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 3,
+      "answer": "エラー文を額装して個展",
+      "traits": {
+        "concrete": 0.79,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 4,
+      "answer": "生成コードに自分の指紋を押す",
+      "traits": {
+        "concrete": 0.53,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 5,
+      "answer": "バグを直すまで結婚式を止める",
+      "traits": {
+        "concrete": 0.73,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 1,
+      "answer": "Enter係に部下を３人つける",
+      "traits": {
+        "concrete": 0.7,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 2,
+      "answer": "謝罪文にもテストを通す",
+      "traits": {
+        "concrete": 0.54,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 3,
+      "answer": "徹夜のフリ用にログを小分け",
+      "traits": {
+        "concrete": 0.71,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 4,
+      "answer": "初コミットを実家に飾る",
+      "traits": {
+        "concrete": 0.72,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 5,
+      "answer": "キーボードを売って課金する",
+      "traits": {
+        "concrete": 0.75,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 1,
+      "answer": "うさぎ一家の家族写真だけ巻物",
+      "traits": {
+        "concrete": 0.82,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 2,
+      "answer": "お父さんの寝床だけ梱包のまま",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 3,
+      "answer": "森の運動会、亀だけ翌日発売",
+      "traits": {
+        "concrete": 0.89,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 4,
+      "answer": "全員の耳が倒れる満員電車",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 5,
+      "answer": "森のパン屋、試食だけ両手持ち",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.15
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 1,
+      "answer": "お母さんの一声で畳める家",
+      "traits": {
+        "concrete": 0.83,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 2,
+      "answer": "お父さんだけ実寸大",
+      "traits": {
+        "concrete": 0.8,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 3,
+      "answer": "赤ちゃんが父の耳を握る乗馬セット",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 4,
+      "answer": "孫が来ると倍に膨らむおじいちゃん",
+      "traits": {
+        "concrete": 0.72,
+        "indirect": 0.16
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 5,
+      "answer": "玄関にお父さん専用の猫ドア",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 1,
+      "answer": "隣より１ミリ高い赤い屋根のお家",
+      "traits": {
+        "concrete": 0.86,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 2,
+      "answer": "来客時だけ出せるピアノ",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 3,
+      "answer": "ベッドから届く家庭菜園",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 4,
+      "answer": "二世帯住宅、玄関だけ別売り",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 5,
+      "answer": "赤ちゃんが泣くと飛び出すパパ",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.09
+      }
+    }
+  ]
+}

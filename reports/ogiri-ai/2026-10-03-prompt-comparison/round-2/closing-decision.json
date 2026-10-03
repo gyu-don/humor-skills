@@ -1,0 +1,21 @@
+{
+  "selectedProfile": "round-2/variation-2",
+  "selectionBasis": "human answer-level rankings, not invented whole-set preferences",
+  "outcome": "not passed",
+  "loopDepth": "4 light iterations + 1 gate on round 1; current profile light only",
+  "humanEvaluationSavedBeforeAdoption": true,
+  "humanEvaluationRecord": "/home/penguin/workspaces/humor-skills/data/human-evals/ogiri-ai/2026-10-03-prompt-comparison-round2.json",
+  "baselineSha256": "dafb491c298fe1b5d16819cb0b3032c5d819e75d8d3af6f9000b7fde6ffbae47",
+  "adoptedSha256": "040906d90d97a7a2744d8f81db14a27d0cdbf756745104d1505d4702324e714d",
+  "mainSkill": "/home/penguin/workspaces/ogiri-ai/skills/ogiri-ai/SKILL.md",
+  "exactProfileCopy": true,
+  "weatherOutcome": "all disliked; variation-1 answer 4 was weak relative preference only",
+  "gateOutstanding": [
+    "adopted revised prompt has no pooled independent 2-run gate",
+    "no fresh unseen category after using weather feedback",
+    "no pooled baseline noise allowance or all-candidate × baseline compare.ts for the adopted prompt",
+    "Codex concrete mean lower than simultaneous baseline in one light run; pooled regression status unresolved",
+    "weather disliked in both human sessions; reused material remains"
+  ],
+  "nextIntervention": "On resumption, gate the provisionally adopted profile unchanged with independent second runs and a fresh unseen-category topic; if weather remains weak, test punchline-first generation before scene anchoring as one separate intervention."
+}

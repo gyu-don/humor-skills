@@ -1,0 +1,110 @@
+[
+  {
+    "id": "codex/baseline",
+    "answerCount": 5,
+    "lengths": [
+      10,
+      13,
+      12,
+      12,
+      12
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "codex/variation-1",
+    "answerCount": 5,
+    "lengths": [
+      14,
+      14,
+      11,
+      14,
+      14
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "codex/variation-2",
+    "answerCount": 5,
+    "lengths": [
+      15,
+      11,
+      13,
+      11,
+      13
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "sylvanian/baseline",
+    "answerCount": 5,
+    "lengths": [
+      14,
+      14,
+      13,
+      12,
+      14
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "sylvanian/variation-1",
+    "answerCount": 5,
+    "lengths": [
+      12,
+      9,
+      16,
+      16,
+      13
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  },
+  {
+    "id": "sylvanian/variation-2",
+    "answerCount": 5,
+    "lengths": [
+      15,
+      11,
+      11,
+      13,
+      14
+    ],
+    "lengthViolations": [],
+    "quoteAnswersPerRun": [
+      0
+    ],
+    "quoteViolations": [],
+    "rawOutputFormat": "passed",
+    "semanticForm": "pending hand review"
+  }
+]

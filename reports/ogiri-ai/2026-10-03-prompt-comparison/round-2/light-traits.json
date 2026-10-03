@@ -1,0 +1,488 @@
+{
+  "usage": {
+    "requests": 45,
+    "input_tokens": 22736,
+    "output_tokens": 1755
+  },
+  "summaries": [
+    {
+      "id": "codex/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.7939999999999999,
+        "indirect": 0.07999999999999999
+      }
+    },
+    {
+      "id": "codex/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.626,
+        "indirect": 0.082
+      }
+    },
+    {
+      "id": "codex/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.688,
+        "indirect": 0.07999999999999999
+      }
+    },
+    {
+      "id": "sylvanian/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.8300000000000001,
+        "indirect": 0.1
+      }
+    },
+    {
+      "id": "sylvanian/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.8480000000000001,
+        "indirect": 0.11399999999999999
+      }
+    },
+    {
+      "id": "sylvanian/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.8539999999999999,
+        "indirect": 0.09
+      }
+    },
+    {
+      "id": "weather/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.526,
+        "indirect": 0.152
+      }
+    },
+    {
+      "id": "weather/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.5900000000000001,
+        "indirect": 0.13999999999999999
+      }
+    },
+    {
+      "id": "weather/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.5900000000000001,
+        "indirect": 0.15
+      }
+    }
+  ],
+  "rows": [
+    {
+      "sampleId": "codex/baseline",
+      "index": 1,
+      "answer": "デモ前日にキーボードを質入れ",
+      "traits": {
+        "concrete": 0.86,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 2,
+      "answer": "承認用の木槌を机に置く",
+      "traits": {
+        "concrete": 0.9,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 3,
+      "answer": "開発合宿に枕だけ持参",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 4,
+      "answer": "完成したコードに自分の落款",
+      "traits": {
+        "concrete": 0.5,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 5,
+      "answer": "Codexに名刺を両手で渡す",
+      "traits": {
+        "concrete": 0.86,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 1,
+      "answer": "一行書いてテープカット",
+      "traits": {
+        "concrete": 0.69,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 2,
+      "answer": "上司の説教を差分だけ読む",
+      "traits": {
+        "concrete": 0.67,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 3,
+      "answer": "タブキーだけに指紋を残す",
+      "traits": {
+        "concrete": 0.7,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 4,
+      "answer": "寝言を要件定義に採用",
+      "traits": {
+        "concrete": 0.31,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 5,
+      "answer": "承認ボタンを母に押してもらう",
+      "traits": {
+        "concrete": 0.76,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 1,
+      "answer": "上司を.gitignoreに入れる",
+      "traits": {
+        "concrete": 0.66,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 2,
+      "answer": "祖母の手編みを自動補完させる",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 3,
+      "answer": "土下座をバックグラウンド実行",
+      "traits": {
+        "concrete": 0.58,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 4,
+      "answer": "初デートをドライランで済ます",
+      "traits": {
+        "concrete": 0.51,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 5,
+      "answer": "退職届をエンターキーに割り当てる",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 1,
+      "answer": "お父さんの部屋は別売り",
+      "traits": {
+        "concrete": 0.65,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 2,
+      "answer": "お母さんの実家だけ城",
+      "traits": {
+        "concrete": 0.79,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 3,
+      "answer": "娘の彼氏だけ植毛なし",
+      "traits": {
+        "concrete": 0.87,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 4,
+      "answer": "耳を畳んで乗る満員電車",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 5,
+      "answer": "日曜の夜だけ止まる時計",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 1,
+      "answer": "お父さんを箱に戻す帰省セット",
+      "traits": {
+        "concrete": 0.83,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 2,
+      "answer": "赤ちゃんの一歩目記者会見セット",
+      "traits": {
+        "concrete": 0.87,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 3,
+      "answer": "日なたを売るネコの不動産屋",
+      "traits": {
+        "concrete": 0.8,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 4,
+      "answer": "自分の毛で編んだペアルック",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 5,
+      "answer": "お父さんの背中に母用の操縦席",
+      "traits": {
+        "concrete": 0.89,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 1,
+      "answer": "赤い屋根の家を背負ったヤドカリ家族",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 2,
+      "answer": "お母さんだけ着ぐるみ",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 3,
+      "answer": "家族写真だけ全員四つんばい",
+      "traits": {
+        "concrete": 0.8,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 4,
+      "answer": "抜け毛で作る二軒目のおうち",
+      "traits": {
+        "concrete": 0.92,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 5,
+      "answer": "お父さんの書斎が回し車",
+      "traits": {
+        "concrete": 0.89,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 1,
+      "answer": "明日の雨は今日で使い切りました",
+      "traits": {
+        "concrete": 0.63,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 2,
+      "answer": "外れた県は地図から消しました",
+      "traits": {
+        "concrete": 0.66,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 3,
+      "answer": "本日の気圧、母は上が１４０です",
+      "traits": {
+        "concrete": 0.56,
+        "indirect": 0.23
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 4,
+      "answer": "晴れるまで明日と呼びます",
+      "traits": {
+        "concrete": 0.26,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 5,
+      "answer": "明日の天気は再放送でどうぞ",
+      "traits": {
+        "concrete": 0.52,
+        "indirect": 0.16
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 1,
+      "answer": "雨雲は消しゴムで消しました",
+      "traits": {
+        "concrete": 0.82,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 2,
+      "answer": "台風とは話がついてます",
+      "traits": {
+        "concrete": 0.65,
+        "indirect": 0.29
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 3,
+      "answer": "降水確率は視聴者投票です",
+      "traits": {
+        "concrete": 0.56,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 4,
+      "answer": "晴れに全財産賭けました",
+      "traits": {
+        "concrete": 0.52,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 5,
+      "answer": "晴れるまで明日を延期します",
+      "traits": {
+        "concrete": 0.4,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 1,
+      "answer": "明日の空、まだ発注してません",
+      "traits": {
+        "concrete": 0.43,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 2,
+      "answer": "昨日の雨は再放送でした",
+      "traits": {
+        "concrete": 0.78,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 3,
+      "answer": "雨天中止なので予報も休みます",
+      "traits": {
+        "concrete": 0.77,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 4,
+      "answer": "雨の地域は地図から外しました",
+      "traits": {
+        "concrete": 0.75,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 5,
+      "answer": "晴れに一票、挙手お願いします",
+      "traits": {
+        "concrete": 0.22,
+        "indirect": 0.28
+      }
+    }
+  ]
+}

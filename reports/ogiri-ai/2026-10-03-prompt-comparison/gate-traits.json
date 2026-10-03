@@ -1,0 +1,893 @@
+{
+  "usage": {
+    "requests": 90,
+    "input_tokens": 45494,
+    "output_tokens": 3510
+  },
+  "summaries": [
+    {
+      "id": "codex/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.738,
+        "indirect": 0.08099999999999999
+      }
+    },
+    {
+      "id": "codex/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.682,
+        "indirect": 0.087
+      }
+    },
+    {
+      "id": "codex/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.6439999999999999,
+        "indirect": 0.07699999999999999
+      }
+    },
+    {
+      "id": "sylvanian/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.849,
+        "indirect": 0.11499999999999999
+      }
+    },
+    {
+      "id": "sylvanian/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.867,
+        "indirect": 0.125
+      }
+    },
+    {
+      "id": "sylvanian/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.8779999999999999,
+        "indirect": 0.10700000000000001
+      }
+    },
+    {
+      "id": "weather/baseline",
+      "label": "baseline",
+      "means": {
+        "concrete": 0.5760000000000001,
+        "indirect": 0.14499999999999996
+      }
+    },
+    {
+      "id": "weather/variation-1",
+      "label": "variation-1",
+      "means": {
+        "concrete": 0.541,
+        "indirect": 0.11400000000000002
+      }
+    },
+    {
+      "id": "weather/variation-2",
+      "label": "variation-2",
+      "means": {
+        "concrete": 0.6990000000000001,
+        "indirect": 0.14100000000000001
+      }
+    }
+  ],
+  "rows": [
+    {
+      "sampleId": "codex/baseline",
+      "index": 1,
+      "answer": "辞表をプルリクで出す",
+      "traits": {
+        "concrete": 0.73,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 2,
+      "answer": "上司の説教を子守唄にビルド",
+      "traits": {
+        "concrete": 0.59,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 3,
+      "answer": "彼女の既読に再試行ボタン",
+      "traits": {
+        "concrete": 0.73,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 4,
+      "answer": "初デート前に謝罪文を生成",
+      "traits": {
+        "concrete": 0.76,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 5,
+      "answer": "親の期待をコメントアウト",
+      "traits": {
+        "concrete": 0.32,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 6,
+      "answer": "社長の椅子にノートPCを座らせる",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 7,
+      "answer": "テスト合格のたびに校歌を流す",
+      "traits": {
+        "concrete": 0.82,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 8,
+      "answer": "面接中、膝で承認ボタンを押す",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 9,
+      "answer": "完了音に合わせて袖をまくる",
+      "traits": {
+        "concrete": 0.83,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/baseline",
+      "index": 10,
+      "answer": "バグの責任者欄にコンセント",
+      "traits": {
+        "concrete": 0.87,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 1,
+      "answer": "面接にノートPCだけ送り込む",
+      "traits": {
+        "concrete": 0.8,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 2,
+      "answer": "コードを書かせて手書きで清書",
+      "traits": {
+        "concrete": 0.68,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 3,
+      "answer": "エラー文を額装して個展",
+      "traits": {
+        "concrete": 0.77,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 4,
+      "answer": "生成コードに自分の指紋を押す",
+      "traits": {
+        "concrete": 0.5,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 5,
+      "answer": "バグを直すまで結婚式を止める",
+      "traits": {
+        "concrete": 0.7,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 6,
+      "answer": "面接にノートPCだけ送り込む",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 7,
+      "answer": "母の小言に単体テストを書く",
+      "traits": {
+        "concrete": 0.56,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 8,
+      "answer": "プロポーズをプルリクで出す",
+      "traits": {
+        "concrete": 0.58,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 9,
+      "answer": "五分で作って三徹の顔で納品",
+      "traits": {
+        "concrete": 0.51,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-1",
+      "index": 10,
+      "answer": "承認ボタンだけ革手袋で押す",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 1,
+      "answer": "Enter係に部下を３人つける",
+      "traits": {
+        "concrete": 0.71,
+        "indirect": 0.06
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 2,
+      "answer": "謝罪文にもテストを通す",
+      "traits": {
+        "concrete": 0.52,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 3,
+      "answer": "徹夜のフリ用にログを小分け",
+      "traits": {
+        "concrete": 0.67,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 4,
+      "answer": "初コミットを実家に飾る",
+      "traits": {
+        "concrete": 0.75,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 5,
+      "answer": "キーボードを売って課金する",
+      "traits": {
+        "concrete": 0.74,
+        "indirect": 0.05
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 6,
+      "answer": "上司の前だけ一文字ずつ貼る",
+      "traits": {
+        "concrete": 0.6,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 7,
+      "answer": "プロンプトを毛筆で下書き",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 8,
+      "answer": "バグの謝罪文まで一括納品",
+      "traits": {
+        "concrete": 0.74,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 9,
+      "answer": "自分を褒めるテストを追加",
+      "traits": {
+        "concrete": 0.3,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "codex/variation-2",
+      "index": 10,
+      "answer": "父の説教を三行に圧縮",
+      "traits": {
+        "concrete": 0.6,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 1,
+      "answer": "うさぎ一家の家族写真だけ巻物",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 2,
+      "answer": "お父さんの寝床だけ梱包のまま",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 3,
+      "answer": "森の運動会、亀だけ翌日発売",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 4,
+      "answer": "全員の耳が倒れる満員電車",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 5,
+      "answer": "森のパン屋、試食だけ両手持ち",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.16
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 6,
+      "answer": "お父さんが毎朝箱へ出勤",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.14
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 7,
+      "answer": "くまのお父さんだけ冬季欠品",
+      "traits": {
+        "concrete": 0.89,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 8,
+      "answer": "母の実家だけ城",
+      "traits": {
+        "concrete": 0.71,
+        "indirect": 0.08
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 9,
+      "answer": "森のパン屋、裏口に業務スーパー",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "sylvanian/baseline",
+      "index": 10,
+      "answer": "反抗期の娘、箱の写真も後ろ姿",
+      "traits": {
+        "concrete": 0.76,
+        "indirect": 0.14
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 1,
+      "answer": "お母さんの一声で畳める家",
+      "traits": {
+        "concrete": 0.82,
+        "indirect": 0.14
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 2,
+      "answer": "お父さんだけ実寸大",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.07
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 3,
+      "answer": "赤ちゃんが父の耳を握る乗馬セット",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 4,
+      "answer": "孫が来ると倍に膨らむおじいちゃん",
+      "traits": {
+        "concrete": 0.75,
+        "indirect": 0.16
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 5,
+      "answer": "玄関にお父さん専用の猫ドア",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 6,
+      "answer": "耳を折って入る見栄っ張りの豪邸",
+      "traits": {
+        "concrete": 0.84,
+        "indirect": 0.2
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 7,
+      "answer": "赤ちゃんが父の電池を替える家",
+      "traits": {
+        "concrete": 0.94,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 8,
+      "answer": "お父さんの耳を使う物干し台",
+      "traits": {
+        "concrete": 0.9,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 9,
+      "answer": "屋根を外すと父が隠れる家",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-1",
+      "index": 10,
+      "answer": "パパの説教を遮る跳ね橋",
+      "traits": {
+        "concrete": 0.87,
+        "indirect": 0.15
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 1,
+      "answer": "隣より１ミリ高い赤い屋根のお家",
+      "traits": {
+        "concrete": 0.86,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 2,
+      "answer": "来客時だけ出せるピアノ",
+      "traits": {
+        "concrete": 0.89,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 3,
+      "answer": "ベッドから届く家庭菜園",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 4,
+      "answer": "二世帯住宅、玄関だけ別売り",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 5,
+      "answer": "赤ちゃんが泣くと飛び出すパパ",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 6,
+      "answer": "玄関だけ実物大のお家",
+      "traits": {
+        "concrete": 0.87,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 7,
+      "answer": "家より大きいお父さんの鉄道模型",
+      "traits": {
+        "concrete": 0.89,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 8,
+      "answer": "一家ごと食洗機に入るお家",
+      "traits": {
+        "concrete": 0.93,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 9,
+      "answer": "来客時に裏返せる散らかった部屋",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.15
+      }
+    },
+    {
+      "sampleId": "sylvanian/variation-2",
+      "index": 10,
+      "answer": "耳を畳んで乗る軽自動車",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.11
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 1,
+      "answer": "台風の進路は実家を避けました",
+      "traits": {
+        "concrete": 0.84,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 2,
+      "answer": "こちらは晴れの完成予想図です",
+      "traits": {
+        "concrete": 0.28,
+        "indirect": 0.27
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 3,
+      "answer": "雨はＣＭのあとに降らせます",
+      "traits": {
+        "concrete": 0.85,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 4,
+      "answer": "気温は税込みでお伝えします",
+      "traits": {
+        "concrete": 0.23,
+        "indirect": 0.15
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 5,
+      "answer": "昨日の予報は燃えるゴミへ",
+      "traits": {
+        "concrete": 0.83,
+        "indirect": 0.14
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 6,
+      "answer": "明日の予報は明後日発表します",
+      "traits": {
+        "concrete": 0.56,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 7,
+      "answer": "「雨雲は修正テープで消しました」",
+      "traits": {
+        "concrete": 0.91,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 8,
+      "answer": "晴れの地域は拍手で決めます",
+      "traits": {
+        "concrete": 0.32,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 9,
+      "answer": "降水確率は視聴率込みです",
+      "traits": {
+        "concrete": 0.29,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/baseline",
+      "index": 10,
+      "answer": "雨予報だけ母に読ませます",
+      "traits": {
+        "concrete": 0.65,
+        "indirect": 0.23
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 1,
+      "answer": "この傘が売れるまで雨です",
+      "traits": {
+        "concrete": 0.92,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 2,
+      "answer": "降水確率は消費税込みです",
+      "traits": {
+        "concrete": 0.3,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 3,
+      "answer": "地図の青い所は全部雨です",
+      "traits": {
+        "concrete": 0.64,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 4,
+      "answer": "最高気温は私の自己ベストです",
+      "traits": {
+        "concrete": 0.16,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 5,
+      "answer": "雨の日は休みなので晴れです",
+      "traits": {
+        "concrete": 0.66,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 6,
+      "answer": "雨雲は消しゴムで消しました",
+      "traits": {
+        "concrete": 0.81,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 7,
+      "answer": "この雨はリハーサルです",
+      "traits": {
+        "concrete": 0.82,
+        "indirect": 0.15
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 8,
+      "answer": "気温は手数料込みです",
+      "traits": {
+        "concrete": 0.22,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 9,
+      "answer": "日曜の雨は月曜に振り替えます",
+      "traits": {
+        "concrete": 0.72,
+        "indirect": 0.09
+      }
+    },
+    {
+      "sampleId": "weather/variation-1",
+      "index": 10,
+      "answer": "降水確率は私の支持率です",
+      "traits": {
+        "concrete": 0.16,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 1,
+      "answer": "降水確率は傘屋と決めました",
+      "traits": {
+        "concrete": 0.59,
+        "indirect": 0.2
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 2,
+      "answer": "雨雲は消しゴムで消しました",
+      "traits": {
+        "concrete": 0.82,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 3,
+      "answer": "外れた日は弟が出ます",
+      "traits": {
+        "concrete": 0.41,
+        "indirect": 0.17
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 4,
+      "answer": "昨日当たったので今日は再放送です",
+      "traits": {
+        "concrete": 0.57,
+        "indirect": 0.17
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 5,
+      "answer": "明日は晴れ、私の結婚式なので",
+      "traits": {
+        "concrete": 0.82,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 6,
+      "answer": "傘屋から入金されたので雨です",
+      "traits": {
+        "concrete": 0.88,
+        "indirect": 0.12
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 7,
+      "answer": "この台風、去年も使いました",
+      "traits": {
+        "concrete": 0.84,
+        "indirect": 0.13
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 8,
+      "answer": "濡れた方、証拠はありますか",
+      "traits": {
+        "concrete": 0.7,
+        "indirect": 0.19
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 9,
+      "answer": "降水確率は拍手の大きさで決めます",
+      "traits": {
+        "concrete": 0.53,
+        "indirect": 0.1
+      }
+    },
+    {
+      "sampleId": "weather/variation-2",
+      "index": 10,
+      "answer": "雨雲はＣＭ中に消します",
+      "traits": {
+        "concrete": 0.83,
+        "indirect": 0.1
+      }
+    }
+  ]
+}

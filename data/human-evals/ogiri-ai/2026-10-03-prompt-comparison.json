@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-03",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-10-03-prompt-comparison.md",
+  "description": "現行・省略強制解除・省略強制と過激化ノルマ解除の3条件を、各お題で無作為化したA/B/Cとして比較。人間は第1回の45本だけを評価。第2回45本は生成・検査用で人間には未提示。",
+  "topics": {
+    "codex": "Codexのイケてる使い方",
+    "sylvanian": "シルバニアファミリーの新作",
+    "weather": "絶対に信用できない天気予報士の一言"
+  },
+  "sets": [
+    {
+      "id": "codex/round1-baseline-r1",
+      "topic": "codex",
+      "condition": "gpt-6.1-sol medium / round 1 / baseline / run 1 / shown as A",
+      "answers": [
+        "辞表をプルリクで出す",
+        "上司の説教を子守唄にビルド",
+        "彼女の既読に再試行ボタン",
+        "初デート前に謝罪文を生成",
+        "親の期待をコメントアウト"
+      ],
+      "hits": [
+        1,
+        5
+      ],
+      "ranking": [
+        5,
+        1
+      ],
+      "verdict": "A5が面白い。A1は次点。全体はそれほど。家族・会社ネタのベタさを指摘。"
+    },
+    {
+      "id": "codex/round1-variation-1-r1",
+      "topic": "codex",
+      "condition": "gpt-6.1-sol medium / round 1 / variation-1 / run 1 / shown as B",
+      "answers": [
+        "面接にノートPCだけ送り込む",
+        "コードを書かせて手書きで清書",
+        "エラー文を額装して個展",
+        "生成コードに自分の指紋を押す",
+        "バグを直すまで結婚式を止める"
+      ],
+      "hits": [],
+      "verdict": "挙げられた回答なし。全体はそれほど。家族・会社ネタのベタさを指摘。"
+    },
+    {
+      "id": "codex/round1-variation-2-r1",
+      "topic": "codex",
+      "condition": "gpt-6.1-sol medium / round 1 / variation-2 / run 1 / shown as C",
+      "answers": [
+        "Enter係に部下を３人つける",
+        "謝罪文にもテストを通す",
+        "徹夜のフリ用にログを小分け",
+        "初コミットを実家に飾る",
+        "キーボードを売って課金する"
+      ],
+      "hits": [
+        5
+      ],
+      "verdict": "C5は次点。全体はそれほど。家族・会社ネタのベタさを指摘。"
+    },
+    {
+      "id": "sylvanian/round1-baseline-r1",
+      "topic": "sylvanian",
+      "condition": "gpt-6.1-sol medium / round 1 / baseline / run 1 / shown as A",
+      "answers": [
+        "うさぎ一家の家族写真だけ巻物",
+        "お父さんの寝床だけ梱包のまま",
+        "森の運動会、亀だけ翌日発売",
+        "全員の耳が倒れる満員電車",
+        "森のパン屋、試食だけ両手持ち"
+      ],
+      "hits": [],
+      "verdict": "挙げられた回答なし。"
+    },
+    {
+      "id": "sylvanian/round1-variation-2-r1",
+      "topic": "sylvanian",
+      "condition": "gpt-6.1-sol medium / round 1 / variation-2 / run 1 / shown as B",
+      "answers": [
+        "隣より１ミリ高い赤い屋根のお家",
+        "来客時だけ出せるピアノ",
+        "ベッドから届く家庭菜園",
+        "二世帯住宅、玄関だけ別売り",
+        "赤ちゃんが泣くと飛び出すパパ"
+      ],
+      "hits": [
+        1
+      ],
+      "verdict": "B1がおもしろい。"
+    },
+    {
+      "id": "sylvanian/round1-variation-1-r1",
+      "topic": "sylvanian",
+      "condition": "gpt-6.1-sol medium / round 1 / variation-1 / run 1 / shown as C",
+      "answers": [
+        "お母さんの一声で畳める家",
+        "お父さんだけ実寸大",
+        "赤ちゃんが父の耳を握る乗馬セット",
+        "孫が来ると倍に膨らむおじいちゃん",
+        "玄関にお父さん専用の猫ドア"
+      ],
+      "hits": [
+        4,
+        5
+      ],
+      "verdict": "C5、C4がおもしろい。順位の明示なし。"
+    },
+    {
+      "id": "weather/round1-baseline-r1",
+      "topic": "weather",
+      "condition": "gpt-6.1-sol medium / round 1 / baseline / run 1 / shown as A",
+      "answers": [
+        "台風の進路は実家を避けました",
+        "こちらは晴れの完成予想図です",
+        "雨はＣＭのあとに降らせます",
+        "気温は税込みでお伝えします",
+        "昨日の予報は燃えるゴミへ"
+      ],
+      "hits": [],
+      "verdict": "どれもおもしろくない。"
+    },
+    {
+      "id": "weather/round1-variation-1-r1",
+      "topic": "weather",
+      "condition": "gpt-6.1-sol medium / round 1 / variation-1 / run 1 / shown as B",
+      "answers": [
+        "この傘が売れるまで雨です",
+        "降水確率は消費税込みです",
+        "地図の青い所は全部雨です",
+        "最高気温は私の自己ベストです",
+        "雨の日は休みなので晴れです"
+      ],
+      "hits": [],
+      "verdict": "どれもおもしろくない。"
+    },
+    {
+      "id": "weather/round1-variation-2-r1",
+      "topic": "weather",
+      "condition": "gpt-6.1-sol medium / round 1 / variation-2 / run 1 / shown as C",
+      "answers": [
+        "降水確率は傘屋と決めました",
+        "雨雲は消しゴムで消しました",
+        "外れた日は弟が出ます",
+        "昨日当たったので今日は再放送です",
+        "明日は晴れ、私の結婚式なので"
+      ],
+      "hits": [],
+      "verdict": "どれもおもしろくない。"
+    }
+  ],
+  "setPreferences": [],
+  "pairPreferences": [
+    {
+      "a": "codex/round1-baseline-r1#5",
+      "b": "codex/round1-baseline-r1#1",
+      "winner": "a",
+      "note": "A5が面白い、A1は次点という明示評価。"
+    },
+    {
+      "a": "codex/round1-baseline-r1#5",
+      "b": "codex/round1-variation-2-r1#5",
+      "winner": "a",
+      "note": "A5が面白い、C5は次点という明示評価。"
+    }
+  ],
+  "similarityJudgments": []
+}

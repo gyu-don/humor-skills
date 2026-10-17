@@ -51,6 +51,13 @@ data/human-evals/
   ],
   "similarityJudgments": [     // 任意。「同じセットに並んでいたら被っていると感じるか」
     { "a": "...#1", "b": "...#3", "similarity": "similar" }   // similar / partial / different
+  ],
+  "traitJudgments": [          // 任意。判定器の yes/no の質問に、同じ文面で人間が答えたもの
+    { "answer": "2026-07-11/askul/fable-5-skill-on#4", "judge": "risk-flags", "metric": "betaRisk",
+      "question": "判定器に渡した質問文", "label": "no", "note": "任意" }   // yes / no / unsure
+  ],
+  "scoreJudgments": [          // 任意。判定器の score の質問に、同じ尺度で人間が答えたもの
+    { "answer": "...#4", "judge": "funniness-score", "axis": "overall", "question": "...", "score": 3 }
   ]
 }
 ```

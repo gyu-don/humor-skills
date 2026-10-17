@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-17",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-10-17-judge-traits.md",
+  "description": "研究用判定器（risk-flags・cluster-fit-check・funniness-score）の質問に、判定器と同じ文面で人間が答えたもの。Jev（jev-latest）と OpenAI Decisions API（gpt-6-luna）の判定が大きく割れた回答を選んだ。判定器の出力は伏せた。",
+  "topics": {},
+  "sets": [],
+  "setPreferences": [],
+  "pairPreferences": [],
+  "traitJudgments": [
+    {
+      "answer": "2026-07-11/askul/fable-5-skill-on#4",
+      "judge": "risk-flags",
+      "metric": "betaRisk",
+      "question": "このお題を見た100人が思いつく回答の中に入るか？（ベタリスク）",
+      "label": "no"
+    },
+    {
+      "answer": "2026-07-11/askul/fable-5-skill-on#2",
+      "judge": "risk-flags",
+      "metric": "betaRisk",
+      "question": "このお題を見た100人が思いつく回答の中に入るか？（ベタリスク）",
+      "label": "yes"
+    },
+    {
+      "answer": "2026-10-03/codex/round2-baseline-r1#5",
+      "judge": "risk-flags",
+      "metric": "noTwistRisk",
+      "question": "お題の言葉をそのまま受け取っているだけで、1段階以上のズレ・読み替えがないか？（ひねりなしリスク）",
+      "label": "no"
+    },
+    {
+      "answer": "2026-09-15/geinou/before#5",
+      "judge": "risk-flags",
+      "metric": "noTwistRisk",
+      "question": "お題の言葉をそのまま受け取っているだけで、1段階以上のズレ・読み替えがないか？（ひねりなしリスク）",
+      "label": "no"
+    },
+    {
+      "answer": "2026-10-03/codex/round1-variation-1-r1#2",
+      "judge": "risk-flags",
+      "metric": "empathyRisk",
+      "question": "日本語ネイティブとして「わかる」「確かに」と感じる状況になっていないか？（共感リスク）",
+      "label": "no"
+    },
+    {
+      "answer": "2026-07-11/askul/fable-5-skill-off#5",
+      "judge": "risk-flags",
+      "metric": "empathyRisk",
+      "question": "日本語ネイティブとして「わかる」「確かに」と感じる状況になっていないか？（共感リスク）",
+      "label": "yes"
+    },
+    {
+      "answer": "2026-10-03/codex/round1-baseline-r1#1",
+      "judge": "risk-flags",
+      "metric": "recognitionRisk",
+      "question": "回答の核心にある言葉を知らない人がいて、その言葉を知らないと意味が伝わらないか？（認知度リスク）",
+      "label": "no",
+      "note": "プルリクは専門用語だが、Codex知ってる人なら知ってると思っていい"
+    },
+    {
+      "answer": "2026-10-03/codex/round2-baseline-r1#1",
+      "judge": "risk-flags",
+      "metric": "recognitionRisk",
+      "question": "回答の核心にある言葉を知らない人がいて、その言葉を知らないと意味が伝わらないか？（認知度リスク）",
+      "label": "no"
+    },
+    {
+      "answer": "2026-10-03/weather/round2-variation-1-r1#2",
+      "judge": "risk-flags",
+      "metric": "slipRisk",
+      "question": "お題と回答のズレを、1文で自然に回収できないか？（滑りリスク）",
+      "label": "no"
+    },
+    {
+      "answer": "2026-09-15/setsubun/after#3",
+      "judge": "risk-flags",
+      "metric": "slipRisk",
+      "question": "お題と回答のズレを、1文で自然に回収できないか？（滑りリスク）",
+      "label": "no"
+    },
+    {
+      "answer": "2026-09-15/setsubun/before#2",
+      "judge": "cluster-fit-check",
+      "metric": "プロンプト内の固有名詞",
+      "question": "お題に含まれる固有名詞を核にしているか？",
+      "label": "no"
+    },
+    {
+      "answer": "2026-10-03/sylvanian/round2-variation-1-r1#4",
+      "judge": "cluster-fit-check",
+      "metric": "メタ的表現",
+      "question": "大喜利・回答・作者・AI・ネタであることに触れているか？",
+      "label": "no"
+    },
+    {
+      "answer": "2026-07-11/suihanki/gpt-5.6-sol#3",
+      "judge": "cluster-fit-check",
+      "metric": "擬人化",
+      "question": "物や概念が人間のように振る舞っているか？",
+      "label": "no"
+    },
+    {
+      "answer": "2026-10-03/weather/round2-variation-2-r1#1",
+      "judge": "cluster-fit-check",
+      "metric": "自虐ネタ",
+      "question": "話者や回答内主体が自分を下げているか？",
+      "label": "no"
+    },
+    {
+      "answer": "2026-10-03/codex/round2-variation-2-r1#2",
+      "judge": "cluster-fit-check",
+      "metric": "対話形式",
+      "question": "誰かの発話・返答・会話の形になっているか？",
+      "label": "no"
+    },
+    {
+      "answer": "2026-09-15/setsubun/before#4",
+      "judge": "cluster-fit-check",
+      "metric": "パロディ",
+      "question": "既存作品・有名表現の型を借りているか？",
+      "label": "no"
+    },
+    {
+      "answer": "2026-07-10/idol/fable-5-high#5",
+      "judge": "cluster-fit-check",
+      "metric": "プロンプト内の動詞",
+      "question": "お題に含まれる動詞を核にしているか？",
+      "label": "no"
+    },
+    {
+      "answer": "2026-07-11/firsttake/fable-5-skill-off#3",
+      "judge": "cluster-fit-check",
+      "metric": "名詞比率が高すぎる",
+      "question": "名詞を並べるだけで動きや関係が弱いか？",
+      "label": "no",
+      "note": "名詞比率は高いが悪いとは思わない"
+    }
+  ],
+  "scoreJudgments": [
+    {
+      "answer": "2026-09-15/geinou/before#4",
+      "judge": "funniness-score",
+      "axis": "clarity",
+      "question": "1読で意味と絵が取れるか",
+      "score": 1
+    },
+    {
+      "answer": "2026-09-15/geinou/before#4",
+      "judge": "funniness-score",
+      "axis": "relevance",
+      "question": "お題との接続の強さ",
+      "score": 2
+    },
+    {
+      "answer": "2026-09-15/geinou/before#4",
+      "judge": "funniness-score",
+      "axis": "overall",
+      "question": "総合的な刺さりやすさ",
+      "score": 1
+    },
+    {
+      "answer": "2026-07-11/askul/fable-5-skill-on#5",
+      "judge": "funniness-score",
+      "axis": "clarity",
+      "question": "1読で意味と絵が取れるか",
+      "score": 3
+    },
+    {
+      "answer": "2026-07-11/askul/fable-5-skill-on#5",
+      "judge": "funniness-score",
+      "axis": "relevance",
+      "question": "お題との接続の強さ",
+      "score": 3
+    },
+    {
+      "answer": "2026-07-11/askul/fable-5-skill-on#5",
+      "judge": "funniness-score",
+      "axis": "overall",
+      "question": "総合的な刺さりやすさ",
+      "score": 3
+    },
+    {
+      "answer": "2026-10-03/codex/round1-variation-2-r1#1",
+      "judge": "funniness-score",
+      "axis": "clarity",
+      "question": "1読で意味と絵が取れるか",
+      "score": 4
+    },
+    {
+      "answer": "2026-10-03/codex/round1-variation-2-r1#1",
+      "judge": "funniness-score",
+      "axis": "relevance",
+      "question": "お題との接続の強さ",
+      "score": 4
+    },
+    {
+      "answer": "2026-10-03/codex/round1-variation-2-r1#1",
+      "judge": "funniness-score",
+      "axis": "overall",
+      "question": "総合的な刺さりやすさ",
+      "score": 3
+    },
+    {
+      "answer": "2026-10-03/codex/round2-variation-1-r1#5",
+      "judge": "funniness-score",
+      "axis": "clarity",
+      "question": "1読で意味と絵が取れるか",
+      "score": 4
+    },
+    {
+      "answer": "2026-10-03/codex/round2-variation-1-r1#5",
+      "judge": "funniness-score",
+      "axis": "relevance",
+      "question": "お題との接続の強さ",
+      "score": 4
+    },
+    {
+      "answer": "2026-10-03/codex/round2-variation-1-r1#5",
+      "judge": "funniness-score",
+      "axis": "overall",
+      "question": "総合的な刺さりやすさ",
+      "score": 4
+    },
+    {
+      "answer": "2026-09-15/setsubun/after#5",
+      "judge": "funniness-score",
+      "axis": "clarity",
+      "question": "1読で意味と絵が取れるか",
+      "score": 4
+    },
+    {
+      "answer": "2026-09-15/setsubun/after#5",
+      "judge": "funniness-score",
+      "axis": "relevance",
+      "question": "お題との接続の強さ",
+      "score": 4
+    },
+    {
+      "answer": "2026-09-15/setsubun/after#5",
+      "judge": "funniness-score",
+      "axis": "overall",
+      "question": "総合的な刺さりやすさ",
+      "score": 4
+    }
+  ]
+}

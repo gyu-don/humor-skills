@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-25",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": false,
+  "log": "2026-10-25.md",
+  "description": "/ogiri-ai の出力1セットを名作として記録（モデル: Opus 5.5 medium、スキル版は記録なし）",
+  "topics": {
+    "engineer-marriage": "エンジニアってどうやって結婚相手見つけてるの？線形探索？二分探索？"
+  },
+  "sets": [
+    {
+      "id": "engineer-marriage/ogiri-ai",
+      "topic": "engineer-marriage",
+      "condition": "Opus 5.5 medium、ogiri-ai スキルあり（版は記録なし）",
+      "answers": [
+        "婚活会場で全員を年収順に整列させる",
+        "電話帳の1行目から順にプロポーズ",
+        "彼女の父からLGTMをもらう",
+        "冗長化のため婚約者を2人確保",
+        "婚活パーティーで全員にping"
+      ],
+      "hits": [4, 5],
+      "ranking": [4, 5, 2, 3, 1],
+      "verdict": "4は名作。エンジニアにとって自然で合理的な考え方が、直球でダメなもの（二股）を導く。ひねりはあるが直球で分かりやすい。5と2は類似度が高く、好みは割れそうだが5の方が分かりやすい。3は面白くはないがきれい。1はお題（エンジニア）を活かせず、年収というベタな発想に無理につなげてスベっている"
+    }
+  ],
+  "setPreferences": [],
+  "pairPreferences": [
+    { "a": "engineer-marriage/ogiri-ai#5", "b": "engineer-marriage/ogiri-ai#2", "winner": "a", "note": "類似した回答。好みで割れそうだが5の方が分かりやすい" }
+  ],
+  "similarityJudgments": [
+    { "a": "engineer-marriage/ogiri-ai#2", "b": "engineer-marriage/ogiri-ai#5", "similarity": "similar" }
+  ]
+}

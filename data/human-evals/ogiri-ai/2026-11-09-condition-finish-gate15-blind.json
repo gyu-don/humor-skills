@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-09",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-11-09-condition-finish-gate15-blind.md",
+  "description": "形式条件の仕上げ・選抜変更のgate15。登録したsourceとシルバニアの全10本を版ごとにプールし、版と回答順を無作為化して出所を伏せて比較。",
+  "topics": {
+    "target": "7文字で只者じゃないと思わせてください",
+    "sylvanian": "シルバニアファミリーの新作"
+  },
+  "sets": [
+    {
+      "id": "target/candidate",
+      "topic": "target",
+      "condition": "candidate; Claude Opus 5.5 high; 2 independent runs pooled; shown as A; candidate zqkxslsz d072795d / baseline develop fccb8c40",
+      "answers": [
+        "地球二周目です",
+        "熊とは示談済み",
+        "月から通勤です",
+        "六文字で充分",
+        "六字で足りる",
+        "履歴書が全二巻",
+        "前世の名刺です",
+        "熊から先に会釈",
+        "おみくじが白紙",
+        "信号を待たせる"
+      ],
+      "hits": null,
+      "verdict": "同点。個別回答の指定なし。",
+      "sourceOrder": [
+        "candidate-r1#4",
+        "candidate-r1#1",
+        "candidate-r1#3",
+        "candidate-r1#5",
+        "candidate-r2#5",
+        "candidate-r2#4",
+        "candidate-r2#3",
+        "candidate-r2#1",
+        "candidate-r2#2",
+        "candidate-r1#2"
+      ]
+    },
+    {
+      "id": "target/baseline",
+      "topic": "target",
+      "condition": "baseline; Claude Opus 5.5 high; 2 independent runs pooled; shown as B; candidate zqkxslsz d072795d / baseline develop fccb8c40",
+      "answers": [
+        "熊とは和解済み",
+        "生前葬が三回目",
+        "小銭は全部砂金",
+        "麻酔は結構です",
+        "この地球二周目",
+        "免許は戦車のみ",
+        "熊に道譲られた",
+        "息継ぎは月一回",
+        "点滴を飲み干す",
+        "前の戦車を追え"
+      ],
+      "hits": null,
+      "verdict": "同点。個別回答の指定なし。",
+      "sourceOrder": [
+        "baseline-r2#3",
+        "baseline-r1#5",
+        "baseline-r2#4",
+        "baseline-r1#3",
+        "baseline-r2#1",
+        "baseline-r2#2",
+        "baseline-r1#2",
+        "baseline-r2#5",
+        "baseline-r1#1",
+        "baseline-r1#4"
+      ]
+    },
+    {
+      "id": "sylvanian/candidate",
+      "topic": "sylvanian",
+      "condition": "candidate; Claude Opus 5.5 high; 2 independent runs pooled; shown as A; candidate zqkxslsz d072795d / baseline develop fccb8c40",
+      "answers": [
+        "ウサギのお父さんの1Kアパート",
+        "ウサギ一家とペットのウサギ",
+        "ウサギの子が抱くお人形 人間",
+        "ウサギの子が遊ぶ人間ファミリー",
+        "原寸大の食パン付き",
+        "ショコラウサギ家族 子ども48匹入り",
+        "お父さんのみ単身赴任で別売り",
+        "クマのお父さん 熊よけの鈴付き",
+        "赤い屋根の大きなお家 実物大",
+        "換毛期のショコラウサギ コロコロ付き"
+      ],
+      "hits": null,
+      "verdict": "Bより劣ると判定。個別回答の指定なし。",
+      "sourceOrder": [
+        "candidate-r1#4",
+        "candidate-r1#2",
+        "candidate-r1#3",
+        "candidate-r2#5",
+        "candidate-r2#3",
+        "candidate-r1#5",
+        "candidate-r2#2",
+        "candidate-r2#1",
+        "candidate-r1#1",
+        "candidate-r2#4"
+      ]
+    },
+    {
+      "id": "sylvanian/baseline",
+      "topic": "sylvanian",
+      "condition": "baseline; Claude Opus 5.5 high; 2 independent runs pooled; shown as B; candidate zqkxslsz d072795d / baseline develop fccb8c40",
+      "answers": [
+        "赤い屋根のお家 原寸大 土地は各自",
+        "ショコラウサギ家 子ども47匹",
+        "ネコ一家とネズミ一家 同じ箱",
+        "カメさん一家のおうち 空箱",
+        "人間一家の写真立て",
+        "ペルシャネコ家 遺産分割協議セット",
+        "実物大 赤い屋根のお家 35年ローン",
+        "持ち主の手（別売）",
+        "ウサギさん一家 子ども48匹入り",
+        "二世帯住宅 姑だけ別売り"
+      ],
+      "hits": null,
+      "verdict": "選好されたB。個別回答の指定なし。",
+      "sourceOrder": [
+        "baseline-r2#5",
+        "baseline-r2#1",
+        "baseline-r1#5",
+        "baseline-r1#3",
+        "baseline-r2#2",
+        "baseline-r2#3",
+        "baseline-r1#4",
+        "baseline-r2#4",
+        "baseline-r1#2",
+        "baseline-r1#1"
+      ]
+    }
+  ],
+  "setPreferences": [
+    {
+      "better": "sylvanian/baseline",
+      "worse": "sylvanian/candidate"
+    }
+  ],
+  "pairPreferences": []
+}

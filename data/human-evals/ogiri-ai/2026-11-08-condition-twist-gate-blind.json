@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-08",
+ "source": "ogiri-ai",
+ "rater": "repo-owner",
+ "blind": true,
+ "log": "2026-11-08-condition-twist-gate-blind.md",
+ "description": "形式条件ズラし実験のゲート（iteration 5）で、候補とベースラインの10本セットをお題ごとに無作為化したA/Bで比較。出所を伏せたセット単位の選好。",
+ "topics": {
+  "codex": "Codexのイケてる使い方",
+  "sylvanian": "シルバニアファミリーの新作"
+ },
+ "sets": [
+  {
+   "id": "codex/candidate",
+   "topic": "codex",
+   "condition": "候補（作り方1に依頼型お題の回答者情景を追加, jj nxrpsrms） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as B",
+   "role": "candidate",
+   "answers": [
+    "Enterキーは指パッチンで",
+    "生成したコードを製本し家宝に",
+    "辞表もCodexに書かせてマージ",
+    "許可ボタン押す係に祖母を雇う",
+    "就活にCodex同伴、Codexだけ内定",
+    "自作に見せるためtypoを3個足させる",
+    "羊皮紙に綴じて書斎に飾る",
+    "100並列で考えさせる今日の昼飯",
+    "デプロイ前、Codexに二礼二拍手一礼",
+    "プロポーズはプルリクで"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "cand-r1#5",
+    "cand-r2#5",
+    "cand-r1#4",
+    "cand-r1#2",
+    "cand-r2#4",
+    "cand-r2#3",
+    "cand-r1#1",
+    "cand-r2#1",
+    "cand-r2#2",
+    "cand-r1#3"
+   ]
+  },
+  {
+   "id": "codex/baseline",
+   "topic": "codex",
+   "condition": "ベースライン（develop 480cf25） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as A",
+   "role": "baseline",
+   "answers": [
+    "AGENTS.mdに家訓3000行",
+    "博物館のガラス越しにバグ報告",
+    "実行中ずっとPCをうちわであおぐ",
+    "「いい感じに」とだけ打って有給",
+    "転職相談したらClaudeを薦められた",
+    "承認ボタン押す係に祖母を雇う",
+    "「全部直して」で自分が消えた",
+    "Codex同士を対局させ正座で見守る",
+    "遺言書をリファクタリングさせる",
+    "羊皮紙に印刷して革で綴じる"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "base-r2#2",
+    "base-r2#1",
+    "base-r1#2",
+    "base-r1#4",
+    "base-r2#5",
+    "base-r2#3",
+    "base-r2#4",
+    "base-r1#5",
+    "base-r1#3",
+    "base-r1#1"
+   ]
+  },
+  {
+   "id": "sylvanian/candidate",
+   "topic": "sylvanian",
+   "condition": "候補（作り方1に依頼型お題の回答者情景を追加, jj nxrpsrms） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as A",
+   "role": "candidate",
+   "answers": [
+    "シマリスのお家 冬季は全員冬眠",
+    "新しい家族 ヒトのお父さん",
+    "オオカミさんファミリー 大きな鍋付き",
+    "赤ちゃんだけ実寸大",
+    "ケーキ屋さんセット ケーキだけ原寸",
+    "ウサギの赤ちゃん 1箱300匹入り",
+    "お父さんだけ単身赴任で別売り",
+    "クマ一家 11月から箱が開かない",
+    "森のペットショップ ハムスター家の長男",
+    "森のお家 住宅ローン35年付き"
+   ],
+   "hits": null,
+   "verdict": "セット単位で勝ち。個別の当たり指定なし。",
+   "sourceOrder": [
+    "cand-r1#4",
+    "cand-r2#4",
+    "cand-r1#1",
+    "cand-r1#5",
+    "cand-r2#2",
+    "cand-r2#5",
+    "cand-r1#2",
+    "cand-r2#3",
+    "cand-r1#3",
+    "cand-r2#1"
+   ]
+  },
+  {
+   "id": "sylvanian/baseline",
+   "topic": "sylvanian",
+   "condition": "ベースライン（develop 480cf25） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as B",
+   "role": "baseline",
+   "answers": [
+    "オオカミの食卓セット ウサギ別売り",
+    "森の確定申告セット",
+    "掃除機の中のお家 小物はもう揃ってます",
+    "壁が4面あるお家 中は見えません",
+    "森のハローワーク",
+    "ショコラウサギの赤ちゃん、成人式",
+    "カッコウ一家 お家はよその家族の",
+    "赤い屋根の大きなお家 35年ローン付き",
+    "1/1スケール ヒグマのお父さん",
+    "ウサギの赤ちゃん用 リカちゃん人形"
+   ],
+   "hits": null,
+   "verdict": "セット単位で負け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "base-r2#2",
+    "base-r2#1",
+    "base-r2#3",
+    "base-r2#5",
+    "base-r1#5",
+    "base-r2#4",
+    "base-r1#2",
+    "base-r1#4",
+    "base-r1#1",
+    "base-r1#3"
+   ]
+  }
+ ],
+ "setPreferences": [
+  {
+   "better": "sylvanian/candidate",
+   "worse": "sylvanian/baseline"
+  }
+ ],
+ "setTies": [
+  {
+   "a": "codex/candidate",
+   "b": "codex/baseline"
+  }
+ ],
+ "pairPreferences": []
+}

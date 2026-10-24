@@ -40,11 +40,17 @@ data/human-evals/
       "hits": [2, 3, 5],       // 人間が褒めた回答の番号（1始まり）。[] = 当たりなし、null = 回答ごとの判定なし
       "ranking": [2, 3, 5],    // 任意。明示された順位（良い順、部分的でもよい）
       "verdict": "人間のコメントの要約",
-      "converged": "..."       // 任意。人間がセット内の収束を指摘した場合、その内容
+      "converged": "...",      // 任意。人間がセット内の収束を指摘した場合、その内容
+      "role": "candidate",     // 任意。版の比較（ゲート）で、変更後の版なら "candidate"、変更前なら "baseline"
+      "sourceOrder": ["cand-r1#5", "cand-r2#3", "..."]   // 任意。複数回の生成をプールしたセットで、answers と同じ順に
+                               // 各回答の出所を "<版>-r<実行番号>#<その実行内の番号>" で書く
     }
   ],
   "setPreferences": [          // セット単位で明確に優劣が付いた組
     { "better": "firsttake/fable-5-skill-off", "worse": "firsttake/fable-5-skill-on" }
+  ],
+  "setTies": [                 // 任意。セット単位で比べて、引き分けとされた組
+    { "a": "codex/candidate", "b": "codex/baseline" }
   ],
   "pairPreferences": [         // 回答単位の一対比較
     { "a": "geinou/before#1", "b": "geinou/after#2", "winner": "a", "note": "任意" }
@@ -63,7 +69,8 @@ data/human-evals/
 ```
 
 - 回答の ID は `<set id>#<番号>`。別のセッションの回答を参照するときは、日付を前に付けて `2026-07-11/firsttake/fable-5-skill-off#3` と書く。
-- 引き分けは `"winner": "tie"`。
+- 引き分けは、回答単位なら `"winner": "tie"`、セット単位なら `setTies` に書く。比べたのに `setPreferences` にも `setTies` にもない組は、「比べていない」と区別できなくなる。
+- `role` と `sourceOrder` があるお題（候補・ベースラインの両方が、2回以上の生成をプールしたセット）は、`trait-check` の回帰判定（`scripts/gate.ts`）の検証に使う。ベースラインの1回目と2回目を分けられないとノイズ幅が出せないので、プールしたセットには `sourceOrder` を必ず残す。
 - 「微妙」「まあまあ」のような中間の評価を `hits` に入れるかどうかは、`.md` のコメントで判断の根拠を残す。
 
 ## 使い道

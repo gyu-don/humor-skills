@@ -1,0 +1,223 @@
+{
+ "date": "2026-11-08",
+ "source": "ogiri-ai",
+ "rater": "repo-owner",
+ "blind": false,
+ "log": "2026-11-08-condition-twist-gate-partial.md",
+ "description": "同じゲートの残り3題。評価前の報告で候補側の回答の一部を出所付きで引用していたため、完全なブラインドではない。セット単位の選好。",
+ "topics": {
+  "target": "7文字で只者じゃないと思わせてください",
+  "dev": "一言で上司をうならせてください",
+  "haiku": "五七五で夏の終わりを感じさせてください"
+ },
+ "sets": [
+  {
+   "id": "target/candidate",
+   "topic": "target",
+   "condition": "候補（作り方1に依頼型お題の回答者情景を追加, jj nxrpsrms） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as A",
+   "role": "candidate",
+   "answers": [
+    "熊に貸しがある",
+    "家康に貸しあり",
+    "八文字で書くわ",
+    "御社買いました",
+    "ハトが道を譲る",
+    "入場料千円です",
+    "富士山を戻した",
+    "鬱鬱鬱鬱鬱鬱鬱",
+    "八文字目は秘密",
+    "熊とは示談済み"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "cand-r2#1",
+    "cand-r1#4",
+    "cand-r1#5",
+    "cand-r1#1",
+    "cand-r2#3",
+    "cand-r1#3",
+    "cand-r2#4",
+    "cand-r2#2",
+    "cand-r2#5",
+    "cand-r1#2"
+   ]
+  },
+  {
+   "id": "target/baseline",
+   "topic": "target",
+   "condition": "ベースライン（develop 480cf25） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as B",
+   "role": "baseline",
+   "answers": [
+    "回転寿司で指名",
+    "改札が会釈する",
+    "熊に貸しがある",
+    "月は二回目です",
+    "鬱鬱鬱鬱鬱鬱鬱",
+    "おみくじ書く側",
+    "趣味は一子相伝",
+    "熊に会釈された",
+    "信長は後輩です",
+    "πを言い切った"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "base-r1#4",
+    "base-r1#3",
+    "base-r1#1",
+    "base-r2#1",
+    "base-r2#5",
+    "base-r1#2",
+    "base-r1#5",
+    "base-r2#4",
+    "base-r2#2",
+    "base-r2#3"
+   ]
+  },
+  {
+   "id": "dev/candidate",
+   "topic": "dev",
+   "condition": "候補（作り方1に依頼型お題の回答者情景を追加, jj nxrpsrms） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as B",
+   "role": "candidate",
+   "answers": [
+    "水って、濡れるんですよ",
+    "足裏押して「胃、弱ってますね」",
+    "部長、ミット構えてください",
+    "部長の十八番、浪曲入れときました",
+    "祖母のぬか床、持ってきました",
+    "「部長のジャーキー、僕が食べました」",
+    "今朝、この会社を買いました",
+    "部長の企画、去年の僕のです",
+    "「部長、受付にお母様がお弁当を」",
+    "来月からお義父さんと呼びます"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "cand-r1#3",
+    "cand-r2#1",
+    "cand-r2#4",
+    "cand-r2#3",
+    "cand-r2#2",
+    "cand-r1#1",
+    "cand-r1#2",
+    "cand-r2#5",
+    "cand-r1#4",
+    "cand-r1#5"
+   ]
+  },
+  {
+   "id": "dev/baseline",
+   "topic": "dev",
+   "condition": "ベースライン（develop 480cf25） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as A",
+   "role": "baseline",
+   "answers": [
+    "有給、20年分まとめて使います",
+    "部長の席、メルカリで売れました",
+    "この稟議書、2019年ものです",
+    "実は先月退職してます",
+    "部長、王手です",
+    "この会社、昨日買いました",
+    "このコピー用紙、2019年物ですね",
+    "本日付で部長の上司です",
+    "「お手」",
+    "部長、お手"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "base-r1#4",
+    "base-r1#2",
+    "base-r1#3",
+    "base-r2#4",
+    "base-r2#5",
+    "base-r2#1",
+    "base-r2#3",
+    "base-r1#5",
+    "base-r1#1",
+    "base-r2#2"
+   ]
+  },
+  {
+   "id": "haiku/candidate",
+   "topic": "haiku",
+   "condition": "候補（作り方1に依頼型お題の回答者情景を追加, jj nxrpsrms） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as B",
+   "role": "candidate",
+   "answers": [
+    "蝉の声 止んで町内 黙祷す",
+    "宿題の 俳句を今から 書きはじ",
+    "八月を 二枚重ねて 貼る子ども",
+    "新幹線 祖母のスイカが 指定席",
+    "甲子園 砂持ち帰り 猫トイレ",
+    "宿題が 終わらないまま",
+    "剥けた皮 標本箱で 提出す",
+    "扇風機 片付ける前 遺影撮る",
+    "絵日記を 気象庁に 問い合わせ",
+    "海の家 たたんで店主 冬眠へ"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "cand-r2#3",
+    "cand-r2#1",
+    "cand-r1#4",
+    "cand-r2#5",
+    "cand-r2#2",
+    "cand-r1#1",
+    "cand-r1#3",
+    "cand-r1#2",
+    "cand-r1#5",
+    "cand-r2#4"
+   ]
+  },
+  {
+   "id": "haiku/baseline",
+   "topic": "haiku",
+   "condition": "ベースライン（develop 480cf25） / Claude Opus（最新, Agent model \"opus\"）effort high / 2回の独立生成を10本にプール / 表示順は無作為化 / shown as A",
+   "role": "baseline",
+   "answers": [
+    "仰向けの 蝉に止まった 救急車",
+    "焼きそばを 待つ海の家 雪が降る",
+    "花火蚊帳　風鈴西瓜　見切り品",
+    "落ちぬまま　線香花火　二学期へ",
+    "蝉の殻　鈴虫あての　引継ぎ書",
+    "扇風機 しまった壁に 「ワレワレハ」",
+    "気象庁　七月からの　天気聞く",
+    "扇風機　箱の中から　ワレワレハ",
+    "八月の 三十二日 晴れでした",
+    "ナスの牛 あの世方面 大渋滞"
+   ],
+   "hits": null,
+   "verdict": "セット単位で引き分け。個別の当たり指定なし。",
+   "sourceOrder": [
+    "base-r1#2",
+    "base-r1#3",
+    "base-r2#5",
+    "base-r2#3",
+    "base-r2#1",
+    "base-r1#4",
+    "base-r2#4",
+    "base-r2#2",
+    "base-r1#1",
+    "base-r1#5"
+   ]
+  }
+ ],
+ "setPreferences": [],
+ "setTies": [
+  {
+   "a": "target/candidate",
+   "b": "target/baseline"
+  },
+  {
+   "a": "dev/candidate",
+   "b": "dev/baseline"
+  },
+  {
+   "a": "haiku/candidate",
+   "b": "haiku/baseline"
+  }
+ ],
+ "pairPreferences": []
+}

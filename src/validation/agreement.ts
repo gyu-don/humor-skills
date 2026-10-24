@@ -30,6 +30,13 @@
  *   confident    the in-set share restricted to pairs it judged with |p - 0.5| >= 0.2 —
  *                a judge whose confident calls are worse than its average is anti-aligned.
  *
+ * Gate files (trait-check gate.ts) go in a fourth table, against the human's
+ * set-level verdict on candidate vs baseline (setPreferences / setTies on
+ * sets with `role`): for each rule, how often it flags a regression when the
+ * human preferred the candidate, called a tie, or preferred the baseline.
+ * "> 0" is the old rule (any worsening), "> noise" the baseline-run-gap rule.
+ * A good rule flags only the last column.
+ *
  * `gate` marks a metric that is good enough to stand in for a human verdict in
  * ogiri-ai's gate check: AUC interval above 0.5, sets >= 0.8, pairs >= 0.75.
  * Baseline "length" (shorter = better) is always included; an evaluator that
@@ -120,6 +127,7 @@ out('|---|---|---|---|---|---|---|---|');
 
 const pairGroups: [string, ScoreFile[]][] = [];
 const preferenceGroups: [string, ScoreFile[]][] = [];
+const gateGroups: [string, ScoreFile[]][] = [];
 
 for (const [name, runs] of groups) {
   const level = runs[0].level;
@@ -129,6 +137,10 @@ for (const [name, runs] of groups) {
   }
   if (level === 'preference') {
     preferenceGroups.push([name, runs]);
+    continue;
+  }
+  if (level === 'gate') {
+    gateGroups.push([name, runs]);
     continue;
   }
   const metrics = Object.keys(Object.values(runs[0].scores)[0]);
@@ -250,6 +262,61 @@ for (const [name, runs] of preferenceGroups) {
         })()
       : '-';
     out(`| ${name} | ${metric} | ${agree(inSetPairs)} | ${agree(humanPairs)} | ${agree(inSetPairs, true)} | ${retest} |`);
+  }
+}
+
+const verdictOrder = ['candidate', 'tie', 'baseline'] as const;
+const gatesBy = (human: (typeof verdictOrder)[number]) => labels.gates.filter((g) => g.human === human);
+
+if (gateGroups.length) {
+  out('');
+  out(`## 回帰判定 — ${labels.gates.length} version comparisons with a human set-level verdict ` +
+    `(${labels.gates.filter((g) => g.blind).length} blind; human preferred candidate ${gatesBy('candidate').length}, ` +
+    `tie ${gatesBy('tie').length}, baseline ${gatesBy('baseline').length})`);
+  out('');
+  out('Flagged as regression, per run. Only the "baseline better" column should be flagged.');
+  out('');
+  out('| evaluator | rule | candidate better | tie | baseline better |');
+  out('|---|---|---|---|---|');
+}
+
+for (const [name, runs] of gateGroups) {
+  const metrics = Object.keys(Object.values(runs[0].scores)[0]).filter((m) => m.endsWith('Worsening')).map((m) => m.slice(0, -'Worsening'.length));
+  const flagged = (r: ScoreFile, id: string, metric: string, withNoise: boolean): boolean | undefined => {
+    const s = r.scores[id];
+    return s ? s[`${metric}Worsening`] > (withNoise ? s[`${metric}Noise`] : 0) : undefined;
+  };
+  const rules: [string, (r: ScoreFile, id: string) => boolean | undefined][] = [];
+  for (const withNoise of [false, true]) {
+    for (const m of metrics) rules.push([`${m} ${withNoise ? '> noise' : '> 0'}`, (r, id) => flagged(r, id, m, withNoise)]);
+    rules.push([`any ${withNoise ? '> noise' : '> 0'}`, (r, id) => {
+      const fs = metrics.map((m) => flagged(r, id, m, withNoise));
+      return fs.some((f) => f === undefined) ? undefined : fs.some(Boolean);
+    }]);
+  }
+  for (const [rule, f] of rules) {
+    const cell = (human: (typeof verdictOrder)[number]): string => {
+      const gs = gatesBy(human);
+      if (!gs.length) return '-';
+      return runs.map((r) => {
+        const vs = gs.map((g) => f(r, g.id)).filter((v): v is boolean => v !== undefined);
+        return `${vs.filter(Boolean).length}/${vs.length}`;
+      }).join(' · ');
+    };
+    out(`| ${name} | ${rule} | ${verdictOrder.map(cell).join(' | ')} |`);
+  }
+
+  out('');
+  out('| comparison | human | blind | ' + metrics.map((m) => `${m} worse / noise`).join(' | ') + ' |');
+  out('|---|---|---|' + metrics.map(() => '---|').join(''));
+  for (const g of labels.gates) {
+    const cells = metrics.map((m) => runs.map((r) => {
+      const s = r.scores[g.id];
+      if (!s) return '-';
+      const flag = s[`${m}Worsening`] > s[`${m}Noise`] ? ' **R**' : '';
+      return `${s[`${m}Worsening`].toFixed(3)} / ${s[`${m}Noise`].toFixed(3)}${flag}`;
+    }).join(' · '));
+    out(`| ${g.id} | ${g.human} | ${g.blind ? 'yes' : 'no'} | ${cells.join(' | ')} |`);
   }
 }
 

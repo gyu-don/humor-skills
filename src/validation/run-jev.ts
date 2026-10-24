@@ -2,7 +2,8 @@
  * Runs every Jev judge over every human-labeled set, and stores the results
  * as ScoreFiles for agreement.ts: the automated-test skills in skills/, the
  * research judges in research/, and two no-rubric baselines (naive "how
- * funny" score, naive "which is funnier" pair).
+ * funny" score, naive "which is funnier" pair). trait-check's gate.ts also
+ * runs on every labeled version comparison (labels.gates).
  *
  *   doppler run -- npm run validate:jev -- reports/validation/<date> [runs=2]
  *
@@ -45,10 +46,14 @@ const work = mkdtempSync(join(tmpdir(), 'validate-jev-'));
 const inPath = join(work, 'input.json');
 const poolPath = join(work, 'pools.json');
 const pairPath = join(work, 'pairs.json');
+const gatePath = join(work, 'gates.json');
 writeFileSync(inPath, JSON.stringify(samples));
 writeFileSync(poolPath, JSON.stringify(pools.map(({ ids, ...p }) => p)));
 writeFileSync(pairPath, JSON.stringify(comparisons.map(([a, b], i) => ({
   id: String(i), label: pairKey(a, b), topic: labels.answers.get(a)!.topic, answerA: text(a), answerB: text(b),
+}))));
+writeFileSync(gatePath, JSON.stringify(labels.gates.map((g) => ({
+  id: g.id, label: g.id, topic: g.topic, baseline: g.baseline, candidate: g.candidate,
 }))));
 mkdirSync(outDir, { recursive: true });
 
@@ -126,6 +131,17 @@ for (let run = 1; run <= runs; run++) {
     evaluator: 'trait-compare', mode: 'jev', run, model: 'jev-latest', level: 'preference', lowerIsBetter: [],
     scores: Object.fromEntries(cmp.map((r) => [pairKey(...(comparisons[Number(r.id)] as [string, string])), { probA: r.probA, ...r.criteria }])),
   });
+
+  if (labels.gates.length) {
+    type Verdict = { worsening: number; noise: number };
+    const gt = runScript<{ results: ({ id: string } & Record<'concrete' | 'indirect' | 'compare', Verdict>)[] }>(
+      'skills/trait-check', run, gatePath, 'gate.ts').results;
+    save({
+      evaluator: 'trait-gate', mode: 'jev', run, model: 'jev-latest', level: 'gate', lowerIsBetter: [],
+      scores: Object.fromEntries(gt.map((r) => [r.id, Object.fromEntries((['concrete', 'indirect', 'compare'] as const)
+        .flatMap((k) => [[`${k}Worsening`, r[k].worsening], [`${k}Noise`, r[k].noise]]))])),
+    });
+  }
 
   // --- research/: judges still under validation ---
   const fs = runScript<{ rows: (SkillRow & { scores: Record<string, number>; overallFloored: number })[] }>('research/funniness-score', run).rows;

@@ -5,7 +5,7 @@
 
 ## 手順
 
-1. **Jev モード** — 1コマンドで、すべての判定器（`skills/` と `research/`）の実スクリプトと、ルーブリックなしのベースラインを2回ずつ実行する（再テスト信頼性のため）:
+1. **Jev モード** — 1コマンドで、すべての判定器（`skills/` と `research/`）の実スクリプトと、ルーブリックなしのベースラインを2回ずつ実行する（再テスト信頼性のため）。`trait-check` の `gate.ts` も、版の比較のラベルがあるお題に対して実行する:
    `doppler run -- npm run validate:jev -- reports/validation/<date>`
 2. **プロンプトモード**（`research/` の判定器のみ） — 判定器は `SKILL.md` に従うサブエージェント:
    - `npm run validate:blind -- make reports/validation/<date>/blind`
@@ -28,6 +28,7 @@ AUC 0.5 はチャンスレベル。`length` ベースラインを上回らない
 - `trait-check`（`concrete`、`−indirect`）: AUC の区間の下限、`sets`
 - 被りチェック表の `overlap-check`: `false flags` が 0 のままであること。被りを探させると判定器は被りを捏造しがち（`reports/validation/2026-09-23-overlap/notes.md`）
 - 一対比較表の `trait-compare`: `in-set`、`confident`。確信度の高い判定が平均より悪いなら、ノイズではなく人間と逆向き
+- 回帰判定表の `trait-gate`（`trait-check` の `scripts/gate.ts`）: 人間が変更後の版を選んだお題や引き分けとしたお題では、`> noise` の規則が回帰と判定しないこと。人間が変更前の版を選んだお題では、回帰と判定すること。`> 0` の行は、ノイズ幅を置かない旧規則との比較用。対象は、`role` と `sourceOrder` があり、セット単位の判定（`setPreferences` か `setTies`）が付いたお題だけ（`data/human-evals/README.md`）
 
 `research/` は、`naive` / `naive-pairwise` / `length` ベースラインを上回るものが出てきたかを見る。
 

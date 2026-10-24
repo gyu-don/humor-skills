@@ -16,8 +16,10 @@ export interface ScoreFile {
    * "pair": keys are pairKey(a, b) of two answer IDs on the same topic (被りチェック).
    * "preference": keys are pairKey(a, b); each metric is the probability that the
    * first ID of the key is the better answer (pairwise judges: trait-check compare.ts).
+   * "gate": keys are GateLabel ids ("<date>/<topic key>"); metrics come in
+   * `<metric>Worsening` / `<metric>Noise` pairs (trait-check gate.ts).
    */
-  level: 'answer' | 'set' | 'pair' | 'preference';
+  level: 'answer' | 'set' | 'pair' | 'preference' | 'gate';
   /** Pair-level judges that only list the pairs they flag: an unlisted pair scores 0. */
   missingIsZero?: boolean;
   /** Metrics where a smaller number means a better answer/set (risk flags, rank position...). */

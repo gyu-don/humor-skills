@@ -23,8 +23,11 @@ interface SessionFile {
     hits: number[] | null;
     ranking?: number[];
     converged?: string;
+    role?: 'candidate' | 'baseline';
+    sourceOrder?: string[];
   }[];
   setPreferences: { better: string; worse: string }[];
+  setTies?: { a: string; b: string }[];
   pairPreferences: { a: string; b: string; winner: 'a' | 'b' | 'tie' }[];
   similarityJudgments?: { a: string; b: string; similarity: Similarity }[];
 }
@@ -43,8 +46,28 @@ export interface Labels {
   sets: LabeledSet[];
   answers: Map<string, { setId: string; topic: string; text: string; hit: boolean | null }>;
   setPreferences: { better: string; worse: string; blind: boolean }[];
+  setTies: { a: string; b: string; blind: boolean }[];
+  /** Version comparisons with a human set-level verdict, for trait-check's gate.ts. */
+  gates: GateLabel[];
   pairPreferences: { a: string; b: string; winner: 'a' | 'b' | 'tie'; blind: boolean }[];
   similarityJudgments: { a: string; b: string; similarity: Similarity; blind: boolean }[];
+}
+
+/**
+ * One お題 where a candidate and a baseline version were each generated in
+ * separate runs (sets with `role` and `sourceOrder`), and the human compared
+ * the pooled sets.
+ */
+export interface GateLabel {
+  /** "<date>/<topic key>" */
+  id: string;
+  topic: string;
+  blind: boolean;
+  /** Answers per run, in run order and in each run's original order. */
+  candidate: string[][];
+  baseline: [string[], string[]];
+  /** Which pooled set the human preferred. */
+  human: 'candidate' | 'baseline' | 'tie';
 }
 
 /** Order-independent key for an answer pair, shared by labels and pair-level ScoreFiles. */
@@ -54,7 +77,9 @@ export const pairKey = (a: string, b: string): string => [a, b].sort().join(' | 
 const globalId = (date: string, ref: string): string => (/^\d{4}-\d{2}-\d{2}/.test(ref) ? ref : `${date}/${ref}`);
 
 export function loadLabels(source = 'ogiri-ai', dir = HUMAN_EVALS_DIR): Labels {
-  const labels: Labels = { sets: [], answers: new Map(), setPreferences: [], pairPreferences: [], similarityJudgments: [] };
+  const labels: Labels = {
+    sets: [], answers: new Map(), setPreferences: [], setTies: [], gates: [], pairPreferences: [], similarityJudgments: [],
+  };
   const files = readdirSync(join(dir, source)).filter((f) => f.endsWith('.json')).sort();
 
   for (const file of files) {
@@ -73,6 +98,10 @@ export function loadLabels(source = 'ogiri-ai', dir = HUMAN_EVALS_DIR): Labels {
     for (const p of s.setPreferences) {
       labels.setPreferences.push({ better: globalId(s.date, p.better), worse: globalId(s.date, p.worse), blind: s.blind });
     }
+    for (const p of s.setTies ?? []) {
+      labels.setTies.push({ a: globalId(s.date, p.a), b: globalId(s.date, p.b), blind: s.blind });
+    }
+    labels.gates.push(...gatesOf(s));
     for (const p of s.pairPreferences) {
       labels.pairPreferences.push({ a: globalId(s.date, p.a), b: globalId(s.date, p.b), winner: p.winner, blind: s.blind });
     }
@@ -84,7 +113,50 @@ export function loadLabels(source = 'ogiri-ai', dir = HUMAN_EVALS_DIR): Labels {
   for (const ref of [...labels.pairPreferences, ...labels.similarityJudgments].flatMap((p) => [p.a, p.b])) {
     if (!labels.answers.has(ref)) throw new Error(`pair label refers to unknown answer ${ref}`);
   }
+  const setIds = new Set(labels.sets.map((s) => s.id));
+  for (const ref of [...labels.setPreferences.flatMap((p) => [p.better, p.worse]), ...labels.setTies.flatMap((p) => [p.a, p.b])]) {
+    if (!setIds.has(ref)) throw new Error(`set label refers to unknown set ${ref}`);
+  }
   return labels;
+}
+
+/** Splits a pooled set back into its runs using sourceOrder ("<version>-r<run>#<n>"). */
+function runsOf(set: SessionFile['sets'][number], where: string): string[][] {
+  const order = set.sourceOrder!;
+  if (order.length !== set.answers.length) throw new Error(`${where}: sourceOrder has ${order.length} entries for ${set.answers.length} answers`);
+  const runs = new Map<number, [number, string][]>();
+  order.forEach((ref, i) => {
+    const m = /-r(\d+)#(\d+)$/.exec(ref);
+    if (!m) throw new Error(`${where}: sourceOrder entry "${ref}" is not "<version>-r<run>#<n>"`);
+    runs.set(Number(m[1]), [...(runs.get(Number(m[1])) ?? []), [Number(m[2]), set.answers[i]]]);
+  });
+  return [...runs].sort(([a], [b]) => a - b).map(([, xs]) => xs.sort(([a], [b]) => a - b).map(([, text]) => text));
+}
+
+/** Topics in one session with a candidate set, a baseline set (both split into runs) and a human set-level verdict. */
+function gatesOf(s: SessionFile): GateLabel[] {
+  const out: GateLabel[] = [];
+  for (const topic of Object.keys(s.topics)) {
+    const withRole = (role: string) => s.sets.filter((x) => x.topic === topic && x.role === role && x.sourceOrder);
+    const [cand, base] = [withRole('candidate'), withRole('baseline')];
+    if (cand.length !== 1 || base.length !== 1) continue;
+    const [c, b] = [cand[0].id, base[0].id];
+    const preferred = s.setPreferences.find((p) => [p.better, p.worse].sort().join() === [c, b].sort().join());
+    const tied = (s.setTies ?? []).some((p) => [p.a, p.b].sort().join() === [c, b].sort().join());
+    if (!preferred && !tied) continue;
+    const where = `${s.date}/${topic}`;
+    const baseline = runsOf(base[0], where);
+    if (baseline.length !== 2) throw new Error(`${where}: the baseline needs exactly 2 runs for a noise band, found ${baseline.length}`);
+    out.push({
+      id: where,
+      topic: s.topics[topic],
+      blind: s.blind,
+      candidate: runsOf(cand[0], where),
+      baseline: baseline as [string[], string[]],
+      human: tied ? 'tie' : preferred!.better === c ? 'candidate' : 'baseline',
+    });
+  }
+  return out;
 }
 
 /** Topics (by text) with every labeled set on that topic — the unit evaluators see as one pool. */

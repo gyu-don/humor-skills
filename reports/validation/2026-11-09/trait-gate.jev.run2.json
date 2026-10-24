@@ -1,0 +1,50 @@
+{
+  "evaluator": "trait-gate",
+  "mode": "jev",
+  "run": 2,
+  "model": "jev-latest",
+  "level": "gate",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-11-08/codex": {
+      "concreteWorsening": 0.05699999999999994,
+      "concreteNoise": 0.03600000000000014,
+      "indirectWorsening": -0.011999999999999983,
+      "indirectNoise": 0.034,
+      "compareWorsening": 0.010224999999999873,
+      "compareNoise": 0.052200000000000024
+    },
+    "2026-11-08/sylvanian": {
+      "concreteWorsening": 0.0030000000000001137,
+      "concreteNoise": 0.02200000000000002,
+      "indirectWorsening": -0.00899999999999998,
+      "indirectNoise": 0.02200000000000002,
+      "compareWorsening": -0.013025000000000175,
+      "compareNoise": 0.0729999999999999
+    },
+    "2026-11-08/target": {
+      "concreteWorsening": 0.05700000000000005,
+      "concreteNoise": 0.20200000000000007,
+      "indirectWorsening": -2.7755575615628914e-17,
+      "indirectNoise": 0.07000000000000003,
+      "compareWorsening": -0.04995000000000005,
+      "compareNoise": 0.03270000000000017
+    },
+    "2026-11-08/dev": {
+      "concreteWorsening": -0.14300000000000013,
+      "concreteNoise": 0.05999999999999994,
+      "indirectWorsening": 0.04699999999999997,
+      "indirectNoise": 0.011999999999999997,
+      "compareWorsening": 0.05030000000000007,
+      "compareNoise": 0.0643999999999999
+    },
+    "2026-11-08/haiku": {
+      "concreteWorsening": 0.014000000000000012,
+      "concreteNoise": 0.040000000000000036,
+      "indirectWorsening": -0.03799999999999998,
+      "indirectNoise": 0.10399999999999998,
+      "compareWorsening": 0.022474999999999967,
+      "compareNoise": 0.0024000000000000687
+    }
+  }
+}

@@ -17,6 +17,7 @@ node scripts/evaluate.ts <入力.json> [出力.json]
 ```
 
 - 入力: `{"topic": "...", "answers": ["...", ...]}`、または複数セットの配列（見本は `assets/samples.json`）
+  - 配列の各要素の `id`・`label` は任意。`id` がなければ `set-1`、`set-2`… と位置で振る。結果は `id` で引くので、`id` が重複していればエラーで止まる
 - 出力:
   - `summaries[].nearDuplicates`: 被りと判定したペア（回答番号の組）
   - `overlaps[].sameMaterial`: 全ペアについて、同じ素材を使っている確率（0.7以上を被りとする）

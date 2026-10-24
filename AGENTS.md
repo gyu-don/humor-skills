@@ -38,7 +38,8 @@ ogiri-ai's output shape.
 
 ## Commands
 
-- `npm install`, `npm run check` (type-check)
+- `npm install`, `npm run check` (type-check), `npm test` (no API: runs the
+  judge scripts against a fake SDK in `test/fake-sdk/`)
 - `doppler run -- npm run audit:overlap-check` / `audit:trait-check`
 - `doppler run -- npm run validate:jev -- reports/validation/<date> [runs]`
 - `npm run validate:blind -- make|unblind ...`, `npm run validate:agreement -- reports/validation/<date>`
@@ -61,7 +62,7 @@ Use `jj`, not `git`.
 
 ## Change workflow
 
-After code changes: `npm run check`, and if request shape changed, one real
+After code changes: `npm run check`, `npm test`, and if request shape changed, one real
 `doppler run --` call to confirm the response still parses.
 
 After any change to a judge (`skills/` or `research/`), run validation

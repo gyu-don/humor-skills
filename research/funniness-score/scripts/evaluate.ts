@@ -7,8 +7,10 @@
  * funniness question can be re-validated as human labels grow.
  *
  * Usage: doppler run -- node research/funniness-score/scripts/evaluate.ts [input.json] [output.json]
- * Input: [{ "id", "label", "topic", "answers": string[] }, ...] — a single
- * { "topic", "answers": [...] } object also works (wrapped as one sample).
+ * Input: { "topic", "answers": string[] }, or an array of them for several
+ * sets. "id" and "label" are optional; an array item without "id" becomes
+ * "set-<n>" (1-based) and duplicate ids are rejected, since summaries are
+ * keyed by id.
  * Defaults to this skill's assets/samples.json / a results.json in the CWD.
  *
  * The original skill needs 2 independent LLM-judge passes per set because a
@@ -18,8 +20,9 @@
  * is the thing worth checking here: does one Jev call already sit inside
  * that same noise band, making the second pass unnecessary?
  */
-import { readFileSync, writeFileSync } from 'node:fs';
+import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+import { answerSet, readInputs } from './input.ts';
 
 /**
  * `@typesafe-ai/sdk` is this skill's only dependency, and a freshly installed
@@ -47,8 +50,7 @@ if (!process.env.TYPESAFE_API_KEY) {
   process.exit(1);
 }
 
-const parsed = JSON.parse(readFileSync(IN_PATH, 'utf8')) as Sample[] | Omit<Sample, 'id' | 'label'>;
-const samples: Sample[] = Array.isArray(parsed) ? parsed : [{ id: 'input', label: 'input', ...parsed }];
+const samples: Sample[] = readInputs(IN_PATH, answerSet);
 const client = new TypeSafeClient({ timeout: 60_000 });
 
 const rubric = [

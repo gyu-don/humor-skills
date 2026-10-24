@@ -17,6 +17,7 @@ node scripts/evaluate.ts <入力.json> [出力.json]
 ```
 
 - 入力: `{"topic": "...", "answers": ["...", ...]}`、または複数セットの配列（見本は `assets/samples.json`）
+  - 配列の各要素の `id`・`label` は任意。`id` がなければ `set-1`、`set-2`… と位置で振る。結果は `id` で引くので、`id` が重複していればエラーで止まる
 - 出力: `summaries[].means` にセット平均、`rows[].traits` に回答ごとの値
   - `concrete`: 具体的な物・現象・異常が出てくる確率。高いほど良い
   - `indirect`: 説明的・遠回しに言っている確率。低いほど良い
@@ -28,6 +29,7 @@ node scripts/compare.ts <入力.json> [出力.json]
 ```
 
 - 入力: `{"topic": "...", "answerA": "...", "answerB": "..."}`、または配列（見本は `assets/pairs.json`）
+  - `id`・`label` の扱いは回答ごとの採点と同じ
 - 出力: `results[].probA`（A の方が良い確率）、`winner`（`A` / `B` / `draw`）、`criteria`（`concrete` と `straight` それぞれで A が勝つ確率）
 
 ## 合否の決め方

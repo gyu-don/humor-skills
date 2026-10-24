@@ -8,11 +8,14 @@
  * 長さ → indirect) and the 被りチェック to skills/overlap-check.
  *
  * Usage: doppler run -- node research/risk-flags/scripts/evaluate.ts [input.json] [output.json]
- * Input: [{ "id", "label", "topic", "answers": string[] }, ...] — a single
- * { "topic", "answers": [...] } object also works (wrapped as one sample).
+ * Input: { "topic", "answers": string[] }, or an array of them for several
+ * sets. "id" and "label" are optional; an array item without "id" becomes
+ * "set-<n>" (1-based) and duplicate ids are rejected, since summaries are
+ * keyed by id.
  */
-import { readFileSync, writeFileSync } from 'node:fs';
+import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+import { answerSet, readInputs } from './input.ts';
 
 /**
  * `@typesafe-ai/sdk` is this skill's only dependency, and a freshly installed
@@ -40,8 +43,7 @@ if (!process.env.TYPESAFE_API_KEY) {
   process.exit(1);
 }
 
-const parsed = JSON.parse(readFileSync(IN_PATH, 'utf8')) as Sample[] | Omit<Sample, 'id' | 'label'>;
-const samples: Sample[] = Array.isArray(parsed) ? parsed : [{ id: 'input', label: 'input', ...parsed }];
+const samples: Sample[] = readInputs(IN_PATH, answerSet);
 const client = new TypeSafeClient({ timeout: 60_000 });
 
 /** true = the risk applies, matching the original skill's "◯◯リスク" wording. */

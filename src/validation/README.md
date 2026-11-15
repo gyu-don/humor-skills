@@ -5,7 +5,7 @@
 
 ## 手順
 
-1. **Jev モード** — 1コマンドで、すべての判定器（`skills/` と `research/`）の実スクリプトと、ルーブリックなしのベースラインを2回ずつ実行する（再テスト信頼性のため）。`trait-check` の `gate.ts` も、版の比較のラベルがあるお題に対して実行する:
+1. **Jev モード** — 1コマンドで、すべての判定器（`skills/` と `research/`）の実スクリプトと、ルーブリックなしのベースラインを2回ずつ実行する（再テスト信頼性のため）。`trait-check` の `versions.ts` も、版の比較のラベルがあるお題に対して実行する:
    `doppler run -- npm run validate:jev -- reports/validation/<date>`
 2. **プロンプトモード**（`research/` の判定器のみ） — 判定器は `SKILL.md` に従うサブエージェント:
    - `npm run validate:blind -- make reports/validation/<date>/blind`
@@ -16,7 +16,8 @@
    - 判定器の出力ごとに
      `npm run validate:blind -- unblind <blind dir> <format> <out-1.json> <out-2.json> <run> <model>`
      を実行する。サブエージェントの文章レポートは `prompt-reports/` に残す。判定器が失敗した「理由」がわかる。
-3. `npm run validate:agreement -- reports/validation/<date>` で `summary.md` を書き出す。解釈は同じディレクトリの `notes.md` に書く。
+3. `npm run validate:agreement -- reports/validation/<date>` で `summary.md` と、同じ内容を機械可読にした `summary.json` を書き出す。解釈は同じディレクトリの `notes.md` に書く。
+4. `npm run status` で、リポジトリ直下の `STATUS.md` を最新の検証から作り直す。現在の値を知りたい人とエージェントが読むのはこのページで、ほかの文書には数値を写さない。人間評価のセッションや台帳（`data/ledger/`）を足したときも実行する（`npm test` が、作り直していない `STATUS.md` を検出する）。
 
 ## `summary.md` の読み方
 
@@ -28,11 +29,20 @@ AUC 0.5 はチャンスレベル。`length` ベースラインを上回らない
 - `trait-check`（`concrete`、`−indirect`）: AUC の区間の下限、`sets`
 - 被りチェック表の `overlap-check`: `false flags` が 0 のままであること。被りを探させると判定器は被りを捏造しがち（`reports/validation/2026-09-23-overlap/notes.md`）
 - 一対比較表の `trait-compare`: `in-set`、`confident`。確信度の高い判定が平均より悪いなら、ノイズではなく人間と逆向き
-- 回帰判定表の `trait-gate`（`trait-check` の `scripts/gate.ts`）: 人間が変更後の版を選んだお題や引き分けとしたお題では、`> noise` の規則が回帰と判定しないこと。人間が変更前の版を選んだお題では、回帰と判定すること。`> 0` の行は、ノイズ幅を置かない旧規則との比較用。対象は、`role` と `sourceOrder` があり、セット単位の判定（`setPreferences` か `setTies`）が付いたお題だけ（`data/human-evals/README.md`）
+- 「版の比較」の節（`trait-check` の `scripts/versions.ts`）: 題ごとの表では、人間が変更後の版を選んだお題や引き分けとしたお題で、`p < 0.05` の規則が合図を出さないこと。`> noise (old)` の行は、置き換える前の規則との比較用。「まとめた読み」の表は、版ごとに全題をまとめた読みと、人間の判定に採否の規則（負けが0なら採用可）を当てた結果を並べる。合図が出るべきなのは、規則が `return` の版だけ。対象は、`role` と `sourceOrder` があり、セット単位の判定（`setPreferences` か `setTies`）が付いたお題（`data/human-evals/README.md`）。受付箱から来た最終チェックは、自動でこの形になる
 
 `research/` は、`naive` / `naive-pairwise` / `length` ベースラインを上回るものが出てきたかを見る。
 
-`gate` 列は、ogiri-ai のゲートチェックで人間の判定の代わりに使えるほどの指標を示す。2026-09-24 時点で該当するものはない（`reports/validation/2026-09-24/notes.md`）。
+`gate` 列は、ogiri-ai のゲートチェックで人間の判定の代わりに使えるほどの指標を示す。該当するものがあるかは `STATUS.md` の要点に出る。表の下の1行は、今のラベル数で、真の一致率が 0.7〜0.9 の判定器が条件を満たす確率。これが低いうちは、空欄を「使える判定器がない」と読まない。
+
+### 未使用ラベルの節
+
+判定器の質問や閾値は、人間のラベルを見て書いている。同じラベルで測った一致は楽観的に出るので、最後の節で、判定器ごとに「質問を確定した日より後のセッション」のラベルだけで測り直す。
+
+- 確定した日は `src/validation/judges.ts` の `frozen`。人間のラベルを見て質問や閾値を変えたら、その日付に更新する
+- `frozen` のない判定器（`research/` とベースライン）は、最も新しい `frozen` と同じ日からのラベルで測る。`skills/` の判定器と同じ土俵で比べるため
+- `skills/` に置く根拠はこの節の値。全ラベルの表で区間が 0.5 を超えていても、この節で超えていなければ再現していない
+- 件数が少ないうちは区間が広い。区間が 0.5 をまたぐのは「効かない」ではなく「まだ分からない」
 
 ## 旧名
 

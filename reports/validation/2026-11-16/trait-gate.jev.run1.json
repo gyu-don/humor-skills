@@ -1,0 +1,66 @@
+{
+  "evaluator": "trait-gate",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "gate",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-11-08/codex": {
+      "concreteWorsening": 0.07599999999999985,
+      "concreteP": 0.07109644517774111,
+      "concreteNoise": 0.03600000000000014,
+      "indirectWorsening": -0.009000000000000064,
+      "indirectP": 0.6997150142492875,
+      "indirectNoise": 0.044
+    },
+    "2026-11-08/sylvanian": {
+      "concreteWorsening": -0.0050000000000000044,
+      "concreteP": 0.5566221688915555,
+      "concreteNoise": 0.02000000000000013,
+      "indirectWorsening": -0.004999999999999977,
+      "indirectP": 0.6211689415529223,
+      "indirectNoise": 0.01200000000000001
+    },
+    "2026-11-08/target": {
+      "concreteWorsening": 0.05899999999999994,
+      "concreteP": 0.328033598320084,
+      "concreteNoise": 0.20999999999999985,
+      "indirectWorsening": -0.003999999999999976,
+      "indirectP": 0.5488725563721814,
+      "indirectNoise": 0.06000000000000005
+    },
+    "2026-11-08/dev": {
+      "concreteWorsening": -0.15300000000000014,
+      "concreteP": 0.927803609819509,
+      "concreteNoise": 0.062000000000000055,
+      "indirectWorsening": 0.04599999999999996,
+      "indirectP": 0.04119794010299485,
+      "indirectNoise": 0.022000000000000006
+    },
+    "2026-11-08/haiku": {
+      "concreteWorsening": 0.014000000000000123,
+      "concreteP": 0.4007799610019499,
+      "concreteNoise": 0.052000000000000046,
+      "indirectWorsening": -0.03599999999999995,
+      "indirectP": 0.7789610519474026,
+      "indirectNoise": 0.11399999999999999
+    },
+    "2026-11-09/target": {
+      "concreteWorsening": 0.16600000000000026,
+      "concreteP": 0.09789510524473777,
+      "concreteNoise": 0.10399999999999998,
+      "indirectWorsening": 0.015999999999999848,
+      "indirectP": 0.23748812559372032,
+      "indirectNoise": 0.016000000000000014
+    },
+    "2026-11-09/sylvanian": {
+      "concreteWorsening": -0.014000000000000012,
+      "concreteP": 0.6674166291685416,
+      "concreteNoise": 0.014000000000000012,
+      "indirectWorsening": 0.009999999999999926,
+      "indirectP": 0.21493925303734812,
+      "indirectNoise": 2.7755575615628914e-17
+    }
+  }
+}

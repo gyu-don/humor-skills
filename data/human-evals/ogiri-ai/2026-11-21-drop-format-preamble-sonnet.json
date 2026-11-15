@@ -1,0 +1,489 @@
+{
+  "date": "2026-11-21",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-11-21-drop-format-preamble-sonnet.md",
+  "description": "出力フォーマット節の強い指示3行を削り、自己点検の「言え」を「確かめろ」にした版と、変更前の版の比較。面白さが下がっていないかの確認。",
+  "request": {
+    "id": "drop-format-preamble-sonnet",
+    "kind": "final-check",
+    "ledger": "drop-format-preamble",
+    "created": "2026-11-21",
+    "generator": "claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）",
+    "candidate": "ogiri-ai jj change vrpvxwtt（64e63bde）",
+    "baseline": "ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）",
+    "machine": "型の外への漏れ: 変更前0/10・変更後0/10。形式違反: 変更後 stubborn r1 の5本目がひらがな指定外（形式条件の実演回答、受け入れ済みの例外）以外なし。「」上限超過なし。overlap-check 1回の出力内の被り: 変更前0・変更後1（stubborn r1 の1-5、実演回答と同じ素材）→ DEVELOPMENT.md の不合格条件に該当するが、オーナーの依頼で提出。2回をまとめた生成またぎの被り: 変更前4・変更後8。trait-check versions.ts 全題: concrete 悪化 +0.046 (p 0.13)、indirect 悪化 −0.053 (p 1.00)、合図なし。題ごとの合図: stubborn concrete、enma indirect。"
+  },
+  "topics": {
+    "codex": "Codexのイケてる使い方",
+    "sylvanian": "シルバニアファミリーの新作",
+    "utterance": "一言で上司をうならせてください",
+    "stubborn": "ひらがなだけで頑固さを伝えてください",
+    "enma": "閻魔大王が最近こっそり悩んでいること"
+  },
+  "sets": [
+    {
+      "id": "drop-format-preamble-sonnet/codex/candidate",
+      "topic": "codex",
+      "condition": "candidate; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "一括置換を頼んだら社名も変わった",
+        "完了音が鳴るたび乾杯する",
+        "結婚式の席次をPRで出させる",
+        "Codexの歓迎会。会費3000円",
+        "Codexを修道士が羊皮紙に写本",
+        "金曜17時、Codexに本番の鍵を渡す",
+        "10並列で10人分の残業申請",
+        "頼む前に画面へチップ千円を貼る",
+        "毎朝Codexに進捗を報告する",
+        "マージ前に二礼二拍手一礼"
+      ],
+      "hits": [
+        1
+      ],
+      "misses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r2#5",
+        "candidate-r1#5",
+        "candidate-r1#3",
+        "candidate-r2#2",
+        "candidate-r2#1",
+        "candidate-r2#4",
+        "candidate-r1#4",
+        "candidate-r2#3",
+        "candidate-r1#2",
+        "candidate-r1#1"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/codex/baseline",
+      "topic": "codex",
+      "condition": "baseline; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "Codexが振ったタスクを俺が実装する",
+        "サンドボックスに砂とバケツを置く",
+        "サンドボックスで子供を遊ばせる",
+        "本番DBを消す前に始末書を書かせる",
+        "寝る前に世界平和を投げておく",
+        "彼女への返信をPRレビューしてから送る",
+        "Codex初のマージに赤飯を炊く",
+        "3分で出たPRを3日寝かせて出す",
+        "AGENTS.mdに今日の愚痴を書く",
+        "夜泣きの原因をCodexに調査させる"
+      ],
+      "hits": [],
+      "misses": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r2#4",
+        "baseline-r2#1",
+        "baseline-r1#1",
+        "baseline-r1#4",
+        "baseline-r1#2",
+        "baseline-r1#3",
+        "baseline-r2#3",
+        "baseline-r1#5",
+        "baseline-r2#2",
+        "baseline-r2#5"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/sylvanian/candidate",
+      "topic": "sylvanian",
+      "condition": "candidate; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "タヌキ家族 家と家具が全部葉っぱ",
+        "うさぎ家族 開封3日で赤ちゃん47匹",
+        "差し押さえ札つきのおうち",
+        "ヒグマ一家 周りの家が全部売り家",
+        "ライオン一家、隣はウサギ一家",
+        "ネズミ一家、赤ちゃん38匹",
+        "付属のニンジンだけ実寸大",
+        "新作の家 ミニチュアでも35年ローン",
+        "新品の家に本物のネズミが入居済み",
+        "転売ヤーのイタチ一家"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r2#4",
+        "candidate-r2#2",
+        "candidate-r1#5",
+        "candidate-r2#1",
+        "candidate-r1#3",
+        "candidate-r1#4",
+        "candidate-r1#1",
+        "candidate-r2#5",
+        "candidate-r2#3",
+        "candidate-r1#2"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/sylvanian/baseline",
+      "topic": "sylvanian",
+      "condition": "baseline; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "リカちゃんハウス買収セット",
+        "クマ一家 4月まで開封不可",
+        "赤ちゃん 夜泣き機能 停止不可",
+        "森のおうち 隣にイオン建設中",
+        "うさぎの赤ちゃんセット 12匹入り",
+        "ゴジラに踏まれる村セット",
+        "くま夫婦の離婚調停セット",
+        "付属のパンが本物 3日でカビる",
+        "ドンうさぎ率いる新ファミリー 盃付き",
+        "20年後セット 長男42歳 実家暮らし"
+      ],
+      "hits": [],
+      "misses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r1#2",
+        "baseline-r1#3",
+        "baseline-r1#5",
+        "baseline-r2#4",
+        "baseline-r2#5",
+        "baseline-r1#1",
+        "baseline-r2#1",
+        "baseline-r2#3",
+        "baseline-r2#2",
+        "baseline-r1#4"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/utterance/candidate",
+      "topic": "utterance",
+      "condition": "candidate; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "部長の勘、AIが弟子入り志願です",
+        "その話、今年47回目です",
+        "部長の背中を見て育ち猫背です",
+        "「この会社、昨日買いました」",
+        "「私の背中を見て育ってください」",
+        "部長の分も辞表書いときました",
+        "部長、御社が第一志望です",
+        "部長の部下とは、前世の私でかした",
+        "部長の初恋の人、うちの母です",
+        "ホウレンソウは根元が一番甘いです"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r1#3",
+        "candidate-r2#4",
+        "candidate-r1#4",
+        "candidate-r2#2",
+        "candidate-r2#3",
+        "candidate-r2#1",
+        "candidate-r1#1",
+        "candidate-r1#5",
+        "candidate-r2#5",
+        "candidate-r1#2"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/utterance/baseline",
+      "topic": "utterance",
+      "condition": "baseline; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "売上、前年比∞、去年ゼロでした",
+        "部長、王手です",
+        "部長、革靴、懐で温めておきました",
+        "「あれ、あれしときました」",
+        "来週のゴルフ、コースを買いました",
+        "部長、後光で資料が読めません",
+        "今のダジャレ、特許出しておきます",
+        "初めて聞きました、41回目ですが",
+        "「部長、うなるまで肩を揉みます」",
+        "部長、後光でスライドが見えません"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r1#5",
+        "baseline-r2#4",
+        "baseline-r1#3",
+        "baseline-r1#2",
+        "baseline-r2#3",
+        "baseline-r1#4",
+        "baseline-r2#1",
+        "baseline-r2#5",
+        "baseline-r1#1",
+        "baseline-r2#2"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/stubborn/candidate",
+      "topic": "stubborn",
+      "condition": "candidate; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "しぬまでかんじをかかぬ",
+        "ちきゅうがまるいとはみとめん",
+        "おひさまにまだよるだといいはる",
+        "せかいがおれにあやまれ",
+        "でんわはくろいのしかみとめん",
+        "いしがかたさでまけをみとめた",
+        "はかのなかでもあやまらん",
+        "でんしゃがわしにあわせろ",
+        "かんじのほうがまちがっとる",
+        "漢字しか書かん"
+      ],
+      "hits": [
+        10
+      ],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verdict": "選好された",
+      "sourceOrder": [
+        "candidate-r2#2",
+        "candidate-r1#3",
+        "candidate-r2#5",
+        "candidate-r2#1",
+        "candidate-r2#4",
+        "candidate-r2#3",
+        "candidate-r1#4",
+        "candidate-r1#2",
+        "candidate-r1#1",
+        "candidate-r1#5"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/stubborn/baseline",
+      "topic": "stubborn",
+      "condition": "baseline; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "ほそいみちでどちらもどかずさんじゅうねん",
+        "えんまさまにもあたまをさげん",
+        "みちをきくくらいならちきゅういっしゅう",
+        "うまれてすぐおぎゃあをこばんだ",
+        "あめにまけたくないのでかさをささん",
+        "こたつからでないままながされる",
+        "じょやのかねがなってもことしだといいはる",
+        "かんじのしけんをひらがなでとおした",
+        "いぬがうごかないのでこっちもうごかない",
+        "あめがおれをよけるまでかさはささん"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "選好されなかった",
+      "sourceOrder": [
+        "baseline-r2#4",
+        "baseline-r2#5",
+        "baseline-r1#2",
+        "baseline-r2#1",
+        "baseline-r2#3",
+        "baseline-r1#1",
+        "baseline-r1#5",
+        "baseline-r2#2",
+        "baseline-r1#3",
+        "baseline-r1#4"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/enma/candidate",
+      "topic": "enma",
+      "condition": "candidate; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "亡者の前で鏡が俺の黒歴史を流す",
+        "牛タン好きを鬼たちに言えない",
+        "名札の王に、大を書き足したのがバレそう",
+        "天国と地獄のハンコ、逆かもしれない",
+        "自分の刑期を聞きそびれた",
+        "針山が足つぼ扱いで予約制になった",
+        "嘘の見分けがつかず全員の舌を抜いてる",
+        "亡者の人生を倍速で見るクセがついた",
+        "亡者が「御社が第一志望です」と言う",
+        "針の山で「効く〜」と言う亡者が増えた"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r1#3",
+        "candidate-r1#4",
+        "candidate-r2#5",
+        "candidate-r1#5",
+        "candidate-r1#2",
+        "candidate-r2#1",
+        "candidate-r2#3",
+        "candidate-r2#4",
+        "candidate-r2#2",
+        "candidate-r1#1"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-sonnet/enma/baseline",
+      "topic": "enma",
+      "condition": "baseline; claude-sonnet-5-5 / xhigh（CLI、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "釜茹でに常連が三人いる",
+        "亡者の生前映像を3倍速で見てる",
+        "抜いた舌で冷凍庫がパンパン",
+        "二千歳なのに声変わりがまだ",
+        "閻魔帳の自分のページだけ開けない",
+        "妻の「怒ってない」だけ見抜けない",
+        "抜いた舌で冷凍庫が閉まらない",
+        "「責任者出せ」の責任者が自分",
+        "リピーターが1人もいない",
+        "判決のハンコがシャチハタ"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r2#2",
+        "baseline-r2#4",
+        "baseline-r2#3",
+        "baseline-r1#1",
+        "baseline-r2#1",
+        "baseline-r1#5",
+        "baseline-r1#3",
+        "baseline-r2#5",
+        "baseline-r1#4",
+        "baseline-r1#2"
+      ]
+    }
+  ],
+  "setPreferences": [
+    {
+      "better": "drop-format-preamble-sonnet/stubborn/candidate",
+      "worse": "drop-format-preamble-sonnet/stubborn/baseline"
+    }
+  ],
+  "setTies": [
+    {
+      "a": "drop-format-preamble-sonnet/codex/candidate",
+      "b": "drop-format-preamble-sonnet/codex/baseline"
+    },
+    {
+      "a": "drop-format-preamble-sonnet/sylvanian/candidate",
+      "b": "drop-format-preamble-sonnet/sylvanian/baseline"
+    },
+    {
+      "a": "drop-format-preamble-sonnet/utterance/candidate",
+      "b": "drop-format-preamble-sonnet/utterance/baseline"
+    },
+    {
+      "a": "drop-format-preamble-sonnet/enma/candidate",
+      "b": "drop-format-preamble-sonnet/enma/baseline"
+    }
+  ],
+  "pairPreferences": []
+}

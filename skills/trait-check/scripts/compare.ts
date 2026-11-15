@@ -13,17 +13,17 @@
  * Each question is asked in both presentation orders and averaged, which
  * cancels position bias; Jev's `choice` probability is the confidence.
  *
- * Validated against human preferences (humor-skills
- * reports/validation/2026-09-24): the mean agreed on 66% of hit-vs-non-hit
- * pairs inside one set and 10 of the 13 pairs the human compared directly.
- * A single holistic "which should be adopted / which is funnier" question
- * was at chance or worse, so it is not asked here. The questions came from
- * the same labels they were checked on, so treat the numbers as optimistic
- * until a fresh human session confirms them.
+ * Checked against human preferences. On the labels the questions were
+ * written from (humor-skills reports/validation/2026-09-24) the mean agreed
+ * on 66% of hit-vs-non-hit pairs inside one set and 10 of the 13 pairs the
+ * human compared directly. On labels added afterwards
+ * (reports/validation/2026-11-15) the mean could not be told from chance;
+ * `straight` alone held up. A single holistic "which should be adopted /
+ * which is funnier" question was at chance or worse, so it is not asked
+ * here. SKILL.md 「信頼度」 has the numbers.
  *
- * To compare two versions of a generator, use gate.ts: it runs every
- * candidate × baseline pair and measures the noise band from the baseline's
- * own two runs.
+ * To compare two versions of a generator, use versions.ts: it reads the
+ * per-answer traits over all お題 at once and does not need pairwise calls.
  */
 import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';

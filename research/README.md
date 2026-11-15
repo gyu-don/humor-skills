@@ -4,19 +4,23 @@
 このディレクトリには、まだ人間の判定と一致していないが、検証を続けるものを置く。
 インストール対象ではない（`npx skills add` や `/plugin install` では入らない）。スクリプトはリポジトリ直下の `node_modules` を使う。
 
-どれも `npm run validate:jev` で毎回検証される。プロンプト版のあるもの（SKILL.md の手順を Claude が実行するもの）は、`npm run validate:blind` の入力をサブエージェントに渡して検証する（`src/validation/README.md` を参照）。
+`criterion-count` を除いて、どれも `npm run validate:jev` で毎回検証される。`criterion-count` は質問が実験ごとに変わるので、質問ごとに人間の抜き取り確認を通す（`research/criterion-count/SKILL.md`）。プロンプト版のあるもの（SKILL.md の手順を Claude が実行するもの）は、`npm run validate:blind` の入力をサブエージェントに渡して検証する（`src/validation/README.md` を参照）。
 
-| 判定器 | 旧名 | 測るもの | 2026-09-24 の状態 |
+人間の判定との一致の現在の値は、リポジトリ直下の `STATUS.md`（`npm run status` が最新の検証から生成）にある。ここには数値を書かない。
+
+| 判定器 | 旧名 | 測るもの | 版 |
 |---|---|---|---|
-| `funniness-score` | `humor-eval` | 面白さの6軸採点（Jev・プロンプト） | Jev は逆向き（AUC 0.37〜0.44）、プロンプトはチャンスレベル |
-| `risk-flags` | `fun-check`（の残り） | ベタ・ひねりなし・共感・認知度・滑り・相対典型性・シュール手癖（Jev・プロンプト） | チャンスレベル。ひねりなし・滑りは逆向き |
-| `diversity-check` | 同じ | お題の分解軸の数（プロンプト） | 収束の判別 AUC 0.49 |
-| `cluster-fit-check` | 同じ | 文献由来のユーザークラスタ別の嗜好への適合（Jev・プロンプト） | 検証できていない（下記） |
+| `funniness-score` | `humor-eval` | 面白さの6軸採点 | Jev・プロンプト |
+| `risk-flags` | `fun-check`（の残り） | ベタ・ひねりなし・共感・認知度・滑り・相対典型性・シュール手癖 | Jev・プロンプト |
+| `diversity-check` | 同じ | お題の分解軸の数 | プロンプト |
+| `cluster-fit-check` | 同じ | 文献由来のユーザークラスタ別の嗜好への適合（評価者が1人では検証できない。下記） | Jev・プロンプト |
+| `criterion-count` | - | 実験ごとに書いた yes/no の質問に当てはまる回答の本数。面白さの判定器ではなく、改善ループで「狙った型が出たか」を数える計器 | Jev |
 
 ベースライン（`src/validation/run-jev.ts` の中にある）: ルーブリックなしの「どれくらい面白いか」（`naive`）と「どちらが面白いか」（`naive-pairwise`）。
 面白さを測る判定器は、少なくともこの2つと文字数（`baseline −length`）を上回る必要がある。
 
 `skills/` に移す条件: 人間の判定での一致が、95%区間で偶然を上回り、2回の実行で安定し（r≥0.95）、検証に使っていない新しい人間評価でも再現すること。
+最後の条件は、`summary.md` の「未使用ラベル」の節で見る。質問文を人間のラベルを見て書き直したら、`src/validation/judges.ts` にその判定器の `frozen`（質問を確定した日）を書く。それより前のセッションは、その判定器にとって未使用ではなくなる。
 
 ## `cluster-fit-check` の検証に必要なもの
 

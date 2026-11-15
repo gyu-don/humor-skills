@@ -10,3 +10,5 @@
 
 候補：zqkxslsz / d072795d、基準：develop fccb8c40。モデルclaude-opus-5-5、high。全回答・表示順と元のrun内番号はJSONに保存。
 これは面白さの比較であり、機械ゲートの失敗を上書きしない。ゲート15はnot passedのまま。
+
+2026-11-15 追記: 構造化ラベルに `role`（candidate / baseline）と、7文字題の同点（`setTies`）を足した。判定そのものは変えていない。回帰判定（`trait-check` の `gate.ts`）の検証対象に入れるため。

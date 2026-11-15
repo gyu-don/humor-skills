@@ -86,3 +86,18 @@ test('trait-check compare: id-less pairs are numbered', () => {
   const out = run('skills/trait-check/scripts/compare.ts', pairs);
   assert.deepEqual(out.results.map((r: { id: string }) => r.id), ['set-1', 'set-2']);
 });
+
+test('criterion-count: counts per set, and the criterion must define yes and no', () => {
+  const criterion = { question: '質問？', true: 'はいの意味', false: 'いいえの意味' };
+  const sets = [{ topic: 'お題A', answers: ['りんご', 'みかん', 'ぶどう'] }, { id: 'baseline-r1', topic: 'お題A', answers: ['電車', 'バス'] }];
+  const out = run('research/criterion-count/scripts/evaluate.ts', write('criterion.json', { criterion, sets }));
+  assert.deepEqual(out.summaries.map((s: any) => [s.id, s.total]), [['set-1', 3], ['baseline-r1', 2]]);
+  for (const s of out.summaries) {
+    const own = out.rows.filter((r: any) => r.sampleId === s.id);
+    assert.equal(s.count, own.filter((r: any) => r.yes >= 0.5).length);
+  }
+  assert.throws(
+    () => run('research/criterion-count/scripts/evaluate.ts', write('criterion-bad.json', { criterion: { question: '質問？' }, sets })),
+    /criterion\.true must be a non-empty string/,
+  );
+});

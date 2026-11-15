@@ -77,6 +77,12 @@
       "worse": "setsubun/after"
     }
   ],
+  "setTies": [
+    {
+      "a": "geinou/after",
+      "b": "geinou/before"
+    }
+  ],
   "pairPreferences": [
     {
       "a": "geinou/before#1",

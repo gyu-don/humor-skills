@@ -2,9 +2,9 @@
  * Research judge, not an automated test (formerly the humor-eval skill).
  * Jev port of this directory's SKILL.md: 6-axis 0-4 scoring
  * (Novelty/Clarity/Relevance/Intelligence/Empathy/Overall), with the same
- * Relevance/Empathy floor rule applied in code. As of 2026-09-24 every axis
- * scores human hits *lower* than the rest (AUC 0.37-0.44); kept so the
- * funniness question can be re-validated as human labels grow.
+ * Relevance/Empathy floor rule applied in code. It does not agree with human
+ * hits (current numbers: STATUS.md at the repo root); kept so the funniness
+ * question can be re-validated as human labels grow.
  *
  * Usage: doppler run -- node research/funniness-score/scripts/evaluate.ts [input.json] [output.json]
  * Input: { "topic", "answers": string[] }, or an array of them for several

@@ -1,0 +1,540 @@
+{
+  "evaluator": "trait-compare",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "preference",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#2": {
+      "probA": 0.55,
+      "concrete": 0.74,
+      "straight": 0.36
+    },
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#3": {
+      "probA": 0.6875,
+      "concrete": 0.725,
+      "straight": 0.65
+    },
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#4": {
+      "probA": 0.3675,
+      "concrete": 0.35,
+      "straight": 0.385
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#4": {
+      "probA": 0.3275,
+      "concrete": 0.42,
+      "straight": 0.23500000000000001
+    },
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#5": {
+      "probA": 0.31499999999999995,
+      "concrete": 0.22999999999999998,
+      "straight": 0.39999999999999997
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#5": {
+      "probA": 0.2375,
+      "concrete": 0.285,
+      "straight": 0.19
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "probA": 0.625,
+      "concrete": 0.635,
+      "straight": 0.615
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "probA": 0.44999999999999996,
+      "concrete": 0.575,
+      "straight": 0.325
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "probA": 0.5725,
+      "concrete": 0.655,
+      "straight": 0.49
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "probA": 0.71,
+      "concrete": 0.775,
+      "straight": 0.645
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "probA": 0.6575,
+      "concrete": 0.6100000000000001,
+      "straight": 0.705
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "probA": 0.49750000000000005,
+      "concrete": 0.465,
+      "straight": 0.53
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#2": {
+      "probA": 0.345,
+      "concrete": 0.605,
+      "straight": 0.08499999999999999
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#3": {
+      "probA": 0.4175,
+      "concrete": 0.64,
+      "straight": 0.195
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#5": {
+      "probA": 0.6799999999999999,
+      "concrete": 0.9299999999999999,
+      "straight": 0.43
+    },
+    "2026-07-10/zense/fable-5-high#2 | 2026-07-10/zense/fable-5-high#4": {
+      "probA": 0.7549999999999999,
+      "concrete": 0.715,
+      "straight": 0.7949999999999999
+    },
+    "2026-07-10/zense/fable-5-high#3 | 2026-07-10/zense/fable-5-high#4": {
+      "probA": 0.5725,
+      "concrete": 0.55,
+      "straight": 0.595
+    },
+    "2026-07-10/zense/fable-5-high#4 | 2026-07-10/zense/fable-5-high#5": {
+      "probA": 0.6975,
+      "concrete": 0.885,
+      "straight": 0.51
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.5375000000000001,
+      "concrete": 0.15000000000000002,
+      "straight": 0.925
+    },
+    "2026-07-10/ringo/fable-5-high#2 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.22749999999999998,
+      "concrete": 0.105,
+      "straight": 0.35
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.645,
+      "concrete": 0.6950000000000001,
+      "straight": 0.595
+    },
+    "2026-07-10/ringo/fable-5-high#4 | 2026-07-10/ringo/fable-5-high#5": {
+      "probA": 0.63,
+      "concrete": 0.655,
+      "straight": 0.605
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#2": {
+      "probA": 0.4875,
+      "concrete": 0.39,
+      "straight": 0.585
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "probA": 0.515,
+      "concrete": 0.31000000000000005,
+      "straight": 0.72
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#3": {
+      "probA": 0.5425,
+      "concrete": 0.595,
+      "straight": 0.49
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "probA": 0.5025,
+      "concrete": 0.245,
+      "straight": 0.76
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "probA": 0.55,
+      "concrete": 0.41000000000000003,
+      "straight": 0.69
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "probA": 0.52,
+      "concrete": 0.63,
+      "straight": 0.41000000000000003
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "probA": 0.6074999999999999,
+      "concrete": 0.585,
+      "straight": 0.63
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "probA": 0.4575,
+      "concrete": 0.625,
+      "straight": 0.29000000000000004
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "probA": 0.7775000000000001,
+      "concrete": 0.8500000000000001,
+      "straight": 0.705
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "probA": 0.38,
+      "concrete": 0.17000000000000004,
+      "straight": 0.59
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "probA": 0.245,
+      "concrete": 0.215,
+      "straight": 0.275
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "probA": 0.6075,
+      "concrete": 0.52,
+      "straight": 0.6950000000000001
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#2": {
+      "probA": 0.4575,
+      "concrete": 0.06500000000000003,
+      "straight": 0.85
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#3": {
+      "probA": 0.5475,
+      "concrete": 0.44,
+      "straight": 0.655
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#4": {
+      "probA": 0.6575,
+      "concrete": 0.4,
+      "straight": 0.915
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#5": {
+      "probA": 0.5925,
+      "concrete": 0.265,
+      "straight": 0.9199999999999999
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#2": {
+      "probA": 0.14750000000000002,
+      "concrete": 0.07500000000000001,
+      "straight": 0.22
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#3": {
+      "probA": 0.835,
+      "concrete": 0.855,
+      "straight": 0.815
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "probA": 0.915,
+      "concrete": 0.9299999999999999,
+      "straight": 0.9
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "probA": 0.27249999999999996,
+      "concrete": 0.19999999999999998,
+      "straight": 0.345
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "probA": 0.36,
+      "concrete": 0.365,
+      "straight": 0.355
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "probA": 0.8099999999999999,
+      "concrete": 0.7949999999999999,
+      "straight": 0.825
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#2": {
+      "probA": 0.5974999999999999,
+      "concrete": 0.45499999999999996,
+      "straight": 0.74
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#3": {
+      "probA": 0.655,
+      "concrete": 0.76,
+      "straight": 0.55
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#4": {
+      "probA": 0.53,
+      "concrete": 0.7,
+      "straight": 0.36000000000000004
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#4": {
+      "probA": 0.4675,
+      "concrete": 0.3,
+      "straight": 0.635
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#5": {
+      "probA": 0.48,
+      "concrete": 0.7,
+      "straight": 0.26
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#5": {
+      "probA": 0.37,
+      "concrete": 0.255,
+      "straight": 0.48500000000000004
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#2": {
+      "probA": 0.6125,
+      "concrete": 0.475,
+      "straight": 0.75
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#4": {
+      "probA": 0.63,
+      "concrete": 0.54,
+      "straight": 0.72
+    },
+    "2026-10-03/codex/round2-variation-2-r1#2 | 2026-10-03/codex/round2-variation-2-r1#3": {
+      "probA": 0.485,
+      "concrete": 0.605,
+      "straight": 0.365
+    },
+    "2026-10-03/codex/round2-variation-2-r1#3 | 2026-10-03/codex/round2-variation-2-r1#4": {
+      "probA": 0.5225,
+      "concrete": 0.485,
+      "straight": 0.56
+    },
+    "2026-10-03/codex/round2-variation-2-r1#2 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "probA": 0.3825,
+      "concrete": 0.485,
+      "straight": 0.28
+    },
+    "2026-10-03/codex/round2-variation-2-r1#4 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "probA": 0.37,
+      "concrete": 0.33499999999999996,
+      "straight": 0.405
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#2": {
+      "probA": 0.46,
+      "concrete": 0.405,
+      "straight": 0.515
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#3": {
+      "probA": 0.675,
+      "concrete": 0.6950000000000001,
+      "straight": 0.655
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#4": {
+      "probA": 0.5775,
+      "concrete": 0.605,
+      "straight": 0.55
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#5": {
+      "probA": 0.5974999999999999,
+      "concrete": 0.5449999999999999,
+      "straight": 0.65
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#1 | 2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "probA": 0.6025,
+      "concrete": 0.835,
+      "straight": 0.37
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#2 | 2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "probA": 0.6125,
+      "concrete": 0.6,
+      "straight": 0.625
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#3 | 2026-10-03/sylvanian/round2-variation-2-r1#4": {
+      "probA": 0.42500000000000004,
+      "concrete": 0.30000000000000004,
+      "straight": 0.55
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#3 | 2026-10-03/sylvanian/round2-variation-2-r1#5": {
+      "probA": 0.40249999999999997,
+      "concrete": 0.31999999999999995,
+      "straight": 0.485
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#2": {
+      "probA": 0.6875,
+      "concrete": 0.545,
+      "straight": 0.8300000000000001
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#3": {
+      "probA": 0.6325000000000001,
+      "concrete": 0.59,
+      "straight": 0.675
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#4": {
+      "probA": 0.7175,
+      "concrete": 0.5900000000000001,
+      "straight": 0.845
+    },
+    "2026-10-03/codex/round1-baseline-r1#2 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "probA": 0.5025,
+      "concrete": 0.69,
+      "straight": 0.315
+    },
+    "2026-10-03/codex/round1-baseline-r1#3 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "probA": 0.5525,
+      "concrete": 0.7,
+      "straight": 0.40499999999999997
+    },
+    "2026-10-03/codex/round1-baseline-r1#4 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "probA": 0.49250000000000005,
+      "concrete": 0.775,
+      "straight": 0.21000000000000002
+    },
+    "2026-10-03/codex/round1-variation-2-r1#1 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "probA": 0.47000000000000003,
+      "concrete": 0.54,
+      "straight": 0.4
+    },
+    "2026-10-03/codex/round1-variation-2-r1#2 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "probA": 0.4175,
+      "concrete": 0.47000000000000003,
+      "straight": 0.365
+    },
+    "2026-10-03/codex/round1-variation-2-r1#3 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "probA": 0.48750000000000004,
+      "concrete": 0.6950000000000001,
+      "straight": 0.28
+    },
+    "2026-10-03/codex/round1-variation-2-r1#4 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "probA": 0.5475,
+      "concrete": 0.6599999999999999,
+      "straight": 0.435
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#2": {
+      "probA": 0.5275000000000001,
+      "concrete": 0.775,
+      "straight": 0.28
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#3": {
+      "probA": 0.5825,
+      "concrete": 0.8,
+      "straight": 0.365
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#4": {
+      "probA": 0.4675,
+      "concrete": 0.77,
+      "straight": 0.16499999999999998
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#5": {
+      "probA": 0.5925,
+      "concrete": 0.715,
+      "straight": 0.47
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#1 | 2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "probA": 0.5925,
+      "concrete": 0.63,
+      "straight": 0.555
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#2 | 2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "probA": 0.635,
+      "concrete": 0.5,
+      "straight": 0.77
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#3 | 2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "probA": 0.6925,
+      "concrete": 0.865,
+      "straight": 0.52
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#1 | 2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "probA": 0.35750000000000004,
+      "concrete": 0.26,
+      "straight": 0.455
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#2 | 2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "probA": 0.48,
+      "concrete": 0.16999999999999998,
+      "straight": 0.79
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#3 | 2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "probA": 0.49750000000000005,
+      "concrete": 0.6000000000000001,
+      "straight": 0.395
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#1 | 2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "probA": 0.7,
+      "concrete": 0.875,
+      "straight": 0.525
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#2 | 2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "probA": 0.77,
+      "concrete": 0.855,
+      "straight": 0.685
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#3 | 2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "probA": 0.6725,
+      "concrete": 0.78,
+      "straight": 0.565
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#1 | 2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "probA": 0.495,
+      "concrete": 0.77,
+      "straight": 0.22
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#2 | 2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "probA": 0.575,
+      "concrete": 0.635,
+      "straight": 0.515
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#3 | 2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "probA": 0.4725,
+      "concrete": 0.59,
+      "straight": 0.355
+    },
+    "2026-09-15/geinou/after#2 | 2026-09-15/geinou/before#1": {
+      "probA": 0.46499999999999997,
+      "concrete": 0.27,
+      "straight": 0.6599999999999999
+    },
+    "2026-09-15/geinou/after#1 | 2026-09-15/geinou/before#2": {
+      "probA": 0.45249999999999996,
+      "concrete": 0.815,
+      "straight": 0.08999999999999997
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-on#1": {
+      "probA": 0.6525,
+      "concrete": 0.5,
+      "straight": 0.8049999999999999
+    },
+    "2026-07-10/idol/fable-5-high#5 | 2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "probA": 0.7150000000000001,
+      "concrete": 0.85,
+      "straight": 0.5800000000000001
+    },
+    "2026-09-15/setsubun/after#1 | 2026-09-15/setsubun/before#5": {
+      "probA": 0.5674999999999999,
+      "concrete": 0.7449999999999999,
+      "straight": 0.39
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5 | 2026-07-11/firsttake/fable-5-skill-on#2": {
+      "probA": 0.72,
+      "concrete": 0.745,
+      "straight": 0.6950000000000001
+    },
+    "2026-09-15/setsubun/after#3 | 2026-09-15/setsubun/before#4": {
+      "probA": 0.49000000000000005,
+      "concrete": 0.275,
+      "straight": 0.7050000000000001
+    },
+    "2026-07-10/idol/fable-5-high#4 | 2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "probA": 0.5875,
+      "concrete": 0.575,
+      "straight": 0.6000000000000001
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "probA": 0.6499999999999999,
+      "concrete": 0.38,
+      "straight": 0.9199999999999999
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "probA": 0.745,
+      "concrete": 0.81,
+      "straight": 0.6799999999999999
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "probA": 0.515,
+      "concrete": 0.465,
+      "straight": 0.565
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#3": {
+      "probA": 0.5850000000000001,
+      "concrete": 0.56,
+      "straight": 0.6100000000000001
+    },
+    "2026-10-03/codex/round2-variation-2-r1#3 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "probA": 0.41500000000000004,
+      "concrete": 0.39,
+      "straight": 0.44
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "probA": 0.585,
+      "concrete": 0.725,
+      "straight": 0.445
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "probA": 0.665,
+      "concrete": 0.76,
+      "straight": 0.5700000000000001
+    },
+    "2026-10-03/codex/round1-baseline-r1#5 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "probA": 0.47500000000000003,
+      "concrete": 0.42500000000000004,
+      "straight": 0.525
+    }
+  }
+}

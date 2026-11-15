@@ -1,0 +1,2697 @@
+{
+  "evaluator": "risk-flags",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "answer",
+  "lowerIsBetter": [
+    "betaRisk",
+    "noTwistRisk",
+    "empathyRisk",
+    "recognitionRisk",
+    "slipRisk",
+    "sumRisk"
+  ],
+  "scores": {
+    "2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.75,
+      "slipRisk": 0.48,
+      "sumRisk": 2.4699999999999998
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.52,
+      "sumRisk": 2.17
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#3": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.69,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.56,
+      "sumRisk": 2.08
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#4": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.57,
+      "sumRisk": 2.14
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#5": {
+      "betaRisk": 0.38,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.7,
+      "slipRisk": 0.51,
+      "sumRisk": 2.41
+    },
+    "2026-07-10/idol/fable-5-high#1": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.8,
+      "slipRisk": 0.56,
+      "sumRisk": 2.41
+    },
+    "2026-07-10/idol/fable-5-high#2": {
+      "betaRisk": 0.58,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.51,
+      "sumRisk": 2.2699999999999996
+    },
+    "2026-07-10/idol/fable-5-high#3": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.59,
+      "sumRisk": 2.0700000000000003
+    },
+    "2026-07-10/idol/fable-5-high#4": {
+      "betaRisk": 0.45,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.5,
+      "slipRisk": 0.55,
+      "sumRisk": 2.2700000000000005
+    },
+    "2026-07-10/idol/fable-5-high#5": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.38,
+      "sumRisk": 1.9100000000000001
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.57,
+      "sumRisk": 2.21
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.48,
+      "slipRisk": 0.58,
+      "sumRisk": 2.3
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.52,
+      "sumRisk": 2.05
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.66,
+      "sumRisk": 2.0500000000000003
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.57,
+      "sumRisk": 1.9099999999999997
+    },
+    "2026-07-10/zense/fable-5-high#1": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.2,
+      "slipRisk": 0.59,
+      "sumRisk": 1.8900000000000001
+    },
+    "2026-07-10/zense/fable-5-high#2": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.49,
+      "sumRisk": 2.0600000000000005
+    },
+    "2026-07-10/zense/fable-5-high#3": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.4,
+      "sumRisk": 1.9899999999999998
+    },
+    "2026-07-10/zense/fable-5-high#4": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.49,
+      "sumRisk": 1.95
+    },
+    "2026-07-10/zense/fable-5-high#5": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.4,
+      "slipRisk": 0.62,
+      "sumRisk": 2.1
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#1": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.46,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.53,
+      "sumRisk": 2.05
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.42,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.49,
+      "sumRisk": 1.92
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#3": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.5,
+      "sumRisk": 1.93
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.46,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.48,
+      "sumRisk": 1.8399999999999999
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#5": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.54,
+      "sumRisk": 1.9300000000000002
+    },
+    "2026-07-10/ringo/fable-5-high#1": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.49,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.56,
+      "sumRisk": 2.24
+    },
+    "2026-07-10/ringo/fable-5-high#2": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.47,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.16,
+      "slipRisk": 0.56,
+      "sumRisk": 1.95
+    },
+    "2026-07-10/ringo/fable-5-high#3": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.48,
+      "sumRisk": 1.92
+    },
+    "2026-07-10/ringo/fable-5-high#4": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.5,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.52,
+      "sumRisk": 2.05
+    },
+    "2026-07-10/ringo/fable-5-high#5": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.53,
+      "sumRisk": 2
+    },
+    "2026-07-10/fable-returns/fable-5#1": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.63,
+      "slipRisk": 0.63,
+      "sumRisk": 2.4099999999999997
+    },
+    "2026-07-10/fable-returns/fable-5#2": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.79,
+      "slipRisk": 0.64,
+      "sumRisk": 2.5500000000000003
+    },
+    "2026-07-10/fable-returns/fable-5#3": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.64,
+      "sumRisk": 2.12
+    },
+    "2026-07-10/fable-returns/fable-5#4": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.54,
+      "sumRisk": 2.08
+    },
+    "2026-07-10/fable-returns/fable-5#5": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.46,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.34,
+      "slipRisk": 0.63,
+      "sumRisk": 2.29
+    },
+    "2026-07-11/askul/fable-5-skill-off#1": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.62,
+      "slipRisk": 0.5,
+      "sumRisk": 2.18
+    },
+    "2026-07-11/askul/fable-5-skill-off#2": {
+      "betaRisk": 0.12,
+      "noTwistRisk": 0.53,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.88,
+      "slipRisk": 0.75,
+      "sumRisk": 2.92
+    },
+    "2026-07-11/askul/fable-5-skill-off#3": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.47,
+      "slipRisk": 0.58,
+      "sumRisk": 2.06
+    },
+    "2026-07-11/askul/fable-5-skill-off#4": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.64,
+      "slipRisk": 0.6,
+      "sumRisk": 2.3200000000000003
+    },
+    "2026-07-11/askul/fable-5-skill-off#5": {
+      "betaRisk": 0.13,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.81,
+      "slipRisk": 0.67,
+      "sumRisk": 2.46
+    },
+    "2026-07-11/askul/fable-5-skill-on#1": {
+      "betaRisk": 0.12,
+      "noTwistRisk": 0.57,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.87,
+      "slipRisk": 0.76,
+      "sumRisk": 2.95
+    },
+    "2026-07-11/askul/fable-5-skill-on#2": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.72,
+      "slipRisk": 0.59,
+      "sumRisk": 2.47
+    },
+    "2026-07-11/askul/fable-5-skill-on#3": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.68,
+      "slipRisk": 0.57,
+      "sumRisk": 2.43
+    },
+    "2026-07-11/askul/fable-5-skill-on#4": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.7,
+      "slipRisk": 0.66,
+      "sumRisk": 2.53
+    },
+    "2026-07-11/askul/fable-5-skill-on#5": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.65,
+      "slipRisk": 0.68,
+      "sumRisk": 2.48
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.6,
+      "sumRisk": 2.0700000000000003
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.61,
+      "sumRisk": 1.8199999999999998
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.48,
+      "sumRisk": 1.89
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.39,
+      "slipRisk": 0.55,
+      "sumRisk": 1.9800000000000002
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5": {
+      "betaRisk": 0.13,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.41,
+      "slipRisk": 0.68,
+      "sumRisk": 2.15
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#1": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.54,
+      "slipRisk": 0.54,
+      "sumRisk": 2.23
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#2": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.55,
+      "slipRisk": 0.51,
+      "sumRisk": 2.27
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#3": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.55,
+      "sumRisk": 2.0600000000000005
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#4": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.51,
+      "slipRisk": 0.63,
+      "sumRisk": 2.3200000000000003
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#5": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.34,
+      "slipRisk": 0.64,
+      "sumRisk": 2.14
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1": {
+      "betaRisk": 0.45,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.67,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.34,
+      "sumRisk": 2.0300000000000002
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2": {
+      "betaRisk": 0.57,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.36,
+      "sumRisk": 2
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.32,
+      "sumRisk": 1.89
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "betaRisk": 0.56,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.44,
+      "slipRisk": 0.36,
+      "sumRisk": 2.15
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.32,
+      "sumRisk": 1.84
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#1": {
+      "betaRisk": 0.62,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.31,
+      "sumRisk": 2.15
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#2": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.57,
+      "slipRisk": 0.31,
+      "sumRisk": 2.15
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#3": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.41,
+      "sumRisk": 1.94
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#4": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.72,
+      "recognitionRisk": 0.81,
+      "slipRisk": 0.47,
+      "sumRisk": 2.58
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#5": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.5,
+      "sumRisk": 1.98
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1": {
+      "betaRisk": 0.6,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.37,
+      "sumRisk": 2.03
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#2": {
+      "betaRisk": 0.66,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.08,
+      "slipRisk": 0.29,
+      "sumRisk": 1.9800000000000002
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3": {
+      "betaRisk": 0.54,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.14,
+      "slipRisk": 0.31,
+      "sumRisk": 1.8000000000000003
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#4": {
+      "betaRisk": 0.45,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.08,
+      "slipRisk": 0.29,
+      "sumRisk": 1.7200000000000002
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#5": {
+      "betaRisk": 0.56,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.09,
+      "slipRisk": 0.25,
+      "sumRisk": 1.82
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1": {
+      "betaRisk": 0.66,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.1,
+      "slipRisk": 0.28,
+      "sumRisk": 2.01
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.31,
+      "sumRisk": 1.86
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3": {
+      "betaRisk": 0.53,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.14,
+      "slipRisk": 0.27,
+      "sumRisk": 1.7800000000000002
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.37,
+      "sumRisk": 1.83
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#5": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.52,
+      "slipRisk": 0.44,
+      "sumRisk": 2.31
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#1": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.43,
+      "sumRisk": 2.02
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#2": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.37,
+      "sumRisk": 1.94
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#3": {
+      "betaRisk": 0.56,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.39,
+      "slipRisk": 0.33,
+      "sumRisk": 2.1300000000000003
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#4": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.51,
+      "sumRisk": 1.99
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#5": {
+      "betaRisk": 0.52,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.11,
+      "slipRisk": 0.37,
+      "sumRisk": 1.8599999999999999
+    },
+    "2026-09-15/setsubun/before#1": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.61,
+      "sumRisk": 2.1599999999999997
+    },
+    "2026-09-15/setsubun/before#2": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.43,
+      "slipRisk": 0.58,
+      "sumRisk": 2.2199999999999998
+    },
+    "2026-09-15/setsubun/before#3": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.39,
+      "slipRisk": 0.57,
+      "sumRisk": 2.1
+    },
+    "2026-09-15/setsubun/before#4": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.45,
+      "slipRisk": 0.57,
+      "sumRisk": 2.21
+    },
+    "2026-09-15/setsubun/before#5": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.55,
+      "slipRisk": 0.57,
+      "sumRisk": 2.3200000000000003
+    },
+    "2026-09-15/setsubun/after#1": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.5,
+      "slipRisk": 0.47,
+      "sumRisk": 2.1799999999999997
+    },
+    "2026-09-15/setsubun/after#2": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.59,
+      "slipRisk": 0.53,
+      "sumRisk": 2.2800000000000002
+    },
+    "2026-09-15/setsubun/after#3": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.56,
+      "slipRisk": 0.65,
+      "sumRisk": 2.38
+    },
+    "2026-09-15/setsubun/after#4": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.6,
+      "slipRisk": 0.51,
+      "sumRisk": 2.24
+    },
+    "2026-09-15/setsubun/after#5": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.44,
+      "slipRisk": 0.65,
+      "sumRisk": 2.26
+    },
+    "2026-09-15/geinou/before#1": {
+      "betaRisk": 0.45,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.43,
+      "slipRisk": 0.54,
+      "sumRisk": 2.1799999999999997
+    },
+    "2026-09-15/geinou/before#2": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.51,
+      "sumRisk": 2.5
+    },
+    "2026-09-15/geinou/before#3": {
+      "betaRisk": 0.67,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.46,
+      "recognitionRisk": 0.51,
+      "slipRisk": 0.42,
+      "sumRisk": 2.38
+    },
+    "2026-09-15/geinou/before#4": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.61,
+      "slipRisk": 0.64,
+      "sumRisk": 2.67
+    },
+    "2026-09-15/geinou/before#5": {
+      "betaRisk": 0.57,
+      "noTwistRisk": 0.49,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.52,
+      "sumRisk": 2.42
+    },
+    "2026-09-15/geinou/after#1": {
+      "betaRisk": 0.56,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.47,
+      "sumRisk": 2.18
+    },
+    "2026-09-15/geinou/after#2": {
+      "betaRisk": 0.67,
+      "noTwistRisk": 0.56,
+      "empathyRisk": 0.44,
+      "recognitionRisk": 0.11,
+      "slipRisk": 0.39,
+      "sumRisk": 2.17
+    },
+    "2026-09-15/geinou/after#3": {
+      "betaRisk": 0.52,
+      "noTwistRisk": 0.45,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.44,
+      "slipRisk": 0.45,
+      "sumRisk": 2.34
+    },
+    "2026-09-15/geinou/after#4": {
+      "betaRisk": 0.7,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.39,
+      "recognitionRisk": 0.43,
+      "slipRisk": 0.35,
+      "sumRisk": 2.23
+    },
+    "2026-09-15/geinou/after#5": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.39,
+      "slipRisk": 0.49,
+      "sumRisk": 2.2700000000000005
+    },
+    "2026-10-03/codex/round2-baseline-r1#1": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.79,
+      "slipRisk": 0.65,
+      "sumRisk": 2.54
+    },
+    "2026-10-03/codex/round2-baseline-r1#2": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.7,
+      "slipRisk": 0.7,
+      "sumRisk": 2.55
+    },
+    "2026-10-03/codex/round2-baseline-r1#3": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.79,
+      "slipRisk": 0.61,
+      "sumRisk": 2.5100000000000002
+    },
+    "2026-10-03/codex/round2-baseline-r1#4": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.75,
+      "slipRisk": 0.49,
+      "sumRisk": 2.3499999999999996
+    },
+    "2026-10-03/codex/round2-baseline-r1#5": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.68,
+      "slipRisk": 0.64,
+      "sumRisk": 2.5100000000000002
+    },
+    "2026-10-03/codex/round2-variation-1-r1#1": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.84,
+      "slipRisk": 0.58,
+      "sumRisk": 2.61
+    },
+    "2026-10-03/codex/round2-variation-1-r1#2": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.77,
+      "slipRisk": 0.52,
+      "sumRisk": 2.38
+    },
+    "2026-10-03/codex/round2-variation-1-r1#3": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.82,
+      "slipRisk": 0.46,
+      "sumRisk": 2.44
+    },
+    "2026-10-03/codex/round2-variation-1-r1#4": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.68,
+      "slipRisk": 0.53,
+      "sumRisk": 2.2700000000000005
+    },
+    "2026-10-03/codex/round2-variation-1-r1#5": {
+      "betaRisk": 0.16,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.74,
+      "slipRisk": 0.69,
+      "sumRisk": 2.5300000000000002
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.84,
+      "slipRisk": 0.5,
+      "sumRisk": 2.52
+    },
+    "2026-10-03/codex/round2-variation-2-r1#2": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.77,
+      "slipRisk": 0.54,
+      "sumRisk": 2.42
+    },
+    "2026-10-03/codex/round2-variation-2-r1#3": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.79,
+      "slipRisk": 0.56,
+      "sumRisk": 2.39
+    },
+    "2026-10-03/codex/round2-variation-2-r1#4": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.72,
+      "slipRisk": 0.52,
+      "sumRisk": 2.29
+    },
+    "2026-10-03/codex/round2-variation-2-r1#5": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.65,
+      "sumRisk": 2.49
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#1": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.54,
+      "sumRisk": 2.0700000000000003
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#2": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.54,
+      "sumRisk": 2
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#3": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.61,
+      "sumRisk": 2.09
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#4": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.63,
+      "sumRisk": 1.9100000000000001
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#5": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.64,
+      "sumRisk": 2.02
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.48,
+      "sumRisk": 1.9100000000000001
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#2": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.47,
+      "sumRisk": 1.84
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#3": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.55,
+      "sumRisk": 1.95
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#4": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.52,
+      "slipRisk": 0.61,
+      "sumRisk": 2.27
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#5": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.56,
+      "sumRisk": 2.04
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#1": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.44,
+      "sumRisk": 1.94
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#2": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.55,
+      "sumRisk": 2.08
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.51,
+      "sumRisk": 1.98
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#4": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.59,
+      "sumRisk": 1.9
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#5": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.52,
+      "sumRisk": 2.19
+    },
+    "2026-10-03/weather/round2-baseline-r1#1": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.37,
+      "sumRisk": 1.8199999999999998
+    },
+    "2026-10-03/weather/round2-baseline-r1#2": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.16,
+      "slipRisk": 0.39,
+      "sumRisk": 1.7799999999999998
+    },
+    "2026-10-03/weather/round2-baseline-r1#3": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.55,
+      "slipRisk": 0.59,
+      "sumRisk": 2.48
+    },
+    "2026-10-03/weather/round2-baseline-r1#4": {
+      "betaRisk": 0.61,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.35,
+      "sumRisk": 2
+    },
+    "2026-10-03/weather/round2-baseline-r1#5": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.48,
+      "sumRisk": 1.79
+    },
+    "2026-10-03/weather/round2-variation-1-r1#1": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.12,
+      "slipRisk": 0.33,
+      "sumRisk": 1.7400000000000002
+    },
+    "2026-10-03/weather/round2-variation-1-r1#2": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.6,
+      "slipRisk": 0.5,
+      "sumRisk": 2.37
+    },
+    "2026-10-03/weather/round2-variation-1-r1#3": {
+      "betaRisk": 0.47,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.2,
+      "slipRisk": 0.33,
+      "sumRisk": 1.82
+    },
+    "2026-10-03/weather/round2-variation-1-r1#4": {
+      "betaRisk": 0.59,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.13,
+      "slipRisk": 0.47,
+      "sumRisk": 1.9999999999999998
+    },
+    "2026-10-03/weather/round2-variation-1-r1#5": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.34,
+      "sumRisk": 1.77
+    },
+    "2026-10-03/weather/round2-variation-2-r1#1": {
+      "betaRisk": 0.44,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.47,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.33,
+      "sumRisk": 1.68
+    },
+    "2026-10-03/weather/round2-variation-2-r1#2": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.38,
+      "sumRisk": 1.6999999999999997
+    },
+    "2026-10-03/weather/round2-variation-2-r1#3": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.14,
+      "slipRisk": 0.39,
+      "sumRisk": 1.8200000000000003
+    },
+    "2026-10-03/weather/round2-variation-2-r1#4": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.16,
+      "slipRisk": 0.43,
+      "sumRisk": 1.8599999999999999
+    },
+    "2026-10-03/weather/round2-variation-2-r1#5": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.48,
+      "sumRisk": 1.98
+    },
+    "2026-10-03/codex/round1-baseline-r1#1": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.89,
+      "slipRisk": 0.49,
+      "sumRisk": 2.5600000000000005
+    },
+    "2026-10-03/codex/round1-baseline-r1#2": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.78,
+      "slipRisk": 0.62,
+      "sumRisk": 2.42
+    },
+    "2026-10-03/codex/round1-baseline-r1#3": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.75,
+      "slipRisk": 0.67,
+      "sumRisk": 2.49
+    },
+    "2026-10-03/codex/round1-baseline-r1#4": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.7,
+      "slipRisk": 0.53,
+      "sumRisk": 2.42
+    },
+    "2026-10-03/codex/round1-baseline-r1#5": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.75,
+      "slipRisk": 0.54,
+      "sumRisk": 2.35
+    },
+    "2026-10-03/codex/round1-variation-1-r1#1": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.8,
+      "slipRisk": 0.6,
+      "sumRisk": 2.57
+    },
+    "2026-10-03/codex/round1-variation-1-r1#2": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.41,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.76,
+      "slipRisk": 0.53,
+      "sumRisk": 2.6000000000000005
+    },
+    "2026-10-03/codex/round1-variation-1-r1#3": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.73,
+      "slipRisk": 0.47,
+      "sumRisk": 2.2
+    },
+    "2026-10-03/codex/round1-variation-1-r1#4": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.69,
+      "slipRisk": 0.4,
+      "sumRisk": 2.1999999999999997
+    },
+    "2026-10-03/codex/round1-variation-1-r1#5": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.76,
+      "slipRisk": 0.58,
+      "sumRisk": 2.51
+    },
+    "2026-10-03/codex/round1-variation-2-r1#1": {
+      "betaRisk": 0.18,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.78,
+      "slipRisk": 0.69,
+      "sumRisk": 2.62
+    },
+    "2026-10-03/codex/round1-variation-2-r1#2": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.67,
+      "slipRisk": 0.4,
+      "sumRisk": 2.26
+    },
+    "2026-10-03/codex/round1-variation-2-r1#3": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.78,
+      "slipRisk": 0.53,
+      "sumRisk": 2.52
+    },
+    "2026-10-03/codex/round1-variation-2-r1#4": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.77,
+      "slipRisk": 0.57,
+      "sumRisk": 2.59
+    },
+    "2026-10-03/codex/round1-variation-2-r1#5": {
+      "betaRisk": 0.23,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.71,
+      "slipRisk": 0.66,
+      "sumRisk": 2.55
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#1": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.43,
+      "slipRisk": 0.53,
+      "sumRisk": 2.15
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#2": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.53,
+      "sumRisk": 1.93
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#3": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.39,
+      "slipRisk": 0.5,
+      "sumRisk": 2.0500000000000003
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#4": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.64,
+      "sumRisk": 2.1
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#5": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.49,
+      "slipRisk": 0.49,
+      "sumRisk": 2.13
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.57,
+      "sumRisk": 2.06
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#2": {
+      "betaRisk": 0.44,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.18,
+      "slipRisk": 0.48,
+      "sumRisk": 1.94
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#3": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.18,
+      "slipRisk": 0.53,
+      "sumRisk": 1.87
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#4": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.51,
+      "sumRisk": 1.93
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#5": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.48,
+      "sumRisk": 2.01
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#1": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.18,
+      "slipRisk": 0.49,
+      "sumRisk": 1.92
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#2": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.49,
+      "sumRisk": 1.94
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#3": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.45,
+      "sumRisk": 1.99
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.56,
+      "sumRisk": 1.9300000000000002
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.47,
+      "sumRisk": 1.96
+    },
+    "2026-10-03/weather/round1-baseline-r1#1": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.39,
+      "slipRisk": 0.52,
+      "sumRisk": 2.06
+    },
+    "2026-10-03/weather/round1-baseline-r1#2": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.42,
+      "sumRisk": 1.94
+    },
+    "2026-10-03/weather/round1-baseline-r1#3": {
+      "betaRisk": 0.74,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.17,
+      "slipRisk": 0.29,
+      "sumRisk": 2.06
+    },
+    "2026-10-03/weather/round1-baseline-r1#4": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.13,
+      "slipRisk": 0.49,
+      "sumRisk": 1.7899999999999998
+    },
+    "2026-10-03/weather/round1-baseline-r1#5": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.5,
+      "sumRisk": 2.0100000000000002
+    },
+    "2026-10-03/weather/round1-variation-1-r1#1": {
+      "betaRisk": 0.58,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.12,
+      "slipRisk": 0.34,
+      "sumRisk": 1.76
+    },
+    "2026-10-03/weather/round1-variation-1-r1#2": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.5,
+      "sumRisk": 1.7999999999999998
+    },
+    "2026-10-03/weather/round1-variation-1-r1#3": {
+      "betaRisk": 0.62,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.4,
+      "sumRisk": 2.06
+    },
+    "2026-10-03/weather/round1-variation-1-r1#4": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.48,
+      "sumRisk": 1.84
+    },
+    "2026-10-03/weather/round1-variation-1-r1#5": {
+      "betaRisk": 0.63,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.09,
+      "slipRisk": 0.33,
+      "sumRisk": 1.8800000000000001
+    },
+    "2026-10-03/weather/round1-variation-2-r1#1": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.47,
+      "slipRisk": 0.48,
+      "sumRisk": 2.16
+    },
+    "2026-10-03/weather/round1-variation-2-r1#2": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.11,
+      "slipRisk": 0.38,
+      "sumRisk": 1.83
+    },
+    "2026-10-03/weather/round1-variation-2-r1#3": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.55,
+      "slipRisk": 0.57,
+      "sumRisk": 2.3200000000000003
+    },
+    "2026-10-03/weather/round1-variation-2-r1#4": {
+      "betaRisk": 0.51,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.36,
+      "sumRisk": 1.87
+    },
+    "2026-10-03/weather/round1-variation-2-r1#5": {
+      "betaRisk": 0.47,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.1,
+      "slipRisk": 0.52,
+      "sumRisk": 1.9300000000000002
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#1": {
+      "betaRisk": 0.54,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.5,
+      "slipRisk": 0.46,
+      "sumRisk": 2.31
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#2": {
+      "betaRisk": 0.65,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.45,
+      "slipRisk": 0.45,
+      "sumRisk": 2.42
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#3": {
+      "betaRisk": 0.52,
+      "noTwistRisk": 0.21,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.85,
+      "slipRisk": 0.49,
+      "sumRisk": 2.58
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.6,
+      "recognitionRisk": 0.59,
+      "slipRisk": 0.49,
+      "sumRisk": 2.34
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "betaRisk": 0.57,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.41,
+      "sumRisk": 2.41
+    },
+    "2026-11-08/codex/candidate#1": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.48,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.69,
+      "slipRisk": 0.68,
+      "sumRisk": 2.7
+    },
+    "2026-11-08/codex/candidate#2": {
+      "betaRisk": 0.19,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.73,
+      "slipRisk": 0.56,
+      "sumRisk": 2.47
+    },
+    "2026-11-08/codex/candidate#3": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.84,
+      "slipRisk": 0.56,
+      "sumRisk": 2.63
+    },
+    "2026-11-08/codex/candidate#4": {
+      "betaRisk": 0.18,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.75,
+      "slipRisk": 0.65,
+      "sumRisk": 2.56
+    },
+    "2026-11-08/codex/candidate#5": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.82,
+      "slipRisk": 0.54,
+      "sumRisk": 2.66
+    },
+    "2026-11-08/codex/candidate#6": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.78,
+      "slipRisk": 0.54,
+      "sumRisk": 2.4699999999999998
+    },
+    "2026-11-08/codex/candidate#7": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.45,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.47,
+      "slipRisk": 0.64,
+      "sumRisk": 2.53
+    },
+    "2026-11-08/codex/candidate#8": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.67,
+      "slipRisk": 0.53,
+      "sumRisk": 2.5
+    },
+    "2026-11-08/codex/candidate#9": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.76,
+      "slipRisk": 0.48,
+      "sumRisk": 2.35
+    },
+    "2026-11-08/codex/candidate#10": {
+      "betaRisk": 0.45,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.86,
+      "slipRisk": 0.47,
+      "sumRisk": 2.5300000000000002
+    },
+    "2026-11-08/codex/baseline#1": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.84,
+      "slipRisk": 0.48,
+      "sumRisk": 2.4899999999999998
+    },
+    "2026-11-08/codex/baseline#2": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.77,
+      "slipRisk": 0.58,
+      "sumRisk": 2.36
+    },
+    "2026-11-08/codex/baseline#3": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.51,
+      "slipRisk": 0.57,
+      "sumRisk": 2.13
+    },
+    "2026-11-08/codex/baseline#4": {
+      "betaRisk": 0.47,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.75,
+      "slipRisk": 0.5,
+      "sumRisk": 2.5300000000000002
+    },
+    "2026-11-08/codex/baseline#5": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.49,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.74,
+      "slipRisk": 0.7,
+      "sumRisk": 2.69
+    },
+    "2026-11-08/codex/baseline#6": {
+      "betaRisk": 0.18,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.7,
+      "sumRisk": 2.49
+    },
+    "2026-11-08/codex/baseline#7": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.79,
+      "slipRisk": 0.43,
+      "sumRisk": 2.5100000000000002
+    },
+    "2026-11-08/codex/baseline#8": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.71,
+      "slipRisk": 0.48,
+      "sumRisk": 2.42
+    },
+    "2026-11-08/codex/baseline#9": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.84,
+      "slipRisk": 0.51,
+      "sumRisk": 2.45
+    },
+    "2026-11-08/codex/baseline#10": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.47,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.58,
+      "slipRisk": 0.56,
+      "sumRisk": 2.63
+    },
+    "2026-11-08/sylvanian/candidate#1": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.5,
+      "sumRisk": 2.04
+    },
+    "2026-11-08/sylvanian/candidate#2": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.52,
+      "sumRisk": 2.17
+    },
+    "2026-11-08/sylvanian/candidate#3": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.51,
+      "sumRisk": 2.08
+    },
+    "2026-11-08/sylvanian/candidate#4": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.51,
+      "sumRisk": 2.0200000000000005
+    },
+    "2026-11-08/sylvanian/candidate#5": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.53,
+      "sumRisk": 2.24
+    },
+    "2026-11-08/sylvanian/candidate#6": {
+      "betaRisk": 0.28,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.73,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.55,
+      "sumRisk": 2.18
+    },
+    "2026-11-08/sylvanian/candidate#7": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.5,
+      "sumRisk": 2.01
+    },
+    "2026-11-08/sylvanian/candidate#8": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.55,
+      "slipRisk": 0.51,
+      "sumRisk": 2.25
+    },
+    "2026-11-08/sylvanian/candidate#9": {
+      "betaRisk": 0.44,
+      "noTwistRisk": 0.41,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.44,
+      "sumRisk": 2.14
+    },
+    "2026-11-08/sylvanian/candidate#10": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.51,
+      "sumRisk": 1.85
+    },
+    "2026-11-08/sylvanian/baseline#1": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.35,
+      "slipRisk": 0.45,
+      "sumRisk": 2.0500000000000003
+    },
+    "2026-11-08/sylvanian/baseline#2": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.5,
+      "slipRisk": 0.48,
+      "sumRisk": 2
+    },
+    "2026-11-08/sylvanian/baseline#3": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.5,
+      "sumRisk": 2.04
+    },
+    "2026-11-08/sylvanian/baseline#4": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.48,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.63,
+      "sumRisk": 2.33
+    },
+    "2026-11-08/sylvanian/baseline#5": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.48,
+      "sumRisk": 1.85
+    },
+    "2026-11-08/sylvanian/baseline#6": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.34,
+      "slipRisk": 0.47,
+      "sumRisk": 2.23
+    },
+    "2026-11-08/sylvanian/baseline#7": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.54,
+      "slipRisk": 0.57,
+      "sumRisk": 2.25
+    },
+    "2026-11-08/sylvanian/baseline#8": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.5,
+      "sumRisk": 1.96
+    },
+    "2026-11-08/sylvanian/baseline#9": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.44,
+      "slipRisk": 0.55,
+      "sumRisk": 2.34
+    },
+    "2026-11-08/sylvanian/baseline#10": {
+      "betaRisk": 0.19,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.73,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.64,
+      "sumRisk": 2.2
+    },
+    "2026-11-08/target/candidate#1": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.51,
+      "sumRisk": 2.1500000000000004
+    },
+    "2026-11-08/target/candidate#2": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.54,
+      "slipRisk": 0.49,
+      "sumRisk": 2.34
+    },
+    "2026-11-08/target/candidate#3": {
+      "betaRisk": 0.58,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.47,
+      "recognitionRisk": 0.17,
+      "slipRisk": 0.58,
+      "sumRisk": 2.07
+    },
+    "2026-11-08/target/candidate#4": {
+      "betaRisk": 0.58,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.17,
+      "slipRisk": 0.42,
+      "sumRisk": 2.03
+    },
+    "2026-11-08/target/candidate#5": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.13,
+      "slipRisk": 0.6,
+      "sumRisk": 1.98
+    },
+    "2026-11-08/target/candidate#6": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.09,
+      "slipRisk": 0.62,
+      "sumRisk": 1.98
+    },
+    "2026-11-08/target/candidate#7": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.45,
+      "slipRisk": 0.56,
+      "sumRisk": 2.33
+    },
+    "2026-11-08/target/candidate#8": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.51,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.35,
+      "slipRisk": 0.59,
+      "sumRisk": 2.4899999999999998
+    },
+    "2026-11-08/target/candidate#9": {
+      "betaRisk": 0.54,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.46,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.53,
+      "sumRisk": 1.94
+    },
+    "2026-11-08/target/candidate#10": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.46,
+      "sumRisk": 2.18
+    },
+    "2026-11-08/target/baseline#1": {
+      "betaRisk": 0.44,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.51,
+      "sumRisk": 2.09
+    },
+    "2026-11-08/target/baseline#2": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.58,
+      "sumRisk": 2.2
+    },
+    "2026-11-08/target/baseline#3": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.4,
+      "slipRisk": 0.5,
+      "sumRisk": 2.15
+    },
+    "2026-11-08/target/baseline#4": {
+      "betaRisk": 0.3,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.57,
+      "slipRisk": 0.62,
+      "sumRisk": 2.38
+    },
+    "2026-11-08/target/baseline#5": {
+      "betaRisk": 0.47,
+      "noTwistRisk": 0.51,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.6,
+      "sumRisk": 2.45
+    },
+    "2026-11-08/target/baseline#6": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.45,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.51,
+      "sumRisk": 1.95
+    },
+    "2026-11-08/target/baseline#7": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.47,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.53,
+      "sumRisk": 2.0700000000000003
+    },
+    "2026-11-08/target/baseline#8": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.44,
+      "slipRisk": 0.5,
+      "sumRisk": 2.06
+    },
+    "2026-11-08/target/baseline#9": {
+      "betaRisk": 0.5,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.52,
+      "sumRisk": 2.1900000000000004
+    },
+    "2026-11-08/target/baseline#10": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.47,
+      "sumRisk": 2.12
+    },
+    "2026-11-08/dev/candidate#1": {
+      "betaRisk": 0.52,
+      "noTwistRisk": 0.55,
+      "empathyRisk": 0.62,
+      "recognitionRisk": 0.16,
+      "slipRisk": 0.69,
+      "sumRisk": 2.54
+    },
+    "2026-11-08/dev/candidate#2": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.63,
+      "sumRisk": 2.16
+    },
+    "2026-11-08/dev/candidate#3": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.69,
+      "slipRisk": 0.59,
+      "sumRisk": 2.56
+    },
+    "2026-11-08/dev/candidate#4": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.66,
+      "slipRisk": 0.55,
+      "sumRisk": 2.3900000000000006
+    },
+    "2026-11-08/dev/candidate#5": {
+      "betaRisk": 0.22,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.52,
+      "slipRisk": 0.65,
+      "sumRisk": 2.2800000000000002
+    },
+    "2026-11-08/dev/candidate#6": {
+      "betaRisk": 0.38,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.68,
+      "sumRisk": 2.2800000000000002
+    },
+    "2026-11-08/dev/candidate#7": {
+      "betaRisk": 0.52,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.7,
+      "recognitionRisk": 0.09,
+      "slipRisk": 0.49,
+      "sumRisk": 2.08
+    },
+    "2026-11-08/dev/candidate#8": {
+      "betaRisk": 0.55,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.48,
+      "sumRisk": 2.08
+    },
+    "2026-11-08/dev/candidate#9": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.47,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.7,
+      "sumRisk": 2.26
+    },
+    "2026-11-08/dev/candidate#10": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.69,
+      "sumRisk": 2.09
+    },
+    "2026-11-08/dev/baseline#1": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.64,
+      "sumRisk": 2.3800000000000003
+    },
+    "2026-11-08/dev/baseline#2": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.61,
+      "sumRisk": 2.1900000000000004
+    },
+    "2026-11-08/dev/baseline#3": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.55,
+      "slipRisk": 0.55,
+      "sumRisk": 2.3
+    },
+    "2026-11-08/dev/baseline#4": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.1,
+      "slipRisk": 0.61,
+      "sumRisk": 1.96
+    },
+    "2026-11-08/dev/baseline#5": {
+      "betaRisk": 0.56,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.73,
+      "slipRisk": 0.46,
+      "sumRisk": 2.51
+    },
+    "2026-11-08/dev/baseline#6": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.13,
+      "slipRisk": 0.49,
+      "sumRisk": 1.95
+    },
+    "2026-11-08/dev/baseline#7": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.53,
+      "slipRisk": 0.66,
+      "sumRisk": 2.37
+    },
+    "2026-11-08/dev/baseline#8": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.16,
+      "slipRisk": 0.65,
+      "sumRisk": 2.11
+    },
+    "2026-11-08/dev/baseline#9": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.71,
+      "slipRisk": 0.64,
+      "sumRisk": 2.61
+    },
+    "2026-11-08/dev/baseline#10": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.56,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.51,
+      "slipRisk": 0.65,
+      "sumRisk": 2.78
+    },
+    "2026-11-08/haiku/candidate#1": {
+      "betaRisk": 0.46,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.14,
+      "slipRisk": 0.39,
+      "sumRisk": 1.7600000000000002
+    },
+    "2026-11-08/haiku/candidate#2": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.12,
+      "slipRisk": 0.52,
+      "sumRisk": 1.9300000000000002
+    },
+    "2026-11-08/haiku/candidate#3": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.4,
+      "sumRisk": 1.67
+    },
+    "2026-11-08/haiku/candidate#4": {
+      "betaRisk": 0.37,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.48,
+      "sumRisk": 1.9300000000000002
+    },
+    "2026-11-08/haiku/candidate#5": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.41,
+      "slipRisk": 0.56,
+      "sumRisk": 2.1399999999999997
+    },
+    "2026-11-08/haiku/candidate#6": {
+      "betaRisk": 0.54,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.1,
+      "slipRisk": 0.48,
+      "sumRisk": 1.85
+    },
+    "2026-11-08/haiku/candidate#7": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.61,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.56,
+      "sumRisk": 2.04
+    },
+    "2026-11-08/haiku/candidate#8": {
+      "betaRisk": 0.19,
+      "noTwistRisk": 0.26,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.55,
+      "sumRisk": 2.1100000000000003
+    },
+    "2026-11-08/haiku/candidate#9": {
+      "betaRisk": 0.2,
+      "noTwistRisk": 0.38,
+      "empathyRisk": 0.67,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.6,
+      "sumRisk": 2.21
+    },
+    "2026-11-08/haiku/candidate#10": {
+      "betaRisk": 0.49,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.46,
+      "recognitionRisk": 0.23,
+      "slipRisk": 0.42,
+      "sumRisk": 1.8399999999999999
+    },
+    "2026-11-08/haiku/baseline#1": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.14,
+      "slipRisk": 0.48,
+      "sumRisk": 1.69
+    },
+    "2026-11-08/haiku/baseline#2": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.71,
+      "recognitionRisk": 0.2,
+      "slipRisk": 0.57,
+      "sumRisk": 2.07
+    },
+    "2026-11-08/haiku/baseline#3": {
+      "betaRisk": 0.51,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.46,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.46,
+      "sumRisk": 2.08
+    },
+    "2026-11-08/haiku/baseline#4": {
+      "betaRisk": 0.55,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.42,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.29,
+      "sumRisk": 1.75
+    },
+    "2026-11-08/haiku/baseline#5": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.18,
+      "empathyRisk": 0.42,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.25,
+      "sumRisk": 1.5
+    },
+    "2026-11-08/haiku/baseline#6": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.32,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.74,
+      "slipRisk": 0.57,
+      "sumRisk": 2.48
+    },
+    "2026-11-08/haiku/baseline#7": {
+      "betaRisk": 0.21,
+      "noTwistRisk": 0.51,
+      "empathyRisk": 0.68,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.61,
+      "sumRisk": 2.2199999999999998
+    },
+    "2026-11-08/haiku/baseline#8": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.65,
+      "recognitionRisk": 0.61,
+      "slipRisk": 0.53,
+      "sumRisk": 2.41
+    },
+    "2026-11-08/haiku/baseline#9": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.73,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.53,
+      "sumRisk": 2.2300000000000004
+    },
+    "2026-11-08/haiku/baseline#10": {
+      "betaRisk": 0.26,
+      "noTwistRisk": 0.22,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.53,
+      "slipRisk": 0.53,
+      "sumRisk": 2.17
+    },
+    "2026-11-09/target/candidate#1": {
+      "betaRisk": 0.54,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.57,
+      "slipRisk": 0.47,
+      "sumRisk": 2.3899999999999997
+    },
+    "2026-11-09/target/candidate#2": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.47,
+      "sumRisk": 2.16
+    },
+    "2026-11-09/target/candidate#3": {
+      "betaRisk": 0.44,
+      "noTwistRisk": 0.31,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.52,
+      "sumRisk": 2.2
+    },
+    "2026-11-09/target/candidate#4": {
+      "betaRisk": 0.55,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.45,
+      "recognitionRisk": 0.14,
+      "slipRisk": 0.54,
+      "sumRisk": 1.9100000000000001
+    },
+    "2026-11-09/target/candidate#5": {
+      "betaRisk": 0.52,
+      "noTwistRisk": 0.2,
+      "empathyRisk": 0.46,
+      "recognitionRisk": 0.19,
+      "slipRisk": 0.54,
+      "sumRisk": 1.91
+    },
+    "2026-11-09/target/candidate#6": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.15,
+      "slipRisk": 0.43,
+      "sumRisk": 1.7499999999999998
+    },
+    "2026-11-09/target/candidate#7": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.51,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.51,
+      "sumRisk": 2.01
+    },
+    "2026-11-09/target/candidate#8": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.35,
+      "slipRisk": 0.51,
+      "sumRisk": 2.01
+    },
+    "2026-11-09/target/candidate#9": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.49,
+      "sumRisk": 2
+    },
+    "2026-11-09/target/candidate#10": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.42,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.2,
+      "slipRisk": 0.59,
+      "sumRisk": 2.09
+    },
+    "2026-11-09/target/baseline#1": {
+      "betaRisk": 0.36,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.37,
+      "slipRisk": 0.5,
+      "sumRisk": 2.14
+    },
+    "2026-11-09/target/baseline#2": {
+      "betaRisk": 0.38,
+      "noTwistRisk": 0.28,
+      "empathyRisk": 0.57,
+      "recognitionRisk": 0.49,
+      "slipRisk": 0.5,
+      "sumRisk": 2.2199999999999998
+    },
+    "2026-11-09/target/baseline#3": {
+      "betaRisk": 0.4,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.26,
+      "slipRisk": 0.53,
+      "sumRisk": 2.09
+    },
+    "2026-11-09/target/baseline#4": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.35,
+      "empathyRisk": 0.48,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.54,
+      "sumRisk": 2.05
+    },
+    "2026-11-09/target/baseline#5": {
+      "betaRisk": 0.54,
+      "noTwistRisk": 0.33,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.64,
+      "slipRisk": 0.49,
+      "sumRisk": 2.58
+    },
+    "2026-11-09/target/baseline#6": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.64,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.51,
+      "sumRisk": 2.23
+    },
+    "2026-11-09/target/baseline#7": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.45,
+      "sumRisk": 1.85
+    },
+    "2026-11-09/target/baseline#8": {
+      "betaRisk": 0.48,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.13,
+      "slipRisk": 0.45,
+      "sumRisk": 1.91
+    },
+    "2026-11-09/target/baseline#9": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.21,
+      "slipRisk": 0.52,
+      "sumRisk": 2.02
+    },
+    "2026-11-09/target/baseline#10": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.44,
+      "empathyRisk": 0.66,
+      "recognitionRisk": 0.46,
+      "slipRisk": 0.54,
+      "sumRisk": 2.49
+    },
+    "2026-11-09/sylvanian/candidate#1": {
+      "betaRisk": 0.41,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.47,
+      "sumRisk": 1.98
+    },
+    "2026-11-09/sylvanian/candidate#2": {
+      "betaRisk": 0.68,
+      "noTwistRisk": 0.58,
+      "empathyRisk": 0.44,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.43,
+      "sumRisk": 2.37
+    },
+    "2026-11-09/sylvanian/candidate#3": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.5,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.45,
+      "sumRisk": 1.99
+    },
+    "2026-11-09/sylvanian/candidate#4": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.32,
+      "slipRisk": 0.53,
+      "sumRisk": 2.08
+    },
+    "2026-11-09/sylvanian/candidate#5": {
+      "betaRisk": 0.32,
+      "noTwistRisk": 0.27,
+      "empathyRisk": 0.58,
+      "recognitionRisk": 0.27,
+      "slipRisk": 0.53,
+      "sumRisk": 1.97
+    },
+    "2026-11-09/sylvanian/candidate#6": {
+      "betaRisk": 0.33,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.7,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.43,
+      "sumRisk": 2.14
+    },
+    "2026-11-09/sylvanian/candidate#7": {
+      "betaRisk": 0.31,
+      "noTwistRisk": 0.3,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.33,
+      "slipRisk": 0.54,
+      "sumRisk": 2.0300000000000002
+    },
+    "2026-11-09/sylvanian/candidate#8": {
+      "betaRisk": 0.39,
+      "noTwistRisk": 0.37,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.22,
+      "slipRisk": 0.51,
+      "sumRisk": 2.01
+    },
+    "2026-11-09/sylvanian/candidate#9": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.39,
+      "empathyRisk": 0.69,
+      "recognitionRisk": 0.25,
+      "slipRisk": 0.56,
+      "sumRisk": 2.31
+    },
+    "2026-11-09/sylvanian/candidate#10": {
+      "betaRisk": 0.42,
+      "noTwistRisk": 0.29,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.38,
+      "slipRisk": 0.38,
+      "sumRisk": 1.9899999999999998
+    },
+    "2026-11-09/sylvanian/baseline#1": {
+      "betaRisk": 0.43,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.63,
+      "recognitionRisk": 0.36,
+      "slipRisk": 0.56,
+      "sumRisk": 2.32
+    },
+    "2026-11-09/sylvanian/baseline#2": {
+      "betaRisk": 0.27,
+      "noTwistRisk": 0.4,
+      "empathyRisk": 0.7,
+      "recognitionRisk": 0.35,
+      "slipRisk": 0.48,
+      "sumRisk": 2.2
+    },
+    "2026-11-09/sylvanian/baseline#3": {
+      "betaRisk": 0.53,
+      "noTwistRisk": 0.43,
+      "empathyRisk": 0.53,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.46,
+      "sumRisk": 2.23
+    },
+    "2026-11-09/sylvanian/baseline#4": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.34,
+      "empathyRisk": 0.49,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.52,
+      "sumRisk": 1.98
+    },
+    "2026-11-09/sylvanian/baseline#5": {
+      "betaRisk": 0.29,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.59,
+      "recognitionRisk": 0.3,
+      "slipRisk": 0.56,
+      "sumRisk": 2.0999999999999996
+    },
+    "2026-11-09/sylvanian/baseline#6": {
+      "betaRisk": 0.25,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.54,
+      "recognitionRisk": 0.42,
+      "slipRisk": 0.46,
+      "sumRisk": 1.92
+    },
+    "2026-11-09/sylvanian/baseline#7": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.23,
+      "empathyRisk": 0.55,
+      "recognitionRisk": 0.28,
+      "slipRisk": 0.52,
+      "sumRisk": 1.9200000000000002
+    },
+    "2026-11-09/sylvanian/baseline#8": {
+      "betaRisk": 0.24,
+      "noTwistRisk": 0.25,
+      "empathyRisk": 0.56,
+      "recognitionRisk": 0.29,
+      "slipRisk": 0.54,
+      "sumRisk": 1.8800000000000001
+    },
+    "2026-11-09/sylvanian/baseline#9": {
+      "betaRisk": 0.34,
+      "noTwistRisk": 0.36,
+      "empathyRisk": 0.69,
+      "recognitionRisk": 0.24,
+      "slipRisk": 0.42,
+      "sumRisk": 2.05
+    },
+    "2026-11-09/sylvanian/baseline#10": {
+      "betaRisk": 0.35,
+      "noTwistRisk": 0.24,
+      "empathyRisk": 0.52,
+      "recognitionRisk": 0.31,
+      "slipRisk": 0.46,
+      "sumRisk": 1.88
+    }
+  }
+}

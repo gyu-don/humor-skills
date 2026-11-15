@@ -10,13 +10,13 @@
  * keyed by id.
  * Defaults to this skill's assets/samples.json / a results.json in the CWD.
  *
- * Validated against human hits in humor-skills data/human-evals
- * (reports/validation/2026-09-24): `concrete` AUC 0.66-0.67 and 6 of 7 set
- * preferences, `indirect` AUC 0.62-0.64 (lower = better). Both are weak on
- * a single answer; compare set means against a previous version of the
- * same generator on the same topics. The questions were written from the
- * same labels they were checked on, so treat the numbers as optimistic
- * until a fresh human session confirms them.
+ * Checked against human hits in humor-skills data/human-evals. On the labels
+ * the questions were written from (reports/validation/2026-09-24): `concrete`
+ * AUC 0.66-0.67 and 6 of 7 set preferences, `indirect` AUC 0.62-0.64 (lower =
+ * better). On labels added afterwards (reports/validation/2026-11-15) only
+ * `indirect` held up; `concrete` could not be told from chance. Both are
+ * weak on a single answer; compare set means against a previous version of
+ * the same generator on the same topics. SKILL.md 「信頼度」 has the numbers.
  */
 import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';

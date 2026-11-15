@@ -1,0 +1,66 @@
+{
+  "evaluator": "trait-gate",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "gate",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-11-08/codex": {
+      "concreteWorsening": 0.061000000000000054,
+      "concreteNoise": 0.029999999999999916,
+      "indirectWorsening": -0.013000000000000012,
+      "indirectNoise": 0.03999999999999998,
+      "compareWorsening": 0.0083749999999998,
+      "compareNoise": 0.06029999999999991
+    },
+    "2026-11-08/sylvanian": {
+      "concreteWorsening": -0.006000000000000116,
+      "concreteNoise": 0.019999999999999907,
+      "indirectWorsening": -0.002999999999999975,
+      "indirectNoise": 0.016000000000000014,
+      "compareWorsening": -0.010099999999999776,
+      "compareNoise": 0.07559999999999995
+    },
+    "2026-11-08/target": {
+      "concreteWorsening": 0.051999999999999824,
+      "concreteNoise": 0.20799999999999996,
+      "indirectWorsening": -0.004000000000000031,
+      "indirectNoise": 0.05600000000000005,
+      "compareWorsening": -0.05074999999999985,
+      "compareNoise": 0.035599999999999965
+    },
+    "2026-11-08/dev": {
+      "concreteWorsening": -0.14500000000000013,
+      "concreteNoise": 0.04399999999999993,
+      "indirectWorsening": 0.048000000000000015,
+      "indirectNoise": 0.013999999999999999,
+      "compareWorsening": 0.04949999999999993,
+      "compareNoise": 0.062000000000000055
+    },
+    "2026-11-08/haiku": {
+      "concreteWorsening": 0.017000000000000015,
+      "concreteNoise": 0.062000000000000055,
+      "indirectWorsening": -0.038000000000000006,
+      "indirectNoise": 0.12199999999999994,
+      "compareWorsening": 0.0197500000000001,
+      "compareNoise": 0.0037999999999999146
+    },
+    "2026-11-09/target": {
+      "concreteWorsening": 0.17500000000000004,
+      "concreteNoise": 0.10399999999999987,
+      "indirectWorsening": 0.009000000000000008,
+      "indirectNoise": 0.034,
+      "compareWorsening": 0.06679999999999992,
+      "compareNoise": 0.05729999999999991
+    },
+    "2026-11-09/sylvanian": {
+      "concreteWorsening": 1.1102230246251565e-16,
+      "concreteNoise": 0.029999999999999916,
+      "indirectWorsening": 0.012000000000000038,
+      "indirectNoise": 0.0020000000000000295,
+      "compareWorsening": 0.02037499999999992,
+      "compareNoise": 0.03100000000000014
+    }
+  }
+}

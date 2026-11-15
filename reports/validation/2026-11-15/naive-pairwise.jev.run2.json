@@ -1,0 +1,328 @@
+{
+  "evaluator": "naive-pairwise",
+  "mode": "jev",
+  "run": 2,
+  "model": "jev-latest",
+  "level": "preference",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#2": {
+      "funny": 0.47
+    },
+    "2026-07-10/idol/fable-5-high#1 | 2026-07-10/idol/fable-5-high#3": {
+      "funny": 0.6600000000000001
+    },
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#4": {
+      "funny": 0.345
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#4": {
+      "funny": 0.21999999999999997
+    },
+    "2026-07-10/idol/fable-5-high#2 | 2026-07-10/idol/fable-5-high#5": {
+      "funny": 0.6000000000000001
+    },
+    "2026-07-10/idol/fable-5-high#3 | 2026-07-10/idol/fable-5-high#5": {
+      "funny": 0.45500000000000007
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "funny": 0.605
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "funny": 0.5700000000000001
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2 | 2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "funny": 0.5700000000000001
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "funny": 0.49
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "funny": 0.37499999999999994
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4 | 2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "funny": 0.335
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#2": {
+      "funny": 0.16999999999999993
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#3": {
+      "funny": 0.18999999999999995
+    },
+    "2026-07-10/zense/fable-5-high#1 | 2026-07-10/zense/fable-5-high#5": {
+      "funny": 0.30500000000000005
+    },
+    "2026-07-10/zense/fable-5-high#2 | 2026-07-10/zense/fable-5-high#4": {
+      "funny": 0.605
+    },
+    "2026-07-10/zense/fable-5-high#3 | 2026-07-10/zense/fable-5-high#4": {
+      "funny": 0.555
+    },
+    "2026-07-10/zense/fable-5-high#4 | 2026-07-10/zense/fable-5-high#5": {
+      "funny": 0.555
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/fable-5-high#5": {
+      "funny": 0.31500000000000006
+    },
+    "2026-07-10/ringo/fable-5-high#2 | 2026-07-10/ringo/fable-5-high#5": {
+      "funny": 0.38500000000000006
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/fable-5-high#5": {
+      "funny": 0.7
+    },
+    "2026-07-10/ringo/fable-5-high#4 | 2026-07-10/ringo/fable-5-high#5": {
+      "funny": 0.6699999999999999
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#2": {
+      "funny": 0.625
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "funny": 0.25
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#3": {
+      "funny": 0.33499999999999996
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-off#4": {
+      "funny": 0.5349999999999999
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "funny": 0.64
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4 | 2026-07-11/firsttake/fable-5-skill-off#5": {
+      "funny": 0.76
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "funny": 0.5
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "funny": 0.78
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "funny": 0.57
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "funny": 0.14499999999999996
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "funny": 0.37999999999999995
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2 | 2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "funny": 0.15999999999999998
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#2": {
+      "funny": 0.6499999999999999
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#3": {
+      "funny": 0.21999999999999997
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#4": {
+      "funny": 0.34
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1 | 2026-07-11/suihanki/fable-5-skill-off#5": {
+      "funny": 0.11500000000000005
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#2": {
+      "funny": 0.09500000000000003
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#3": {
+      "funny": 0.71
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "funny": 0.775
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "funny": 0.31
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3 | 2026-07-11/suihanki/fable-5-skill-on#4": {
+      "funny": 0.76
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4 | 2026-07-11/suihanki/fable-5-skill-on#5": {
+      "funny": 0.48000000000000004
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#2": {
+      "funny": 0.37000000000000005
+    },
+    "2026-09-15/setsubun/before#1 | 2026-09-15/setsubun/before#3": {
+      "funny": 0.265
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#4": {
+      "funny": 0.66
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#4": {
+      "funny": 0.77
+    },
+    "2026-09-15/setsubun/before#2 | 2026-09-15/setsubun/before#5": {
+      "funny": 0.38999999999999996
+    },
+    "2026-09-15/setsubun/before#3 | 2026-09-15/setsubun/before#5": {
+      "funny": 0.58
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#2": {
+      "funny": 0.6349999999999999
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#4": {
+      "funny": 0.675
+    },
+    "2026-10-03/codex/round2-variation-2-r1#2 | 2026-10-03/codex/round2-variation-2-r1#3": {
+      "funny": 0.515
+    },
+    "2026-10-03/codex/round2-variation-2-r1#3 | 2026-10-03/codex/round2-variation-2-r1#4": {
+      "funny": 0.51
+    },
+    "2026-10-03/codex/round2-variation-2-r1#2 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "funny": 0.5800000000000001
+    },
+    "2026-10-03/codex/round2-variation-2-r1#4 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "funny": 0.56
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#2": {
+      "funny": 0.705
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#3": {
+      "funny": 0.75
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#4": {
+      "funny": 0.755
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-1-r1#5": {
+      "funny": 0.6950000000000001
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#1 | 2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "funny": 0.6599999999999999
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#2 | 2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "funny": 0.525
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#3 | 2026-10-03/sylvanian/round2-variation-2-r1#4": {
+      "funny": 0.415
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#3 | 2026-10-03/sylvanian/round2-variation-2-r1#5": {
+      "funny": 0.4099999999999999
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#2": {
+      "funny": 0.55
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#3": {
+      "funny": 0.73
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#4": {
+      "funny": 0.78
+    },
+    "2026-10-03/codex/round1-baseline-r1#2 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "funny": 0.5
+    },
+    "2026-10-03/codex/round1-baseline-r1#3 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "funny": 0.32
+    },
+    "2026-10-03/codex/round1-baseline-r1#4 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "funny": 0.245
+    },
+    "2026-10-03/codex/round1-variation-2-r1#1 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "funny": 0.615
+    },
+    "2026-10-03/codex/round1-variation-2-r1#2 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "funny": 0.6449999999999999
+    },
+    "2026-10-03/codex/round1-variation-2-r1#3 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "funny": 0.495
+    },
+    "2026-10-03/codex/round1-variation-2-r1#4 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "funny": 0.6699999999999999
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#2": {
+      "funny": 0.675
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#3": {
+      "funny": 0.53
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#4": {
+      "funny": 0.335
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1 | 2026-10-03/sylvanian/round1-variation-2-r1#5": {
+      "funny": 0.485
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#1 | 2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "funny": 0.37999999999999995
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#2 | 2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "funny": 0.615
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#3 | 2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "funny": 0.49
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#1 | 2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "funny": 0.36500000000000005
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#2 | 2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "funny": 0.6699999999999999
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#3 | 2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "funny": 0.6099999999999999
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#1 | 2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "funny": 0.42500000000000004
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#2 | 2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "funny": 0.285
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#3 | 2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "funny": 0.43999999999999995
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#1 | 2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "funny": 0.52
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#2 | 2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "funny": 0.38000000000000006
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#3 | 2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "funny": 0.5549999999999999
+    },
+    "2026-09-15/geinou/after#2 | 2026-09-15/geinou/before#1": {
+      "funny": 0.235
+    },
+    "2026-09-15/geinou/after#1 | 2026-09-15/geinou/before#2": {
+      "funny": 0.535
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3 | 2026-07-11/firsttake/fable-5-skill-on#1": {
+      "funny": 0.6299999999999999
+    },
+    "2026-07-10/idol/fable-5-high#5 | 2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "funny": 0.6799999999999999
+    },
+    "2026-09-15/setsubun/after#1 | 2026-09-15/setsubun/before#5": {
+      "funny": 0.52
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5 | 2026-07-11/firsttake/fable-5-skill-on#2": {
+      "funny": 0.28500000000000003
+    },
+    "2026-09-15/setsubun/after#3 | 2026-09-15/setsubun/before#4": {
+      "funny": 0.7949999999999999
+    },
+    "2026-07-10/idol/fable-5-high#4 | 2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "funny": 0.735
+    },
+    "2026-07-10/ringo/fable-5-high#1 | 2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "funny": 0.22499999999999998
+    },
+    "2026-07-10/ringo/fable-5-high#3 | 2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "funny": 0.51
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "funny": 0.7300000000000001
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1 | 2026-10-03/codex/round2-variation-2-r1#3": {
+      "funny": 0.6900000000000001
+    },
+    "2026-10-03/codex/round2-variation-2-r1#3 | 2026-10-03/codex/round2-variation-2-r1#5": {
+      "funny": 0.54
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1 | 2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "funny": 0.76
+    },
+    "2026-10-03/codex/round1-baseline-r1#1 | 2026-10-03/codex/round1-baseline-r1#5": {
+      "funny": 0.5700000000000001
+    },
+    "2026-10-03/codex/round1-baseline-r1#5 | 2026-10-03/codex/round1-variation-2-r1#5": {
+      "funny": 0.82
+    }
+  }
+}

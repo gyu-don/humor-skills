@@ -10,7 +10,11 @@
     "audit:trait-check": "node skills/trait-check/scripts/evaluate.ts skills/trait-check/assets/samples.json reports/trait-check/results.json && node skills/trait-check/scripts/compare.ts skills/trait-check/assets/pairs.json reports/trait-check/compare-results.json",
     "validate:jev": "node src/validation/run-jev.ts",
     "validate:blind": "node src/validation/blind.ts",
-    "validate:agreement": "node src/validation/agreement.ts"
+    "validate:agreement": "node src/validation/agreement.ts",
+    "status": "node src/status/status.ts",
+    "inbox": "node src/inbox/serve.ts",
+    "inbox:add": "node src/inbox/add.ts",
+    "inbox:spot-check": "node src/inbox/spot-check.ts"
   },
   "devDependencies": {
     "@types/json-schema": "^7.0.15",

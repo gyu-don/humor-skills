@@ -171,5 +171,11 @@
       "worse": "suihanki/gpt-5.6-sol"
     }
   ],
+  "setTies": [
+    {
+      "a": "askul/fable-5-skill-on",
+      "b": "askul/fable-5-skill-off"
+    }
+  ],
   "pairPreferences": []
 }

@@ -1,0 +1,1015 @@
+{
+  "evaluator": "naive",
+  "mode": "jev",
+  "run": 1,
+  "model": "jev-latest",
+  "level": "answer",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-07-10/idol/gpt-5.6-sol-high#1": {
+      "funny": 2.74
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#2": {
+      "funny": 2.51
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#3": {
+      "funny": 2.59
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#4": {
+      "funny": 2.4
+    },
+    "2026-07-10/idol/gpt-5.6-sol-high#5": {
+      "funny": 2.58
+    },
+    "2026-07-10/idol/fable-5-high#1": {
+      "funny": 2.73
+    },
+    "2026-07-10/idol/fable-5-high#2": {
+      "funny": 2.56
+    },
+    "2026-07-10/idol/fable-5-high#3": {
+      "funny": 2.36
+    },
+    "2026-07-10/idol/fable-5-high#4": {
+      "funny": 2.9
+    },
+    "2026-07-10/idol/fable-5-high#5": {
+      "funny": 2.72
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#1": {
+      "funny": 2.74
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#2": {
+      "funny": 2.63
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#3": {
+      "funny": 2.66
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#4": {
+      "funny": 2.57
+    },
+    "2026-07-10/zense/gpt-5.6-sol-high#5": {
+      "funny": 2.68
+    },
+    "2026-07-10/zense/fable-5-high#1": {
+      "funny": 2.3
+    },
+    "2026-07-10/zense/fable-5-high#2": {
+      "funny": 2.74
+    },
+    "2026-07-10/zense/fable-5-high#3": {
+      "funny": 2.61
+    },
+    "2026-07-10/zense/fable-5-high#4": {
+      "funny": 2.59
+    },
+    "2026-07-10/zense/fable-5-high#5": {
+      "funny": 2.57
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#1": {
+      "funny": 2.45
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#2": {
+      "funny": 2.64
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#3": {
+      "funny": 2.5
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#4": {
+      "funny": 2.79
+    },
+    "2026-07-10/ringo/gpt-5.6-sol-high#5": {
+      "funny": 2.43
+    },
+    "2026-07-10/ringo/fable-5-high#1": {
+      "funny": 2.09
+    },
+    "2026-07-10/ringo/fable-5-high#2": {
+      "funny": 2.03
+    },
+    "2026-07-10/ringo/fable-5-high#3": {
+      "funny": 2.64
+    },
+    "2026-07-10/ringo/fable-5-high#4": {
+      "funny": 2.65
+    },
+    "2026-07-10/ringo/fable-5-high#5": {
+      "funny": 2.46
+    },
+    "2026-07-10/fable-returns/fable-5#1": {
+      "funny": 1.83
+    },
+    "2026-07-10/fable-returns/fable-5#2": {
+      "funny": 1.98
+    },
+    "2026-07-10/fable-returns/fable-5#3": {
+      "funny": 2.23
+    },
+    "2026-07-10/fable-returns/fable-5#4": {
+      "funny": 1.87
+    },
+    "2026-07-10/fable-returns/fable-5#5": {
+      "funny": 1.66
+    },
+    "2026-07-11/askul/fable-5-skill-off#1": {
+      "funny": 2.64
+    },
+    "2026-07-11/askul/fable-5-skill-off#2": {
+      "funny": 1.43
+    },
+    "2026-07-11/askul/fable-5-skill-off#3": {
+      "funny": 2.65
+    },
+    "2026-07-11/askul/fable-5-skill-off#4": {
+      "funny": 2.3
+    },
+    "2026-07-11/askul/fable-5-skill-off#5": {
+      "funny": 2.64
+    },
+    "2026-07-11/askul/fable-5-skill-on#1": {
+      "funny": 1.42
+    },
+    "2026-07-11/askul/fable-5-skill-on#2": {
+      "funny": 2.1
+    },
+    "2026-07-11/askul/fable-5-skill-on#3": {
+      "funny": 2.23
+    },
+    "2026-07-11/askul/fable-5-skill-on#4": {
+      "funny": 1.99
+    },
+    "2026-07-11/askul/fable-5-skill-on#5": {
+      "funny": 1.83
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#1": {
+      "funny": 2.28
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#2": {
+      "funny": 2.2
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#3": {
+      "funny": 2.4
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#4": {
+      "funny": 2.55
+    },
+    "2026-07-11/firsttake/fable-5-skill-off#5": {
+      "funny": 2.07
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#1": {
+      "funny": 2.2
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#2": {
+      "funny": 2.34
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#3": {
+      "funny": 2.18
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#4": {
+      "funny": 2.01
+    },
+    "2026-07-11/firsttake/fable-5-skill-on#5": {
+      "funny": 2.22
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#1": {
+      "funny": 2.95
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#2": {
+      "funny": 2.17
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#3": {
+      "funny": 2.82
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#4": {
+      "funny": 2.47
+    },
+    "2026-07-11/shinnyu/fable-5-skill-off#5": {
+      "funny": 2.83
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#1": {
+      "funny": 2.62
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#2": {
+      "funny": 2.91
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#3": {
+      "funny": 2.88
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#4": {
+      "funny": 2.73
+    },
+    "2026-07-11/shinnyu/fable-5-skill-on#5": {
+      "funny": 2.2
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#1": {
+      "funny": 2.07
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#2": {
+      "funny": 1.75
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#3": {
+      "funny": 2.5
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#4": {
+      "funny": 2.73
+    },
+    "2026-07-11/suihanki/fable-5-skill-off#5": {
+      "funny": 2.86
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#1": {
+      "funny": 2.26
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#2": {
+      "funny": 2.82
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#3": {
+      "funny": 2.79
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#4": {
+      "funny": 2.52
+    },
+    "2026-07-11/suihanki/fable-5-skill-on#5": {
+      "funny": 2.58
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#1": {
+      "funny": 2.31
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#2": {
+      "funny": 2.48
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#3": {
+      "funny": 2.55
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#4": {
+      "funny": 2.62
+    },
+    "2026-07-11/suihanki/gpt-5.6-sol#5": {
+      "funny": 2.77
+    },
+    "2026-09-15/setsubun/before#1": {
+      "funny": 2.1
+    },
+    "2026-09-15/setsubun/before#2": {
+      "funny": 2.27
+    },
+    "2026-09-15/setsubun/before#3": {
+      "funny": 2.56
+    },
+    "2026-09-15/setsubun/before#4": {
+      "funny": 2.31
+    },
+    "2026-09-15/setsubun/before#5": {
+      "funny": 2.4
+    },
+    "2026-09-15/setsubun/after#1": {
+      "funny": 2.49
+    },
+    "2026-09-15/setsubun/after#2": {
+      "funny": 2.53
+    },
+    "2026-09-15/setsubun/after#3": {
+      "funny": 2.48
+    },
+    "2026-09-15/setsubun/after#4": {
+      "funny": 2.61
+    },
+    "2026-09-15/setsubun/after#5": {
+      "funny": 2.17
+    },
+    "2026-09-15/geinou/before#1": {
+      "funny": 2.3
+    },
+    "2026-09-15/geinou/before#2": {
+      "funny": 2.12
+    },
+    "2026-09-15/geinou/before#3": {
+      "funny": 2.65
+    },
+    "2026-09-15/geinou/before#4": {
+      "funny": 1.83
+    },
+    "2026-09-15/geinou/before#5": {
+      "funny": 1.76
+    },
+    "2026-09-15/geinou/after#1": {
+      "funny": 2.3
+    },
+    "2026-09-15/geinou/after#2": {
+      "funny": 1.65
+    },
+    "2026-09-15/geinou/after#3": {
+      "funny": 1.75
+    },
+    "2026-09-15/geinou/after#4": {
+      "funny": 2.25
+    },
+    "2026-09-15/geinou/after#5": {
+      "funny": 2.16
+    },
+    "2026-10-03/codex/round2-baseline-r1#1": {
+      "funny": 1.86
+    },
+    "2026-10-03/codex/round2-baseline-r1#2": {
+      "funny": 2.14
+    },
+    "2026-10-03/codex/round2-baseline-r1#3": {
+      "funny": 2.32
+    },
+    "2026-10-03/codex/round2-baseline-r1#4": {
+      "funny": 2.15
+    },
+    "2026-10-03/codex/round2-baseline-r1#5": {
+      "funny": 2.1
+    },
+    "2026-10-03/codex/round2-variation-1-r1#1": {
+      "funny": 1.95
+    },
+    "2026-10-03/codex/round2-variation-1-r1#2": {
+      "funny": 2.62
+    },
+    "2026-10-03/codex/round2-variation-1-r1#3": {
+      "funny": 2.21
+    },
+    "2026-10-03/codex/round2-variation-1-r1#4": {
+      "funny": 2.49
+    },
+    "2026-10-03/codex/round2-variation-1-r1#5": {
+      "funny": 1.75
+    },
+    "2026-10-03/codex/round2-variation-2-r1#1": {
+      "funny": 2.69
+    },
+    "2026-10-03/codex/round2-variation-2-r1#2": {
+      "funny": 2.59
+    },
+    "2026-10-03/codex/round2-variation-2-r1#3": {
+      "funny": 2.55
+    },
+    "2026-10-03/codex/round2-variation-2-r1#4": {
+      "funny": 2.6
+    },
+    "2026-10-03/codex/round2-variation-2-r1#5": {
+      "funny": 2.36
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#1": {
+      "funny": 2.21
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#2": {
+      "funny": 2.4
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#3": {
+      "funny": 2.41
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#4": {
+      "funny": 2.61
+    },
+    "2026-10-03/sylvanian/round2-baseline-r1#5": {
+      "funny": 2.12
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#1": {
+      "funny": 2.75
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#2": {
+      "funny": 2.73
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#3": {
+      "funny": 2.61
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#4": {
+      "funny": 2.2
+    },
+    "2026-10-03/sylvanian/round2-variation-1-r1#5": {
+      "funny": 2.47
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#1": {
+      "funny": 2.7
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#2": {
+      "funny": 2.38
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#3": {
+      "funny": 2.49
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#4": {
+      "funny": 2.35
+    },
+    "2026-10-03/sylvanian/round2-variation-2-r1#5": {
+      "funny": 2.58
+    },
+    "2026-10-03/weather/round2-baseline-r1#1": {
+      "funny": 2.7
+    },
+    "2026-10-03/weather/round2-baseline-r1#2": {
+      "funny": 2.86
+    },
+    "2026-10-03/weather/round2-baseline-r1#3": {
+      "funny": 1.84
+    },
+    "2026-10-03/weather/round2-baseline-r1#4": {
+      "funny": 2.45
+    },
+    "2026-10-03/weather/round2-baseline-r1#5": {
+      "funny": 2.46
+    },
+    "2026-10-03/weather/round2-variation-1-r1#1": {
+      "funny": 2.66
+    },
+    "2026-10-03/weather/round2-variation-1-r1#2": {
+      "funny": 2.11
+    },
+    "2026-10-03/weather/round2-variation-1-r1#3": {
+      "funny": 2.64
+    },
+    "2026-10-03/weather/round2-variation-1-r1#4": {
+      "funny": 2.39
+    },
+    "2026-10-03/weather/round2-variation-1-r1#5": {
+      "funny": 2.5
+    },
+    "2026-10-03/weather/round2-variation-2-r1#1": {
+      "funny": 2.84
+    },
+    "2026-10-03/weather/round2-variation-2-r1#2": {
+      "funny": 2.69
+    },
+    "2026-10-03/weather/round2-variation-2-r1#3": {
+      "funny": 2.45
+    },
+    "2026-10-03/weather/round2-variation-2-r1#4": {
+      "funny": 2.56
+    },
+    "2026-10-03/weather/round2-variation-2-r1#5": {
+      "funny": 2.14
+    },
+    "2026-10-03/codex/round1-baseline-r1#1": {
+      "funny": 2.67
+    },
+    "2026-10-03/codex/round1-baseline-r1#2": {
+      "funny": 2.55
+    },
+    "2026-10-03/codex/round1-baseline-r1#3": {
+      "funny": 2.35
+    },
+    "2026-10-03/codex/round1-baseline-r1#4": {
+      "funny": 2.19
+    },
+    "2026-10-03/codex/round1-baseline-r1#5": {
+      "funny": 2.5
+    },
+    "2026-10-03/codex/round1-variation-1-r1#1": {
+      "funny": 2.16
+    },
+    "2026-10-03/codex/round1-variation-1-r1#2": {
+      "funny": 2.09
+    },
+    "2026-10-03/codex/round1-variation-1-r1#3": {
+      "funny": 2.65
+    },
+    "2026-10-03/codex/round1-variation-1-r1#4": {
+      "funny": 2.34
+    },
+    "2026-10-03/codex/round1-variation-1-r1#5": {
+      "funny": 2.47
+    },
+    "2026-10-03/codex/round1-variation-2-r1#1": {
+      "funny": 1.92
+    },
+    "2026-10-03/codex/round1-variation-2-r1#2": {
+      "funny": 2.17
+    },
+    "2026-10-03/codex/round1-variation-2-r1#3": {
+      "funny": 1.79
+    },
+    "2026-10-03/codex/round1-variation-2-r1#4": {
+      "funny": 2.35
+    },
+    "2026-10-03/codex/round1-variation-2-r1#5": {
+      "funny": 1.92
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#1": {
+      "funny": 2.08
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#2": {
+      "funny": 2.51
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#3": {
+      "funny": 2.12
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#4": {
+      "funny": 2.39
+    },
+    "2026-10-03/sylvanian/round1-baseline-r1#5": {
+      "funny": 2.27
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#1": {
+      "funny": 2.18
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#2": {
+      "funny": 2.37
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#3": {
+      "funny": 2.54
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#4": {
+      "funny": 2.53
+    },
+    "2026-10-03/sylvanian/round1-variation-2-r1#5": {
+      "funny": 2.54
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#1": {
+      "funny": 2.46
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#2": {
+      "funny": 2.69
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#3": {
+      "funny": 2.48
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#4": {
+      "funny": 2.54
+    },
+    "2026-10-03/sylvanian/round1-variation-1-r1#5": {
+      "funny": 2.44
+    },
+    "2026-10-03/weather/round1-baseline-r1#1": {
+      "funny": 2.35
+    },
+    "2026-10-03/weather/round1-baseline-r1#2": {
+      "funny": 2.25
+    },
+    "2026-10-03/weather/round1-baseline-r1#3": {
+      "funny": 2.43
+    },
+    "2026-10-03/weather/round1-baseline-r1#4": {
+      "funny": 2.36
+    },
+    "2026-10-03/weather/round1-baseline-r1#5": {
+      "funny": 2.29
+    },
+    "2026-10-03/weather/round1-variation-1-r1#1": {
+      "funny": 2.61
+    },
+    "2026-10-03/weather/round1-variation-1-r1#2": {
+      "funny": 2.35
+    },
+    "2026-10-03/weather/round1-variation-1-r1#3": {
+      "funny": 1.99
+    },
+    "2026-10-03/weather/round1-variation-1-r1#4": {
+      "funny": 2.42
+    },
+    "2026-10-03/weather/round1-variation-1-r1#5": {
+      "funny": 2.55
+    },
+    "2026-10-03/weather/round1-variation-2-r1#1": {
+      "funny": 2.11
+    },
+    "2026-10-03/weather/round1-variation-2-r1#2": {
+      "funny": 2.67
+    },
+    "2026-10-03/weather/round1-variation-2-r1#3": {
+      "funny": 2.04
+    },
+    "2026-10-03/weather/round1-variation-2-r1#4": {
+      "funny": 2.65
+    },
+    "2026-10-03/weather/round1-variation-2-r1#5": {
+      "funny": 2.29
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#1": {
+      "funny": 2.5
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#2": {
+      "funny": 2.45
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#3": {
+      "funny": 2.76
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#4": {
+      "funny": 2.75
+    },
+    "2026-10-25/engineer-marriage/ogiri-ai#5": {
+      "funny": 2.69
+    },
+    "2026-11-08/codex/candidate#1": {
+      "funny": 1.66
+    },
+    "2026-11-08/codex/candidate#2": {
+      "funny": 2.18
+    },
+    "2026-11-08/codex/candidate#3": {
+      "funny": 2.31
+    },
+    "2026-11-08/codex/candidate#4": {
+      "funny": 2.28
+    },
+    "2026-11-08/codex/candidate#5": {
+      "funny": 2.51
+    },
+    "2026-11-08/codex/candidate#6": {
+      "funny": 2.17
+    },
+    "2026-11-08/codex/candidate#7": {
+      "funny": 2.09
+    },
+    "2026-11-08/codex/candidate#8": {
+      "funny": 2.39
+    },
+    "2026-11-08/codex/candidate#9": {
+      "funny": 2.49
+    },
+    "2026-11-08/codex/candidate#10": {
+      "funny": 2.57
+    },
+    "2026-11-08/codex/baseline#1": {
+      "funny": 2.55
+    },
+    "2026-11-08/codex/baseline#2": {
+      "funny": 2.47
+    },
+    "2026-11-08/codex/baseline#3": {
+      "funny": 1.97
+    },
+    "2026-11-08/codex/baseline#4": {
+      "funny": 2.59
+    },
+    "2026-11-08/codex/baseline#5": {
+      "funny": 1.56
+    },
+    "2026-11-08/codex/baseline#6": {
+      "funny": 2.07
+    },
+    "2026-11-08/codex/baseline#7": {
+      "funny": 2.64
+    },
+    "2026-11-08/codex/baseline#8": {
+      "funny": 2.61
+    },
+    "2026-11-08/codex/baseline#9": {
+      "funny": 2.52
+    },
+    "2026-11-08/codex/baseline#10": {
+      "funny": 2.29
+    },
+    "2026-11-08/sylvanian/candidate#1": {
+      "funny": 2.08
+    },
+    "2026-11-08/sylvanian/candidate#2": {
+      "funny": 1.83
+    },
+    "2026-11-08/sylvanian/candidate#3": {
+      "funny": 2.14
+    },
+    "2026-11-08/sylvanian/candidate#4": {
+      "funny": 2.37
+    },
+    "2026-11-08/sylvanian/candidate#5": {
+      "funny": 2.3
+    },
+    "2026-11-08/sylvanian/candidate#6": {
+      "funny": 2.49
+    },
+    "2026-11-08/sylvanian/candidate#7": {
+      "funny": 2.5
+    },
+    "2026-11-08/sylvanian/candidate#8": {
+      "funny": 1.9
+    },
+    "2026-11-08/sylvanian/candidate#9": {
+      "funny": 1.65
+    },
+    "2026-11-08/sylvanian/candidate#10": {
+      "funny": 2.7
+    },
+    "2026-11-08/sylvanian/baseline#1": {
+      "funny": 2.7
+    },
+    "2026-11-08/sylvanian/baseline#2": {
+      "funny": 2.56
+    },
+    "2026-11-08/sylvanian/baseline#3": {
+      "funny": 2.42
+    },
+    "2026-11-08/sylvanian/baseline#4": {
+      "funny": 1.66
+    },
+    "2026-11-08/sylvanian/baseline#5": {
+      "funny": 2.43
+    },
+    "2026-11-08/sylvanian/baseline#6": {
+      "funny": 2.07
+    },
+    "2026-11-08/sylvanian/baseline#7": {
+      "funny": 2.2
+    },
+    "2026-11-08/sylvanian/baseline#8": {
+      "funny": 2.64
+    },
+    "2026-11-08/sylvanian/baseline#9": {
+      "funny": 2.13
+    },
+    "2026-11-08/sylvanian/baseline#10": {
+      "funny": 2.03
+    },
+    "2026-11-08/target/candidate#1": {
+      "funny": 2.43
+    },
+    "2026-11-08/target/candidate#2": {
+      "funny": 2.42
+    },
+    "2026-11-08/target/candidate#3": {
+      "funny": 2.38
+    },
+    "2026-11-08/target/candidate#4": {
+      "funny": 2.48
+    },
+    "2026-11-08/target/candidate#5": {
+      "funny": 1.88
+    },
+    "2026-11-08/target/candidate#6": {
+      "funny": 1.67
+    },
+    "2026-11-08/target/candidate#7": {
+      "funny": 2.25
+    },
+    "2026-11-08/target/candidate#8": {
+      "funny": 1.79
+    },
+    "2026-11-08/target/candidate#9": {
+      "funny": 2.53
+    },
+    "2026-11-08/target/candidate#10": {
+      "funny": 2.73
+    },
+    "2026-11-08/target/baseline#1": {
+      "funny": 2.01
+    },
+    "2026-11-08/target/baseline#2": {
+      "funny": 2.23
+    },
+    "2026-11-08/target/baseline#3": {
+      "funny": 2.52
+    },
+    "2026-11-08/target/baseline#4": {
+      "funny": 1.77
+    },
+    "2026-11-08/target/baseline#5": {
+      "funny": 1.83
+    },
+    "2026-11-08/target/baseline#6": {
+      "funny": 2.26
+    },
+    "2026-11-08/target/baseline#7": {
+      "funny": 2.16
+    },
+    "2026-11-08/target/baseline#8": {
+      "funny": 2.56
+    },
+    "2026-11-08/target/baseline#9": {
+      "funny": 2.51
+    },
+    "2026-11-08/target/baseline#10": {
+      "funny": 2.24
+    },
+    "2026-11-08/dev/candidate#1": {
+      "funny": 1.66
+    },
+    "2026-11-08/dev/candidate#2": {
+      "funny": 2
+    },
+    "2026-11-08/dev/candidate#3": {
+      "funny": 2.15
+    },
+    "2026-11-08/dev/candidate#4": {
+      "funny": 2.12
+    },
+    "2026-11-08/dev/candidate#5": {
+      "funny": 2.16
+    },
+    "2026-11-08/dev/candidate#6": {
+      "funny": 2.01
+    },
+    "2026-11-08/dev/candidate#7": {
+      "funny": 2.81
+    },
+    "2026-11-08/dev/candidate#8": {
+      "funny": 2.58
+    },
+    "2026-11-08/dev/candidate#9": {
+      "funny": 1.58
+    },
+    "2026-11-08/dev/candidate#10": {
+      "funny": 2.26
+    },
+    "2026-11-08/dev/baseline#1": {
+      "funny": 2.49
+    },
+    "2026-11-08/dev/baseline#2": {
+      "funny": 2.46
+    },
+    "2026-11-08/dev/baseline#3": {
+      "funny": 2.2
+    },
+    "2026-11-08/dev/baseline#4": {
+      "funny": 2.81
+    },
+    "2026-11-08/dev/baseline#5": {
+      "funny": 2.24
+    },
+    "2026-11-08/dev/baseline#6": {
+      "funny": 2.89
+    },
+    "2026-11-08/dev/baseline#7": {
+      "funny": 1.98
+    },
+    "2026-11-08/dev/baseline#8": {
+      "funny": 2.42
+    },
+    "2026-11-08/dev/baseline#9": {
+      "funny": 1.6
+    },
+    "2026-11-08/dev/baseline#10": {
+      "funny": 1.04
+    },
+    "2026-11-08/haiku/candidate#1": {
+      "funny": 2.26
+    },
+    "2026-11-08/haiku/candidate#2": {
+      "funny": 1.79
+    },
+    "2026-11-08/haiku/candidate#3": {
+      "funny": 2.64
+    },
+    "2026-11-08/haiku/candidate#4": {
+      "funny": 2.5
+    },
+    "2026-11-08/haiku/candidate#5": {
+      "funny": 2.16
+    },
+    "2026-11-08/haiku/candidate#6": {
+      "funny": 2.04
+    },
+    "2026-11-08/haiku/candidate#7": {
+      "funny": 2.17
+    },
+    "2026-11-08/haiku/candidate#8": {
+      "funny": 2.37
+    },
+    "2026-11-08/haiku/candidate#9": {
+      "funny": 1.71
+    },
+    "2026-11-08/haiku/candidate#10": {
+      "funny": 2.58
+    },
+    "2026-11-08/haiku/baseline#1": {
+      "funny": 2.69
+    },
+    "2026-11-08/haiku/baseline#2": {
+      "funny": 2.21
+    },
+    "2026-11-08/haiku/baseline#3": {
+      "funny": 2.47
+    },
+    "2026-11-08/haiku/baseline#4": {
+      "funny": 2.38
+    },
+    "2026-11-08/haiku/baseline#5": {
+      "funny": 3.01
+    },
+    "2026-11-08/haiku/baseline#6": {
+      "funny": 2.01
+    },
+    "2026-11-08/haiku/baseline#7": {
+      "funny": 1.08
+    },
+    "2026-11-08/haiku/baseline#8": {
+      "funny": 1.7
+    },
+    "2026-11-08/haiku/baseline#9": {
+      "funny": 2.31
+    },
+    "2026-11-08/haiku/baseline#10": {
+      "funny": 2.45
+    },
+    "2026-11-09/target/candidate#1": {
+      "funny": 2.5
+    },
+    "2026-11-09/target/candidate#2": {
+      "funny": 2.79
+    },
+    "2026-11-09/target/candidate#3": {
+      "funny": 2.38
+    },
+    "2026-11-09/target/candidate#4": {
+      "funny": 2.59
+    },
+    "2026-11-09/target/candidate#5": {
+      "funny": 2.59
+    },
+    "2026-11-09/target/candidate#6": {
+      "funny": 2.76
+    },
+    "2026-11-09/target/candidate#7": {
+      "funny": 2.62
+    },
+    "2026-11-09/target/candidate#8": {
+      "funny": 2.52
+    },
+    "2026-11-09/target/candidate#9": {
+      "funny": 2.51
+    },
+    "2026-11-09/target/candidate#10": {
+      "funny": 1.66
+    },
+    "2026-11-09/target/baseline#1": {
+      "funny": 2.57
+    },
+    "2026-11-09/target/baseline#2": {
+      "funny": 2.85
+    },
+    "2026-11-09/target/baseline#3": {
+      "funny": 2.22
+    },
+    "2026-11-09/target/baseline#4": {
+      "funny": 2.07
+    },
+    "2026-11-09/target/baseline#5": {
+      "funny": 2.35
+    },
+    "2026-11-09/target/baseline#6": {
+      "funny": 2.55
+    },
+    "2026-11-09/target/baseline#7": {
+      "funny": 2.48
+    },
+    "2026-11-09/target/baseline#8": {
+      "funny": 2.67
+    },
+    "2026-11-09/target/baseline#9": {
+      "funny": 2.32
+    },
+    "2026-11-09/target/baseline#10": {
+      "funny": 1.97
+    },
+    "2026-11-09/sylvanian/candidate#1": {
+      "funny": 2.42
+    },
+    "2026-11-09/sylvanian/candidate#2": {
+      "funny": 1.11
+    },
+    "2026-11-09/sylvanian/candidate#3": {
+      "funny": 1.89
+    },
+    "2026-11-09/sylvanian/candidate#4": {
+      "funny": 2.27
+    },
+    "2026-11-09/sylvanian/candidate#5": {
+      "funny": 2.4
+    },
+    "2026-11-09/sylvanian/candidate#6": {
+      "funny": 2.39
+    },
+    "2026-11-09/sylvanian/candidate#7": {
+      "funny": 2.29
+    },
+    "2026-11-09/sylvanian/candidate#8": {
+      "funny": 2.14
+    },
+    "2026-11-09/sylvanian/candidate#9": {
+      "funny": 2.19
+    },
+    "2026-11-09/sylvanian/candidate#10": {
+      "funny": 2.65
+    },
+    "2026-11-09/sylvanian/baseline#1": {
+      "funny": 2.17
+    },
+    "2026-11-09/sylvanian/baseline#2": {
+      "funny": 2.55
+    },
+    "2026-11-09/sylvanian/baseline#3": {
+      "funny": 2.04
+    },
+    "2026-11-09/sylvanian/baseline#4": {
+      "funny": 1.93
+    },
+    "2026-11-09/sylvanian/baseline#5": {
+      "funny": 1.98
+    },
+    "2026-11-09/sylvanian/baseline#6": {
+      "funny": 2.65
+    },
+    "2026-11-09/sylvanian/baseline#7": {
+      "funny": 2.72
+    },
+    "2026-11-09/sylvanian/baseline#8": {
+      "funny": 2.44
+    },
+    "2026-11-09/sylvanian/baseline#9": {
+      "funny": 2.43
+    },
+    "2026-11-09/sylvanian/baseline#10": {
+      "funny": 2.69
+    }
+  }
+}

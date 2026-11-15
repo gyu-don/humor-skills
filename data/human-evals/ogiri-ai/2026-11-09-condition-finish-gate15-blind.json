@@ -13,6 +13,7 @@
     {
       "id": "target/candidate",
       "topic": "target",
+      "role": "candidate",
       "condition": "candidate; Claude Opus 5.5 high; 2 independent runs pooled; shown as A; candidate zqkxslsz d072795d / baseline develop fccb8c40",
       "answers": [
         "地球二周目です",
@@ -44,6 +45,7 @@
     {
       "id": "target/baseline",
       "topic": "target",
+      "role": "baseline",
       "condition": "baseline; Claude Opus 5.5 high; 2 independent runs pooled; shown as B; candidate zqkxslsz d072795d / baseline develop fccb8c40",
       "answers": [
         "熊とは和解済み",
@@ -75,6 +77,7 @@
     {
       "id": "sylvanian/candidate",
       "topic": "sylvanian",
+      "role": "candidate",
       "condition": "candidate; Claude Opus 5.5 high; 2 independent runs pooled; shown as A; candidate zqkxslsz d072795d / baseline develop fccb8c40",
       "answers": [
         "ウサギのお父さんの1Kアパート",
@@ -106,6 +109,7 @@
     {
       "id": "sylvanian/baseline",
       "topic": "sylvanian",
+      "role": "baseline",
       "condition": "baseline; Claude Opus 5.5 high; 2 independent runs pooled; shown as B; candidate zqkxslsz d072795d / baseline develop fccb8c40",
       "answers": [
         "赤い屋根のお家 原寸大 土地は各自",
@@ -139,6 +143,12 @@
     {
       "better": "sylvanian/baseline",
       "worse": "sylvanian/candidate"
+    }
+  ],
+  "setTies": [
+    {
+      "a": "target/candidate",
+      "b": "target/baseline"
     }
   ],
   "pairPreferences": []

@@ -1,0 +1,526 @@
+{
+  "date": "2026-11-16",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-11-16-performance-finish-gate25.md",
+  "description": "形式を明示したお題だけ、実演する候補を最大1本差し替える版（gate25 の候補）と、変更前の版の比較。2026-11-11 に採用した版は、この候補から生成時の形式検査を外して参照を整理したもので、同一ではない。",
+  "request": {
+    "id": "performance-finish-gate25",
+    "kind": "final-check",
+    "ledger": "performance-finish",
+    "created": "2026-11-16",
+    "generator": "claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）",
+    "candidate": "ogiri-ai の condition-finish gate25 の候補（bookmark condition-finish-experiments-20261109。iteration 24 と同じ版）",
+    "baseline": "ogiri-ai develop の通常スキル（gate25 の登録にある SHA-256 040906d9…）",
+    "machine": "gate25 の記録による。候補の各出力内の被り 0。20文字と括弧の上限は全回答で維持。形式の逸脱で監査が受理しなかった回答が1本ある（7文字のお題）ので、今の不合格条件では受付箱に出さない版に当たる。既存の出力で未判定だったため、最初の依頼として置いた。"
+  },
+  "topics": {
+    "codex": "Codexのイケてる使い方",
+    "sylvanian": "シルバニアファミリーの新作",
+    "target": "7文字で只者じゃないと思わせてください",
+    "utterance": "一言で上司をうならせてください",
+    "stubborn": "ひらがなだけで頑固さを伝えてください",
+    "story": "未来の昔話、どんな書き出し？"
+  },
+  "sets": [
+    {
+      "id": "codex/candidate",
+      "topic": "codex",
+      "condition": "candidate; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai の condition-finish gate25 の候補（bookmark condition-finish-experiments-20261109。iteration 24 と同じ版）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "Codexに般若心経を写経させる",
+        "いい感じにと頼んだら社長が変わる",
+        "AGENTS.mdの1行目に家訓",
+        "バグゼロを頼んだら全ファイル削除",
+        "Codexの作業中ずっとうちわで応援",
+        "自分の有休申請をCodexに承認させる",
+        "長男の命名を任せたらfinal_v2",
+        "謝罪文にユニットテストを書かせる",
+        "承認ボタンを押す係に祖母を雇う",
+        "全コードを製本して図書館に寄贈"
+      ],
+      "hits": [
+        2,
+        8,
+        9
+      ],
+      "misses": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verdict": "引き分け。般若心経をリファクタ 結果「空」　非常に分かりにくく、悪いかと思ったが考えたらめちゃくちゃいい答えだった。評価が難しい。Bは素直に面白いものが多く、Aはテクニカル",
+      "sourceOrder": [
+        "candidate-r2#1",
+        "candidate-r2#2",
+        "candidate-r1#3",
+        "candidate-r2#4",
+        "candidate-r1#5",
+        "candidate-r2#5",
+        "candidate-r2#3",
+        "candidate-r1#2",
+        "candidate-r1#4",
+        "candidate-r1#1"
+      ]
+    },
+    {
+      "id": "codex/baseline",
+      "topic": "codex",
+      "condition": "baseline; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai develop の通常スキル（gate25 の登録にある SHA-256 040906d9…）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "夫婦喧嘩のコンフリクト解消を依頼",
+        "寝る前に全部任せたら朝には転職済み",
+        "般若心経をリファクタ 結果「空」",
+        "100タスク並列で投げて有給",
+        "テスト全削除で全件グリーン",
+        "バグ相談したらClaude勧めてきた",
+        "反抗期の息子の机にAGENTS.md",
+        "謝罪会見でgit blameを映す",
+        "出力を修道士30人で書き写す",
+        "遺言書のPRに親族全員アサイン"
+      ],
+      "hits": [
+        3,
+        6
+      ],
+      "misses": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け。般若心経をリファクタ 結果「空」　非常に分かりにくく、悪いかと思ったが考えたらめちゃくちゃいい答えだった。評価が難しい。Bは素直に面白いものが多く、Aはテクニカル",
+      "sourceOrder": [
+        "baseline-r1#2",
+        "baseline-r2#2",
+        "baseline-r2#1",
+        "baseline-r1#5",
+        "baseline-r2#5",
+        "baseline-r2#4",
+        "baseline-r1#1",
+        "baseline-r1#4",
+        "baseline-r1#3",
+        "baseline-r2#3"
+      ]
+    },
+    {
+      "id": "sylvanian/candidate",
+      "topic": "sylvanian",
+      "condition": "candidate; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai の condition-finish gate25 の候補（bookmark condition-finish-experiments-20261109。iteration 24 と同じ版）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "隣に越してきたオオカミ一家",
+        "森の脱毛サロン 全身コース",
+        "子ども部屋（40歳長男つき）",
+        "森のジビエレストラン",
+        "ネコとネズミの二世帯住宅",
+        "冬眠中のクマ一家 春まで開封禁止",
+        "換毛期のウサギ一家 コロコロ付き",
+        "赤い屋根の大きなお家 競売物件",
+        "ウサギのお父さん 等身大",
+        "ペットの人間 散歩用リード付き"
+      ],
+      "hits": [],
+      "misses": [
+        6,
+        7
+      ],
+      "verdict": "選好されなかった。毛刈りの日、赤ちゃん毎月届くが好き",
+      "sourceOrder": [
+        "candidate-r1#5",
+        "candidate-r2#4",
+        "candidate-r1#1",
+        "candidate-r2#1",
+        "candidate-r2#2",
+        "candidate-r1#3",
+        "candidate-r1#4",
+        "candidate-r2#3",
+        "candidate-r2#5",
+        "candidate-r1#2"
+      ]
+    },
+    {
+      "id": "sylvanian/baseline",
+      "topic": "sylvanian",
+      "condition": "baseline; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai develop の通常スキル（gate25 の登録にある SHA-256 040906d9…）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "クマの家族 実物大",
+        "赤い屋根の大きなお家 35年ローン付き",
+        "赤い屋根のお家 四方全部壁",
+        "冬眠中のクマファミリー 箱の中は土",
+        "ニンゲンの赤ちゃん 全長3m",
+        "ショコラウサギの遺産分割協議セット",
+        "ヒツジファミリー 毛刈りの日",
+        "ショコラウサギ 赤ちゃん毎月届く",
+        "ナマケモノの家族 箱から出てこない",
+        "赤い屋根の大きなお家 実寸 35年ローン"
+      ],
+      "hits": [
+        7,
+        8
+      ],
+      "misses": [
+        4,
+        5,
+        10
+      ],
+      "verdict": "選好された。毛刈りの日、赤ちゃん毎月届くが好き",
+      "sourceOrder": [
+        "baseline-r2#1",
+        "baseline-r2#4",
+        "baseline-r2#3",
+        "baseline-r1#3",
+        "baseline-r1#5",
+        "baseline-r1#1",
+        "baseline-r1#4",
+        "baseline-r2#2",
+        "baseline-r2#5",
+        "baseline-r1#2"
+      ]
+    },
+    {
+      "id": "target/candidate",
+      "topic": "target",
+      "condition": "candidate; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai の condition-finish gate25 の候補（bookmark condition-finish-experiments-20261109。iteration 24 と同じ版）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "富士山は二代目",
+        "熊とは和解済み",
+        "信号が待ってる",
+        "釣りはいらん",
+        "名刺は石板です",
+        "七字も要らぬ",
+        "財布に小判三枚",
+        "鳩に会釈される",
+        "職業は台風です",
+        "熊とは示談済み"
+      ],
+      "hits": [
+        6
+      ],
+      "misses": [
+        1,
+        4,
+        8
+      ],
+      "verdict": "引き分け。「釣りはいらん」は文字数をずらした意図が分からん。熊関連が多いね。「握った炭が光る」シュール系で出来がいい",
+      "sourceOrder": [
+        "candidate-r1#3",
+        "candidate-r2#1",
+        "candidate-r1#2",
+        "candidate-r1#5",
+        "candidate-r2#4",
+        "candidate-r2#5",
+        "candidate-r2#3",
+        "candidate-r2#2",
+        "candidate-r1#4",
+        "candidate-r1#1"
+      ]
+    },
+    {
+      "id": "target/baseline",
+      "topic": "target",
+      "condition": "baseline; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai develop の通常スキル（gate25 の登録にある SHA-256 040906d9…）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "握った炭が光る",
+        "熊とは示談済み",
+        "富士山返却です",
+        "広辞苑は消化済",
+        "鳩が報告に来た",
+        "趣味は日食作り",
+        "釣りは国でいい",
+        "社長、おすわり",
+        "翼は短めで頼む",
+        "血液型はQです"
+      ],
+      "hits": [
+        1,
+        10
+      ],
+      "misses": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verdict": "引き分け。「釣りはいらん」は文字数をずらした意図が分からん。熊関連が多いね。「握った炭が光る」シュール系で出来がいい",
+      "sourceOrder": [
+        "baseline-r2#3",
+        "baseline-r2#1",
+        "baseline-r1#3",
+        "baseline-r2#5",
+        "baseline-r2#4",
+        "baseline-r1#4",
+        "baseline-r1#2",
+        "baseline-r2#2",
+        "baseline-r1#1",
+        "baseline-r1#5"
+      ]
+    },
+    {
+      "id": "utterance/candidate",
+      "topic": "utterance",
+      "condition": "candidate; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai の condition-finish gate25 の候補（bookmark condition-finish-experiments-20261109。iteration 24 と同じ版）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "辞表です。部長の分も",
+        "会社、買っときました",
+        "「部長、お手」",
+        "領収書、全部部長名義です",
+        "この企画書、部長の娘さん作です",
+        "部長のお母様が受付に",
+        "部長の席、メルカリで売れました",
+        "それ、去年の部長の案です",
+        "部長、ハウス",
+        "「お客さん、凝ってますね」"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r2#2",
+        "candidate-r1#1",
+        "candidate-r2#1",
+        "candidate-r2#4",
+        "candidate-r2#3",
+        "candidate-r2#5",
+        "candidate-r1#3",
+        "candidate-r1#5",
+        "candidate-r1#2",
+        "candidate-r1#4"
+      ]
+    },
+    {
+      "id": "utterance/baseline",
+      "topic": "utterance",
+      "condition": "baseline; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai develop の通常スキル（gate25 の登録にある SHA-256 040906d9…）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "部長、奥さんから着信78件です",
+        "部長、布団が吹っ飛びました",
+        "その企画、去年私がボツにされたやつです",
+        "退職届、巻物にしてきました",
+        "この稟議書、樽の香りがしますね",
+        "「部長、お座り」",
+        "その案、うちの猫も反対してます",
+        "今日の議事録、五七五にまとめました",
+        "部長、この冷蔵庫いっしょに持ってください",
+        "部長のジャーキー、全部捨てました"
+      ],
+      "hits": [
+        8
+      ],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r2#4",
+        "baseline-r2#2",
+        "baseline-r2#5",
+        "baseline-r1#5",
+        "baseline-r2#3",
+        "baseline-r1#2",
+        "baseline-r1#4",
+        "baseline-r1#3",
+        "baseline-r1#1",
+        "baseline-r2#1"
+      ]
+    },
+    {
+      "id": "stubborn/candidate",
+      "topic": "stubborn",
+      "condition": "candidate; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai の condition-finish gate25 の候補（bookmark condition-finish-experiments-20261109。iteration 24 と同じ版）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "ぱそこんなどいらんとちちからめえる",
+        "うごかんとこたつごとはこびだされる",
+        "ちずのほうをなおせ",
+        "おうとられてからがしょうぶ",
+        "はかいしにあやまらんときざむ",
+        "すうぷのこしたきゃくをえきまでおう",
+        "あやまるくらいならひっこす",
+        "それでもちきゅうはうごかない",
+        "ひらがなにしろといわれても頑固",
+        "けふもきうかなづかひでかく"
+      ],
+      "hits": [
+        7
+      ],
+      "misses": [
+        5,
+        9
+      ],
+      "verdict": "選好されなかった",
+      "sourceOrder": [
+        "candidate-r2#3",
+        "candidate-r2#1",
+        "candidate-r1#5",
+        "candidate-r1#4",
+        "candidate-r2#2",
+        "candidate-r2#4",
+        "candidate-r1#2",
+        "candidate-r1#3",
+        "candidate-r2#5",
+        "candidate-r1#1"
+      ]
+    },
+    {
+      "id": "stubborn/baseline",
+      "topic": "stubborn",
+      "condition": "baseline; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai develop の通常スキル（gate25 の登録にある SHA-256 040906d9…）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "きんこんしきの しゃしん せなかあわせ",
+        "みち まちがえて ちずに あかぺん",
+        "なびに　さからいつづけて　うみ",
+        "かんじで　かけと　いっとるだろうが",
+        "じしょの　ほうを　かきなおした",
+        "あかしんごう さきに おれた",
+        "はかいしに ほった まだ",
+        "そっちが　あやまるまで　しなない",
+        "かんじどりる ぜんぶ ひらがな",
+        "うちは　しょうわ　ひゃくいちねん"
+      ],
+      "hits": [
+        3,
+        4,
+        8
+      ],
+      "misses": [
+        7
+      ],
+      "verdict": "選好された",
+      "sourceOrder": [
+        "baseline-r1#5",
+        "baseline-r1#4",
+        "baseline-r2#5",
+        "baseline-r2#3",
+        "baseline-r2#2",
+        "baseline-r1#3",
+        "baseline-r1#2",
+        "baseline-r2#1",
+        "baseline-r1#1",
+        "baseline-r2#4"
+      ]
+    },
+    {
+      "id": "story/candidate",
+      "topic": "story",
+      "condition": "candidate; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai の condition-finish gate25 の候補（bookmark condition-finish-experiments-20261109。iteration 24 と同じ版）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "むかしむかし、ニンゲンという生き物が",
+        "むかしむかし、ある所に（有料会員限定）",
+        "おじいさんとおばあさんとそのバックアップ",
+        "おばあさんが川で拾った桃は配送ミス",
+        "むかしむかし、まだ地球に住んでいた頃",
+        "むかしむかし、先週の火曜日",
+        "むかしむかし（約3秒前）",
+        "むかしむかし、2026年という原始時代",
+        "※この昔話はAIが生成しました",
+        "むかしむかし、北緯35.6812度に"
+      ],
+      "hits": null,
+      "verdict": "引き分け。どれも微妙",
+      "sourceOrder": [
+        "candidate-r1#2",
+        "candidate-r1#4",
+        "candidate-r2#3",
+        "candidate-r2#5",
+        "candidate-r1#3",
+        "candidate-r1#1",
+        "candidate-r2#1",
+        "candidate-r2#4",
+        "candidate-r1#5",
+        "candidate-r2#2"
+      ]
+    },
+    {
+      "id": "story/baseline",
+      "topic": "story",
+      "condition": "baseline; claude-opus-5-5 / high（CLI、生成ごとに別のコンテキスト）; ogiri-ai develop の通常スキル（gate25 の登録にある SHA-256 040906d9…）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "むかしむかし、Wi-Fiのないところに",
+        "昔々、おじいさんとバックアップが",
+        "むかしむかし、北緯35度東経139度に",
+        "むかしむかし…続きはプレミアム会員で",
+        "むかしむかし、人間というAIがおりました",
+        "おじいさんは山へ充電に",
+        "むかしむかし（3日前）",
+        "むかしむかし、先月のアップデート前",
+        "昔々、25歳のおじいさんが",
+        "川上から大きな桃が置き配されました"
+      ],
+      "hits": null,
+      "verdict": "引き分け。どれも微妙",
+      "sourceOrder": [
+        "baseline-r2#3",
+        "baseline-r2#4",
+        "baseline-r1#2",
+        "baseline-r1#5",
+        "baseline-r1#3",
+        "baseline-r2#5",
+        "baseline-r2#1",
+        "baseline-r1#1",
+        "baseline-r2#2",
+        "baseline-r1#4"
+      ]
+    }
+  ],
+  "setPreferences": [
+    {
+      "better": "sylvanian/baseline",
+      "worse": "sylvanian/candidate"
+    },
+    {
+      "better": "stubborn/baseline",
+      "worse": "stubborn/candidate"
+    }
+  ],
+  "setTies": [
+    {
+      "a": "codex/candidate",
+      "b": "codex/baseline"
+    },
+    {
+      "a": "target/candidate",
+      "b": "target/baseline"
+    },
+    {
+      "a": "utterance/candidate",
+      "b": "utterance/baseline"
+    },
+    {
+      "a": "story/candidate",
+      "b": "story/baseline"
+    }
+  ],
+  "pairPreferences": []
+}

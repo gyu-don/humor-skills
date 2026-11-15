@@ -44,6 +44,7 @@ test('every judge keeps an identical copy of input.ts', () => {
     'research/funniness-score/scripts/input.ts',
     'research/risk-flags/scripts/input.ts',
     'research/cluster-fit-check/scripts/input.ts',
+    'research/criterion-count/scripts/input.ts',
   ];
   const original = readFileSync('skills/trait-check/scripts/input.ts', 'utf8');
   for (const path of copies) assert.equal(readFileSync(path, 'utf8'), original, `${path} differs from skills/trait-check/scripts/input.ts`);

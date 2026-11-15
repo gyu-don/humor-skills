@@ -1,0 +1,22 @@
+{
+  "evaluator": "trait-versions",
+  "mode": "jev",
+  "run": 2,
+  "model": "jev-latest",
+  "level": "version",
+  "lowerIsBetter": [],
+  "scores": {
+    "2026-11-08": {
+      "concreteWorsening": 0.00019999999999993358,
+      "concreteP": 0.49562521873906307,
+      "indirectWorsening": -0.0030000000000000417,
+      "indirectP": 0.5951702414879256
+    },
+    "2026-11-09": {
+      "concreteWorsening": 0.08700000000000008,
+      "concreteP": 0.08964551772411379,
+      "indirectWorsening": 0.019999999999999934,
+      "indirectP": 0.06724663766811659
+    }
+  }
+}

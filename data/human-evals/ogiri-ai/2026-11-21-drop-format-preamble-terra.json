@@ -1,0 +1,486 @@
+{
+  "date": "2026-11-21",
+  "source": "ogiri-ai",
+  "rater": "repo-owner",
+  "blind": true,
+  "log": "2026-11-21-drop-format-preamble-terra.md",
+  "description": "出力フォーマット節の強い指示3行を削り、自己点検の「言え」を「確かめろ」にした版と、変更前の版の比較。面白さが下がっていないかの確認。",
+  "request": {
+    "id": "drop-format-preamble-terra",
+    "kind": "final-check",
+    "ledger": "drop-format-preamble",
+    "created": "2026-11-21",
+    "generator": "gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）",
+    "candidate": "ogiri-ai jj change vrpvxwtt（64e63bde）",
+    "baseline": "ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）",
+    "machine": "型の外への漏れ: 変更前0/10・変更後0/10（stubborn は両版とも見出しなしの5行で出力）。形式違反なし。「」上限超過なし。overlap-check 1回の出力内の被り: 変更前3（codex r1 の3-4・4-5、enma r2 の1-4）・変更後1（stubborn r1 の3-5）→ 不合格条件に該当するが、オーナーの依頼で提出。2回をまとめた生成またぎの被り: 変更前8・変更後7。trait-check versions.ts 全題: concrete 悪化 +0.020 (p 0.24)、indirect 悪化 +0.003 (p 0.36)、合図なし。題ごとの合図: enma concrete。"
+  },
+  "topics": {
+    "codex": "Codexのイケてる使い方",
+    "sylvanian": "シルバニアファミリーの新作",
+    "utterance": "一言で上司をうならせてください",
+    "stubborn": "ひらがなだけで頑固さを伝えてください",
+    "enma": "閻魔大王が最近こっそり悩んでいること"
+  },
+  "sets": [
+    {
+      "id": "drop-format-preamble-terra/codex/candidate",
+      "topic": "codex",
+      "condition": "candidate; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "回覧板にプルリクエスト",
+        "実家の家系図をリファクタリング",
+        "寝坊した朝をロールバック",
+        "夫婦喧嘩の仲裁をサブエージェントに任せる",
+        "校長の話を並列実行する",
+        "実家の冷蔵庫にAGENTS.mdを貼る",
+        "校長の話を要約して卒業",
+        "退職届をプルリクで出す",
+        "謝罪会見でgit blameを映す",
+        "寿司屋で大将の握りをレビュー"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r2#2",
+        "candidate-r2#1",
+        "candidate-r2#5",
+        "candidate-r1#2",
+        "candidate-r1#4",
+        "candidate-r1#3",
+        "candidate-r2#3",
+        "candidate-r1#1",
+        "candidate-r1#5",
+        "candidate-r2#4"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/codex/baseline",
+      "topic": "codex",
+      "condition": "baseline; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "寝言を朝まで自律実装させる",
+        "プルリクを神棚に供える",
+        "遺言書にLGTMをもらう",
+        "盆栽の剪定をプルリクで頼む",
+        "実家の家訓をリファクタする",
+        "面接でCodexを隣に座らせる",
+        "バグを直すたびにくす玉を割る",
+        "夫婦喧嘩をgit revertする",
+        "納期の謝罪にCodexを向かわせる",
+        "生成したコードのサイン会を開く"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r2#4",
+        "baseline-r1#2",
+        "baseline-r2#1",
+        "baseline-r2#3",
+        "baseline-r2#2",
+        "baseline-r1#4",
+        "baseline-r1#1",
+        "baseline-r2#5",
+        "baseline-r1#3",
+        "baseline-r1#5"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/sylvanian/candidate",
+      "topic": "sylvanian",
+      "condition": "candidate; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "家具を運ぶたび屋根が外れる家",
+        "家族全員、背中にチャック",
+        "住宅ローン付きの赤い屋根の家",
+        "家族総出で箱に戻る引っ越し",
+        "家具の組み立てで揉める夫婦",
+        "家ごと犬に運ばれるファミリー",
+        "掃除機から救出された赤ちゃん",
+        "床に落ちたお父さんを探す家族",
+        "人間の指を飼うウサギ一家",
+        "耳だけ出ている満員電車"
+      ],
+      "hits": [
+        4
+      ],
+      "misses": [
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r1#4",
+        "candidate-r1#5",
+        "candidate-r2#1",
+        "candidate-r1#1",
+        "candidate-r2#3",
+        "candidate-r2#5",
+        "candidate-r2#4",
+        "candidate-r2#2",
+        "candidate-r1#3",
+        "candidate-r1#2"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/sylvanian/baseline",
+      "topic": "sylvanian",
+      "condition": "baseline; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "耳だけ箱から出ているキリンの赤ちゃん",
+        "人間の指を飼うウサギ一家",
+        "住宅ローンを完済したお家",
+        "お父さんが吸われる掃除機",
+        "お父さんの抜け毛で作る冬のコート",
+        "家具を全部かじった後のビーバーのお家",
+        "赤ちゃんが無限に出てくるベビーカー",
+        "住宅ローンが組める赤い屋根のお家",
+        "引っ越し先で外壁になるカメのお父さん",
+        "耳だけ別の箱で届くキリンの赤ちゃん"
+      ],
+      "hits": [
+        4,
+        7
+      ],
+      "misses": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r1#2",
+        "baseline-r2#3",
+        "baseline-r2#4",
+        "baseline-r2#2",
+        "baseline-r1#3",
+        "baseline-r1#4",
+        "baseline-r2#1",
+        "baseline-r1#1",
+        "baseline-r1#5",
+        "baseline-r2#5"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/utterance/candidate",
+      "topic": "utterance",
+      "condition": "candidate; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as B",
+      "role": "candidate",
+      "answers": [
+        "その骨、私が埋めました",
+        "稟議書の裏、ステーキです",
+        "この骨、経費で落ちますか",
+        "部長、今月も満月です",
+        "部長、首輪のサイズを教えてください",
+        "部長のお腹にマイクを向けます",
+        "部長、お手",
+        "部長、社長が先に帰りました",
+        "次の出張先、部長の縄張りです",
+        "部長の席だけ、震度７です"
+      ],
+      "hits": [],
+      "misses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r1#2",
+        "candidate-r1#3",
+        "candidate-r2#3",
+        "candidate-r1#1",
+        "candidate-r2#5",
+        "candidate-r2#4",
+        "candidate-r2#1",
+        "candidate-r2#2",
+        "candidate-r1#5",
+        "candidate-r1#4"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/utterance/baseline",
+      "topic": "utterance",
+      "condition": "baseline; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as A",
+      "role": "baseline",
+      "answers": [
+        "部長、本日の獲物はこちらです",
+        "部長、退職届に返信用封筒を",
+        "部長のハンコ、肉球で代用しました",
+        "部長、その説教の続きはCMの後で",
+        "部長、今日は部長の避難訓練です",
+        "社長が部長のモノマネで来てます",
+        "赤字は白い文字で消しておきました",
+        "部長、出世払いの請求書です",
+        "部長、領収書の宛名は母で",
+        "部長、御社は今日から弊社です"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r2#5",
+        "baseline-r1#5",
+        "baseline-r2#3",
+        "baseline-r2#1",
+        "baseline-r1#3",
+        "baseline-r2#4",
+        "baseline-r2#2",
+        "baseline-r1#2",
+        "baseline-r1#4",
+        "baseline-r1#1"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/stubborn/candidate",
+      "topic": "stubborn",
+      "condition": "candidate; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "たくあんがまがるまでおす",
+        "じゃんけんでまけてもさきをゆずらない",
+        "てこでもうごかずてこがおれた",
+        "ゆずりますといわせるまでゆずらない",
+        "いしゃのしんだんをしんだんする",
+        "あやまるくらいならどげざする",
+        "じゃんけんでぐうのままかえる",
+        "じしょのまちがいをあかぺんでなおす",
+        "いしゃのまえでくびをよこにふりつづける",
+        "みぎむけみぎでくびだけのこす"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "candidate-r1#4",
+        "candidate-r2#5",
+        "candidate-r2#2",
+        "candidate-r1#2",
+        "candidate-r2#3",
+        "candidate-r2#1",
+        "candidate-r1#1",
+        "candidate-r2#4",
+        "candidate-r1#3",
+        "candidate-r1#5"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/stubborn/baseline",
+      "topic": "stubborn",
+      "condition": "baseline; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "あたまにあたってくぎがまがる",
+        "じゃんけんにまけてもぐうをだす",
+        "ゆずれといわれてゆずをにぎる",
+        "いしのうえにもさんじゅうねん",
+        "てこでもうごかずてこがおれた",
+        "かたくなにおれないものさし",
+        "まげにきたてこをまげかえす",
+        "みぎへならえでひだりをむく",
+        "まけてもぐうをひらかない",
+        "ゆずりあいのせきからうごかない"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "引き分け",
+      "sourceOrder": [
+        "baseline-r1#5",
+        "baseline-r1#3",
+        "baseline-r2#5",
+        "baseline-r2#3",
+        "baseline-r2#1",
+        "baseline-r1#4",
+        "baseline-r1#2",
+        "baseline-r2#4",
+        "baseline-r2#2",
+        "baseline-r1#1"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/enma/candidate",
+      "topic": "enma",
+      "condition": "candidate; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change vrpvxwtt（64e63bde）; 2 runs pooled; shown as A",
+      "role": "candidate",
+      "answers": [
+        "鏡に映ると毎回びっくりする",
+        "鬼の有給希望が全員お盆",
+        "天国行きに握手を拒まれる",
+        "閻魔帳に自分の名前がある",
+        "地獄行きの亡者に道を聞かれる",
+        "地獄行きを告げると拍手される",
+        "抜いた舌の保管場所",
+        "抜いた舌が冷蔵庫に入りきらない",
+        "母が裁判を傍聴しに来る",
+        "亡者が全員、夢で会ったと言う"
+      ],
+      "hits": [],
+      "misses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "選好された",
+      "sourceOrder": [
+        "candidate-r1#5",
+        "candidate-r2#3",
+        "candidate-r2#4",
+        "candidate-r2#1",
+        "candidate-r2#5",
+        "candidate-r1#3",
+        "candidate-r1#1",
+        "candidate-r2#2",
+        "candidate-r1#4",
+        "candidate-r1#2"
+      ]
+    },
+    {
+      "id": "drop-format-preamble-terra/enma/baseline",
+      "topic": "enma",
+      "condition": "baseline; gpt-6.1-terra / xhigh（codex-cli 0.170.0、生成ごとに別の一時ディレクトリ）; ogiri-ai jj change lxlkprpp（a0757bc1、main と同じ SKILL.md）; 2 runs pooled; shown as B",
+      "role": "baseline",
+      "answers": [
+        "地獄行きの判子が肉球柄",
+        "鬼が全員、舌打ちしてくる",
+        "鬼のパンツと衣替えがかぶる",
+        "舌を抜くたび自分のも出る",
+        "抜いた舌の持ち主が分からない",
+        "地獄行きの判子が裏抜けする",
+        "閻魔帳に自分の悪口がある",
+        "亡者が舌を置いて帰る",
+        "裁判中、冠が自動ドアに挟まる",
+        "鏡を見ると浄玻璃が割れる"
+      ],
+      "hits": [],
+      "misses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verdict": "選好されなかった",
+      "sourceOrder": [
+        "baseline-r1#3",
+        "baseline-r2#5",
+        "baseline-r1#4",
+        "baseline-r2#1",
+        "baseline-r2#4",
+        "baseline-r2#3",
+        "baseline-r2#2",
+        "baseline-r1#1",
+        "baseline-r1#5",
+        "baseline-r1#2"
+      ]
+    }
+  ],
+  "setPreferences": [
+    {
+      "better": "drop-format-preamble-terra/enma/candidate",
+      "worse": "drop-format-preamble-terra/enma/baseline"
+    }
+  ],
+  "setTies": [
+    {
+      "a": "drop-format-preamble-terra/codex/candidate",
+      "b": "drop-format-preamble-terra/codex/baseline"
+    },
+    {
+      "a": "drop-format-preamble-terra/sylvanian/candidate",
+      "b": "drop-format-preamble-terra/sylvanian/baseline"
+    },
+    {
+      "a": "drop-format-preamble-terra/utterance/candidate",
+      "b": "drop-format-preamble-terra/utterance/baseline"
+    },
+    {
+      "a": "drop-format-preamble-terra/stubborn/candidate",
+      "b": "drop-format-preamble-terra/stubborn/baseline"
+    }
+  ],
+  "pairPreferences": []
+}

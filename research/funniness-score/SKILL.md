@@ -16,8 +16,8 @@ description: 研究用。大喜利回答を6軸（Novelty/Clarity/Relevance/Inte
 
 「面白さ」を直接測る判定器。自動テストには使わないが、人間の判定が増えるたびに検証を続ける。
 
-**人間の判定とは一致していない（2026-09-24 時点）。** Jev版の6軸はすべて、人間が褒めた回答の方を低く採点する傾向がある（AUC 0.37〜0.44）。
-プロンプト版もチャンスレベル（0.41〜0.54）で、人間が退けたセットを上に採点した例がある（humor-skills の `reports/validation/2026-09-23/notes.md`・`2026-09-24/notes.md`）。
+**人間の判定とは一致していない。** 現在の値は humor-skills の `STATUS.md` にある。
+2026-09-24 の検証では、Jev版の6軸はすべて人間が褒めた回答の方を低く採点し、プロンプト版も偶然の水準で、人間が退けたセットを上に採点した例があった（`reports/validation/2026-09-23/notes.md`・`2026-09-24/notes.md`）。その後に足したラベルでは逆向きは再現しておらず、偶然と区別できない（`reports/validation/2026-11-15/notes.md`）。
 点数を改善の合否や最適化の目標に使うな。レポート本文の弱点メモや、セット内のほぼ同じ回答の指摘を、人間が読む材料として使う。
 
 Jev版は `research/funniness-score/scripts/evaluate.ts`（リポジトリ直下から `node research/funniness-score/scripts/evaluate.ts <入力> [出力]`）。

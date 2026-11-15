@@ -2,8 +2,9 @@
  * Research judge, not an automated test: the per-answer risk flags of the
  * original fun-check skill (ベタ・ひねりなし・共感・認知度・滑り) plus its
  * relative-typicality ranking, kept so they can be re-validated as human
- * labels grow. As of 2026-09-24 none of them separates human hits from the
- * rest (AUC ~0.5), and ひねりなし・滑り point the wrong way (0.41-0.46).
+ * labels grow. None of them separates human hits from the rest (current
+ * numbers: STATUS.md at the repo root); on 2026-09-24 ひねりなし・滑り pointed
+ * the wrong way.
  * The flags that did work moved to skills/trait-check (絵なし → concrete,
  * 長さ → indirect) and the 被りチェック to skills/overlap-check.
  *

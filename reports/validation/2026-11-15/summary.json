@@ -1,0 +1,1526 @@
+{
+  "dir": "reports/validation/2026-11-15",
+  "labels": {
+    "answers": 170,
+    "hits": 35,
+    "mixedSets": 17,
+    "setPreferences": 9,
+    "setTies": 7,
+    "pairs": 20,
+    "blindPairs": 17,
+    "similarity": 16,
+    "latestSession": "2026-11-09",
+    "sessions": [
+      "2026-07-10.json",
+      "2026-07-11.json",
+      "2026-09-15.json",
+      "2026-09-23-similarity.json",
+      "2026-09-23.json",
+      "2026-10-03-prompt-comparison-round2.json",
+      "2026-10-03-prompt-comparison.json",
+      "2026-10-17-judge-traits.json",
+      "2026-10-25.json",
+      "2026-11-08-condition-twist-gate-blind.json",
+      "2026-11-08-condition-twist-gate-partial.json",
+      "2026-11-09-condition-finish-gate15-blind.json"
+    ]
+  },
+  "gatePower": {
+    "sets": 9,
+    "pairs": 20,
+    "at": [
+      {
+        "p": 0.7,
+        "pass": 0.08161002911496873
+      },
+      {
+        "p": 0.8,
+        "pass": 0.3508015608639497
+      },
+      {
+        "p": 0.9,
+        "pass": 0.7661215885184067
+      }
+    ]
+  },
+  "answer": [
+    {
+      "name": "cluster-fit-check (jev, jev-latest)",
+      "evaluator": "cluster-fit-check",
+      "metric": "C0",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5523809523809524,
+        "lo": 0.43171850079744817,
+        "hi": 0.6735111111111111,
+        "inSet": 0.5343137254901961,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.55,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.4376172607879925,
+        "lo": 0.2631975867269985,
+        "hi": 0.612012987012987,
+        "inSet": 0.3125,
+        "inSetSets": 8,
+        "sets": {
+          "share": 1,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.5714285714285714,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "cluster-fit-check (jev, jev-latest)",
+      "evaluator": "cluster-fit-check",
+      "metric": "C1",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.47703703703703704,
+        "lo": 0.38732698961937717,
+        "hi": 0.5761197493618009,
+        "inSet": 0.5735294117647058,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.45,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.49906191369606,
+        "lo": 0.3588235294117647,
+        "hi": 0.6476833976833977,
+        "inSet": 0.7552083333333333,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.2857142857142857,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "cluster-fit-check (jev, jev-latest)",
+      "evaluator": "cluster-fit-check",
+      "metric": "C2",
+      "lowerIsBetter": false,
+      "retest": 1,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.4901587301587302,
+        "lo": 0.4009170653907496,
+        "hi": 0.5817989417989418,
+        "inSet": 0.5906862745098039,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.425,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.474671669793621,
+        "lo": 0.34410919540229884,
+        "hi": 0.6170833333333333,
+        "inSet": 0.734375,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.2857142857142857,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "cluster-fit-check (jev, jev-latest)",
+      "evaluator": "cluster-fit-check",
+      "metric": "C3",
+      "lowerIsBetter": false,
+      "retest": 1,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5808465608465608,
+        "lo": 0.4597844112769486,
+        "hi": 0.702010582010582,
+        "inSet": 0.6249999999999999,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.525,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.649155722326454,
+        "lo": 0.48593073593073594,
+        "hi": 0.8060064935064936,
+        "inSet": 0.7447916666666667,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.6428571428571429,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "cluster-fit-check (jev, jev-latest)",
+      "evaluator": "cluster-fit-check",
+      "metric": "C4",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5105820105820106,
+        "lo": 0.4075520833333333,
+        "hi": 0.6163229376257545,
+        "inSet": 0.4705882352941176,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.55,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.38320825515947465,
+        "lo": 0.2280361757105943,
+        "hi": 0.5366666666666666,
+        "inSet": 0.59375,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.8571428571428571,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "cluster-fit-check (jev, jev-latest)",
+      "evaluator": "cluster-fit-check",
+      "metric": "C5",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5848677248677249,
+        "lo": 0.4747097844112769,
+        "hi": 0.6934458302763512,
+        "inSet": 0.607843137254902,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.6,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.7199812382739212,
+        "lo": 0.560595567867036,
+        "hi": 0.8639240506329114,
+        "inSet": 0.59375,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.2857142857142857,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "cluster-fit-check (jev, jev-latest)",
+      "evaluator": "cluster-fit-check",
+      "metric": "C6",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5349206349206349,
+        "lo": 0.4268242122719735,
+        "hi": 0.6463448275862069,
+        "inSet": 0.40196078431372545,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.3333333333333333,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.55,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.6346153846153846,
+        "lo": 0.47339357429718876,
+        "hi": 0.774390243902439,
+        "inSet": 0.42708333333333337,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.7142857142857143,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "funniness-score (jev, jev-latest)",
+      "evaluator": "funniness-score",
+      "metric": "novelty",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5444444444444444,
+        "lo": 0.4371012759170654,
+        "hi": 0.6452114427860697,
+        "inSet": 0.42647058823529416,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.3333333333333333,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.4,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.6167917448405253,
+        "lo": 0.4512987012987013,
+        "hi": 0.762987012987013,
+        "inSet": 0.3333333333333333,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.2857142857142857,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "funniness-score (jev, jev-latest)",
+      "evaluator": "funniness-score",
+      "metric": "clarity",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5102645502645503,
+        "lo": 0.3989161689891617,
+        "hi": 0.6142044299939037,
+        "inSet": 0.48039215686274506,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.45,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5736397748592871,
+        "lo": 0.4054307116104869,
+        "hi": 0.7329411764705882,
+        "inSet": 0.5208333333333333,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.5714285714285714,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "funniness-score (jev, jev-latest)",
+      "evaluator": "funniness-score",
+      "metric": "relevance",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.44317460317460317,
+        "lo": 0.338088768115942,
+        "hi": 0.5476675724637681,
+        "inSet": 0.3970588235294118,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.45,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.4155722326454034,
+        "lo": 0.2647058823529412,
+        "hi": 0.5717636022514071,
+        "inSet": 0.3958333333333333,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "funniness-score (jev, jev-latest)",
+      "evaluator": "funniness-score",
+      "metric": "intelligence",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5193650793650794,
+        "lo": 0.40516169154228854,
+        "hi": 0.6281094527363185,
+        "inSet": 0.4754901960784313,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.4,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.6575984990619137,
+        "lo": 0.4929411764705882,
+        "hi": 0.8021978021978022,
+        "inSet": 0.5625,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "funniness-score (jev, jev-latest)",
+      "evaluator": "funniness-score",
+      "metric": "empathy",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5121693121693122,
+        "lo": 0.407396331738437,
+        "hi": 0.6086538461538461,
+        "inSet": 0.5490196078431372,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.3,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5938086303939962,
+        "lo": 0.4423076923076923,
+        "hi": 0.7370689655172413,
+        "inSet": 0.6354166666666666,
+        "inSetSets": 8,
+        "sets": {
+          "share": 1,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "funniness-score (jev, jev-latest)",
+      "evaluator": "funniness-score",
+      "metric": "overall",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5246560846560847,
+        "lo": 0.42153814262023215,
+        "hi": 0.6225124378109452,
+        "inSet": 0.5490196078431373,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.4,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5928705440900562,
+        "lo": 0.44176706827309237,
+        "hi": 0.7345215759849906,
+        "inSet": 0.65625,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "funniness-score (jev, jev-latest)",
+      "evaluator": "funniness-score",
+      "metric": "overallFloored",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5246560846560847,
+        "lo": 0.42153814262023215,
+        "hi": 0.6225124378109452,
+        "inSet": 0.5490196078431373,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.4,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5928705440900562,
+        "lo": 0.44176706827309237,
+        "hi": 0.7345215759849906,
+        "inSet": 0.65625,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "naive (jev, jev-latest)",
+      "evaluator": "naive",
+      "metric": "funny",
+      "lowerIsBetter": false,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5462433862433862,
+        "lo": 0.4283344392833444,
+        "hi": 0.6552753815527538,
+        "inSet": 0.4705882352941176,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.35,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.6627579737335835,
+        "lo": 0.4798311444652908,
+        "hi": 0.828042328042328,
+        "inSet": 0.4895833333333333,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "risk-flags (jev, jev-latest)",
+      "evaluator": "risk-flags",
+      "metric": "betaRisk",
+      "lowerIsBetter": true,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5504761904761905,
+        "lo": 0.44798875432525953,
+        "hi": 0.659085634718032,
+        "inSet": 0.44117647058823534,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.5,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5136022514071295,
+        "lo": 0.36046511627906974,
+        "hi": 0.6647286821705426,
+        "inSet": 0.3958333333333333,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.5714285714285714,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "risk-flags (jev, jev-latest)",
+      "evaluator": "risk-flags",
+      "metric": "noTwistRisk",
+      "lowerIsBetter": true,
+      "retest": 0.96,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.4965079365079365,
+        "lo": 0.37916666666666665,
+        "hi": 0.6139039855072463,
+        "inSet": 0.5196078431372548,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.4,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5717636022514071,
+        "lo": 0.38083333333333336,
+        "hi": 0.7556179775280899,
+        "inSet": 0.5416666666666666,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "risk-flags (jev, jev-latest)",
+      "evaluator": "risk-flags",
+      "metric": "empathyRisk",
+      "lowerIsBetter": true,
+      "retest": 0.97,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5031746031746032,
+        "lo": 0.39500414593698174,
+        "hi": 0.6030278398699451,
+        "inSet": 0.6666666666666666,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.4444444444444444,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.5,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5361163227016885,
+        "lo": 0.35984848484848486,
+        "hi": 0.7196969696969697,
+        "inSet": 0.7083333333333334,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "risk-flags (jev, jev-latest)",
+      "evaluator": "risk-flags",
+      "metric": "recognitionRisk",
+      "lowerIsBetter": true,
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.48613756613756615,
+        "lo": 0.37334162520729686,
+        "hi": 0.5968269230769231,
+        "inSet": 0.45833333333333326,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.7777777777777778,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.45,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.34568480300187615,
+        "lo": 0.19470588235294117,
+        "hi": 0.49941176470588233,
+        "inSet": 0.4322916666666667,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.5714285714285714,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "risk-flags (jev, jev-latest)",
+      "evaluator": "risk-flags",
+      "metric": "slipRisk",
+      "lowerIsBetter": true,
+      "retest": 0.98,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.42592592592592593,
+        "lo": 0.3193384223918575,
+        "hi": 0.523555349268972,
+        "inSet": 0.392156862745098,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.425,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.41228893058161353,
+        "lo": 0.2602996254681648,
+        "hi": 0.5671191553544495,
+        "inSet": 0.4166666666666667,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "risk-flags (jev, jev-latest)",
+      "evaluator": "risk-flags",
+      "metric": "sumRisk",
+      "lowerIsBetter": true,
+      "retest": 0.98,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.48158730158730156,
+        "lo": 0.37021531100478466,
+        "hi": 0.5856533224954278,
+        "inSet": 0.48039215686274517,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.8888888888888888,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.45,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.3611632270168856,
+        "lo": 0.21164021164021163,
+        "hi": 0.5229411764705882,
+        "inSet": 0.46874999999999994,
+        "inSetSets": 8,
+        "sets": {
+          "share": 1,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.5714285714285714,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "trait-check (jev, jev-latest)",
+      "evaluator": "trait-check",
+      "metric": "concrete",
+      "lowerIsBetter": false,
+      "retest": 1,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.6119576719576719,
+        "lo": 0.4968641868512111,
+        "hi": 0.7173544973544973,
+        "inSet": 0.4852941176470588,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.7777777777777778,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.575,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.5117260787992496,
+        "lo": 0.3594117647058824,
+        "hi": 0.6692506459948321,
+        "inSet": 0.40625,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.5,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "trait-check (jev, jev-latest)",
+      "evaluator": "trait-check",
+      "metric": "indirect",
+      "lowerIsBetter": true,
+      "retest": 0.98,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.5898412698412698,
+        "lo": 0.47690217391304346,
+        "hi": 0.6998043531425776,
+        "inSet": 0.5833333333333334,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5555555555555556,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.55,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.7124765478424016,
+        "lo": 0.5439560439560439,
+        "hi": 0.8717532467532467,
+        "inSet": 0.5937499999999999,
+        "inSetSets": 8,
+        "sets": {
+          "share": 1,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.5,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "baseline (jev, -)",
+      "evaluator": "baseline",
+      "metric": "length",
+      "lowerIsBetter": true,
+      "retest": null,
+      "since": "2026-09-24",
+      "gate": false,
+      "all": {
+        "answers": 170,
+        "hits": 35,
+        "auc": 0.43164021164021166,
+        "lo": 0.3208955223880597,
+        "hi": 0.5525,
+        "inSet": 0.45098039215686275,
+        "inSetSets": 17,
+        "sets": {
+          "share": 0.5,
+          "n": 9
+        },
+        "pairs": {
+          "share": 0.575,
+          "n": 20
+        }
+      },
+      "unused": {
+        "answers": 95,
+        "hits": 13,
+        "auc": 0.3198874296435272,
+        "lo": 0.15784832451499117,
+        "hi": 0.4935064935064935,
+        "inSet": 0.390625,
+        "inSetSets": 8,
+        "sets": {
+          "share": 0.75,
+          "n": 2
+        },
+        "pairs": {
+          "share": 0.5714285714285714,
+          "n": 7
+        }
+      }
+    }
+  ],
+  "overlap": [
+    {
+      "name": "overlap-check (jev, jev-latest)",
+      "evaluator": "overlap-check",
+      "metric": "sameMaterial",
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "convergedAuc": 0.4533333333333333,
+      "all": {
+        "auc": 0.85,
+        "similar": 6,
+        "caught": 4,
+        "different": 10,
+        "falseFlags": 0
+      },
+      "unused": {
+        "auc": null,
+        "similar": 1,
+        "caught": 0,
+        "different": 0,
+        "falseFlags": 0
+      }
+    },
+    {
+      "name": "overlap-check (jev, jev-latest)",
+      "evaluator": "overlap-check",
+      "metric": "nearDuplicate",
+      "retest": 0.92,
+      "since": "2026-09-24",
+      "convergedAuc": 0.35,
+      "all": {
+        "auc": 0.8333333333333334,
+        "similar": 6,
+        "caught": 4,
+        "different": 10,
+        "falseFlags": 0
+      },
+      "unused": {
+        "auc": null,
+        "similar": 1,
+        "caught": 0,
+        "different": 0,
+        "falseFlags": 0
+      }
+    }
+  ],
+  "preference": [
+    {
+      "name": "naive-pairwise (jev, jev-latest)",
+      "evaluator": "naive-pairwise",
+      "metric": "funny",
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "all": {
+        "inSet": {
+          "share": 0.4888888888888889,
+          "n": 90
+        },
+        "pairs": {
+          "share": 0.45,
+          "n": 20
+        },
+        "confident": {
+          "share": 0.5,
+          "n": 24
+        }
+      },
+      "unused": {
+        "inSet": {
+          "share": 0.55,
+          "n": 40
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        },
+        "confident": {
+          "share": 1,
+          "n": 7
+        }
+      }
+    },
+    {
+      "name": "trait-compare (jev, jev-latest)",
+      "evaluator": "trait-compare",
+      "metric": "probA",
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "all": {
+        "inSet": {
+          "share": 0.6333333333333333,
+          "n": 90
+        },
+        "pairs": {
+          "share": 0.65,
+          "n": 20
+        },
+        "confident": {
+          "share": 0.5625,
+          "n": 16
+        }
+      },
+      "unused": {
+        "inSet": {
+          "share": 0.6,
+          "n": 40
+        },
+        "pairs": {
+          "share": 0.2857142857142857,
+          "n": 7
+        },
+        "confident": {
+          "share": 0.25,
+          "n": 4
+        }
+      }
+    },
+    {
+      "name": "trait-compare (jev, jev-latest)",
+      "evaluator": "trait-compare",
+      "metric": "concrete",
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "all": {
+        "inSet": {
+          "share": 0.5111111111111111,
+          "n": 90
+        },
+        "pairs": {
+          "share": 0.5,
+          "n": 20
+        },
+        "confident": {
+          "share": 0.5384615384615384,
+          "n": 39
+        }
+      },
+      "unused": {
+        "inSet": {
+          "share": 0.4,
+          "n": 40
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        },
+        "confident": {
+          "share": 0.4,
+          "n": 15
+        }
+      }
+    },
+    {
+      "name": "trait-compare (jev, jev-latest)",
+      "evaluator": "trait-compare",
+      "metric": "straight",
+      "retest": 0.99,
+      "since": "2026-09-24",
+      "all": {
+        "inSet": {
+          "share": 0.6555555555555556,
+          "n": 90
+        },
+        "pairs": {
+          "share": 0.55,
+          "n": 20
+        },
+        "confident": {
+          "share": 0.6875,
+          "n": 32
+        }
+      },
+      "unused": {
+        "inSet": {
+          "share": 0.675,
+          "n": 40
+        },
+        "pairs": {
+          "share": 0.42857142857142855,
+          "n": 7
+        },
+        "confident": {
+          "share": 0.6363636363636364,
+          "n": 11
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "name": "trait-gate (jev, jev-latest)",
+      "evaluator": "trait-gate",
+      "metrics": [
+        "concrete",
+        "indirect",
+        "compare"
+      ],
+      "cases": [
+        {
+          "id": "2026-11-08/codex",
+          "human": "tie",
+          "blind": true,
+          "runs": [
+            {
+              "concrete": {
+                "worsening": 0.061000000000000054,
+                "noise": 0.029999999999999916
+              },
+              "indirect": {
+                "worsening": -0.013000000000000012,
+                "noise": 0.03999999999999998
+              },
+              "compare": {
+                "worsening": 0.0083749999999998,
+                "noise": 0.06029999999999991
+              }
+            },
+            {
+              "concrete": {
+                "worsening": 0.06599999999999995,
+                "noise": 0.04600000000000015
+              },
+              "indirect": {
+                "worsening": -0.014000000000000012,
+                "noise": 0.044
+              },
+              "compare": {
+                "worsening": 0.011624999999999663,
+                "noise": 0.056399999999999895
+              }
+            }
+          ]
+        },
+        {
+          "id": "2026-11-08/sylvanian",
+          "human": "candidate",
+          "blind": true,
+          "runs": [
+            {
+              "concrete": {
+                "worsening": -0.006000000000000116,
+                "noise": 0.019999999999999907
+              },
+              "indirect": {
+                "worsening": -0.002999999999999975,
+                "noise": 0.016000000000000014
+              },
+              "compare": {
+                "worsening": -0.010099999999999776,
+                "noise": 0.07559999999999995
+              }
+            },
+            {
+              "concrete": {
+                "worsening": 0.0039999999999997815,
+                "noise": 0.005999999999999894
+              },
+              "indirect": {
+                "worsening": -0.010999999999999982,
+                "noise": 0.03
+              },
+              "compare": {
+                "worsening": -0.011575000000000113,
+                "noise": 0.07799999999999996
+              }
+            }
+          ]
+        },
+        {
+          "id": "2026-11-08/target",
+          "human": "tie",
+          "blind": false,
+          "runs": [
+            {
+              "concrete": {
+                "worsening": 0.051999999999999824,
+                "noise": 0.20799999999999996
+              },
+              "indirect": {
+                "worsening": -0.004000000000000031,
+                "noise": 0.05600000000000005
+              },
+              "compare": {
+                "worsening": -0.05074999999999985,
+                "noise": 0.035599999999999965
+              }
+            },
+            {
+              "concrete": {
+                "worsening": 0.05999999999999994,
+                "noise": 0.21999999999999986
+              },
+              "indirect": {
+                "worsening": -2.7755575615628914e-17,
+                "noise": 0.05800000000000005
+              },
+              "compare": {
+                "worsening": -0.05272500000000013,
+                "noise": 0.035700000000000065
+              }
+            }
+          ]
+        },
+        {
+          "id": "2026-11-08/dev",
+          "human": "tie",
+          "blind": false,
+          "runs": [
+            {
+              "concrete": {
+                "worsening": -0.14500000000000013,
+                "noise": 0.04399999999999993
+              },
+              "indirect": {
+                "worsening": 0.048000000000000015,
+                "noise": 0.013999999999999999
+              },
+              "compare": {
+                "worsening": 0.04949999999999993,
+                "noise": 0.062000000000000055
+              }
+            },
+            {
+              "concrete": {
+                "worsening": -0.14100000000000001,
+                "noise": 0.051999999999999935
+              },
+              "indirect": {
+                "worsening": 0.052000000000000005,
+                "noise": 0.011999999999999997
+              },
+              "compare": {
+                "worsening": 0.04939999999999989,
+                "noise": 0.06810000000000005
+              }
+            }
+          ]
+        },
+        {
+          "id": "2026-11-08/haiku",
+          "human": "tie",
+          "blind": false,
+          "runs": [
+            {
+              "concrete": {
+                "worsening": 0.017000000000000015,
+                "noise": 0.062000000000000055
+              },
+              "indirect": {
+                "worsening": -0.038000000000000006,
+                "noise": 0.12199999999999994
+              },
+              "compare": {
+                "worsening": 0.0197500000000001,
+                "noise": 0.0037999999999999146
+              }
+            },
+            {
+              "concrete": {
+                "worsening": 0.017000000000000015,
+                "noise": 0.05400000000000005
+              },
+              "indirect": {
+                "worsening": -0.03300000000000003,
+                "noise": 0.10599999999999998
+              },
+              "compare": {
+                "worsening": 0.020575000000000176,
+                "noise": 0.0046999999999999265
+              }
+            }
+          ]
+        },
+        {
+          "id": "2026-11-09/target",
+          "human": "tie",
+          "blind": true,
+          "runs": [
+            {
+              "concrete": {
+                "worsening": 0.17500000000000004,
+                "noise": 0.10399999999999987
+              },
+              "indirect": {
+                "worsening": 0.009000000000000008,
+                "noise": 0.034
+              },
+              "compare": {
+                "worsening": 0.06679999999999992,
+                "noise": 0.05729999999999991
+              }
+            },
+            {
+              "concrete": {
+                "worsening": 0.17099999999999982,
+                "noise": 0.10400000000000009
+              },
+              "indirect": {
+                "worsening": 0.02100000000000002,
+                "noise": 0.017999999999999988
+              },
+              "compare": {
+                "worsening": 0.06562499999999988,
+                "noise": 0.05449999999999999
+              }
+            }
+          ]
+        },
+        {
+          "id": "2026-11-09/sylvanian",
+          "human": "baseline",
+          "blind": true,
+          "runs": [
+            {
+              "concrete": {
+                "worsening": 1.1102230246251565e-16,
+                "noise": 0.029999999999999916
+              },
+              "indirect": {
+                "worsening": 0.012000000000000038,
+                "noise": 0.0020000000000000295
+              },
+              "compare": {
+                "worsening": 0.02037499999999992,
+                "noise": 0.03100000000000014
+              }
+            },
+            {
+              "concrete": {
+                "worsening": -0.009000000000000119,
+                "noise": 0.02400000000000002
+              },
+              "indirect": {
+                "worsening": 0.006000000000000033,
+                "noise": 0.001999999999999974
+              },
+              "compare": {
+                "worsening": 0.023249999999999882,
+                "noise": 0.03059999999999996
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

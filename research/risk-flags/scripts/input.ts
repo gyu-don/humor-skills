@@ -69,7 +69,7 @@ export const gateRuns: Check<{ topic: string; baseline: [string[], string[]]; ca
     return xs.map((_, i) => strings(xs as unknown as Record<string, unknown>, String(i), `${where}.${key}`));
   };
   const baseline = runs('baseline');
-  if (baseline.length !== 2) throw new Error(`${where}.baseline must hold exactly 2 runs (the noise band is run 1 vs run 2)`);
+  if (baseline.length !== 2) throw new Error(`${where}.baseline must hold exactly 2 runs (two independent generations of the unchanged version)`);
   return { topic: str(item, 'topic', where), baseline: baseline as [string[], string[]], candidate: runs('candidate') };
 };
 

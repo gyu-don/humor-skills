@@ -2,8 +2,8 @@
  * Runs every Jev judge over every human-labeled set, and stores the results
  * as ScoreFiles for agreement.ts: the automated-test skills in skills/, the
  * research judges in research/, and two no-rubric baselines (naive "how
- * funny" score, naive "which is funnier" pair). trait-check's gate.ts also
- * runs on every labeled version comparison (labels.gates).
+ * funny" score, naive "which is funnier" pair). trait-check's versions.ts also
+ * runs on every お題 with a labeled version comparison (labels.gates).
  *
  *   doppler run -- npm run validate:jev -- reports/validation/<date> [runs=2]
  *
@@ -16,6 +16,7 @@ import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { choice, score, TypeSafeClient } from '@typesafe-ai/sdk';
+import { shift } from '../../skills/trait-check/scripts/verdict.ts';
 import { loadLabels, pairKey, preferencePairs, setsByTopic } from './labels.ts';
 import type { ScoreFile } from './score-file.ts';
 
@@ -133,13 +134,36 @@ for (let run = 1; run <= runs; run++) {
   });
 
   if (labels.gates.length) {
-    type Verdict = { worsening: number; noise: number };
-    const gt = runScript<{ results: ({ id: string } & Record<'concrete' | 'indirect' | 'compare', Verdict>)[] }>(
-      'skills/trait-check', run, gatePath, 'gate.ts').results;
+    const traits = [['concrete', false], ['indirect', true]] as const;
+    type Reading = { worsening: number; p: number };
+    type Scored = { ref: string; concrete: number; indirect: number };
+    const vs = runScript<{ results: ({ id: string; answers: Scored[] } & Record<'concrete' | 'indirect', Reading>)[] }>(
+      'skills/trait-check', run, gatePath, 'versions.ts').results;
+    const byId = new Map(vs.map((r) => [r.id, r]));
+    const values = (r: (typeof vs)[number], prefix: string, key: 'concrete' | 'indirect'): number[] =>
+      r.answers.filter((a) => a.ref.startsWith(prefix)).map((a) => a[key]);
+    const avg = (xs: number[]): number => xs.reduce((a, b) => a + b, 0) / xs.length;
+
+    // Per お題: the reading versions.ts printed, plus the baseline run gap of the rule it replaced.
     save({
       evaluator: 'trait-gate', mode: 'jev', run, model: 'jev-latest', level: 'gate', lowerIsBetter: [],
-      scores: Object.fromEntries(gt.map((r) => [r.id, Object.fromEntries((['concrete', 'indirect', 'compare'] as const)
-        .flatMap((k) => [[`${k}Worsening`, r[k].worsening], [`${k}Noise`, r[k].noise]]))])),
+      scores: Object.fromEntries(vs.map((r) => [r.id, Object.fromEntries(traits.flatMap(([k]) => [
+        [`${k}Worsening`, r[k].worsening],
+        [`${k}P`, r[k].p],
+        [`${k}Noise`, Math.abs(avg(values(r, 'baseline-r1', k)) - avg(values(r, 'baseline-r2', k)))],
+      ]))])),
+    });
+
+    // Per version comparison: the installed rule over that comparison's お題 together.
+    save({
+      evaluator: 'trait-versions', mode: 'jev', run, model: 'jev-latest', level: 'version', lowerIsBetter: [],
+      scores: Object.fromEntries(labels.versions.map((v) => {
+        const rows = v.gates.map((g) => byId.get(g.id)!);
+        return [v.id, Object.fromEntries(traits.flatMap(([k, lowerIsBetter]) => {
+          const reading = shift(rows.map((r) => ({ candidate: values(r, 'candidate', k), baseline: values(r, 'baseline', k) })), lowerIsBetter);
+          return [[`${k}Worsening`, reading.worsening], [`${k}P`, reading.p]];
+        }))];
+      })),
     });
   }
 

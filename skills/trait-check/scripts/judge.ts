@@ -1,5 +1,5 @@
 /**
- * The Jev questions behind evaluate.ts, compare.ts and gate.ts. The question
+ * The Jev questions behind evaluate.ts, compare.ts and versions.ts. The question
  * text is what was validated (reports/validation/2026-09-24) — change it only
  * with a new validation run.
  */
